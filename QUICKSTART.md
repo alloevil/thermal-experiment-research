@@ -1,10 +1,26 @@
 # 从这里开始：热工程研究工作台
 
-本项目研究“热模型、校准与诊断在什么条件下值得信任”，目前只有公开方程上的合成实验。**不是半导体设备数字孪生、自动控制产品或工程放行系统。**
+本项目研究“热模型、校准与诊断在什么条件下值得信任”，包含公开方程上的合成实验及作者提供的TCLab实测样例。**不是半导体设备数字孪生、自动控制产品或工程放行系统。**
 
 这份文档介绍现有研究资产的运行方式，不是最终产品定义。当前优先任务和同类工具对照见[PRODUCT_DIRECTION.md](PRODUCT_DIRECTION.md)：先验证模型失配后的下一次试验决策，不继续无限扩展验证工具。
 
-## 先试产品原型：推荐下一次试验
+## 先看一个实测任务：参数能相信到什么程度
+
+新增[轻量交互案例页](web/BUILD.md)：切换100/300秒结果、查看实测与预测、下载证据并复制本地命令。当前仅本地构建/预览，未部署；无需登录，不上传数据，也不在线拟合。
+
+无需安装即可阅读[100秒记录评估](real_data/tclab/assessment_examples/before-100/report.md)和[300秒记录评估](real_data/tclab/assessment_examples/before-300/report.md)。前者缺alpha2输入信息；后者虽然有两路输入，U仍触及参数下界，不能把“有激励”直接当“参数可信”。
+
+使用已有NumPy/SciPy环境可重新执行；以下解释器的安装说明见[TCLab运行指南](real_data/tclab/RUNBOOK.md)：
+
+```sh
+.venv-tclab/bin/python -B real_data/tclab/assess.py \
+  --data real_data/tclab/upstream/data.txt --before-seconds 300 \
+  --accept-model-assumptions --output /tmp/tclab-record-assessment
+```
+
+新目录必须不存在。输出包含参数信息、局部灵敏度、冻结参数后续预测和条件性下一步。仅接受[协议中的固定双节点物理假设](real_data/tclab/ASSESSMENT.md)，不是把任意设备CSV上传便自动建模；后续历史观测不等于按建议新做的补测。
+
+## 再试合成原型：推荐下一次试验
 
 ```sh
 feasibility/.venv/bin/python next_experiment/cli.py demo --output /tmp/next-test-demo

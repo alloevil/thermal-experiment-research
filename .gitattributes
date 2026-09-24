@@ -1,1 +1,3 @@
 * -text
+real_data/tclab/assessment_examples/before-100/prediction.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+real_data/tclab/assessment_examples/before-300/prediction.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

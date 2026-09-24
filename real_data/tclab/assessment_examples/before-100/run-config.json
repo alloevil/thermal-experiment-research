@@ -1,0 +1,42 @@
+{
+  "source": {
+    "file_name": "data.txt",
+    "sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+    "rows_in_file": 599,
+    "columns": [
+      "Time (sec)",
+      "Heater 1 (%)",
+      "Heater 2 (%)",
+      "Temperature 1 (degC)",
+      "Temperature 2 (degC)",
+      "Set Point 1 (degC)",
+      "Set Point 2 (degC)"
+    ]
+  },
+  "before_seconds_exclusive": 100.0,
+  "model": "fixed APMonitor-style coupled TCLab; explicitly accepted assumptions in ASSESSMENT.md",
+  "lower": [
+    2.0,
+    0.005,
+    0.002
+  ],
+  "upper": [
+    20.0,
+    0.02,
+    0.015
+  ],
+  "initial_parameters": [
+    10.0,
+    0.01,
+    0.0075
+  ],
+  "source_hashes": {
+    "assess.py": "23b5729329bcc2dd1c68d9c1bebdba89aa405a294169a9865147b157da1e586e",
+    "ASSESSMENT.md": "1bdcb4e5c7140e19d1463ebdf462bc3e5ed5787951e28a5ba06d4bb90da73dcd",
+    "thermal_model.py": "a4c337583796150eae44ea367bf640daf723c4aa4875ce63d3112f6cb0e2bbda",
+    "diagnose.py": "a08ae5f88c465dae79b9c653ce90f0006699a12723a76a8f665d744b99c80472"
+  },
+  "python": "3.12.8",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1"
+}

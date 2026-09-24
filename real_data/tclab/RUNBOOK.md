@@ -17,6 +17,18 @@ python -B real_data/tclab/diagnose.py \
 
 It reports missing heater-gain excitation and conditional follow-up requirements, not full identifiability or equipment approval. The terminal input has no subsequent observation and is excluded. See [recorded diagnostic results](DIAGNOSIS_RESULTS.md) for the 100/101/300-second prefixes.
 
+## Assess a prefix and its subsequent prediction
+
+With an existing NumPy/SciPy environment, `assess.py` fits only the selected prefix, checks local parameter sensitivity, freezes the fit and evaluates subsequent temperatures without resetting state. See [ASSESSMENT.md](ASSESSMENT.md) for the required fixed-model assumptions and the new unweighted Celsius objective, which is deliberately separate from the archived author-relative objective.
+
+```sh
+.venv-tclab/bin/python -B real_data/tclab/assess.py \
+  --data real_data/tclab/upstream/data.txt --before-seconds 300 \
+  --accept-model-assumptions --output /tmp/tclab-record-assessment
+```
+
+Use a new directory. [Measured assessment results](ASSESSMENT_RESULTS.md) retain the missing-excitation and parameter-bound warnings; they do not establish prospective experiment benefit, statistical confidence or industrial suitability. The installation below supports both this assessment and the larger original reproduction; the assessment itself needs no Pandas or plotting package.
+
 ## Install the isolated analysis environment
 
 From the repository root:

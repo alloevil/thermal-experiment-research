@@ -1,0 +1,30 @@
+{
+  "optimizer_success": true,
+  "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+  "parameters": [
+    2.0000000000000004,
+    0.005429079179727592,
+    0.002974351944340043
+  ],
+  "parameter_order": [
+    "U",
+    "alpha1",
+    "alpha2"
+  ],
+  "active_parameters": [
+    "U",
+    "alpha1",
+    "alpha2"
+  ],
+  "fixed_unexcited_parameters": [],
+  "active_bound_mask": [
+    -1,
+    0,
+    0
+  ],
+  "scipy_nfev": 11,
+  "actual_model_calls": 77,
+  "training_SSE_C2": 637.7032896972528,
+  "objective": "Unweighted squared Celsius residuals; not the archived relative-Celsius objective.",
+  "precision_status": "not_established; single-start optimization is not parameter certainty"
+}

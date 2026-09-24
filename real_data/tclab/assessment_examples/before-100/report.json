@@ -1,0 +1,281 @@
+{
+  "schema": "tclab-record-assessment/1",
+  "source": {
+    "file_name": "data.txt",
+    "sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+    "rows_in_file": 599,
+    "columns": [
+      "Time (sec)",
+      "Heater 1 (%)",
+      "Heater 2 (%)",
+      "Temperature 1 (degC)",
+      "Temperature 2 (degC)",
+      "Set Point 1 (degC)",
+      "Set Point 2 (degC)"
+    ]
+  },
+  "selection": {
+    "before_seconds_exclusive": 100.0,
+    "training_rows": 100,
+    "validation_rows": 499,
+    "last_training_time_s": 99.02705812454224
+  },
+  "excitation": {
+    "schema": "tclab-excitation-diagnosis/1",
+    "source": {
+      "file_name": "data.txt",
+      "sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+      "rows_in_file": 599,
+      "columns": [
+        "Time (sec)",
+        "Heater 1 (%)",
+        "Heater 2 (%)",
+        "Temperature 1 (degC)",
+        "Temperature 2 (degC)",
+        "Set Point 1 (degC)",
+        "Set Point 2 (degC)"
+      ]
+    },
+    "selection": {
+      "before_seconds_exclusive": 100.0,
+      "rows_used": 100,
+      "intervals_used": 99,
+      "start_s": 0.0,
+      "last_observation_s": 99.02705812454224,
+      "duration_s": 99.02705812454224
+    },
+    "model_scope": "APMonitor-style two-node heating model; alpha1*Q1 and alpha2*Q2 input terms. Not a generic device identifiability analysis.",
+    "timing_assumption": "Temperature measured at t_i, then Q_i applied on [t_i,t_(i+1)); last input has no follow-up observation.",
+    "status": "missing_excitation",
+    "parameters_without_input_information": [
+      "alpha2"
+    ],
+    "channels": [
+      {
+        "parameter": "alpha1",
+        "heater": 1,
+        "status": "not_ruled_out_by_zero_input_check",
+        "observed_min_percent": 0.0,
+        "observed_max_percent": 100.0,
+        "nonzero_intervals": 89,
+        "nonzero_duration_s": 89.02077031135559,
+        "input_integral_percent_seconds": 8902.077031135559,
+        "observed_input_changes": 1,
+        "last_row_input_percent": 100.0,
+        "last_row_changed_without_followup": false,
+        "constant_nonzero_input": false,
+        "explanation": "Nonzero input is present. This check does not establish parameter identifiability, precision, or sufficient excitation.",
+        "next_step": "Check model sensitivities, measurement noise and permitted input variation before claiming the gain is estimable."
+      },
+      {
+        "parameter": "alpha2",
+        "heater": 2,
+        "status": "no_input_information",
+        "observed_min_percent": 0.0,
+        "observed_max_percent": 0.0,
+        "nonzero_intervals": 0,
+        "nonzero_duration_s": 0.0,
+        "input_integral_percent_seconds": 0.0,
+        "observed_input_changes": 0,
+        "last_row_input_percent": 0.0,
+        "last_row_changed_without_followup": false,
+        "constant_nonzero_input": false,
+        "explanation": "Q2=0 on every observed interval, so alpha2*Q2 is zero; this window cannot estimate alpha2 in the stated model.",
+        "next_step": "If this gain is an estimation target, obtain independently approved excitation of this channel with follow-up observations, or independent gain-calibration evidence."
+      }
+    ],
+    "identical_observed_inputs": false,
+    "input_diversity_note": "Commands differ somewhere; that alone does not prove useful independent excitation.",
+    "initial_measurements_C": [
+      20.83,
+      19.93
+    ],
+    "initial_T1_minus_T2_C": 0.8999999999999986,
+    "initial_state_note": "Different initial temperatures are not proof of sensor bias, thermal equilibrium, or ambient temperature. Setpoints are not ambient measurements.",
+    "requirements_before_followup": [
+      "Confirm units and measurement/actuation timing.",
+      "Specify the target parameter and independently approved heater/channel limits.",
+      "Approve temperature/ramp limits and observation duration; none are inferred from this log.",
+      "Record the other heater's input and starting conditions.",
+      "Establish sensor/reference validity and noise; record subsequent observations."
+    ],
+    "engineering_release": "not_supported",
+    "hardware_action": "none"
+  },
+  "fit": {
+    "optimizer_success": true,
+    "message": "`gtol` termination condition is satisfied.",
+    "parameters": [
+      2.000000000000024,
+      0.005000000000000001,
+      0.0075
+    ],
+    "parameter_order": [
+      "U",
+      "alpha1",
+      "alpha2"
+    ],
+    "active_parameters": [
+      "U",
+      "alpha1"
+    ],
+    "fixed_unexcited_parameters": [
+      "alpha2"
+    ],
+    "active_bound_mask": [
+      -1,
+      -1,
+      0
+    ],
+    "scipy_nfev": 13,
+    "actual_model_calls": 65,
+    "training_SSE_C2": 223.69521999308455,
+    "objective": "Unweighted squared Celsius residuals; not the archived relative-Celsius objective.",
+    "precision_status": "not_established; single-start optimization is not parameter certainty"
+  },
+  "fit_sha256": "34a771723cb886a0138b1bea6f0cfbbcc301dfb2c0b730b58cfdc08d908f5f92",
+  "local_information": {
+    "parameter_order": [
+      "U",
+      "alpha1",
+      "alpha2"
+    ],
+    "scaling": "derivative with respect to (parameter - lower) / (upper - lower)",
+    "rms_sensitivity_C_per_range": [
+      2.3981020211355184,
+      22.415524139901834,
+      0.0
+    ],
+    "singular_values": [
+      316.55450312355896,
+      20.44887465645328,
+      0.0
+    ],
+    "numerical_rank": 2,
+    "condition_number": null,
+    "weakest_scaled_direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "column_cosines": [
+      {
+        "parameters": [
+          "U",
+          "alpha1"
+        ],
+        "cosine": -0.7937948233608739
+      },
+      {
+        "parameters": [
+          "U",
+          "alpha2"
+        ],
+        "cosine": null
+      },
+      {
+        "parameters": [
+          "alpha1",
+          "alpha2"
+        ],
+        "cosine": null
+      }
+    ],
+    "step_fractions": [
+      0.0001,
+      5e-05
+    ],
+    "step_refinement_relative_difference": 1.8749645405705885e-06,
+    "step_refinement_max_abs_difference": 0.00010186743490159245,
+    "scope": "Local, bounds-scaled, unwhitened sensitivities. No noise-calibrated confidence or global identifiability claim."
+  },
+  "training_metrics": {
+    "rmse_C": 1.0575803042631906,
+    "rmse_per_channel_C": [
+      1.4624141103117545,
+      0.3135237947778847
+    ],
+    "mae_C": 0.7289696328781878,
+    "mae_per_channel_C": [
+      1.1798863158880115,
+      0.27805294986836443
+    ],
+    "mean_residual_per_channel_C": [
+      0.9727658335414489,
+      0.263527899763137
+    ]
+  },
+  "validation_metrics": {
+    "rmse_C": 13.556313378590227,
+    "rmse_per_channel_C": [
+      3.002399544577238,
+      18.934964003446403
+    ],
+    "mae_C": 9.872057449910297,
+    "mae_per_channel_C": [
+      2.650840033050986,
+      17.093274866769608
+    ],
+    "mean_residual_per_channel_C": [
+      0.9856152188545098,
+      17.091618278529282
+    ]
+  },
+  "unexcited_assumption_checks": [
+    {
+      "parameter": "alpha2",
+      "value": 0.002,
+      "training_max_difference_C": 0.0,
+      "validation_max_prediction_difference_C": 33.262822873179,
+      "validation_metrics": {
+        "rmse_C": 2.868108416316713,
+        "rmse_per_channel_C": [
+          1.869051174394565,
+          3.599824923935583
+        ],
+        "mae_C": 2.3871104005696933,
+        "mae_per_channel_C": [
+          1.5499366319141021,
+          3.224284169225282
+        ],
+        "mean_residual_per_channel_C": [
+          -0.9041015332454528,
+          -3.2234232839612704
+        ]
+      }
+    },
+    {
+      "parameter": "alpha2",
+      "value": 0.015,
+      "training_max_difference_C": 0.0,
+      "validation_max_prediction_difference_C": 39.16500948206156,
+      "validation_metrics": {
+        "rmse_C": 32.81246868951166,
+        "rmse_per_channel_C": [
+          6.163802408930767,
+          45.99264879156262
+        ],
+        "mae_C": 23.481260419508832,
+        "mae_per_channel_C": [
+          4.9801763944408375,
+          41.982344444576846
+        ],
+        "mean_residual_per_channel_C": [
+          3.8088410608953986,
+          41.981525307747184
+        ]
+      }
+    }
+  ],
+  "next_steps": [
+    "alpha2只保留默认假设：需要该路授权输入生效后的温度观测，或独立增益标定。",
+    "存在触及参数边界的拟合量；先审查边界依据、模型和测量，不据此宣称设备故障或直接放宽边界。",
+    "局部灵敏度存在数值退化；检查最弱参数组合及缺失激励，不把优化器成功当成三个参数均可估计。",
+    "结合最弱参数方向、灵敏度列相似性、独立噪声/参考证据讨论补测；没有完整允许候选和成本，不给最优试验排名。",
+    "执行前仍须确认模型/初态、输入单位与时序、允许幅值/变化率、温度限制、观测时长及其他通道控制。"
+  ],
+  "precision_status": "not_established",
+  "engineering_release": "not_supported",
+  "hardware_action": "none",
+  "scope": "Single-record temporal holdout under fixed model assumptions, not prospective experiment validation."
+}

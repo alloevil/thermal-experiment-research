@@ -1,0 +1,31 @@
+{
+  "optimizer_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "parameters": [
+    2.000000000000024,
+    0.005000000000000001,
+    0.0075
+  ],
+  "parameter_order": [
+    "U",
+    "alpha1",
+    "alpha2"
+  ],
+  "active_parameters": [
+    "U",
+    "alpha1"
+  ],
+  "fixed_unexcited_parameters": [
+    "alpha2"
+  ],
+  "active_bound_mask": [
+    -1,
+    -1,
+    0
+  ],
+  "scipy_nfev": 13,
+  "actual_model_calls": 65,
+  "training_SSE_C2": 223.69521999308455,
+  "objective": "Unweighted squared Celsius residuals; not the archived relative-Celsius objective.",
+  "precision_status": "not_established; single-start optimization is not parameter certainty"
+}
