@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 256" width="1200" height="256" role="img" aria-labelledby="title desc">
+  <title id="title">Thermal research: model, test, evidence</title>
+  <desc id="desc">A schematic research loop, not measured data. A physical model informs a test, observations inform the next decision. Uncertainty and rejection remain possible.</desc>
+  <rect width="1200" height="256" rx="12" fill="#f7f8fa"/>
+  <g fill="none" stroke="#245d78" stroke-width="3">
+    <path d="M76 180V68M76 180H292"/>
+    <path d="M88 160C122 158 137 120 175 104S242 78 280 82"/>
+    <path d="M88 174C128 167 143 146 181 128S249 96 280 102" stroke-dasharray="7 7"/>
+    <path d="M358 124H424M410 112L424 124L410 136"/>
+    <path d="M764 124H830M816 112L830 124L816 136"/>
+    <path d="M485 164V126H538V84H600V126H660V164H710"/>
+    <path d="M886 79H1128M886 124H1128M886 169H1128" stroke="#c9d4da"/>
+    <path d="M893 74L902 83L919 62M893 119L902 128L919 107"/>
+    <path d="M894 158L910 174M910 158L894 174" stroke="#a75031"/>
+  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" fill="#172b3a" font-size="42" font-weight="600">
+    <text x="170" y="230" text-anchor="middle">Model</text>
+    <text x="594" y="230" text-anchor="middle">Test</text>
+    <text x="1005" y="230" text-anchor="middle">Evidence</text>
+  </g>
+</svg>

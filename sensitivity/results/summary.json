@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "groups": {
+    "nominal": {
+      "count": 1,
+      "feasible": 1,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 0,
+        "final_high": 0
+      },
+      "near_boundary": [],
+      "final_mean_range_K": [
+        349.37982888314326,
+        349.37982888314326
+      ]
+    },
+    "oat": {
+      "count": 20,
+      "feasible": 15,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 4,
+        "final_high": 1
+      },
+      "near_boundary": [
+        "oat-emissivity-1.1"
+      ],
+      "final_mean_range_K": [
+        344.364682734454,
+        354.3257749724146
+      ]
+    },
+    "corners": {
+      "count": 32,
+      "feasible": 6,
+      "violations": {
+        "peak": 2,
+        "spread": 0,
+        "final_low": 14,
+        "final_high": 12
+      },
+      "near_boundary": [
+        "corner-014",
+        "corner-015"
+      ],
+      "final_mean_range_K": [
+        340.2097872476327,
+        360.27723280819765
+      ]
+    },
+    "sobol": {
+      "count": 128,
+      "feasible": 48,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 51,
+        "final_high": 29
+      },
+      "near_boundary": [],
+      "final_mean_range_K": [
+        341.83597472055664,
+        357.68304268889915
+      ]
+    }
+  },
+  "local_final_mean_K_per_percentage_point": {
+    "emissivity": -0.14013094752372127,
+    "convection": -0.2046366501945613,
+    "heat_capacity": -0.15305916416319293,
+    "power_gain": 0.49805471866687867,
+    "axial_conductance": 1.1233871731519685e-05
+  },
+  "worst_peak": "corner-002",
+  "worst_spread": "corner-010",
+  "lowest_final": "corner-028",
+  "highest_final": "corner-003",
+  "refined_cases": [
+    "corner-002",
+    "corner-003",
+    "corner-010",
+    "corner-014",
+    "corner-015",
+    "corner-026",
+    "corner-028",
+    "nominal",
+    "oat-emissivity-1.1"
+  ],
+  "refinement_flips": [],
+  "summed_scan_solve_seconds": 13.022194988559932,
+  "limitations": [
+    "Synthetic sensitivity box, not a calibrated uncertainty distribution or failure probability.",
+    "One fixed open-loop input; no recalibration, robustness optimization, or AI comparison.",
+    "Grid refinement uses the same physical model; not independent solver or hardware validation."
+  ]
+}

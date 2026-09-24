@@ -1,0 +1,24 @@
+{
+  "mse_K2": 11.470877768003387,
+  "peak_K": 352.9382590947382,
+  "max_spread_K": 1.3450960980305808,
+  "final_mean_K": 351.9172384242932,
+  "final_std_K": 0.2113803169674595,
+  "absorbed_J": 251.69999027827618,
+  "convection_J": 84.29735609402147,
+  "radiation_J": 47.146087727506476,
+  "stored_J": 120.25654645674837,
+  "max_balance_residual_J": 1.7053025658242404e-13,
+  "wall_seconds": 0.07117972895503044,
+  "rhs_evaluations": 562,
+  "margins_K": [
+    7.061740905261786,
+    10.65490390196942,
+    3.9172384242932026,
+    0.08276157570679743
+  ],
+  "command_feasible": true,
+  "actual_power_feasible": true,
+  "feasible": true,
+  "external_energy_balance_J": 7.996022787892798e-06
+}

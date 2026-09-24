@@ -1,0 +1,4 @@
+PASS: 8 official/author source snapshots retrieved and matched recorded hashes
+PASS: cited workflow capability phrases found in source snapshots (not performance validation)
+PASS: 31 local document links resolve
+NOT RUN: competitor benchmarks, user interviews, external messaging, product implementation

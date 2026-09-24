@@ -1,0 +1,9 @@
+[
+  "object-0/noise-0-clean/corrected",
+  "object-0/noise-0-reference_bias/corrected",
+  "object-0/noise-0-stable/corrected",
+  "object-0/noise-0-thermal_drift/corrected",
+  "object-0/noise-1-reference_bias/corrected",
+  "object-1/noise-0-reference_bias/corrected",
+  "object-1/noise-1-reference_bias/corrected"
+]

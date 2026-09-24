@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `product_research/sources/parmest-estimability.txt`
+
+Original SHA-256: `a6352aa7c4740db4b5618b03da90432da73fd722fabe53d87bf610184e04b878`
+
+Sources:
+- https://pyomo.readthedocs.io/en/stable/explanation/analysis/parmest/estimability.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

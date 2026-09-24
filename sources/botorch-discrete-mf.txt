@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/botorch-discrete-mf.txt`
+
+Original SHA-256: `d9f173f1a477d33edd5bb6542d7af1334b6060a4407a68b6a19ac12132d28d5f`
+
+Sources:
+- https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/discrete_multi_fidelity_bo/discrete_multi_fidelity_bo.ipynb
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

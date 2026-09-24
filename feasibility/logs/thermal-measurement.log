@@ -1,0 +1,409 @@
+WARMUP n=16 wall=0.5139s error=0.00633883K
+WARMUP n=32 wall=0.2804s error=0.00154092K
+WARMUP n=64 wall=0.3371s error=0.000382676K
+WARMUP n=128 wall=1.0576s error=9.5512e-05K
+MEASURE 1/160 case=3 n=16 wall=0.2611s
+MEASURE 2/160 case=7 n=64 wall=0.3157s
+MEASURE 3/160 case=4 n=16 wall=0.2436s
+MEASURE 4/160 case=4 n=16 wall=0.2407s
+MEASURE 5/160 case=3 n=64 wall=0.3390s
+MEASURE 6/160 case=0 n=16 wall=0.2594s
+MEASURE 7/160 case=1 n=64 wall=0.3093s
+MEASURE 8/160 case=6 n=128 wall=1.0621s
+MEASURE 9/160 case=1 n=128 wall=1.0580s
+MEASURE 10/160 case=5 n=16 wall=0.2385s
+MEASURE 11/160 case=3 n=64 wall=0.3348s
+MEASURE 12/160 case=1 n=16 wall=0.2834s
+MEASURE 13/160 case=7 n=128 wall=1.0547s
+MEASURE 14/160 case=0 n=64 wall=0.3026s
+MEASURE 15/160 case=6 n=16 wall=0.2414s
+MEASURE 16/160 case=4 n=128 wall=1.0777s
+MEASURE 17/160 case=5 n=128 wall=1.0467s
+MEASURE 18/160 case=5 n=64 wall=0.3479s
+MEASURE 19/160 case=6 n=64 wall=0.3087s
+MEASURE 20/160 case=1 n=32 wall=0.2938s
+MEASURE 21/160 case=4 n=16 wall=0.2440s
+MEASURE 22/160 case=6 n=64 wall=0.3054s
+MEASURE 23/160 case=2 n=32 wall=0.2488s
+MEASURE 24/160 case=2 n=64 wall=0.3101s
+MEASURE 25/160 case=0 n=64 wall=0.3438s
+MEASURE 26/160 case=5 n=64 wall=0.3139s
+MEASURE 27/160 case=1 n=16 wall=0.2510s
+MEASURE 28/160 case=6 n=64 wall=0.3073s
+MEASURE 29/160 case=0 n=128 wall=1.0552s
+MEASURE 30/160 case=6 n=16 wall=0.2424s
+MEASURE 31/160 case=3 n=16 wall=0.3223s
+MEASURE 32/160 case=0 n=64 wall=0.3078s
+MEASURE 33/160 case=7 n=128 wall=1.0844s
+MEASURE 34/160 case=2 n=64 wall=0.3352s
+MEASURE 35/160 case=0 n=32 wall=0.2734s
+MEASURE 36/160 case=3 n=32 wall=0.2736s
+MEASURE 37/160 case=2 n=16 wall=0.2329s
+MEASURE 38/160 case=4 n=32 wall=0.2971s
+MEASURE 39/160 case=7 n=128 wall=1.0626s
+MEASURE 40/160 case=2 n=32 wall=0.2512s
+MEASURE 41/160 case=0 n=32 wall=0.2764s
+MEASURE 42/160 case=7 n=64 wall=0.3090s
+MEASURE 43/160 case=4 n=64 wall=0.3091s
+MEASURE 44/160 case=6 n=32 wall=0.3249s
+MEASURE 45/160 case=5 n=64 wall=0.3136s
+MEASURE 46/160 case=3 n=128 wall=1.0618s
+MEASURE 47/160 case=3 n=32 wall=0.2768s
+MEASURE 48/160 case=0 n=64 wall=0.3081s
+MEASURE 49/160 case=5 n=128 wall=1.0455s
+MEASURE 50/160 case=5 n=16 wall=0.2298s
+MEASURE 51/160 case=1 n=16 wall=0.3061s
+MEASURE 52/160 case=3 n=64 wall=0.3101s
+MEASURE 53/160 case=7 n=64 wall=0.3206s
+MEASURE 54/160 case=6 n=128 wall=1.0670s
+MEASURE 55/160 case=5 n=128 wall=1.0673s
+MEASURE 56/160 case=5 n=128 wall=1.0498s
+MEASURE 57/160 case=2 n=128 wall=1.0764s
+MEASURE 58/160 case=2 n=128 wall=1.0717s
+MEASURE 59/160 case=5 n=64 wall=0.3250s
+MEASURE 60/160 case=0 n=64 wall=0.3218s
+MEASURE 61/160 case=4 n=16 wall=0.2518s
+MEASURE 62/160 case=6 n=64 wall=0.3168s
+MEASURE 63/160 case=5 n=128 wall=1.0808s
+MEASURE 64/160 case=1 n=128 wall=1.1186s
+MEASURE 65/160 case=7 n=32 wall=0.2596s
+MEASURE 66/160 case=4 n=64 wall=0.3228s
+MEASURE 67/160 case=6 n=128 wall=1.1163s
+MEASURE 68/160 case=3 n=128 wall=1.0519s
+MEASURE 69/160 case=2 n=16 wall=0.2307s
+MEASURE 70/160 case=5 n=32 wall=0.2842s
+MEASURE 71/160 case=6 n=16 wall=0.2382s
+MEASURE 72/160 case=5 n=32 wall=0.2607s
+MEASURE 73/160 case=6 n=64 wall=0.3055s
+MEASURE 74/160 case=6 n=32 wall=0.2603s
+MEASURE 75/160 case=0 n=128 wall=1.0489s
+MEASURE 76/160 case=4 n=64 wall=0.3428s
+MEASURE 77/160 case=3 n=16 wall=0.2541s
+MEASURE 78/160 case=5 n=16 wall=0.2293s
+MEASURE 79/160 case=2 n=16 wall=0.2313s
+MEASURE 80/160 case=1 n=64 wall=0.3063s
+MEASURE 81/160 case=3 n=128 wall=1.0699s
+MEASURE 82/160 case=0 n=16 wall=0.2850s
+MEASURE 83/160 case=3 n=128 wall=1.1183s
+MEASURE 84/160 case=5 n=16 wall=0.2309s
+MEASURE 85/160 case=6 n=128 wall=1.0608s
+MEASURE 86/160 case=5 n=32 wall=0.2460s
+MEASURE 87/160 case=3 n=32 wall=0.2732s
+MEASURE 88/160 case=4 n=16 wall=0.2458s
+MEASURE 89/160 case=6 n=16 wall=0.2755s
+MEASURE 90/160 case=4 n=64 wall=0.3068s
+MEASURE 91/160 case=7 n=32 wall=0.2479s
+MEASURE 92/160 case=1 n=32 wall=0.2818s
+MEASURE 93/160 case=2 n=16 wall=0.2601s
+MEASURE 94/160 case=5 n=64 wall=0.3201s
+MEASURE 95/160 case=2 n=32 wall=0.2532s
+MEASURE 96/160 case=1 n=128 wall=1.1061s
+MEASURE 97/160 case=4 n=32 wall=0.2676s
+MEASURE 98/160 case=4 n=128 wall=1.0798s
+MEASURE 99/160 case=7 n=128 wall=1.0844s
+MEASURE 100/160 case=3 n=32 wall=0.2816s
+MEASURE 101/160 case=3 n=128 wall=1.0735s
+MEASURE 102/160 case=0 n=32 wall=0.3195s
+MEASURE 103/160 case=4 n=64 wall=0.3076s
+MEASURE 104/160 case=6 n=16 wall=0.2421s
+MEASURE 105/160 case=3 n=16 wall=0.2641s
+MEASURE 106/160 case=1 n=64 wall=0.3165s
+MEASURE 107/160 case=1 n=16 wall=0.2497s
+MEASURE 108/160 case=1 n=32 wall=0.2717s
+MEASURE 109/160 case=7 n=128 wall=1.1122s
+MEASURE 110/160 case=7 n=16 wall=0.2349s
+MEASURE 111/160 case=0 n=32 wall=0.2774s
+MEASURE 112/160 case=1 n=64 wall=0.3113s
+MEASURE 113/160 case=6 n=128 wall=1.0716s
+MEASURE 114/160 case=1 n=16 wall=0.2504s
+MEASURE 115/160 case=4 n=32 wall=0.2996s
+MEASURE 116/160 case=7 n=32 wall=0.2518s
+MEASURE 117/160 case=5 n=32 wall=0.2556s
+MEASURE 118/160 case=0 n=32 wall=0.2757s
+MEASURE 119/160 case=2 n=64 wall=0.3099s
+MEASURE 120/160 case=3 n=16 wall=0.2584s
+MEASURE 121/160 case=2 n=128 wall=1.0750s
+MEASURE 122/160 case=4 n=128 wall=1.1019s
+MEASURE 123/160 case=1 n=32 wall=0.2675s
+MEASURE 124/160 case=7 n=64 wall=0.3132s
+MEASURE 125/160 case=5 n=16 wall=0.2430s
+MEASURE 126/160 case=2 n=128 wall=1.0546s
+MEASURE 127/160 case=4 n=128 wall=1.0794s
+MEASURE 128/160 case=1 n=64 wall=0.3420s
+MEASURE 129/160 case=3 n=64 wall=0.3085s
+MEASURE 130/160 case=7 n=16 wall=0.2317s
+MEASURE 131/160 case=2 n=16 wall=0.2326s
+MEASURE 132/160 case=0 n=128 wall=1.0840s
+MEASURE 133/160 case=1 n=32 wall=0.2804s
+MEASURE 134/160 case=7 n=32 wall=0.2521s
+MEASURE 135/160 case=1 n=128 wall=1.1223s
+MEASURE 136/160 case=2 n=128 wall=1.0774s
+MEASURE 137/160 case=2 n=64 wall=0.3124s
+MEASURE 138/160 case=1 n=128 wall=1.0983s
+MEASURE 139/160 case=4 n=32 wall=0.2693s
+MEASURE 140/160 case=3 n=32 wall=0.2785s
+MEASURE 141/160 case=0 n=16 wall=0.2976s
+MEASURE 142/160 case=5 n=32 wall=0.2530s
+MEASURE 143/160 case=7 n=64 wall=0.3150s
+MEASURE 144/160 case=0 n=16 wall=0.2638s
+MEASURE 145/160 case=2 n=32 wall=0.2513s
+MEASURE 146/160 case=3 n=64 wall=0.3140s
+MEASURE 147/160 case=7 n=32 wall=0.2534s
+MEASURE 148/160 case=7 n=16 wall=0.2754s
+MEASURE 149/160 case=6 n=32 wall=0.2634s
+MEASURE 150/160 case=4 n=32 wall=0.2661s
+MEASURE 151/160 case=2 n=64 wall=0.3223s
+MEASURE 152/160 case=4 n=128 wall=1.1738s
+MEASURE 153/160 case=2 n=32 wall=0.2596s
+MEASURE 154/160 case=6 n=32 wall=0.3164s
+MEASURE 155/160 case=7 n=16 wall=0.2389s
+MEASURE 156/160 case=0 n=16 wall=0.2696s
+MEASURE 157/160 case=0 n=128 wall=1.0689s
+MEASURE 158/160 case=7 n=16 wall=0.2319s
+MEASURE 159/160 case=6 n=32 wall=0.2573s
+MEASURE 160/160 case=0 n=128 wall=1.0995s
+{
+  "status": "PASS",
+  "by_resolution": {
+    "16": {
+      "samples": 40,
+      "wall_median_seconds": 0.24490633991081268,
+      "wall_q25_seconds": 0.23737912171054631,
+      "wall_q75_seconds": 0.2617642761906609,
+      "cpu_median_seconds": 0.2448962029999997,
+      "rmse_median_K": 0.010720349532626067,
+      "max_error_K": 0.04395811662960725,
+      "max_temporal_error_K": 4.0844994053657047e-11
+    },
+    "32": {
+      "samples": 40,
+      "wall_median_seconds": 0.2684320246335119,
+      "wall_q25_seconds": 0.25503928383113816,
+      "wall_q75_seconds": 0.27901529596420005,
+      "cpu_median_seconds": 0.2684056344999952,
+      "rmse_median_K": 0.002652985981135286,
+      "max_error_K": 0.011493084172697898,
+      "max_temporal_error_K": 4.128786201818002e-11
+    },
+    "64": {
+      "samples": 40,
+      "wall_median_seconds": 0.3133759554475546,
+      "wall_q25_seconds": 0.30866206058999524,
+      "wall_q75_seconds": 0.32190005970187485,
+      "cpu_median_seconds": 0.31335302649999797,
+      "rmse_median_K": 0.0006616368047512526,
+      "max_error_K": 0.0029052995116192193,
+      "max_temporal_error_K": 1.4229728506620631e-10
+    },
+    "128": {
+      "samples": 40,
+      "wall_median_seconds": 1.0742954754969105,
+      "wall_q25_seconds": 1.0615202727494761,
+      "wall_q75_seconds": 1.0878872126340866,
+      "cpu_median_seconds": 1.0742600789999983,
+      "rmse_median_K": 0.0001653098519188821,
+      "max_error_K": 0.0007283294591671208,
+      "max_temporal_error_K": 1.0238054848343836e-10
+    }
+  },
+  "spatial_convergence_orders": [
+    {
+      "case": 0,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.040425091703956
+    },
+    {
+      "case": 0,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.009598188543032
+    },
+    {
+      "case": 0,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.002367780079955
+    },
+    {
+      "case": 1,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.0617754964507498
+    },
+    {
+      "case": 1,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.014842957267514
+    },
+    {
+      "case": 1,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.003671723114732
+    },
+    {
+      "case": 2,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.005934907696479
+    },
+    {
+      "case": 2,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.001493204493583
+    },
+    {
+      "case": 2,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.0003739519827777
+    },
+    {
+      "case": 3,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.021974160064124
+    },
+    {
+      "case": 3,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.0052026334622437
+    },
+    {
+      "case": 3,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.0012829945773842
+    },
+    {
+      "case": 4,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.0065654651048783
+    },
+    {
+      "case": 4,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.001638486783031
+    },
+    {
+      "case": 4,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.0004095359547276
+    },
+    {
+      "case": 5,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.0058415854493217
+    },
+    {
+      "case": 5,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.001471338040537
+    },
+    {
+      "case": 5,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.0003685722831226
+    },
+    {
+      "case": 6,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.017824204437595
+    },
+    {
+      "case": 6,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.0042297790467476
+    },
+    {
+      "case": 6,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.001043800659852
+    },
+    {
+      "case": 7,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.0061818812386925
+    },
+    {
+      "case": 7,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.001550352371202
+    },
+    {
+      "case": 7,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.000387965346093
+    }
+  ],
+  "paired_fine_to_coarse_wall_ratio_median": 4.404229497298515,
+  "paired_fine_to_coarse_wall_ratio_range": [
+    3.2942358884174183,
+    4.703968680328681
+  ],
+  "nonuniformity_spearman": 0.9761904761904763,
+  "ranking_sample_count": 8,
+  "limitations": [
+    "Synthetic source-free insulated heat relaxation, not a furnace, radiation model or heating optimization task.",
+    "Temperature deviation is solved; add 300 K for absolute temperature. Material parameters are synthetic.",
+    "Only grid resolution changes; adaptive RK45 uses common tolerances but takes different steps per grid.",
+    "Times include grid, initial condition, operator/solver setup and solve; exclude imports and error evaluation.",
+    "Analytic continuum and semidiscrete solutions validate errors; the finest grid is not physical truth.",
+    "No artificial sleep, no GPU, no inference/optimization speedup claim; shared-machine timing is exploratory."
+  ],
+  "tight_tolerance_checks": [
+    {
+      "resolution": 128,
+      "amplitudes": [
+        2.527450545450452,
+        1.2033652002724091,
+        1.3318888606313108
+      ],
+      "wall_seconds": 1.0338095149490982,
+      "cpu_seconds": 1.0337805770000017,
+      "max_absolute_error_K": 0.0002822144754195399,
+      "rmse_K": 9.551201106882572e-05,
+      "spatial_max_error_K": 0.0002822144754168754,
+      "temporal_max_error_K": 1.822986206434507e-13,
+      "mean_drift_K": 4.720938131521843e-18,
+      "final_nonuniformity_std_K": 0.008209078959196144,
+      "rhs_evaluations": 2660,
+      "tolerance_scale": 0.01
+    },
+    {
+      "resolution": 256,
+      "amplitudes": [
+        2.527450545450452,
+        1.2033652002724091,
+        1.3318888606313108
+      ],
+      "wall_seconds": 7.31451772688888,
+      "cpu_seconds": 7.310677195000011,
+      "max_absolute_error_K": 7.060721524876357e-05,
+      "rmse_K": 2.3868240351477672e-05,
+      "spatial_max_error_K": 7.060721524831948e-05,
+      "temporal_max_error_K": 1.219024881038422e-13,
+      "mean_drift_K": 2.6400322900022033e-17,
+      "final_nonuniformity_std_K": 0.0041044708049488045,
+      "rhs_evaluations": 11084,
+      "tolerance_scale": 0.01
+    }
+  ],
+  "extra_refinement_order_128_to_256": 2.0005899600904824
+}

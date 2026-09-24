@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/elmer-heat-model.txt`
+
+Original SHA-256: `abd198d7151ca864d26d49fb4461d05ff4c0fc5d48007340bf252d4fe674f9a9`
+
+Sources:
+- https://raw.githubusercontent.com/ElmerCSC/elmerfem/devel/fem/src/modules/HeatSolve.F90
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

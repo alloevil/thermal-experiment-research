@@ -1,0 +1,120 @@
+{
+  "object": 0,
+  "scenario": "bias",
+  "fit": {
+    "ratios": [
+      0.9004413670191928,
+      0.8966280139381853,
+      0.9826886875064261,
+      1.0577225728773205
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 5.023238103836775,
+    "train_rmse_K": 0.24408624067707116,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2962.3622124009626,
+      306.3505360482451,
+      156.11479104091936,
+      57.53452694197573
+    ],
+    "jacobian_condition": 51.48842564376241,
+    "jacobian_column_cosines": [
+      [
+        0.9999999999999998,
+        0.021110451151670172,
+        0.09817704895718768,
+        -0.10090840752331497
+      ],
+      [
+        0.021110451151670172,
+        1.0,
+        0.9904170096773963,
+        -0.9576384165838531
+      ],
+      [
+        0.09817704895718768,
+        0.9904170096773963,
+        0.9999999999999998,
+        -0.9567947777033357
+      ],
+      [
+        -0.10090840752331497,
+        -0.9576384165838531,
+        -0.9567947777033357,
+        1.0000000000000002
+      ]
+    ]
+  },
+  "fit_frozen_sha256": "ac856c2a5121562ea2762ed78a98e15cb5772064b5e433464d74e10d14eeae38",
+  "alarm_frozen_sha256": "6773ae7d1e9650724d5a3fc32b5e49229b0c904190cdc0e1299283bcba23643b",
+  "alarm": {
+    "training": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K"
+      ],
+      "rmse_K": 0.24408624067707116,
+      "max_sensor_mean_residual_K": 0.10761868827789083
+    },
+    "diagnostic": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K"
+      ],
+      "rmse_K": 0.23812221174220202,
+      "max_sensor_mean_residual_K": 0.09256837124896933
+    },
+    "combined_alarm": true
+  },
+  "score": {
+    "rmse_K": 0.8174317867934441,
+    "final_mean_error_K": 0.5764363586879995,
+    "inadequate": true
+  },
+  "training_energy": {
+    "max_balance_J": 1.5987211554602254e-13,
+    "external_balance_J": 2.643446466521482e-05,
+    "absorbed_J": 152.67425754368307,
+    "wall_seconds": 0.12477348512038589
+  },
+  "diagnostic_energy": {
+    "max_balance_J": 2.0961010704922955e-13,
+    "external_balance_J": 2.508593814809501e-05,
+    "absorbed_J": 162.21639864016328,
+    "wall_seconds": 0.15787951997481287
+  },
+  "evaluation_energy": {
+    "max_balance_J": 1.2789769243681803e-13,
+    "external_balance_J": 6.8740262264554985e-06,
+    "absorbed_J": 245.56102565852467,
+    "wall_seconds": 0.07254145597107708
+  },
+  "refinement": {
+    "score": {
+      "rmse_K": 0.8177501202289481,
+      "final_mean_error_K": 0.5764365332366879,
+      "inadequate": true
+    },
+    "energy": {
+      "max_balance_J": 2.1316282072803006e-13,
+      "external_balance_J": 3.375894976898053e-07,
+      "absorbed_J": 245.56102565852467,
+      "wall_seconds": 0.07614703313447535
+    },
+    "classification_changed": false,
+    "differences": {
+      "rmse_K": 0.0003183334355040257,
+      "final_mean_error_K": 1.7454868839195115e-07
+    }
+  }
+}

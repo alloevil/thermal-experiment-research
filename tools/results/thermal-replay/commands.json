@@ -1,0 +1,42 @@
+[
+  {
+    "script": "check_model.py",
+    "command": [
+      "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import runpy,sys; root,script=sys.argv[1:3]; sys.path.insert(0,root); sys.argv=[script,*sys.argv[3:]]; runpy.run_path(script,run_name='__main__')",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay/check_model.py"
+    ],
+    "returncode": 0
+  },
+  {
+    "script": "experiment.py",
+    "command": [
+      "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import runpy,sys; root,script=sys.argv[1:3]; sys.path.insert(0,root); sys.argv=[script,*sys.argv[3:]]; runpy.run_path(script,run_name='__main__')",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay/experiment.py"
+    ],
+    "returncode": 0
+  },
+  {
+    "script": "check_replay.py",
+    "command": [
+      "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import runpy,sys; root,script=sys.argv[1:3]; sys.path.insert(0,root); sys.argv=[script,*sys.argv[3:]]; runpy.run_path(script,run_name='__main__')",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay/check_replay.py",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay"
+    ],
+    "returncode": 0
+  }
+]

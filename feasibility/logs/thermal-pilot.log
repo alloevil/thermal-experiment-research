@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/scripts/thermal_probe.py", line 207, in <module>
+    main()
+  File "/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/scripts/thermal_probe.py", line 175, in main
+    sample = simulate(resolution, amplitudes[0])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/scripts/thermal_probe.py", line 56, in simulate
+    result, info = equation.solve(
+                   ^^^^^^^^^^^^^^^
+  File "/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/lib/python3.12/site-packages/pde/pdes/base.py", line 545, in solve
+    raise TypeError(msg)
+TypeError: `solver` must be a class not an instance

@@ -1,0 +1,137 @@
+{
+  "status": "COMPLETED",
+  "groups": {
+    "clean": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.0051393230381629965,
+          0.016643533961843204
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.020088940430227614,
+          0.09890435688435342
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    },
+    "stable": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.6562614056938801,
+          0.6793661856448459
+        ],
+        "confusion": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 1,
+          "TN": 0
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.020088940430227614,
+          0.09890435688435342
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    },
+    "reference_bias": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.6562614056938801,
+          0.6793661856448459
+        ],
+        "confusion": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 1,
+          "TN": 0
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.5030948198004548,
+          0.6024538628206578
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 4,
+          "TN": 0
+        }
+      }
+    },
+    "thermal_drift": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.3388955386299261,
+          0.9761517063398277
+        ],
+        "confusion": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "TN": 2
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.26881972276169275,
+          0.32775185073351903
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    }
+  },
+  "refinements": [
+    "object-0/noise-0-clean/corrected",
+    "object-0/noise-0-reference_bias/corrected",
+    "object-0/noise-0-stable/corrected",
+    "object-0/noise-0-thermal_drift/corrected",
+    "object-0/noise-1-reference_bias/corrected",
+    "object-1/noise-0-reference_bias/corrected",
+    "object-1/noise-1-reference_bias/corrected"
+  ],
+  "fit_calls": 1170,
+  "fit_seconds": 144.0854887305759,
+  "wall_seconds": 159.19555881712586
+}

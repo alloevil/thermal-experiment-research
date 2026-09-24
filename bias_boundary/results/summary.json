@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETED",
+  "cases": 28,
+  "fit_success": 28,
+  "groups": {
+    "-0.4": {
+      "count": 4,
+      "inadequate": 4,
+      "training": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      },
+      "combined": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 1,
+        "TN": 0
+      }
+    },
+    "-0.3": {
+      "count": 4,
+      "inadequate": 1,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      }
+    },
+    "-0.2": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0.2": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0.3": {
+      "count": 4,
+      "inadequate": 1,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      }
+    },
+    "0.4": {
+      "count": 4,
+      "inadequate": 4,
+      "training": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      },
+      "combined": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      }
+    }
+  },
+  "combined_misses": [
+    "object-0-noise-1-bias-+0.3",
+    "object-0-noise-1-bias-+0.4",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias--0.4",
+    "object-1-noise-1-bias--0.3"
+  ],
+  "near_boundary": [
+    "object-0-noise-0-bias--0.4",
+    "object-0-noise-0-bias--0.3",
+    "object-0-noise-0-bias-+0.3",
+    "object-0-noise-0-bias-+0.4",
+    "object-0-noise-1-bias--0.4",
+    "object-0-noise-1-bias-+0.4",
+    "object-1-noise-0-bias--0.4",
+    "object-1-noise-0-bias--0.3",
+    "object-1-noise-0-bias-+0.3",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias--0.4",
+    "object-1-noise-1-bias--0.3",
+    "object-1-noise-1-bias-+0.3",
+    "object-1-noise-1-bias-+0.4"
+  ],
+  "refinements": [
+    "object-0-noise-1-bias-+0.0",
+    "object-0-noise-1-bias-+0.2",
+    "object-0-noise-1-bias-+0.3",
+    "object-0-noise-1-bias-+0.4",
+    "object-0-noise-1-bias--0.4",
+    "object-1-noise-0-bias-+0.3",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias-+0.4",
+    "object-1-noise-1-bias--0.2",
+    "object-1-noise-1-bias--0.3",
+    "object-1-noise-1-bias--0.4"
+  ],
+  "fit_calls": 1039,
+  "fit_seconds": 126.91173456073739,
+  "invocation_wall_seconds": 143.00248734885827
+}

@@ -1,0 +1,3 @@
+Using Python 3.12.8 environment at: /tmp/thermal-isolated-l_kvivpc/minimal python
+Checked 1 package in 29ms
+All installed packages are compatible

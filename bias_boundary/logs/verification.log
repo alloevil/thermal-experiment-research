@@ -1,0 +1,6 @@
+PASS frozen original detector/fitter and new 28-case paired design
+PASS exact noise reconstruction, fixed physical fields and sole bias changes
+PASS energy conservation and independent heat-flux integrals
+PASS frozen fits/alarms, independently computed residuals, scores and confusion counts
+PASS 11 selected refinements; 5 persistent combined misses; 0 label flips
+PASS results/bias-boundary.png rendered

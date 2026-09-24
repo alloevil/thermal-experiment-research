@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/multifidelity-review.txt`
+
+Original SHA-256: `43e5445dcb5e6d20fe6c6daf7534938c4db460dab52744fd1edac81a5e047fd9`
+
+Sources:
+- https://www.aimsciences.org/article/doi/10.3934/acse.2023015
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

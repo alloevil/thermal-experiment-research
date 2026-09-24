@@ -1,0 +1,10 @@
+PASS upstream commit-pinned source hashes
+PASS experiment script syntax
+PASS original heat example and 3 selected upstream tests
+PASS 13 upstream notebook code cells; 2 target-fidelity recommendations
+PASS 160 unique paired measurements, fixed inputs and time-error/conservation gates
+PASS temperature standard deviation against independently evaluated modal variance
+PASS spatial convergence and 100x tighter time tolerances at 128/256
+PASS measurement protocol unchanged since preregistration
+PASS recorded 29 local artifact hashes
+NOT CLAIMED: full upstream CI, controlled optimizer superiority, furnace accuracy or industrial validation

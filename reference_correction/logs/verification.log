@@ -1,0 +1,6 @@
+PASS frozen protocol/model/fitter/detector and 32 paired branches
+PASS synchronized anchor/noise reconstruction, offset and standard-error arithmetic
+PASS sole reference-error/drift changes; no physical truth used by estimator
+PASS power, energy, hidden scores, residual rules and confusion recount
+PASS 8 final fit replays; 7 refinements; 4 persistent corrected misses
+PASS results/reference-correction.png rendered

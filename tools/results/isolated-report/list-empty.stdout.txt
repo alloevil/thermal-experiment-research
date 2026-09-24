@@ -1,0 +1,47 @@
+{
+  "schema_version": "thermal-workbench/list/1",
+  "status": "not_checked",
+  "stages": [
+    {
+      "stage": "feasibility",
+      "title": "数值复现与成本测量",
+      "report": "feasibility/RESULTS.md"
+    },
+    {
+      "stage": "radiation",
+      "title": "受限加热与非线性辐射",
+      "report": "radiation/RESULTS.md"
+    },
+    {
+      "stage": "sensitivity",
+      "title": "参数失配与不可辨识性",
+      "report": "sensitivity/RESULTS.md"
+    },
+    {
+      "stage": "calibration",
+      "title": "有效比值校准与留出验证",
+      "report": "calibration/RESULTS.md"
+    },
+    {
+      "stage": "model_mismatch",
+      "title": "未知偏差与残差告警",
+      "report": "model_mismatch/RESULTS.md"
+    },
+    {
+      "stage": "bias_boundary",
+      "title": "小偏置告警盲区",
+      "report": "bias_boundary/RESULTS.md"
+    },
+    {
+      "stage": "reference_correction",
+      "title": "独立参考校正与失效条件",
+      "report": "reference_correction/RESULTS.md"
+    },
+    {
+      "stage": "evidence_report",
+      "title": "有边界的证据报告",
+      "report": "evidence_report/RESULTS.md"
+    }
+  ],
+  "recompute": "阅读各阶段RUNBOOK.md或RESULTS.md；旧脚本可能写入结果，不由本命令执行。"
+}

@@ -1,0 +1,188 @@
+{
+  "object": 7,
+  "noise_replicate": 0,
+  "fit": {
+    "ratios": [
+      0.9840162632962537,
+      0.942225826715432,
+      0.9442431871384313,
+      1.061430267370903
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 7,
+    "actual_solver_calls": 35,
+    "wall_seconds": 4.125117236981168,
+    "train_rmse_K": 0.09972092043493197,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2943.3798870444803,
+      301.95213393833393,
+      148.33890107779249,
+      53.818130714860466
+    ],
+    "jacobian_condition": 54.691232265927496,
+    "jacobian_column_cosines": [
+      [
+        0.9999999999999994,
+        0.020935406603968375,
+        0.09767331673566218,
+        -0.10053749516337299
+      ],
+      [
+        0.020935406603968375,
+        1.0,
+        0.9911077415262679,
+        -0.9583987431996084
+      ],
+      [
+        0.09767331673566218,
+        0.9911077415262679,
+        1.0,
+        -0.957036324099782
+      ],
+      [
+        -0.10053749516337299,
+        -0.9583987431996084,
+        -0.957036324099782,
+        0.9999999999999999
+      ]
+    ]
+  },
+  "fit_frozen_sha256": "9a816e8f869b9d8941f53536553d28693832e3f926d14d3679c42575f00d875c",
+  "true_ratios_for_scoring_only": [
+    0.984492146509593,
+    0.9532454522461322,
+    0.9254239456914614,
+    1.0610049532680832
+  ],
+  "ratio_relative_errors": [
+    -0.0004833793901013461,
+    -0.011560113404931238,
+    0.020335805588981737,
+    0.0004008596769597972
+  ],
+  "prediction": {
+    "nominal_rmse_K": 3.456392302818195,
+    "calibrated_rmse_K": 0.02112793531440556
+  },
+  "control": {
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 13,
+    "actual_solver_calls": 141,
+    "wall_seconds": 10.403803778113797,
+    "powers": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.6737421852929908,
+        0.5998021867348998,
+        0.6252078819258907
+      ],
+      [
+        0.4751093085589399,
+        0.3844391416878606,
+        0.3583264819304769
+      ],
+      [
+        0.331870707782794,
+        0.25870537074991246,
+        0.22570186143559928
+      ]
+    ],
+    "predicted_mse_K2": 9.496556774181434
+  },
+  "nominal_physical": {
+    "mse_K2": 21.450707500553175,
+    "peak_K": 355.7846194824801,
+    "max_spread_K": 1.364135056114094,
+    "final_mean_K": 354.5908336545264,
+    "final_std_K": 0.15290010933714282,
+    "absorbed_J": 248.42238028180287,
+    "convection_J": 78.38697673552454,
+    "radiation_J": 51.87922270729729,
+    "stored_J": 118.15618083898114,
+    "max_balance_residual_J": 1.9895196601282805e-13,
+    "wall_seconds": 0.07299429085105658,
+    "rhs_evaluations": 566,
+    "margins_K": [
+      4.215380517519918,
+      10.635864943885906,
+      6.590833654526421,
+      -2.5908336545264206
+    ],
+    "command_feasible": true,
+    "actual_power_feasible": true,
+    "feasible": false,
+    "external_energy_balance_J": 8.277283384927614e-06
+  },
+  "calibrated_physical": {
+    "mse_K2": 9.496669396333706,
+    "peak_K": 350.63324006246165,
+    "max_spread_K": 1.1979965562667303,
+    "final_mean_K": 349.4174945480606,
+    "final_std_K": 0.14585434644142686,
+    "absorbed_J": 226.83445285291458,
+    "convection_J": 72.25465330797128,
+    "radiation_J": 46.883120269858836,
+    "stored_J": 107.69667927508448,
+    "max_balance_residual_J": 7.105427357601002e-14,
+    "wall_seconds": 0.07174494699575007,
+    "rhs_evaluations": 564,
+    "margins_K": [
+      9.366759937538347,
+      10.80200344373327,
+      1.4174945480605743,
+      2.5825054519394257
+    ],
+    "command_feasible": true,
+    "actual_power_feasible": true,
+    "feasible": true,
+    "external_energy_balance_J": 8.378291312283181e-06
+  },
+  "refinement": {
+    "calibration_sensor_grid_difference_K": 0.004380393421001827,
+    "metrics": {
+      "mse_K2": 9.496565881888984,
+      "peak_K": 350.6332584782143,
+      "max_spread_K": 1.1989840397082503,
+      "final_mean_K": 349.4174896283227,
+      "final_std_K": 0.1457475398562921,
+      "absorbed_J": 226.83445288171265,
+      "convection_J": 72.25466626032036,
+      "radiation_J": 46.88311729307609,
+      "stored_J": 107.69666932831609,
+      "max_balance_residual_J": 2.2737367544323206e-13,
+      "wall_seconds": 0.09504234814085066,
+      "rhs_evaluations": 752,
+      "margins_K": [
+        9.366741521785684,
+        10.80101596029175,
+        1.4174896283226985,
+        2.5825103716773015
+      ],
+      "command_feasible": true,
+      "actual_power_feasible": true,
+      "feasible": true,
+      "external_energy_balance_J": 5.190172203128895e-07
+    },
+    "metric_changes": {
+      "peak_K": 1.84157526632589e-05,
+      "max_spread_K": 0.0009874834415199985,
+      "final_mean_K": -4.919737875752617e-06,
+      "mse_K2": -0.00010351444472256333
+    },
+    "classification_changed": false,
+    "numerics_pass": true
+  }
+}

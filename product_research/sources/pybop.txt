@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `product_research/sources/pybop.txt`
+
+Original SHA-256: `2c5877626d391e39dd0dcb063ef6eb702a92495fc622405a7cf2cdf97b3adcf5`
+
+Sources:
+- https://raw.githubusercontent.com/pybop-team/PyBOP/main/README.md
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

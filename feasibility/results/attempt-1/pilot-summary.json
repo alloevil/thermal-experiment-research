@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "by_resolution": {
+    "16": {
+      "samples": 1,
+      "wall_median_seconds": 0.2549665931146592,
+      "wall_q25_seconds": 0.2549665931146592,
+      "wall_q75_seconds": 0.2549665931146592,
+      "cpu_median_seconds": 0.25495788399999997,
+      "rmse_median_K": 0.006338832036633533,
+      "max_error_K": 0.016893546338427434,
+      "max_temporal_error_K": 1.5639295414260346e-11
+    },
+    "32": {
+      "samples": 1,
+      "wall_median_seconds": 0.27648155111819506,
+      "wall_q25_seconds": 0.27648155111819506,
+      "wall_q75_seconds": 0.27648155111819506,
+      "cpu_median_seconds": 0.27647995000000014,
+      "rmse_median_K": 0.0015409199846211693,
+      "max_error_K": 0.00444659368595568,
+      "max_temporal_error_K": 1.709432595475846e-11
+    },
+    "64": {
+      "samples": 1,
+      "wall_median_seconds": 0.304826564155519,
+      "wall_q25_seconds": 0.304826564155519,
+      "wall_q75_seconds": 0.304826564155519,
+      "cpu_median_seconds": 0.3048109029999999,
+      "rmse_median_K": 0.00038267558404903555,
+      "max_error_K": 0.0011254249351559942,
+      "max_temporal_error_K": 5.599276597934022e-11
+    },
+    "128": {
+      "samples": 1,
+      "wall_median_seconds": 1.0529266400262713,
+      "wall_q25_seconds": 1.0529266400262713,
+      "wall_q75_seconds": 1.0529266400262713,
+      "cpu_median_seconds": 1.0529012959999995,
+      "rmse_median_K": 9.551201107503068e-05,
+      "max_error_K": 0.00028221447544307665,
+      "max_temporal_error_K": 2.2805313193430266e-11
+    }
+  },
+  "spatial_convergence_orders": [
+    {
+      "case": 0,
+      "coarse": 16,
+      "fine": 32,
+      "order": 2.040425091703956
+    },
+    {
+      "case": 0,
+      "coarse": 32,
+      "fine": 64,
+      "order": 2.009598188543032
+    },
+    {
+      "case": 0,
+      "coarse": 64,
+      "fine": 128,
+      "order": 2.002367780079955
+    }
+  ],
+  "paired_fine_to_coarse_wall_ratio_median": 4.129665095194519,
+  "paired_fine_to_coarse_wall_ratio_range": [
+    4.129665095194519,
+    4.129665095194519
+  ],
+  "nonuniformity_spearman": NaN,
+  "ranking_sample_count": 1,
+  "limitations": [
+    "Synthetic source-free insulated heat relaxation, not a furnace, radiation model or heating optimization task.",
+    "Temperature deviation is solved; add 300 K for absolute temperature. Material parameters are synthetic.",
+    "Only grid resolution changes; adaptive RK45 uses common tolerances but takes different steps per grid.",
+    "Times include grid, initial condition, operator/solver setup and solve; exclude imports and error evaluation.",
+    "Analytic continuum and semidiscrete solutions validate errors; the finest grid is not physical truth.",
+    "No artificial sleep, no GPU, no inference/optimization speedup claim; shared-machine timing is exploratory."
+  ]
+}

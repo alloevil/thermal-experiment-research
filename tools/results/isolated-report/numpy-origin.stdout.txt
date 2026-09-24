@@ -1,0 +1,1 @@
+{"file": "/tmp/thermal-isolated-l_kvivpc/minimal python/lib/python3.12/site-packages/numpy/__init__.py", "version": "2.5.3"}

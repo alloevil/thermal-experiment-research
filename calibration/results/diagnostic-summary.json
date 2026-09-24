@@ -1,0 +1,39 @@
+{
+  "ratio_median_absolute_relative_error_percent": [
+    0.47570482994727104,
+    0.9210782852957178,
+    1.0904582177853506,
+    0.05453798900821316
+  ],
+  "ratio_max_absolute_relative_error_percent": [
+    2.4634564572119877,
+    2.572847446076476,
+    4.186167462536217,
+    0.34147775340425124
+  ],
+  "jacobian_condition_range": [
+    54.68101119868106,
+    63.24660308960812
+  ],
+  "convection_radiation_jacobian_cosine_range": [
+    0.9902137554194355,
+    0.9920601957743521
+  ],
+  "fit_train_rmse_range_K": [
+    0.0859564602262932,
+    0.10757952376173391
+  ],
+  "active_bound_fits": 0,
+  "holdout_calibrated_rmse_range_K": [
+    0.007076030678773146,
+    0.06912424021840609
+  ],
+  "calibrated_final_mean_range_K": [
+    349.3157722804786,
+    349.4646403772911
+  ],
+  "calibrated_peak_K": 350.74545172958557,
+  "calibrated_max_spread_K": 1.346367476009334,
+  "refinement_sensor_max_K": 0.004463479762875977,
+  "refinement_temperature_max_K": 0.0011482887078386739
+}

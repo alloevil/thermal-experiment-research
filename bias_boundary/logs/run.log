@@ -1,0 +1,197 @@
+CASE object-0-noise-0-bias--0.4: residual=0.1950/0.2082K hidden=0.6598K alarm=True inadequate=True
+CASE object-0-noise-0-bias--0.3: residual=0.1590/0.1741K hidden=0.4945K alarm=False inadequate=False
+CASE object-0-noise-0-bias--0.2: residual=0.1283/0.1436K hidden=0.3292K alarm=False inadequate=False
+CASE object-0-noise-0-bias-+0.0: residual=0.1032/0.1055K hidden=0.0047K alarm=False inadequate=False
+CASE object-0-noise-0-bias-+0.2: residual=0.1435/0.1219K hidden=0.3317K alarm=False inadequate=False
+CASE object-0-noise-0-bias-+0.3: residual=0.1773/0.1472K hidden=0.4967K alarm=False inadequate=False
+CASE object-0-noise-0-bias-+0.4: residual=0.2150/0.1783K hidden=0.6617K alarm=True inadequate=True
+CASE object-0-noise-1-bias--0.4: residual=0.2025/0.1854K hidden=0.6305K alarm=True inadequate=True
+CASE object-0-noise-1-bias--0.3: residual=0.1638/0.1522K hidden=0.4652K alarm=False inadequate=False
+CASE object-0-noise-1-bias--0.2: residual=0.1290/0.1236K hidden=0.3000K alarm=False inadequate=False
+CASE object-0-noise-1-bias-+0.0: residual=0.0899/0.0970K hidden=0.0349K alarm=False inadequate=False
+CASE object-0-noise-1-bias-+0.2: residual=0.1235/0.1294K hidden=0.3617K alarm=False inadequate=False
+CASE object-0-noise-1-bias-+0.3: residual=0.1573/0.1592K hidden=0.5267K alarm=False inadequate=True
+CASE object-0-noise-1-bias-+0.4: residual=0.1952/0.1930K hidden=0.6917K alarm=False inadequate=True
+CASE object-1-noise-0-bias--0.4: residual=0.2186/0.1893K hidden=0.6585K alarm=True inadequate=True
+CASE object-1-noise-0-bias--0.3: residual=0.1802/0.1571K hidden=0.4934K alarm=False inadequate=False
+CASE object-1-noise-0-bias--0.2: residual=0.1452/0.1295K hidden=0.3286K alarm=False inadequate=False
+CASE object-1-noise-0-bias-+0.0: residual=0.1004/0.1035K hidden=0.0211K alarm=False inadequate=False
+CASE object-1-noise-0-bias-+0.2: residual=0.1214/0.1326K hidden=0.3326K alarm=False inadequate=False
+CASE object-1-noise-0-bias-+0.3: residual=0.1514/0.1608K hidden=0.4973K alarm=False inadequate=False
+CASE object-1-noise-0-bias-+0.4: residual=0.1871/0.1934K hidden=0.6620K alarm=False inadequate=True
+CASE object-1-noise-1-bias--0.4: residual=0.1995/0.1977K hidden=0.6678K alarm=False inadequate=True
+CASE object-1-noise-1-bias--0.3: residual=0.1634/0.1652K hidden=0.5027K alarm=False inadequate=True
+CASE object-1-noise-1-bias--0.2: residual=0.1325/0.1368K hidden=0.3378K alarm=False inadequate=False
+CASE object-1-noise-1-bias-+0.0: residual=0.1049/0.1063K hidden=0.0153K alarm=False inadequate=False
+CASE object-1-noise-1-bias-+0.2: residual=0.1419/0.1298K hidden=0.3225K alarm=False inadequate=False
+CASE object-1-noise-1-bias-+0.3: residual=0.1748/0.1564K hidden=0.4873K alarm=False inadequate=False
+CASE object-1-noise-1-bias-+0.4: residual=0.2119/0.1878K hidden=0.6520K alarm=True inadequate=True
+REFINED object-0-noise-1-bias-+0.0 change={'rmse_K': 1.1351974082599026e-05, 'final_mean_error_K': -1.2366933788143797e-07} flipped=False
+REFINED object-0-noise-1-bias-+0.2 change={'rmse_K': 0.0001412152194402716, 'final_mean_error_K': -3.750335508811986e-08} flipped=False
+REFINED object-0-noise-1-bias-+0.3 change={'rmse_K': 0.00020484574517098952, 'final_mean_error_K': 5.079641596239526e-09} flipped=False
+REFINED object-0-noise-1-bias-+0.4 change={'rmse_K': 0.0002685230730888888, 'final_mean_error_K': 4.740769554700819e-08} flipped=False
+REFINED object-0-noise-1-bias--0.4 change={'rmse_K': 0.00023749794248928424, 'final_mean_error_K': 2.9904094844823703e-07} flipped=False
+REFINED object-1-noise-0-bias-+0.3 change={'rmse_K': 0.0001719883044199455, 'final_mean_error_K': 1.0261635452479823e-07} flipped=False
+REFINED object-1-noise-0-bias-+0.4 change={'rmse_K': 0.00023532531353087638, 'final_mean_error_K': 1.5215709936455823e-07} flipped=False
+REFINED object-1-noise-1-bias-+0.4 change={'rmse_K': 0.00023737840722093395, 'final_mean_error_K': 1.6725152818253264e-07} flipped=False
+REFINED object-1-noise-1-bias--0.2 change={'rmse_K': 0.00013890719429215936, 'final_mean_error_K': 1.400848645971564e-07} flipped=False
+REFINED object-1-noise-1-bias--0.3 change={'rmse_K': 0.00020162720959471248, 'final_mean_error_K': 1.9348635760252364e-07} flipped=False
+REFINED object-1-noise-1-bias--0.4 change={'rmse_K': 0.0002641614429133021, 'final_mean_error_K': 2.472431788191898e-07} flipped=False
+{
+  "status": "COMPLETED",
+  "cases": 28,
+  "fit_success": 28,
+  "groups": {
+    "-0.4": {
+      "count": 4,
+      "inadequate": 4,
+      "training": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      },
+      "combined": {
+        "TP": 3,
+        "FP": 0,
+        "FN": 1,
+        "TN": 0
+      }
+    },
+    "-0.3": {
+      "count": 4,
+      "inadequate": 1,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      }
+    },
+    "-0.2": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0.2": {
+      "count": 4,
+      "inadequate": 0,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "TN": 4
+      }
+    },
+    "0.3": {
+      "count": 4,
+      "inadequate": 1,
+      "training": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      },
+      "combined": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "TN": 3
+      }
+    },
+    "0.4": {
+      "count": 4,
+      "inadequate": 4,
+      "training": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      },
+      "combined": {
+        "TP": 2,
+        "FP": 0,
+        "FN": 2,
+        "TN": 0
+      }
+    }
+  },
+  "combined_misses": [
+    "object-0-noise-1-bias-+0.3",
+    "object-0-noise-1-bias-+0.4",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias--0.4",
+    "object-1-noise-1-bias--0.3"
+  ],
+  "near_boundary": [
+    "object-0-noise-0-bias--0.4",
+    "object-0-noise-0-bias--0.3",
+    "object-0-noise-0-bias-+0.3",
+    "object-0-noise-0-bias-+0.4",
+    "object-0-noise-1-bias--0.4",
+    "object-0-noise-1-bias-+0.4",
+    "object-1-noise-0-bias--0.4",
+    "object-1-noise-0-bias--0.3",
+    "object-1-noise-0-bias-+0.3",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias--0.4",
+    "object-1-noise-1-bias--0.3",
+    "object-1-noise-1-bias-+0.3",
+    "object-1-noise-1-bias-+0.4"
+  ],
+  "refinements": [
+    "object-0-noise-1-bias-+0.0",
+    "object-0-noise-1-bias-+0.2",
+    "object-0-noise-1-bias-+0.3",
+    "object-0-noise-1-bias-+0.4",
+    "object-0-noise-1-bias--0.4",
+    "object-1-noise-0-bias-+0.3",
+    "object-1-noise-0-bias-+0.4",
+    "object-1-noise-1-bias-+0.4",
+    "object-1-noise-1-bias--0.2",
+    "object-1-noise-1-bias--0.3",
+    "object-1-noise-1-bias--0.4"
+  ],
+  "fit_calls": 1039,
+  "fit_seconds": 126.91173456073739,
+  "invocation_wall_seconds": 143.00248734885827
+}

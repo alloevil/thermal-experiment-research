@@ -1,0 +1,7 @@
+PASS preregistered protocol and public source hashes
+PASS optimizer call ledger: 191 calls; power/ramp constraints
+PASS saved field metrics, exact absorbed energy and independent loss quadrature
+PASS optimized 96-cell/0.25s sampled temperature constraints; baseline fails as reported
+PASS radiation-only comparison uses identical absorbed powers
+PASS post-run 0.0625s sampling sensitivity; still not continuous-time certification
+PASS results/heating-results.png rendered

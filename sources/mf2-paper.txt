@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/mf2-paper.txt`
+
+Original SHA-256: `84100999d9762b7b10c7a80c4efa3db2295097c7898684d9fef0b088c3fb9877`
+
+Sources:
+- https://joss.theoj.org/papers/10.21105/joss.02049
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

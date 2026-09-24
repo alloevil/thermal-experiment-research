@@ -1,0 +1,21 @@
+{
+  "training": {
+    "alarm": true,
+    "reasons": [
+      "residual_rmse_above_0.2K",
+      "sensor_mean_residual_above_0.2K"
+    ],
+    "rmse_K": 0.9157852428759115,
+    "max_sensor_mean_residual_K": 0.2863988317325538
+  },
+  "diagnostic": {
+    "alarm": true,
+    "reasons": [
+      "residual_rmse_above_0.2K",
+      "sensor_mean_residual_above_0.2K"
+    ],
+    "rmse_K": 0.9510781857420546,
+    "max_sensor_mean_residual_K": 0.2417456813604867
+  },
+  "combined_alarm": true
+}

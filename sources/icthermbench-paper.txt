@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/icthermbench-paper.txt`
+
+Original SHA-256: `30e269fbd855e217b4c19a1e8236972774b6716ccad955d75311713850e6691c`
+
+Sources:
+- https://arxiv.org/html/2608.23977v1
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

@@ -1,0 +1,43 @@
+[
+  {
+    "stage": "radiation",
+    "original_manifest_sha256": "c8aff6b71ce612f1e4e25dd61c452abd514ee9ae719478de33c7a8b064970cda",
+    "public_manifest_sha256": "7e35e852fd126bf18cd40684871390a02373fe9bbbfba3c1011ed8bcccdcce9a",
+    "changed_entries": [
+      {
+        "path": "sources/manifest.json",
+        "original_sha256": "a548f89ce4926c77591ac66e4904bf7bc31d05fb2bc572777ec8b03785056fe9",
+        "public_sha256": "17c12172e06298f3ff63a2b805785fa97b10b46eed36a2b54737d3f994dbe987"
+      },
+      {
+        "path": "sources/nist.txt",
+        "original_sha256": "56f9b19635ae51986b769e5edca11e41b757176d8cbb623c170655a7fedeaef3",
+        "public_sha256": "93b9633210b5b59f745c02329f388a0be5e37f781fb612557fb302de65526bd3"
+      },
+      {
+        "path": "sources/tclab.txt",
+        "original_sha256": "d4277b1b502f892f36566150a62e45ad2fa32a39964a8874cb6f02e4a2ca2b07",
+        "public_sha256": "fba3fb822642f8aa41e35596cc880e9c81a0404773928e0900c2bcf3dee30961"
+      }
+    ],
+    "reason": "Public-edition source notices replace external bodies; scientific data/code unchanged."
+  },
+  {
+    "stage": "calibration",
+    "original_manifest_sha256": "f0e7dcfdfc12825b294b82bb3b9890e5bc481d2b60c76170796d3f23bf6af432",
+    "public_manifest_sha256": "c8831a6326e1d24eb5d1ad2112add55e61f351ada0b911b772a96b0565621e2c",
+    "changed_entries": [
+      {
+        "path": "sources/manifest.json",
+        "original_sha256": "e0aedcf4e6848d770bd4317253dbc2943009f87029d826d795f56af939207a07",
+        "public_sha256": "dbdf760850b566f2ac547386141bb39a48d342b48acd2566addd94f9e0d88342"
+      },
+      {
+        "path": "sources/scipy-least-squares.txt",
+        "original_sha256": "9daf62eba0e21abc312675e4efdc099a625cf8d83b377cac015c6a636fc97258",
+        "public_sha256": "a53402e432a9a90b057df7e8a8a1f5505f243e246bcbd23845277ee504417117"
+      }
+    ],
+    "reason": "Public-edition source notices replace external bodies; scientific data/code unchanged."
+  }
+]

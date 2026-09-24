@@ -1,0 +1,83 @@
+{
+  "id": "object-0-noise-0-bias--0.2",
+  "object": 0,
+  "noise": 0,
+  "bias_K": -0.2,
+  "fit": {
+    "ratios": [
+      1.0077258658597343,
+      0.967183121794634,
+      0.9046593040979309,
+      0.980296404029759
+    ],
+    "success": true,
+    "status": 3,
+    "message": "`xtol` termination condition is satisfied.",
+    "scipy_nfev": 9,
+    "actual_solver_calls": 37,
+    "wall_seconds": 4.64769578888081,
+    "train_rmse_K": 0.12825340084674544,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2924.7487081549007,
+      281.315973232641,
+      135.86832286956556,
+      48.18423519914341
+    ],
+    "jacobian_condition": 60.69928672867874,
+    "jacobian_column_cosines": [
+      [
+        1.0,
+        0.021951463143578858,
+        0.09871680402722861,
+        -0.10145227560836255
+      ],
+      [
+        0.021951463143578858,
+        1.0,
+        0.991442473513969,
+        -0.9587611190479121
+      ],
+      [
+        0.09871680402722861,
+        0.991442473513969,
+        1.0000000000000004,
+        -0.957707466320208
+      ],
+      [
+        -0.10145227560836255,
+        -0.9587611190479121,
+        -0.957707466320208,
+        0.9999999999999999
+      ]
+    ]
+  },
+  "fit_hash": "bad5651b1e4ef03339e028411a84555faef651e62a40d3e81f77135e9d1e3444",
+  "alarm_hash": "ce62c269cc8cf13e0efaeaea23558475e6e2da9b601313f5766e9b57edef541e",
+  "alarm": {
+    "training": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.12825340084674544,
+      "max_sensor_mean_residual_K": 0.0458701746826821
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.14359706640523826,
+      "max_sensor_mean_residual_K": 0.04952027785888191
+    },
+    "combined": false
+  },
+  "score": {
+    "rmse_K": 0.32915880206654025,
+    "final_mean_error_K": 0.2283900915161894,
+    "inadequate": false
+  },
+  "near_boundary": false
+}

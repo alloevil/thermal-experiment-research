@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/fenics-install.txt`
+
+Original SHA-256: `c697d215576a955a0f8f9f4ee645fe8a6339cd8071c3125c1bfef0637709c27a`
+
+Sources:
+- https://docs.fenicsproject.org/dolfinx/main/python/installation.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

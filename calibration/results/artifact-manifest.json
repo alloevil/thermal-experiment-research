@@ -1,0 +1,782 @@
+[
+  {
+    "file": "RESULTS.md",
+    "sha256": "591294ae537e2659ba85bf9a3d5489ce9df635cb931a4c9af240345a803bb01c"
+  },
+  {
+    "file": "RUNBOOK.md",
+    "sha256": "36743c985313024aacba258ff7805ccc34bd7191cca690a69cef95618d7eed79"
+  },
+  {
+    "file": "check_effective.py",
+    "sha256": "b5399e548fde3b5ca9d89474e4c185b5266ffe8681ff3f795817ff4d572eac39"
+  },
+  {
+    "file": "effective.py",
+    "sha256": "0de6044f1a353c5ea20fe9df631d0824cf0936ba85da6c8146bdb26cd91a5f94"
+  },
+  {
+    "file": "fit_and_control.py",
+    "sha256": "45d0de67f8c9e50ed76576621927441d944db32c79f3c2583c10d540b472b5c2"
+  },
+  {
+    "file": "logs/experiment.log",
+    "sha256": "3506850597bc36287622c8767f7c21037d4e331a0140db86d5c0bd8db031f791"
+  },
+  {
+    "file": "logs/model-checks.log",
+    "sha256": "c9d66c380d3a1e08bf9f8e57fe0d4537189317767075f6b131eaf04508886bc8"
+  },
+  {
+    "file": "logs/verification-final.log",
+    "sha256": "84b5152c96d1415fc77ec8d1b1f3565a97ee93ac86dd4ff5577b93b1d0e8ded7"
+  },
+  {
+    "file": "logs/verification.log",
+    "sha256": "84b5152c96d1415fc77ec8d1b1f3565a97ee93ac86dd4ff5577b93b1d0e8ded7"
+  },
+  {
+    "file": "plot_results.py",
+    "sha256": "f934f10fe30edc9530bdabef008decf3642d495047aeaed5b8ceb6fdd6bc6540"
+  },
+  {
+    "file": "protocol.md",
+    "sha256": "863de4e29b58295bb18765f850de30f2523483b8263ada682f639c186e4e2e5e"
+  },
+  {
+    "file": "results/calibration-results.png",
+    "sha256": "6fafae71da2c87a912fe3ab143d2b0ce0c1a46e2d05437be4ceb5e7db2044df8"
+  },
+  {
+    "file": "results/config.json",
+    "sha256": "36aa8504e1ea6e79b57d491916f43c3199cc56c8f0d352c149265b194fbc67ef"
+  },
+  {
+    "file": "results/diagnostic-summary.json",
+    "sha256": "355c05d7b5551226dacf4c16eb805a25172dcea2348cbd0679f1a2ed4d42e7ed"
+  },
+  {
+    "file": "results/environment.json",
+    "sha256": "7a87423e1e00e55573944971845303a541ec0e2dbdecd5e6f8ede3a92a51d608"
+  },
+  {
+    "file": "results/model-checks.json",
+    "sha256": "c9d66c380d3a1e08bf9f8e57fe0d4537189317767075f6b131eaf04508886bc8"
+  },
+  {
+    "file": "results/nominal-control/control-calls.jsonl",
+    "sha256": "b14f7f833071062da406a5b6d5a1aaccff1fe78a85d57c40acabfc20f53eabaa"
+  },
+  {
+    "file": "results/nominal-control/control-checkpoint.json",
+    "sha256": "21d7f470e07a9b529e7334ec3bea8bb06e6978b82d1d33c40fa8eb0dcac64d2d"
+  },
+  {
+    "file": "results/nominal-control/control.json",
+    "sha256": "6684697a43bb9a0e84baadc6bdf85b2a6896f294da455f3c3297e6ad8e0ce880"
+  },
+  {
+    "file": "results/object-0/noise-0/calibrated-physical.npz",
+    "sha256": "e00c3ec90f7a3f75b0bd28d67c67c0de941f1da817ab4d2617bf3ae36affb4a2"
+  },
+  {
+    "file": "results/object-0/noise-0/case.json",
+    "sha256": "6744ecd95ecfa245a4f5c3d2afaa497dd317a0aae89c49130fe9c9608836a550"
+  },
+  {
+    "file": "results/object-0/noise-0/control-calls.jsonl",
+    "sha256": "3b83752ab8a9a6c579d135d9fda5181239fdccd4e0fab3d8d323c37bc316f3dc"
+  },
+  {
+    "file": "results/object-0/noise-0/control-checkpoint.json",
+    "sha256": "be4c3d4e0be923aaf9397491a6e833755bded91e5d6769e169f7e0aa12e1f825"
+  },
+  {
+    "file": "results/object-0/noise-0/control.json",
+    "sha256": "1a5dc00ebd3fa34ade3f342e69df1430f44769b8a91cffb43e7f50af36329156"
+  },
+  {
+    "file": "results/object-0/noise-0/fit-calls.jsonl",
+    "sha256": "28fa908df93bdf4cde737be922985392a52798231bfa60be694af487828411fc"
+  },
+  {
+    "file": "results/object-0/noise-0/fit-diagnostics.npz",
+    "sha256": "6bd7e8f2fb1d2411e142726fd3cedd9e88379b545b8eb19e7a15d425398fb428"
+  },
+  {
+    "file": "results/object-0/noise-0/fit.json",
+    "sha256": "244dbed0a0846e6c45ad583c1afed04ceff27248aa07e886d8068585e0454d79"
+  },
+  {
+    "file": "results/object-0/noise-0/heldout-predictions.npz",
+    "sha256": "cb21bcfd4d4263b00fa0bc144f06f03d2b9cbb25d06e59769dc49bdd1812d745"
+  },
+  {
+    "file": "results/object-0/noise-0/refined-physical.npz",
+    "sha256": "3518e875fa1b05f1c8fc7be2d98b2a9c951d9ee7469d5240151a0284da72202c"
+  },
+  {
+    "file": "results/object-0/noise-1/calibrated-physical.npz",
+    "sha256": "74e2e91ecd2f5c48224e650fdcd9bf377f7840608454c1738845af9c8644bd49"
+  },
+  {
+    "file": "results/object-0/noise-1/case.json",
+    "sha256": "ac9d0540afa7bd7b4e505da292015c4f99a8877d239e40d254177e227238fdff"
+  },
+  {
+    "file": "results/object-0/noise-1/control-calls.jsonl",
+    "sha256": "02eff7382dd1ba6fa22e0e26a2a9541252271edfce70bd969818cdc6ffb046f2"
+  },
+  {
+    "file": "results/object-0/noise-1/control-checkpoint.json",
+    "sha256": "f2ca9f8572402eb273925542fba6e61965918bf342244747dcec69ae4348fbcf"
+  },
+  {
+    "file": "results/object-0/noise-1/control.json",
+    "sha256": "26eaaabd9cacd17020938170b1fda79bb82db3696ad3bd2eccf0a022e0c3d7ce"
+  },
+  {
+    "file": "results/object-0/noise-1/fit-calls.jsonl",
+    "sha256": "daeabaa020d5b62e5074099455033e2d7684822dce344095de2089b36f78b7e7"
+  },
+  {
+    "file": "results/object-0/noise-1/fit-diagnostics.npz",
+    "sha256": "0c5aa7a903b7b1eb20d76462698025c348c8e2b3bd804c4088009f1c18dcac63"
+  },
+  {
+    "file": "results/object-0/noise-1/fit.json",
+    "sha256": "7a11a65184d7eac487ea348eda15064f68c2f8a68c1913788d4dc8acd0a12629"
+  },
+  {
+    "file": "results/object-0/noise-1/heldout-predictions.npz",
+    "sha256": "cc78ee84eb4df1c7c7737670e0713dec49bdfd2379798fe374a52c918853ae7e"
+  },
+  {
+    "file": "results/object-0/nominal-physical.json",
+    "sha256": "7dea3db537ef5a6f04ef9bcf6de4518ed9726422c5a8f422f8f4176f0a185981"
+  },
+  {
+    "file": "results/object-0/nominal-physical.npz",
+    "sha256": "2e53e198e8094d99ab9c168620f6bce95957a62e67ce54b7143993103a361d4f"
+  },
+  {
+    "file": "results/object-0/observations.npz",
+    "sha256": "97b2bbf71411a4463ef3099dbd6bd4744f0d8c725caab741f755bf4699879098"
+  },
+  {
+    "file": "results/object-1/noise-0/calibrated-physical.npz",
+    "sha256": "0bf3f6d952c75fc22d771ecc4c1748a526c5833881154b3c1aeccd7b97b2dcdd"
+  },
+  {
+    "file": "results/object-1/noise-0/case.json",
+    "sha256": "61e82af5a19acf9ec7d6d1ecb6f6e6d6b0702907ec978ba7156da9a37db7938d"
+  },
+  {
+    "file": "results/object-1/noise-0/control-calls.jsonl",
+    "sha256": "11a60cfe8f3b397225c56459af1d777b1ff91c0a95b8c3116488a92ec5c3d234"
+  },
+  {
+    "file": "results/object-1/noise-0/control-checkpoint.json",
+    "sha256": "f3340080cba43ae024c78353de02831d89d797c0a3965f6100954e22ede784c5"
+  },
+  {
+    "file": "results/object-1/noise-0/control.json",
+    "sha256": "45c9f81c95e4e69f20c08bd4ab8335896b51e74a5c3fa45f0c24d6c705b6b971"
+  },
+  {
+    "file": "results/object-1/noise-0/fit-calls.jsonl",
+    "sha256": "bcc6d2d4153fd8b41a542a73903561424900ec20603038e982971fa0167986ba"
+  },
+  {
+    "file": "results/object-1/noise-0/fit-diagnostics.npz",
+    "sha256": "6ccf7d9cae172c6284f07dc7c1598f7afbc5905dc1f5f23c34372d2f76933154"
+  },
+  {
+    "file": "results/object-1/noise-0/fit.json",
+    "sha256": "619ee6ef6be68e1270adc59a117155f53dce10cd0d8f06b9331d68c9bd49d99e"
+  },
+  {
+    "file": "results/object-1/noise-0/heldout-predictions.npz",
+    "sha256": "28438c7a57817a1737dbd949658f761cfdd0eba59f9aeb81ffb79cf3e4090077"
+  },
+  {
+    "file": "results/object-1/noise-1/calibrated-physical.npz",
+    "sha256": "01ae99d863721d42b19ff2c6b4bd7e581bbc69a662ebc5bbe31ccb41002d242e"
+  },
+  {
+    "file": "results/object-1/noise-1/case.json",
+    "sha256": "64b38e8f8962f840cf4144e66247ae19f46640f50177048b64d2d318762a873d"
+  },
+  {
+    "file": "results/object-1/noise-1/control-calls.jsonl",
+    "sha256": "1ff5d3dbf864eac97fdd985aacd9248a1d3085925cece03a34d661f0520dfe8e"
+  },
+  {
+    "file": "results/object-1/noise-1/control-checkpoint.json",
+    "sha256": "72c921c8a78ac2ba3494357fbc5f846942ad934b57ba763ad6676a207e6308d2"
+  },
+  {
+    "file": "results/object-1/noise-1/control.json",
+    "sha256": "fb63fcac3d119e57d9bb7023e3cacc48da703548aad503d8abd504950e8d00bd"
+  },
+  {
+    "file": "results/object-1/noise-1/fit-calls.jsonl",
+    "sha256": "2b23e66d38c81f3832a0b6b8546564c6b317b33594a5fb4860d573705168ebee"
+  },
+  {
+    "file": "results/object-1/noise-1/fit-diagnostics.npz",
+    "sha256": "85848e3202a17387e4e8f17383a6f5af21405974e036bd21b7188ebae9aa4fb3"
+  },
+  {
+    "file": "results/object-1/noise-1/fit.json",
+    "sha256": "4c01a9c82390e22d9370ff667587eb77ae2b877e1b7901654fb3ca881b12b5c6"
+  },
+  {
+    "file": "results/object-1/noise-1/heldout-predictions.npz",
+    "sha256": "5214c97b578a5b87db544411d1f2242c6aff028a1b21a7976855ec71a0b0b4ec"
+  },
+  {
+    "file": "results/object-1/nominal-physical.json",
+    "sha256": "a43dad6febc47287e571546091db79be0219b87e628bc75f3c0fe61a3de0eee2"
+  },
+  {
+    "file": "results/object-1/nominal-physical.npz",
+    "sha256": "6178d01c044ff854954ff7b1de91f48ad51a6014cc25fe0c0af2aab465ea56e8"
+  },
+  {
+    "file": "results/object-1/observations.npz",
+    "sha256": "34de024148892863ffeff1e1b2228b4587e22ee1df176ccb399335070c669bd9"
+  },
+  {
+    "file": "results/object-2/noise-0/calibrated-physical.npz",
+    "sha256": "783dd3b5c6ed8b6d099cdca9e1c70b003fe5cad9b72e08dd627ba313ecf5cf7b"
+  },
+  {
+    "file": "results/object-2/noise-0/case.json",
+    "sha256": "a6e27d551db276dbeba81b90835c922022c327277f4715bb3dec287de0e6d213"
+  },
+  {
+    "file": "results/object-2/noise-0/control-calls.jsonl",
+    "sha256": "a863dfdcfe5d47e2217242eba725ed467c52d1b9c5af625ad1be881b7a9ed113"
+  },
+  {
+    "file": "results/object-2/noise-0/control-checkpoint.json",
+    "sha256": "fd39e1f431ace983668bde10419d210c1303e39d2cbc41d6b7f09062b8621967"
+  },
+  {
+    "file": "results/object-2/noise-0/control.json",
+    "sha256": "ee8e3eace1279031d63601837280e244e1c35bc78d5c537bde7f5b4b64cf34b8"
+  },
+  {
+    "file": "results/object-2/noise-0/fit-calls.jsonl",
+    "sha256": "445d9b5f7f92fe7d8f6bbaaba5f30c3c6c9186e09eed686314718fa72e18e525"
+  },
+  {
+    "file": "results/object-2/noise-0/fit-diagnostics.npz",
+    "sha256": "d043043f575f0e7cf0726fbbea242c2bcd65e711bb5b0dc2f4a76a7060bcbad5"
+  },
+  {
+    "file": "results/object-2/noise-0/fit.json",
+    "sha256": "91826b804cf787dd3f07f4c50fe57a3ffe873efb58490c5bf3b04eb4b06677d6"
+  },
+  {
+    "file": "results/object-2/noise-0/heldout-predictions.npz",
+    "sha256": "d6af0672feef8e580f274b76c1e6c56b80cd7ec7f206a651157c0e42f9cc7ada"
+  },
+  {
+    "file": "results/object-2/noise-1/calibrated-physical.npz",
+    "sha256": "f6b3b48e3d9e5491eea4667d374a5bd5cf8bb4e2ca208d80bc980ff866dad2d5"
+  },
+  {
+    "file": "results/object-2/noise-1/case.json",
+    "sha256": "9f2c9b88cadfa9f75f102ccab7a4e42b134a27bcf4130212fab970d808c7a80e"
+  },
+  {
+    "file": "results/object-2/noise-1/control-calls.jsonl",
+    "sha256": "9d01d4d88f267f674f9d71de0e2195eb20e33e394ca2c9aba5b23036ebc77800"
+  },
+  {
+    "file": "results/object-2/noise-1/control-checkpoint.json",
+    "sha256": "7e07f51265c125ddee946e70bdee6b281ea4dde3ccfd1665c1d9530c34bc804d"
+  },
+  {
+    "file": "results/object-2/noise-1/control.json",
+    "sha256": "518cc8305e3506fc0666be32d172c7d9117bb14ab55479536a3108618bfe20fb"
+  },
+  {
+    "file": "results/object-2/noise-1/fit-calls.jsonl",
+    "sha256": "b5e6c65817a96836d9b5cb334d23816eb522c5783b03810ffd52da4a2c3994d2"
+  },
+  {
+    "file": "results/object-2/noise-1/fit-diagnostics.npz",
+    "sha256": "4706c27df1966a7b20d2dea9679a7588e678b9a8288795ccb906a5b167f903ea"
+  },
+  {
+    "file": "results/object-2/noise-1/fit.json",
+    "sha256": "76bb860ae0246fdae0ecdc771cd2d38aac2164d7aad94aa5e8310b4cf408cc8a"
+  },
+  {
+    "file": "results/object-2/noise-1/heldout-predictions.npz",
+    "sha256": "bd79374a16a103d2b590730dc8781a7f9530924bc10d1421370be38d29d6b8b9"
+  },
+  {
+    "file": "results/object-2/nominal-physical.json",
+    "sha256": "950e11fc6c2db3c299ab67d79f6d8e84aae8f470b5d8ab4d1e01512daf77d478"
+  },
+  {
+    "file": "results/object-2/nominal-physical.npz",
+    "sha256": "c261ff6a85dc2934a3b0aa40eac2f8b11f416f1b766d2530efc4a5bc0fa37c07"
+  },
+  {
+    "file": "results/object-2/observations.npz",
+    "sha256": "b496e9677544926500a32b3072e87edd8bf72cdaa32e0d85e106181c3e36ccf5"
+  },
+  {
+    "file": "results/object-3/noise-0/calibrated-physical.npz",
+    "sha256": "ff87ef0be5635efa6dc3a746c9dde73928c2f7d41084fee40c1507dcc42fb92b"
+  },
+  {
+    "file": "results/object-3/noise-0/case.json",
+    "sha256": "541a89c1267b47e37d38e8ecdaad98fd17077837e909d28be3ca481f38a25a40"
+  },
+  {
+    "file": "results/object-3/noise-0/control-calls.jsonl",
+    "sha256": "5790bb031bcef4f9227410e3e69648708f879764843b2a8e7b54b8cd2b4686c5"
+  },
+  {
+    "file": "results/object-3/noise-0/control-checkpoint.json",
+    "sha256": "ed7e4dc8ab64d3be4a128007e5ebc2a6389d5009ab7aec4b58b8063f167497df"
+  },
+  {
+    "file": "results/object-3/noise-0/control.json",
+    "sha256": "5d8d11f00394c56af3c9e98261b899fc86ce257375d9a874c0a2412464bd9bb5"
+  },
+  {
+    "file": "results/object-3/noise-0/fit-calls.jsonl",
+    "sha256": "15116d8268a21566f26adad67a054b60a139015fcea59d152274cc59e0615cb6"
+  },
+  {
+    "file": "results/object-3/noise-0/fit-diagnostics.npz",
+    "sha256": "e4c7dd5675a87a7e0edf9c1a38f82c51722c08bf44a24f9bc8755d07cfcb30df"
+  },
+  {
+    "file": "results/object-3/noise-0/fit.json",
+    "sha256": "35a44c5103361e0070bb90f2646d5f74eaf350b6ce250ba4ea5e639f1d371e14"
+  },
+  {
+    "file": "results/object-3/noise-0/heldout-predictions.npz",
+    "sha256": "5cf433b1a11b9c38f158d72da87670e6ab7f6a6f6afacb189577a6d82426bf4b"
+  },
+  {
+    "file": "results/object-3/noise-1/calibrated-physical.npz",
+    "sha256": "9c813e001adc4b390b3d8e2befa0f3a5b623f6e02a359641e1cac327e56860c9"
+  },
+  {
+    "file": "results/object-3/noise-1/case.json",
+    "sha256": "ba7aafc3c09b0beee650430faa19718f69d2c1bf46c035e6827092cf12da5cdd"
+  },
+  {
+    "file": "results/object-3/noise-1/control-calls.jsonl",
+    "sha256": "e0344aa3cb42c622bec11fa97e338bea247747174a051a38d744dbadc2c82e45"
+  },
+  {
+    "file": "results/object-3/noise-1/control-checkpoint.json",
+    "sha256": "30667885f9f81597f3c5877c2a483d2969e7d89eaf2fbe4f9e338bcb328625c5"
+  },
+  {
+    "file": "results/object-3/noise-1/control.json",
+    "sha256": "5854b9c4da31f68981112aa48a8fb949f578826d9de51231d60abec6b7b63e43"
+  },
+  {
+    "file": "results/object-3/noise-1/fit-calls.jsonl",
+    "sha256": "a7f2a7625871d06ef87824e8bbae74fcfc83ee3ea0a3dc2f90d211dad739afb0"
+  },
+  {
+    "file": "results/object-3/noise-1/fit-diagnostics.npz",
+    "sha256": "c990d2cebe818eeba32aa1ee395216b918070769f90fc4655e18f3e44b5f4486"
+  },
+  {
+    "file": "results/object-3/noise-1/fit.json",
+    "sha256": "a57128e217cd11516cd9dc7092c655e226d05a1ebe02ad8667b50a88e9e0daf6"
+  },
+  {
+    "file": "results/object-3/noise-1/heldout-predictions.npz",
+    "sha256": "f01980627853b6fb2c06662603fb442b1fdf0aba738a97d117930b0e1bbf8ff6"
+  },
+  {
+    "file": "results/object-3/nominal-physical.json",
+    "sha256": "2b31277f91ed44c1f18109c11ae9de846c8934506991c88e9741853a6828737a"
+  },
+  {
+    "file": "results/object-3/nominal-physical.npz",
+    "sha256": "08ca326cdbe9054dbd5d4ecbcdc58a9e1f1f31b1d6440761012a37ea8c80d2d0"
+  },
+  {
+    "file": "results/object-3/observations.npz",
+    "sha256": "76711289eafca0b20e3eed31bbde688cd6936a52e6d2a53749e75d0e72f1077e"
+  },
+  {
+    "file": "results/object-4/noise-0/calibrated-physical.npz",
+    "sha256": "2ddcb28a5825f32a5853ff2f68f7fdc60ae97d3f56a0491f599ccc79e2f7b487"
+  },
+  {
+    "file": "results/object-4/noise-0/case.json",
+    "sha256": "cce783870181648b00f739720ec5fcec4c51d204e30acc057467905a68b80516"
+  },
+  {
+    "file": "results/object-4/noise-0/control-calls.jsonl",
+    "sha256": "147dc2725be1b66fd3d4ef584e5da3779ce959d513e80a5491a026f86cfa4bdb"
+  },
+  {
+    "file": "results/object-4/noise-0/control-checkpoint.json",
+    "sha256": "86ee250470a766e13fac55b1134cb0237178085611868eb27425874725de7b6b"
+  },
+  {
+    "file": "results/object-4/noise-0/control.json",
+    "sha256": "3f715ca56ce9977912322bb1b274b3d041f331f5f688b3af780759e4bf9114a7"
+  },
+  {
+    "file": "results/object-4/noise-0/fit-calls.jsonl",
+    "sha256": "7835b9940fcb032ac36322920bb6593bcd27046a9041e06c410bf4ee4aa879e2"
+  },
+  {
+    "file": "results/object-4/noise-0/fit-diagnostics.npz",
+    "sha256": "918a830931437d4a4fc403680952393927e9041c127881cc5afd20c8ca28a965"
+  },
+  {
+    "file": "results/object-4/noise-0/fit.json",
+    "sha256": "c2bc10e3c5592d84979f5bd961e5753be198bcdb04066c72c4693565a88aee8a"
+  },
+  {
+    "file": "results/object-4/noise-0/heldout-predictions.npz",
+    "sha256": "6028513ab2ea0a6b43338f46122fe3728fbb37df0ce6ef634ac95914e701cfbd"
+  },
+  {
+    "file": "results/object-4/noise-1/calibrated-physical.npz",
+    "sha256": "e2046e84ef78274ae19e059e586f0b4c5961fb6720ea0ae1d2ed240767ccc702"
+  },
+  {
+    "file": "results/object-4/noise-1/case.json",
+    "sha256": "99dab796ea3e32e825c020f9b2f6798cc29af2ef984b4eb804a28302aef998c3"
+  },
+  {
+    "file": "results/object-4/noise-1/control-calls.jsonl",
+    "sha256": "86447f760600aac285d694958d412aa97983dad7613e6c378fcaacdd4221100e"
+  },
+  {
+    "file": "results/object-4/noise-1/control-checkpoint.json",
+    "sha256": "521e8315400c61010a7deae5862641324fed8a1317182949290d38f6037d56a5"
+  },
+  {
+    "file": "results/object-4/noise-1/control.json",
+    "sha256": "3309fef3f76d779f757653883c8882730c4506420a589b6cf74b08e7cca25ee7"
+  },
+  {
+    "file": "results/object-4/noise-1/fit-calls.jsonl",
+    "sha256": "424ed6525c0bce422c886f17580c5bda72c88504df1b305ae0f3a2789f6e578d"
+  },
+  {
+    "file": "results/object-4/noise-1/fit-diagnostics.npz",
+    "sha256": "e703924a31ec35f211d16fa41d8b700252d1bfb4b77b95805c01f96056a82694"
+  },
+  {
+    "file": "results/object-4/noise-1/fit.json",
+    "sha256": "1c914959d2db6766f3c02a862252ee02b40fb6a8ca1e9af8847ba074f4c4e06b"
+  },
+  {
+    "file": "results/object-4/noise-1/heldout-predictions.npz",
+    "sha256": "5c0669b6c911640dcbd0b3bca58da1c16a76e817ad46980ddc5114a122d3ebc1"
+  },
+  {
+    "file": "results/object-4/nominal-physical.json",
+    "sha256": "66541f9fad6cd1571953f8bcbfebd1e6816efb7e98cc2751cbc210520b82fdd8"
+  },
+  {
+    "file": "results/object-4/nominal-physical.npz",
+    "sha256": "fa26336246225748b37c2fe8aff03bfcbb1c0a77606079832e467006b4c1f48b"
+  },
+  {
+    "file": "results/object-4/observations.npz",
+    "sha256": "1a39db2241c55ce9a094812986065b1b3d02a0d72e3e236c81cd5f606d5a6c19"
+  },
+  {
+    "file": "results/object-5/noise-0/calibrated-physical.npz",
+    "sha256": "33dc6f2ab1b2f76dcf091e7c89f9c7c6ebaf175afc3d2fe7411009b235027839"
+  },
+  {
+    "file": "results/object-5/noise-0/case.json",
+    "sha256": "5dce6ed29595549f80c1fc54f2714542414f9b0655bc6c92f8f2805872eb9af7"
+  },
+  {
+    "file": "results/object-5/noise-0/control-calls.jsonl",
+    "sha256": "422e1d2f5e8b921c24bf0df157b7b601055b6faebda431f905c5c173e9530138"
+  },
+  {
+    "file": "results/object-5/noise-0/control-checkpoint.json",
+    "sha256": "fd3fbbb6e7bb8f23f27c180d0da485a7fd736ce4297d6377c98bbfefb6b22294"
+  },
+  {
+    "file": "results/object-5/noise-0/control.json",
+    "sha256": "3a1ea81525760f32fafd1f58cbf8530dd9d371da24564ad99430f0cd2bcec4b0"
+  },
+  {
+    "file": "results/object-5/noise-0/fit-calls.jsonl",
+    "sha256": "29b129003b08bf099deab707ee2847f87603efb977305f4222e3da16fbf7dc05"
+  },
+  {
+    "file": "results/object-5/noise-0/fit-diagnostics.npz",
+    "sha256": "4c0cde56416336989f109b6f08e2a160445c109dc5621fb874013e95a546559f"
+  },
+  {
+    "file": "results/object-5/noise-0/fit.json",
+    "sha256": "fe302c2e73b8bcbb69a198f674d6bdcc5d7947a1d96ec46adffb3dcaa6423a46"
+  },
+  {
+    "file": "results/object-5/noise-0/heldout-predictions.npz",
+    "sha256": "c910c18078d64fbaad16f2ec99b3233fd4fb6d6768e7d6cee341d1828a13b82e"
+  },
+  {
+    "file": "results/object-5/noise-1/calibrated-physical.npz",
+    "sha256": "0f64faf26819f664d0cad84a83612841d8b32fc5d0950693c389d10a97d7fd49"
+  },
+  {
+    "file": "results/object-5/noise-1/case.json",
+    "sha256": "fbcad4d354ee79f36725f3b37e9375506b31f70be358e11804f002951ad86246"
+  },
+  {
+    "file": "results/object-5/noise-1/control-calls.jsonl",
+    "sha256": "36ecfc2a5d5eef8e76963da0a76f32c05f89ffff78ac9d524bd8e48d60d1df59"
+  },
+  {
+    "file": "results/object-5/noise-1/control-checkpoint.json",
+    "sha256": "dae319da50b091b9e969eb7c0bac54d900c4c3aa9def5d688517984214e87afd"
+  },
+  {
+    "file": "results/object-5/noise-1/control.json",
+    "sha256": "04b4b9befbb802618284d5daedc0fa59bd0f47fb169aaf6f45096fe684696844"
+  },
+  {
+    "file": "results/object-5/noise-1/fit-calls.jsonl",
+    "sha256": "0e8cde33c507ccaa4def22383293b0fba17791e37b16295d69d4d5ca2fe754ce"
+  },
+  {
+    "file": "results/object-5/noise-1/fit-diagnostics.npz",
+    "sha256": "0a2d1db1157e3fc4c2c96798f71f461a44faee412e2541f48c44e73a3806a6c2"
+  },
+  {
+    "file": "results/object-5/noise-1/fit.json",
+    "sha256": "884a224ee724933e53b6ca0a3144ffbe8734bd4c1bcd7ee4e71d82e29b647265"
+  },
+  {
+    "file": "results/object-5/noise-1/heldout-predictions.npz",
+    "sha256": "9908660311545870c6020a02bba36161909c2fec0d18d22341b54e8fd94548dd"
+  },
+  {
+    "file": "results/object-5/nominal-physical.json",
+    "sha256": "800f392c832971aeffd62c4ae6ca2f2d17cb2fa4443653d26aae93b7891b814d"
+  },
+  {
+    "file": "results/object-5/nominal-physical.npz",
+    "sha256": "693790db719c6a391ae53307c320277776224edd0d049ea126cfe9fbad6078d4"
+  },
+  {
+    "file": "results/object-5/observations.npz",
+    "sha256": "d60773372bd24ca4682f8613fe96088e2ea647c44474c33b36162b69a9bb1934"
+  },
+  {
+    "file": "results/object-6/noise-0/calibrated-physical.npz",
+    "sha256": "cc4670e29ccf8e29028b18f18982a1a976c14841616cd743dcbfbe2ec30517ae"
+  },
+  {
+    "file": "results/object-6/noise-0/case.json",
+    "sha256": "c0af5bda142a679ca2ddb8b322ec24c90ef2c9182f2856bd2094d1fe472b3609"
+  },
+  {
+    "file": "results/object-6/noise-0/control-calls.jsonl",
+    "sha256": "1ff348490264c8833a6323a5bbe4abdfc4344bc81a3baf152955d23dc479960c"
+  },
+  {
+    "file": "results/object-6/noise-0/control-checkpoint.json",
+    "sha256": "de47c35b7fb953a6c2084d9395576a213500d8fb9da11f345169616dc727c96e"
+  },
+  {
+    "file": "results/object-6/noise-0/control.json",
+    "sha256": "792ccfaa33406834cb4a9b706390f744c19ffa51401a72f43bf5a4ba9b02b376"
+  },
+  {
+    "file": "results/object-6/noise-0/fit-calls.jsonl",
+    "sha256": "075a9095c5ca8b1fc06530ec9db887b0265c6ac2db195267948a41e4fe914cd0"
+  },
+  {
+    "file": "results/object-6/noise-0/fit-diagnostics.npz",
+    "sha256": "b624756b076ec82e31ff0ac20a2f74dbf078c00316db3dcd2022903c89842dec"
+  },
+  {
+    "file": "results/object-6/noise-0/fit.json",
+    "sha256": "581e910d6734145f049c861b683ee71051d136f2dd8ab438100d700fd05af1f1"
+  },
+  {
+    "file": "results/object-6/noise-0/heldout-predictions.npz",
+    "sha256": "3a507093548112e7fa6c990203b30c9bfa09d5cc5424cd45d0ba3ac27daffab6"
+  },
+  {
+    "file": "results/object-6/noise-1/calibrated-physical.npz",
+    "sha256": "4f04e55fe3f52edd7c2914fe4dc2d7acc1d99d24975a7aa630ea80b655f20e3f"
+  },
+  {
+    "file": "results/object-6/noise-1/case.json",
+    "sha256": "4eeb27d9c3233f1a08fc480a153d78355ec5ed33570369dc0d3f7cfce9492867"
+  },
+  {
+    "file": "results/object-6/noise-1/control-calls.jsonl",
+    "sha256": "c88b8fe2e3c6ca5561704e2fc87040348b97e9706c496a399439b1047c8a3c08"
+  },
+  {
+    "file": "results/object-6/noise-1/control-checkpoint.json",
+    "sha256": "56ef5798513fc39f5b0ec0db20f742eb310c0baa5722a579b651416117eab024"
+  },
+  {
+    "file": "results/object-6/noise-1/control.json",
+    "sha256": "a55406598bd4ca4d9e53490fa9a08fcc0484e6c4996355e9aeed5adb762b5524"
+  },
+  {
+    "file": "results/object-6/noise-1/fit-calls.jsonl",
+    "sha256": "bf796d6bf0023d7e3e6e16079eaff1feefe2d9dfed51b11dc2bbc44a98753b79"
+  },
+  {
+    "file": "results/object-6/noise-1/fit-diagnostics.npz",
+    "sha256": "d363e8b152c19d0b0378fb07a8ea7c289156c9fe0cebdcde96ff34e0db57c35d"
+  },
+  {
+    "file": "results/object-6/noise-1/fit.json",
+    "sha256": "e00204d2ae98c53a7c208401378d17c10c70654fee43b3486830b48e52fc1724"
+  },
+  {
+    "file": "results/object-6/noise-1/heldout-predictions.npz",
+    "sha256": "80cf9fe5f01d518126c3483b9c56a3cc6edc11d741d48bdca65645dee4669e88"
+  },
+  {
+    "file": "results/object-6/nominal-physical.json",
+    "sha256": "b7fa27966fc1b12dee8ea19d0ff1002f7ab5cffbe8ef20541c94a5766055b1ba"
+  },
+  {
+    "file": "results/object-6/nominal-physical.npz",
+    "sha256": "2b5b2a1fa6dd1b7d8eeecb3e56cd3b2fe9a67796fcb78c91372637def5adf6e9"
+  },
+  {
+    "file": "results/object-6/observations.npz",
+    "sha256": "7d983b9e3f98bfcbfc0d17b093342ed2f285c43e41f83571307eb663f5dc76ec"
+  },
+  {
+    "file": "results/object-7/noise-0/calibrated-physical.npz",
+    "sha256": "e5445f4896e7f016d19c437e480de66e99e5e4c8e7036a319e703729ea881d37"
+  },
+  {
+    "file": "results/object-7/noise-0/case.json",
+    "sha256": "1f0d3ddecb2f0c949e25f072d679841083042c25af3b8e3560e769ecb88b21b2"
+  },
+  {
+    "file": "results/object-7/noise-0/control-calls.jsonl",
+    "sha256": "27ba8e03dffea68706c33e8826b82a9406bf7a1a6e8a0d28fbad28630c90c0d0"
+  },
+  {
+    "file": "results/object-7/noise-0/control-checkpoint.json",
+    "sha256": "b3b54c86ae3f8613995ff971cdcc85c63cb77a199a13979eaa3937174e44d4be"
+  },
+  {
+    "file": "results/object-7/noise-0/control.json",
+    "sha256": "4197fcc19075244a5d48e35f835369aac07f2449119819ff0f6f8cc21b51fb27"
+  },
+  {
+    "file": "results/object-7/noise-0/fit-calls.jsonl",
+    "sha256": "a3a22f402b4d1bb3b18b3612e937e77eb2c4d31fb1d692f2a1aade73d6484870"
+  },
+  {
+    "file": "results/object-7/noise-0/fit-diagnostics.npz",
+    "sha256": "1713cd8bc5e93e8db102e5661bb9d61bbd7ea5721b3b23eb50fa432c2befc3ce"
+  },
+  {
+    "file": "results/object-7/noise-0/fit.json",
+    "sha256": "9a816e8f869b9d8941f53536553d28693832e3f926d14d3679c42575f00d875c"
+  },
+  {
+    "file": "results/object-7/noise-0/heldout-predictions.npz",
+    "sha256": "5cb4aa321ffc73c0ad566e6f23bc5d5bb18eba05b4f457758cb816ba6122cbac"
+  },
+  {
+    "file": "results/object-7/noise-0/refined-physical.npz",
+    "sha256": "0b15049b505a5abc87cbad3ea59aa57aa02b73a97a77de144566c6f92b3b2a33"
+  },
+  {
+    "file": "results/object-7/noise-1/calibrated-physical.npz",
+    "sha256": "5f974608baa8aec2bc35b644f723c94b86a60d7ba929c8fdf04d863dce454069"
+  },
+  {
+    "file": "results/object-7/noise-1/case.json",
+    "sha256": "fbfa536a54644e23b52b3211b7616d6513f39ac94b6bdec4b0b1e43829a22855"
+  },
+  {
+    "file": "results/object-7/noise-1/control-calls.jsonl",
+    "sha256": "9c7bd959504eef5999ec65cd1f54f850819258d5cdc6a45a4aa20ed11a7bdc6b"
+  },
+  {
+    "file": "results/object-7/noise-1/control-checkpoint.json",
+    "sha256": "63a528661645e4d1ba6e2d800bbc1b8818622556a92d187239ca6c91108b124d"
+  },
+  {
+    "file": "results/object-7/noise-1/control.json",
+    "sha256": "58424ff424b67c43206537086ce5a969c1d1e79cff2c168354dffef9eace7fee"
+  },
+  {
+    "file": "results/object-7/noise-1/fit-calls.jsonl",
+    "sha256": "d1147447b9d7f00399c6fc2f83ac70dca97c6f103b34d33ac236b37b31dba36c"
+  },
+  {
+    "file": "results/object-7/noise-1/fit-diagnostics.npz",
+    "sha256": "c5a3ece3af32b2ba7eabae9699fcd78c8689997a24bcdf44ef21c77ec4ef07b6"
+  },
+  {
+    "file": "results/object-7/noise-1/fit.json",
+    "sha256": "de0f5e37a0e795b930eb58aa7b20da42831db52b827f3252d5881d3ad32e5985"
+  },
+  {
+    "file": "results/object-7/noise-1/heldout-predictions.npz",
+    "sha256": "f9ea37477c71ea481e082ea1121d2d34e7a990404c502845007e197cb02d38ec"
+  },
+  {
+    "file": "results/object-7/nominal-physical.json",
+    "sha256": "1db792280b060d51242129be9b1435e2b240cd7de84c41b207bd54063dc51f3a"
+  },
+  {
+    "file": "results/object-7/nominal-physical.npz",
+    "sha256": "b346a8fb95f12c0bc802c4402b6233df0c0505195ec1b1c5839beed63319b52d"
+  },
+  {
+    "file": "results/object-7/observations.npz",
+    "sha256": "30af9751639fc8f4b6587fdad227d636f5dec0ac8a6f319f3c0a7f6a5373bb4c"
+  },
+  {
+    "file": "results/summary.json",
+    "sha256": "3afed9c9b2bbe5599ec9717aa141b320193ca6849034ecab5145fe70a0c3c4a4"
+  },
+  {
+    "file": "results/verification.json",
+    "sha256": "03115e515a285d54d9de1fc007373d7afd38cfa4e397453338a544b720f85985"
+  },
+  {
+    "file": "run_experiment.py",
+    "sha256": "b9fafc4ac9f0ab58aa6a10e83a1fbd42ebad5354fd46ae6ed201efed9b5ec8de"
+  },
+  {
+    "file": "sources/manifest.json",
+    "sha256": "dbdf760850b566f2ac547386141bb39a48d342b48acd2566addd94f9e0d88342"
+  },
+  {
+    "file": "sources/scipy-least-squares.txt",
+    "sha256": "a53402e432a9a90b057df7e8a8a1f5505f243e246bcbd23845277ee504417117"
+  },
+  {
+    "file": "verify_results.py",
+    "sha256": "28590ba2a7c189e1d2a90fcbbbf0f7bcbf66a8756d448834ec61128282acaee0"
+  }
+]

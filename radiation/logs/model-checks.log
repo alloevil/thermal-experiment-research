@@ -1,0 +1,104 @@
+GRID 12: {"mse_K2": 54.71181026773872, "peak_K": 366.7956564517013, "max_spread_K": 9.445089685447329, "final_mean_K": 362.5008066723346, "final_std_K": 3.364886290449009, "absorbed_J": 269.99999790837563, "convection_J": 80.89085021090439, "radiation_J": 56.40753435280189, "stored_J": 132.7016133446691, "max_balance_residual_J": 2.8421709430404007e-13, "wall_seconds": 0.03668472287245095, "rhs_evaluations": 332}
+GRID 24: {"mse_K2": 54.70076978502306, "peak_K": 366.7736638982003, "max_spread_K": 9.490662845473935, "final_mean_K": 362.500508424893, "final_std_K": 3.3618334305647193, "absorbed_J": 269.99999725025833, "convection_J": 80.89169044529473, "radiation_J": 56.40728995517775, "stored_J": 132.70101684978613, "max_balance_residual_J": 2.8421709430404007e-13, "wall_seconds": 0.037697665859013796, "rhs_evaluations": 334}
+GRID 48: {"mse_K2": 54.697910781486904, "peak_K": 366.77992439801284, "max_spread_K": 9.513838440328243, "final_mean_K": 362.5004341636622, "final_std_K": 3.3610608283800394, "absorbed_J": 269.9999963577857, "convection_J": 80.89189945125199, "radiation_J": 56.407228579209324, "stored_J": 132.70086832732434, "max_balance_residual_J": 1.4210854715202004e-13, "wall_seconds": 0.04001980903558433, "rhs_evaluations": 330}
+GRID 96: {"mse_K2": 54.69720084426973, "peak_K": 366.78046939570004, "max_spread_K": 9.51861283122713, "final_mean_K": 362.50041644481297, "final_std_K": 3.3608675287265086, "absorbed_J": 269.99999994025575, "convection_J": 80.891952915205, "radiation_J": 56.40721413542492, "stored_J": 132.7008328896259, "max_balance_residual_J": 1.1368683772161603e-13, "wall_seconds": 0.043776217149570584, "rhs_evaluations": 326}
+{
+  "status": "PASS",
+  "checks": {
+    "equilibrium_error_K": 0.0,
+    "lossless_heating_error_K": 5.684341886080802e-14,
+    "diffusion_rmse_K": [
+      0.006840741313675618,
+      0.0017108165646088692,
+      0.00042774188660883413,
+      0.00010693765975920186
+    ],
+    "diffusion_orders": [
+      1.999467593787023,
+      1.9998726858706561,
+      1.9999704799655058
+    ],
+    "time_tolerance_difference_K": 7.913866454600793e-06,
+    "independent_loss_integral_errors_J": [
+      -6.752524384978642e-06,
+      -5.0791171872788254e-06
+    ],
+    "jacobian_relative_error": 1.712535402652204e-10
+  },
+  "grid_differences": {
+    "12-24": {
+      "mean_K": 0.00029999640958067175,
+      "std_K": 0.008586596234819721,
+      "max_K": 0.03710067272749029
+    },
+    "24-48": {
+      "mean_K": 7.47755514680648e-05,
+      "std_K": 0.002443080900327854,
+      "max_K": 0.010962056800622122
+    },
+    "48-96": {
+      "mean_K": 1.7827822887284128e-05,
+      "std_K": 0.0006253671312483888,
+      "max_K": 0.0029344091139478223
+    }
+  },
+  "grid_metrics": {
+    "12": {
+      "mse_K2": 54.71181026773872,
+      "peak_K": 366.7956564517013,
+      "max_spread_K": 9.445089685447329,
+      "final_mean_K": 362.5008066723346,
+      "final_std_K": 3.364886290449009,
+      "absorbed_J": 269.99999790837563,
+      "convection_J": 80.89085021090439,
+      "radiation_J": 56.40753435280189,
+      "stored_J": 132.7016133446691,
+      "max_balance_residual_J": 2.8421709430404007e-13,
+      "wall_seconds": 0.03668472287245095,
+      "rhs_evaluations": 332
+    },
+    "24": {
+      "mse_K2": 54.70076978502306,
+      "peak_K": 366.7736638982003,
+      "max_spread_K": 9.490662845473935,
+      "final_mean_K": 362.500508424893,
+      "final_std_K": 3.3618334305647193,
+      "absorbed_J": 269.99999725025833,
+      "convection_J": 80.89169044529473,
+      "radiation_J": 56.40728995517775,
+      "stored_J": 132.70101684978613,
+      "max_balance_residual_J": 2.8421709430404007e-13,
+      "wall_seconds": 0.037697665859013796,
+      "rhs_evaluations": 334
+    },
+    "48": {
+      "mse_K2": 54.697910781486904,
+      "peak_K": 366.77992439801284,
+      "max_spread_K": 9.513838440328243,
+      "final_mean_K": 362.5004341636622,
+      "final_std_K": 3.3610608283800394,
+      "absorbed_J": 269.9999963577857,
+      "convection_J": 80.89189945125199,
+      "radiation_J": 56.407228579209324,
+      "stored_J": 132.70086832732434,
+      "max_balance_residual_J": 1.4210854715202004e-13,
+      "wall_seconds": 0.04001980903558433,
+      "rhs_evaluations": 330
+    },
+    "96": {
+      "mse_K2": 54.69720084426973,
+      "peak_K": 366.78046939570004,
+      "max_spread_K": 9.51861283122713,
+      "final_mean_K": 362.50041644481297,
+      "final_std_K": 3.3608675287265086,
+      "absorbed_J": 269.99999994025575,
+      "convection_J": 80.891952915205,
+      "radiation_J": 56.40721413542492,
+      "stored_J": 132.7008328896259,
+      "max_balance_residual_J": 1.1368683772161603e-13,
+      "wall_seconds": 0.043776217149570584,
+      "rhs_evaluations": 326
+    }
+  }
+}
+PASS equilibrium, analytic heating/diffusion, energy, mesh, time and Jacobian checks

@@ -1,0 +1,6 @@
+PASS frozen protocol, paired designs, sources, fitting budgets and immutable alarms
+PASS training/diagnostic common noise, residual rules and independent held-out scoring
+PASS clean/bias/lag share true physics; offset is exactly 0.5K
+PASS sensor lag vs analytic tests and independent scipy.signal.lsim for object 0
+PASS four predefined refinement checks; false alarms/misses preserved
+PASS results/mismatch.png rendered

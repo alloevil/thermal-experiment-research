@@ -1,0 +1,60 @@
+{
+  "hashes": {
+    "protocol.md": "c6dec6e1ef8409bb9e361171c6b74b3bedab4c32e22c5248f4f0fe317b645a2d",
+    "run.py": "19cf62c37f500cb38232c48593871a323fd1974da9d3ff39bdab1a7bce767fde",
+    "model_mismatch/experiment.py": "72928f19e6ce37da078bb21fd22e55055a6f83be302f5185a6f843b22d849900",
+    "calibration/effective.py": "0de6044f1a353c5ea20fe9df631d0824cf0936ba85da6c8146bdb26cd91a5f94",
+    "calibration/fit_and_control.py": "45d0de67f8c9e50ed76576621927441d944db32c79f3c2583c10d540b472b5c2",
+    "radiation/model.py": "ac5e84576b801bd7c9f50aa4286ed01d3338cfc26b0818a8bedae32d2c954c39",
+    "radiation/results/experiment.json": "bccdd1a6251eb5c29284b47e2bfcda89501cf4c263b78d85e0968e2ccef4b1a8",
+    "feasibility/requirements.lock": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+  },
+  "objects": [
+    {
+      "emissivity": 0.9488584877923131,
+      "convection": 0.962657018378377,
+      "heat_capacity": 1.0011683031916618,
+      "power_gain": 0.9957124864682556,
+      "axial_conductance": 1.0303271934390068
+    },
+    {
+      "emissivity": 1.0099966978654265,
+      "convection": 1.082652566023171,
+      "heat_capacity": 0.9885690391063691,
+      "power_gain": 1.0013423904776573,
+      "axial_conductance": 0.9500228924676776
+    }
+  ],
+  "biases_K": [
+    -0.4,
+    -0.3,
+    -0.2,
+    0,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "replicates": 2,
+  "process_powers": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.725099155665736,
+      0.6442886365751409,
+      0.6702357643403479
+    ],
+    [
+      0.5303884854718823,
+      0.4287373232563339,
+      0.3990024657281572
+    ],
+    [
+      0.3757527432139378,
+      0.2930926183518451,
+      0.2559631109942359
+    ]
+  ]
+}

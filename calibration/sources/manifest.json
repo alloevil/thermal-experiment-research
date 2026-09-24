@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.least_squares.html",
+  "file": "sources/scipy-least-squares.txt",
+  "sha256": "a53402e432a9a90b057df7e8a8a1f5505f243e246bcbd23845277ee504417117",
+  "role": "API documentation only; installed SciPy version is locked separately",
+  "original_capture_sha256": "9daf62eba0e21abc312675e4efdc099a625cf8d83b377cac015c6a636fc97258",
+  "content_status": "source_notice_original_not_redistributed"
+}

@@ -1,0 +1,2047 @@
+{
+  "cases": [
+    {
+      "id": "nominal",
+      "group": "nominal",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-emissivity-0.9",
+      "group": "oat",
+      "factor": "emissivity",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-emissivity-0.95",
+      "group": "oat",
+      "factor": "emissivity",
+      "factors": {
+        "emissivity": 0.95,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-emissivity-1.05",
+      "group": "oat",
+      "factor": "emissivity",
+      "factors": {
+        "emissivity": 1.05,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-emissivity-1.1",
+      "group": "oat",
+      "factor": "emissivity",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-convection-0.9",
+      "group": "oat",
+      "factor": "convection",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 0.9,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-convection-0.95",
+      "group": "oat",
+      "factor": "convection",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 0.95,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-convection-1.05",
+      "group": "oat",
+      "factor": "convection",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.05,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-convection-1.1",
+      "group": "oat",
+      "factor": "convection",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.1,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-heat_capacity-0.9",
+      "group": "oat",
+      "factor": "heat_capacity",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 0.9,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-heat_capacity-0.95",
+      "group": "oat",
+      "factor": "heat_capacity",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 0.95,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-heat_capacity-1.05",
+      "group": "oat",
+      "factor": "heat_capacity",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.05,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-heat_capacity-1.1",
+      "group": "oat",
+      "factor": "heat_capacity",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.1,
+        "power_gain": 1.0,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-power_gain-0.9",
+      "group": "oat",
+      "factor": "power_gain",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 0.9,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-power_gain-0.95",
+      "group": "oat",
+      "factor": "power_gain",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 0.95,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-power_gain-1.05",
+      "group": "oat",
+      "factor": "power_gain",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.05,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-power_gain-1.1",
+      "group": "oat",
+      "factor": "power_gain",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.1,
+        "axial_conductance": 1.0
+      }
+    },
+    {
+      "id": "oat-axial_conductance-0.9",
+      "group": "oat",
+      "factor": "axial_conductance",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "oat-axial_conductance-0.95",
+      "group": "oat",
+      "factor": "axial_conductance",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 0.95
+      }
+    },
+    {
+      "id": "oat-axial_conductance-1.05",
+      "group": "oat",
+      "factor": "axial_conductance",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.05
+      }
+    },
+    {
+      "id": "oat-axial_conductance-1.1",
+      "group": "oat",
+      "factor": "axial_conductance",
+      "factors": {
+        "emissivity": 1.0,
+        "convection": 1.0,
+        "heat_capacity": 1.0,
+        "power_gain": 1.0,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-000",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-001",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-002",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-003",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-004",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-005",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-006",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-007",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-008",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-009",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-010",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-011",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-012",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-013",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-014",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-015",
+      "group": "corners",
+      "factors": {
+        "emissivity": 0.9,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-016",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-017",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-018",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-019",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-020",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-021",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-022",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-023",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 0.9,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-024",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-025",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-026",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-027",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 0.9,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-028",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-029",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 0.9,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "corner-030",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 0.9
+      }
+    },
+    {
+      "id": "corner-031",
+      "group": "corners",
+      "factors": {
+        "emissivity": 1.1,
+        "convection": 1.1,
+        "heat_capacity": 1.1,
+        "power_gain": 1.1,
+        "axial_conductance": 1.1
+      }
+    },
+    {
+      "id": "sobol-000",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9432209938764572,
+        "convection": 1.0420442631468176,
+        "heat_capacity": 1.0335433738306166,
+        "power_gain": 0.9301645897328854,
+        "axial_conductance": 0.9155336052179337
+      }
+    },
+    {
+      "id": "sobol-001",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.028844599239528,
+        "convection": 0.9165883172303438,
+        "heat_capacity": 0.9454136524349451,
+        "power_gain": 1.0649739662185311,
+        "axial_conductance": 1.045334359817207
+      }
+    },
+    {
+      "id": "sobol-002",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0557333778589963,
+        "convection": 1.0525325605645777,
+        "heat_capacity": 1.0584473919123412,
+        "power_gain": 0.9953756384551525,
+        "axial_conductance": 1.0808643845841288
+      }
+    },
+    {
+      "id": "sobol-003",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9663570048287511,
+        "convection": 0.978001094609499,
+        "heat_capacity": 0.9704050296917558,
+        "power_gain": 1.012214065529406,
+        "axial_conductance": 0.961244210600853
+      }
+    },
+    {
+      "id": "sobol-004",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9755655571818352,
+        "convection": 1.0853770630434156,
+        "heat_capacity": 0.9096826769411565,
+        "power_gain": 1.0251913495361804,
+        "axial_conductance": 0.9802481098100544
+      }
+    },
+    {
+      "id": "sobol-005",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.089844441227615,
+        "convection": 0.9606533482670784,
+        "heat_capacity": 1.022395452670753,
+        "power_gain": 0.966822218336165,
+        "axial_conductance": 1.0619708016514777
+      }
+    },
+    {
+      "id": "sobol-006",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0130775835365058,
+        "convection": 1.0215960247442126,
+        "heat_capacity": 0.984654681943357,
+        "power_gain": 1.09743145480752,
+        "axial_conductance": 1.014709784090519
+      }
+    },
+    {
+      "id": "sobol-007",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9023564415052533,
+        "convection": 0.9463323276489973,
+        "heat_capacity": 1.097332739830017,
+        "power_gain": 0.9070332610979677,
+        "axial_conductance": 0.9462440354749561
+      }
+    },
+    {
+      "id": "sobol-008",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9188929645344616,
+        "convection": 1.0668075066059828,
+        "heat_capacity": 0.9947319651022554,
+        "power_gain": 0.9570822162553668,
+        "axial_conductance": 1.0308813443407416
+      }
+    },
+    {
+      "id": "sobol-009",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0090567007660867,
+        "convection": 0.9917290134355427,
+        "heat_capacity": 1.0824695389717818,
+        "power_gain": 1.0473825123161078,
+        "axial_conductance": 0.9112368352711201
+      }
+    },
+    {
+      "id": "sobol-010",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0813805805519223,
+        "convection": 1.0276846542954445,
+        "heat_capacity": 0.9199178878217936,
+        "power_gain": 0.9168711436912418,
+        "axial_conductance": 0.9655414052307606
+      }
+    },
+    {
+      "id": "sobol-011",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9965442951768637,
+        "convection": 0.902749796397984,
+        "heat_capacity": 1.0075711594894528,
+        "power_gain": 1.075142389163375,
+        "axial_conductance": 1.0953178336843847
+      }
+    },
+    {
+      "id": "sobol-012",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9623204840347171,
+        "convection": 1.0102361746132373,
+        "heat_capacity": 1.074836477637291,
+        "power_gain": 1.0622629879042507,
+        "axial_conductance": 1.0647050492465495
+      }
+    },
+    {
+      "id": "sobol-013",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0722542583942414,
+        "convection": 0.9358902940526604,
+        "heat_capacity": 0.961731549166143,
+        "power_gain": 0.9453267525881529,
+        "axial_conductance": 0.9962635999545455
+      }
+    },
+    {
+      "id": "sobol-014",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0498084576800466,
+        "convection": 1.096847515180707,
+        "heat_capacity": 1.049966794066131,
+        "power_gain": 1.0150228587910533,
+        "axial_conductance": 0.9302281087264419
+      }
+    },
+    {
+      "id": "sobol-015",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9347422581166029,
+        "convection": 0.9711800446733833,
+        "heat_capacity": 0.9368996270000934,
+        "power_gain": 0.9801156859844924,
+        "axial_conductance": 1.0119751147925853
+      }
+    },
+    {
+      "id": "sobol-016",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9304881855845452,
+        "convection": 1.0878728674724698,
+        "heat_capacity": 1.0775168534368276,
+        "power_gain": 1.0931593608111143,
+        "axial_conductance": 0.9502861995249987
+      }
+    },
+    {
+      "id": "sobol-017",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0412085292860866,
+        "convection": 0.9629412516951561,
+        "heat_capacity": 0.9905971953645349,
+        "power_gain": 0.9019792078062893,
+        "axial_conductance": 1.0825955966487526
+      }
+    },
+    {
+      "id": "sobol-018",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0679757978767157,
+        "convection": 1.005147941224277,
+        "heat_capacity": 1.002367547340691,
+        "power_gain": 1.0341508965939283,
+        "axial_conductance": 1.0408153692260385
+      }
+    },
+    {
+      "id": "sobol-019",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.953696115501225,
+        "convection": 0.9300669681280852,
+        "heat_capacity": 0.9154589552432298,
+        "power_gain": 0.9734388200566173,
+        "axial_conductance": 0.923325415328145
+      }
+    },
+    {
+      "id": "sobol-020",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9882253140211106,
+        "convection": 1.0319439550861715,
+        "heat_capacity": 0.954452789388597,
+        "power_gain": 0.9887590792030096,
+        "axial_conductance": 0.9414320731535554
+      }
+    },
+    {
+      "id": "sobol-021",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0776023907586931,
+        "convection": 0.9062801081687212,
+        "heat_capacity": 1.0667886301875114,
+        "power_gain": 1.0032544774934649,
+        "axial_conductance": 1.0225992534309625
+      }
+    },
+    {
+      "id": "sobol-022",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0007132839411497,
+        "convection": 1.073485324718058,
+        "heat_capacity": 0.9293346844613553,
+        "power_gain": 0.9352186974138021,
+        "axial_conductance": 1.0511104498058557
+      }
+    },
+    {
+      "id": "sobol-023",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9150903822854162,
+        "convection": 0.999136582762003,
+        "heat_capacity": 1.0416083438321948,
+        "power_gain": 1.0692460073158145,
+        "axial_conductance": 0.9816863501444459
+      }
+    },
+    {
+      "id": "sobol-024",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9066227091476321,
+        "convection": 1.0126229025423528,
+        "heat_capacity": 0.9379578102380037,
+        "power_gain": 1.019294976629317,
+        "axial_conductance": 1.0907988490536809
+      }
+    },
+    {
+      "id": "sobol-025",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0216897308826447,
+        "convection": 0.9380950609222055,
+        "heat_capacity": 1.025269609875977,
+        "power_gain": 0.9851697631180287,
+        "axial_conductance": 0.9733332093805075
+      }
+    },
+    {
+      "id": "sobol-026",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0941350968554615,
+        "convection": 1.0802873034030198,
+        "heat_capacity": 0.963017169572413,
+        "power_gain": 1.053303417004645,
+        "axial_conductance": 0.9002788420766592
+      }
+    },
+    {
+      "id": "sobol-027",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9842021446675062,
+        "convection": 0.9548284968361259,
+        "heat_capacity": 1.0503148581832646,
+        "power_gain": 0.9387101270258427,
+        "axial_conductance": 1.032612538523972
+      }
+    },
+    {
+      "id": "sobol-028",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9746637908741832,
+        "convection": 1.0567903351038694,
+        "heat_capacity": 1.0172780526801943,
+        "power_gain": 0.9234877267852426,
+        "axial_conductance": 1.0011147689074278
+      }
+    },
+    {
+      "id": "sobol-029",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0594993487000466,
+        "convection": 0.981529880873859,
+        "heat_capacity": 0.9053343705832958,
+        "power_gain": 1.084102001041174,
+        "axial_conductance": 0.931666343100369
+      }
+    },
+    {
+      "id": "sobol-030",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.037175820954144,
+        "convection": 1.0487236067652703,
+        "heat_capacity": 1.09229384213686,
+        "power_gain": 0.9520280847325922,
+        "axial_conductance": 0.9914516555145383
+      }
+    },
+    {
+      "id": "sobol-031",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9470113571733236,
+        "convection": 0.9239974128082394,
+        "heat_capacity": 0.9804092859849334,
+        "power_gain": 1.0431104473769666,
+        "axial_conductance": 1.0725945007055997
+      }
+    },
+    {
+      "id": "sobol-032",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9465059081092477,
+        "convection": 1.0541383128613233,
+        "heat_capacity": 0.9223776515573263,
+        "power_gain": 1.0737214837223292,
+        "axial_conductance": 0.9487714605405927
+      }
+    },
+    {
+      "id": "sobol-033",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0314404223114253,
+        "convection": 0.9794149680063129,
+        "heat_capacity": 1.0097013244405388,
+        "power_gain": 0.9343137761577964,
+        "axial_conductance": 1.018384675309062
+      }
+    },
+    {
+      "id": "sobol-034",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0589939003810287,
+        "convection": 1.0403343692421914,
+        "heat_capacity": 0.9973503323271871,
+        "power_gain": 1.002215326204896,
+        "axial_conductance": 1.057857606932521
+      }
+    },
+    {
+      "id": "sobol-035",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9689283914864063,
+        "convection": 0.9150710659101605,
+        "heat_capacity": 1.0846362430602312,
+        "power_gain": 0.9932711293920875,
+        "axial_conductance": 0.978063620813191
+      }
+    },
+    {
+      "id": "sobol-036",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9847075933590532,
+        "convection": 1.023307055979967,
+        "heat_capacity": 1.0454562490805983,
+        "power_gain": 0.969530974701047,
+        "axial_conductance": 0.9587671365588903
+      }
+    },
+    {
+      "id": "sobol-037",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0998704958707095,
+        "convection": 0.9478514799848199,
+        "heat_capacity": 0.9334999307990074,
+        "power_gain": 1.0353792971000075,
+        "axial_conductance": 1.0772398503497242
+      }
+    },
+    {
+      "id": "sobol-038",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0221951803192497,
+        "convection": 1.0837694097310304,
+        "heat_capacity": 1.0703626416623593,
+        "power_gain": 0.9034883219748736,
+        "axial_conductance": 1.0494979115203023
+      }
+    },
+    {
+      "id": "sobol-039",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9123581074178219,
+        "convection": 0.9592383375391365,
+        "heat_capacity": 0.9584906263276934,
+        "power_gain": 1.088873145543039,
+        "axial_conductance": 0.917768445238471
+      }
+    },
+    {
+      "id": "sobol-040",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9163923401385546,
+        "convection": 1.0289989640936255,
+        "heat_capacity": 1.0617494393140077,
+        "power_gain": 1.0389218347147107,
+        "axial_conductance": 1.0078378800302743
+      }
+    },
+    {
+      "id": "sobol-041",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.005670484341681,
+        "convection": 0.9046534765511751,
+        "heat_capacity": 0.9748179079964757,
+        "power_gain": 0.9534395962953568,
+        "axial_conductance": 0.9280684227123857
+      }
+    },
+    {
+      "id": "sobol-042",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0789043478667737,
+        "convection": 1.0655843684449793,
+        "heat_capacity": 1.0368819573894144,
+        "power_gain": 1.0854280160740017,
+        "axial_conductance": 0.9987669998779893
+      }
+    },
+    {
+      "id": "sobol-043",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9931825151667,
+        "convection": 0.989917267113924,
+        "heat_capacity": 0.9499851431697607,
+        "power_gain": 0.9194822669029236,
+        "axial_conductance": 1.0684047285467386
+      }
+    },
+    {
+      "id": "sobol-044",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9523941580206156,
+        "convection": 1.0980687396600843,
+        "heat_capacity": 0.9824268532916904,
+        "power_gain": 0.9433198751881718,
+        "axial_conductance": 1.0995054135099054
+      }
+    },
+    {
+      "id": "sobol-045",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0630185971036554,
+        "convection": 0.9729906395077705,
+        "heat_capacity": 1.0947753302752972,
+        "power_gain": 1.0521665677428245,
+        "axial_conductance": 0.9677514541894198
+      }
+    },
+    {
+      "id": "sobol-046",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0399065710604192,
+        "convection": 1.0089230163022875,
+        "heat_capacity": 0.9076136246323586,
+        "power_gain": 0.9843625517562032,
+        "axial_conductance": 0.9087837982922793
+      }
+    },
+    {
+      "id": "sobol-047",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9255309855565429,
+        "convection": 0.9339885275810957,
+        "heat_capacity": 1.0198747431859374,
+        "power_gain": 1.0236727431416512,
+        "axial_conductance": 1.0272320101037622
+      }
+    },
+    {
+      "id": "sobol-048",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9342406267300248,
+        "convection": 1.000705585628748,
+        "heat_capacity": 0.9667585806921125,
+        "power_gain": 0.9124975070357323,
+        "axial_conductance": 0.9857991671189666
+      }
+    },
+    {
+      "id": "sobol-049",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0440753508359193,
+        "convection": 0.9250413456931711,
+        "heat_capacity": 1.0544835183769465,
+        "power_gain": 1.0955377640202641,
+        "axial_conductance": 1.0532945536077023
+      }
+    },
+    {
+      "id": "sobol-050",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0717526277527214,
+        "convection": 1.0922240514308215,
+        "heat_capacity": 0.9416382681578398,
+        "power_gain": 0.965209336578846,
+        "axial_conductance": 1.020071443170309
+      }
+    },
+    {
+      "id": "sobol-051",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9565873764455318,
+        "convection": 0.9678749402984977,
+        "heat_capacity": 1.0293040806427598,
+        "power_gain": 1.0302771301940084,
+        "axial_conductance": 0.937756804190576
+      }
+    },
+    {
+      "id": "sobol-052",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9970459261909128,
+        "convection": 1.069136042520404,
+        "heat_capacity": 1.0906032122671605,
+        "power_gain": 1.0073174506425857,
+        "axial_conductance": 0.9191622473299503
+      }
+    },
+    {
+      "id": "sobol-053",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0871136877685785,
+        "convection": 0.9942040337249637,
+        "heat_capacity": 0.9775101570412517,
+        "power_gain": 0.9975928084924818,
+        "axial_conductance": 1.0385809084400535
+      }
+    },
+    {
+      "id": "sobol-054",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0095583325251938,
+        "convection": 1.0363851711153984,
+        "heat_capacity": 1.0154530635103582,
+        "power_gain": 1.0670568108558656,
+        "axial_conductance": 1.0850730499252677
+      }
+    },
+    {
+      "id": "sobol-055",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9246260710060596,
+        "convection": 0.9113038288429379,
+        "heat_capacity": 0.9023741185665131,
+        "power_gain": 0.9253046439960599,
+        "axial_conductance": 0.953911117464304
+      }
+    },
+    {
+      "id": "sobol-056",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9036606851965189,
+        "convection": 1.075553505308926,
+        "heat_capacity": 1.0053643310442566,
+        "power_gain": 0.9753533428534866,
+        "axial_conductance": 1.0700914904475212
+      }
+    },
+    {
+      "id": "sobol-057",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0180385956540703,
+        "convection": 0.950292681157589,
+        "heat_capacity": 0.9172472458332778,
+        "power_gain": 1.017008100822568,
+        "axial_conductance": 0.9877523494884373
+      }
+    },
+    {
+      "id": "sobol-058",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0911486841738225,
+        "convection": 1.017460842244327,
+        "heat_capacity": 1.0803794387727976,
+        "power_gain": 0.9476415371522308,
+        "axial_conductance": 0.9358039511367678
+      }
+    },
+    {
+      "id": "sobol-059",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.980526570044458,
+        "convection": 0.9427342545241117,
+        "heat_capacity": 0.9923245357349515,
+        "power_gain": 1.0572687584906817,
+        "axial_conductance": 1.0032748445868491
+      }
+    },
+    {
+      "id": "sobol-060",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9650527615100145,
+        "convection": 1.0438845178112388,
+        "heat_capacity": 0.9252636820077896,
+        "power_gain": 1.080325867794454,
+        "axial_conductance": 1.035065203718841
+      }
+    },
+    {
+      "id": "sobol-061",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0507723653689027,
+        "convection": 0.919356306269765,
+        "heat_capacity": 1.037964584492147,
+        "power_gain": 0.9151605639606715,
+        "axial_conductance": 0.9039277851581574
+      }
+    },
+    {
+      "id": "sobol-062",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0275403551757336,
+        "convection": 1.0615260461345315,
+        "heat_capacity": 0.9503206728026271,
+        "power_gain": 1.0455865314230324,
+        "axial_conductance": 0.9691452383995056
+      }
+    },
+    {
+      "id": "sobol-063",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9382599821314216,
+        "convection": 0.9860668458044529,
+        "heat_capacity": 1.063010508567095,
+        "power_gain": 0.9624487522989512,
+        "axial_conductance": 1.0885884283110498
+      }
+    },
+    {
+      "id": "sobol-064",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9395640604197979,
+        "convection": 1.082808587141335,
+        "heat_capacity": 0.9606994647532702,
+        "power_gain": 1.0176470501348376,
+        "axial_conductance": 1.015990069322288
+      }
+    },
+    {
+      "id": "sobol-065",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0258703520521522,
+        "convection": 0.9570924669504166,
+        "heat_capacity": 1.0730357559397816,
+        "power_gain": 0.9774426903575659,
+        "axial_conductance": 0.9481033891439438
+      }
+    },
+    {
+      "id": "sobol-066",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0520516473799943,
+        "convection": 1.0242751268669963,
+        "heat_capacity": 0.9355879375711084,
+        "power_gain": 1.057905395142734,
+        "axial_conductance": 0.9750611454248429
+      }
+    },
+    {
+      "id": "sobol-067",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9633579635992646,
+        "convection": 0.949977895244956,
+        "heat_capacity": 1.0478612896054984,
+        "power_gain": 0.9497331496328115,
+        "axial_conductance": 1.0577672688290476
+      }
+    },
+    {
+      "id": "sobol-068",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9791493929922581,
+        "convection": 1.0385985916480422,
+        "heat_capacity": 1.083769796602428,
+        "power_gain": 0.9126600680872798,
+        "axial_conductance": 1.0758853688836099
+      }
+    },
+    {
+      "id": "sobol-069",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0929406141862272,
+        "convection": 0.9137123588472605,
+        "heat_capacity": 0.9968504510819912,
+        "power_gain": 1.0793046604841947,
+        "axial_conductance": 0.9568580014631153
+      }
+    },
+    {
+      "id": "sobol-070",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0166373852640391,
+        "convection": 1.0558935457840561,
+        "heat_capacity": 1.0086146757006644,
+        "power_gain": 0.959950521402061,
+        "axial_conductance": 0.9166068000718951
+      }
+    },
+    {
+      "id": "sobol-071",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9054285833612085,
+        "convection": 0.9807664267718792,
+        "heat_capacity": 0.9217056280001998,
+        "power_gain": 1.0445630114525557,
+        "axial_conductance": 1.047377248108387
+      }
+    },
+    {
+      "id": "sobol-072",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9233158892020583,
+        "convection": 1.0075587801635266,
+        "heat_capacity": 1.0235251810401678,
+        "power_gain": 1.0946119748055936,
+        "axial_conductance": 0.9250568337738514
+      }
+    },
+    {
+      "id": "sobol-073",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0112344391644001,
+        "convection": 0.9322460765019059,
+        "heat_capacity": 0.9115810433402658,
+        "power_gain": 0.909901593066752,
+        "axial_conductance": 1.007787268422544
+      }
+    },
+    {
+      "id": "sobol-074",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0858283022418618,
+        "convection": 1.0994142834097147,
+        "heat_capacity": 1.0985467853024602,
+        "power_gain": 1.0293536059558392,
+        "axial_conductance": 1.0659705033525824
+      }
+    },
+    {
+      "id": "sobol-075",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9987468276172877,
+        "convection": 0.974739575944841,
+        "heat_capacity": 0.9866625417023898,
+        "power_gain": 0.9626111099496484,
+        "axial_conductance": 0.9981081254780293
+      }
+    },
+    {
+      "id": "sobol-076",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9579706570133567,
+        "convection": 1.0634447958320379,
+        "heat_capacity": 0.9442110633477568,
+        "power_gain": 0.9997820504009725,
+        "axial_conductance": 0.9666233247146011
+      }
+    },
+    {
+      "id": "sobol-077",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0699545942246913,
+        "convection": 0.9889623610302807,
+        "heat_capacity": 1.0315225556492806,
+        "power_gain": 1.007856505550444,
+        "axial_conductance": 1.0973694495856763
+      }
+    },
+    {
+      "id": "sobol-078",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0454826647415758,
+        "convection": 1.0311320513486861,
+        "heat_capacity": 0.9692638449370862,
+        "power_gain": 0.9274915732443333,
+        "axial_conductance": 1.0258927457034588
+      }
+    },
+    {
+      "id": "sobol-079",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9324666250497103,
+        "convection": 0.9056270750239491,
+        "heat_capacity": 1.056561983935535,
+        "power_gain": 1.0675981307402254,
+        "axial_conductance": 0.9068410402163863
+      }
+    },
+    {
+      "id": "sobol-080",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9272968329489232,
+        "convection": 1.0346360420808196,
+        "heat_capacity": 0.9034355992451311,
+        "power_gain": 0.9556296044960618,
+        "axial_conductance": 1.0560803094878792
+      }
+    },
+    {
+      "id": "sobol-081",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0385064577683807,
+        "convection": 0.9099584732204676,
+        "heat_capacity": 1.016148729249835,
+        "power_gain": 1.0394601233303546,
+        "axial_conductance": 0.9860756117850542
+      }
+    },
+    {
+      "id": "sobol-082",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.064809239283204,
+        "convection": 1.070877924002707,
+        "heat_capacity": 0.9784017834812403,
+        "power_gain": 0.9216684365645051,
+        "axial_conductance": 0.9403680343180895
+      }
+    },
+    {
+      "id": "sobol-083",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9510188410058618,
+        "convection": 0.9955688439309598,
+        "heat_capacity": 1.0910794394090773,
+        "power_gain": 1.0859700955450535,
+        "axial_conductance": 1.020553312636912
+      }
+    },
+    {
+      "id": "sobol-084",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9914896719157696,
+        "convection": 1.0912498774006962,
+        "heat_capacity": 1.0272900700569152,
+        "power_gain": 1.0512400129809976,
+        "axial_conductance": 1.039544240012765
+      }
+    },
+    {
+      "id": "sobol-085",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0801826288923622,
+        "convection": 0.9657424211502076,
+        "heat_capacity": 0.9391607573255897,
+        "power_gain": 0.9407247267663479,
+        "axial_conductance": 0.9214630091562868
+      }
+    },
+    {
+      "id": "sobol-086",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.004001672938466,
+        "convection": 1.0016603050753474,
+        "heat_capacity": 1.0522006718441843,
+        "power_gain": 1.022749979235232,
+        "axial_conductance": 0.9554640078917146
+      }
+    },
+    {
+      "id": "sobol-087",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9176946545019746,
+        "convection": 0.9271811123937369,
+        "heat_capacity": 0.9641579486429691,
+        "power_gain": 0.9817635647952557,
+        "axial_conductance": 1.0868021819740534
+      }
+    },
+    {
+      "id": "sobol-088",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9105861565098167,
+        "convection": 1.0593990620225668,
+        "heat_capacity": 1.0685897575691343,
+        "power_gain": 0.9318125139921903,
+        "axial_conductance": 0.9903727885335685
+      }
+    },
+    {
+      "id": "sobol-089",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0236013971269131,
+        "convection": 0.9850993512198329,
+        "heat_capacity": 0.9554844681173563,
+        "power_gain": 1.0727010427042842,
+        "axial_conductance": 1.0705337287858128
+      }
+    },
+    {
+      "id": "sobol-090",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0980737501755358,
+        "convection": 1.046030193567276,
+        "heat_capacity": 1.0437134902924299,
+        "power_gain": 0.9907736580818892,
+        "axial_conductance": 1.0061003150418402
+      }
+    },
+    {
+      "id": "sobol-091",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.986089013889432,
+        "convection": 0.9203173162415624,
+        "heat_capacity": 0.930646731890738,
+        "power_gain": 1.0011910466477274,
+        "axial_conductance": 0.9360712941735984
+      }
+    },
+    {
+      "id": "sobol-092",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9706273382529617,
+        "convection": 1.0161091946065426,
+        "heat_capacity": 0.9884790666401386,
+        "power_gain": 1.0360190119594335,
+        "axial_conductance": 0.9054470645263791
+      }
+    },
+    {
+      "id": "sobol-093",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.057709515839815,
+        "convection": 0.9409792149439454,
+        "heat_capacity": 1.0762162385508418,
+        "power_gain": 0.97161955665797,
+        "axial_conductance": 1.0368095409125089
+      }
+    },
+    {
+      "id": "sobol-094",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.033115337230265,
+        "convection": 1.0769116375595331,
+        "heat_capacity": 0.9136708101257682,
+        "power_gain": 1.0895090218633414,
+        "axial_conductance": 1.0895364474505187
+      }
+    },
+    {
+      "id": "sobol-095",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9451974902302027,
+        "convection": 0.9520290290936828,
+        "heat_capacity": 1.001324436068535,
+        "power_gain": 0.9055806947872043,
+        "axial_conductance": 0.9714795278385282
+      }
+    },
+    {
+      "id": "sobol-096",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9487852143123746,
+        "convection": 1.0198354415595532,
+        "heat_capacity": 1.0968560630455613,
+        "power_gain": 0.9862054662778974,
+        "axial_conductance": 1.04529042057693
+      }
+    },
+    {
+      "id": "sobol-097",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.035768460854888,
+        "convection": 0.944949602521956,
+        "heat_capacity": 0.9837633144110441,
+        "power_gain": 1.021780976653099,
+        "axial_conductance": 0.9125912563875318
+      }
+    },
+    {
+      "id": "sobol-098",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0612972406670451,
+        "convection": 1.0871563378721476,
+        "heat_capacity": 1.0217002842575311,
+        "power_gain": 0.93974356520921,
+        "axial_conductance": 0.9606305437162519
+      }
+    },
+    {
+      "id": "sobol-099",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9732804611325264,
+        "convection": 0.9620295887812972,
+        "heat_capacity": 0.9086208896711468,
+        "power_gain": 1.0557917296886443,
+        "axial_conductance": 1.0785104554146527
+      }
+    },
+    {
+      "id": "sobol-100",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.982501289434731,
+        "convection": 1.0515469338744878,
+        "heat_capacity": 0.973005348443985,
+        "power_gain": 1.0819981576874853,
+        "axial_conductance": 1.0599044533446431
+      }
+    },
+    {
+      "id": "sobol-101",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0954206269234419,
+        "convection": 0.975831207446754,
+        "heat_capacity": 1.0607307424768806,
+        "power_gain": 0.9228632733225822,
+        "axial_conductance": 0.9791270401328802
+      }
+    },
+    {
+      "id": "sobol-102",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0200136734172702,
+        "convection": 1.04303637444973,
+        "heat_capacity": 0.9478914288803936,
+        "power_gain": 1.041008916683495,
+        "axial_conductance": 0.9443811979144812
+      }
+    },
+    {
+      "id": "sobol-103",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9079330325126648,
+        "convection": 0.9187395127490163,
+        "heat_capacity": 1.0355569280683994,
+        "power_gain": 0.9514013662934303,
+        "axial_conductance": 1.0134153397753836
+      }
+    },
+    {
+      "id": "sobol-104",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9133226286619902,
+        "convection": 1.0946831556037069,
+        "heat_capacity": 0.9315168427303434,
+        "power_gain": 0.9014500711113215,
+        "axial_conductance": 0.9106383854523301
+      }
+    },
+    {
+      "id": "sobol-105",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0021145405247807,
+        "convection": 0.9702010899782181,
+        "heat_capacity": 1.0442174319177866,
+        "power_gain": 1.090960200689733,
+        "axial_conductance": 1.028493792191148
+      }
+    },
+    {
+      "id": "sobol-106",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0758106023073197,
+        "convection": 1.012393286637962,
+        "heat_capacity": 0.9565674405544996,
+        "power_gain": 0.9729119960218668,
+        "axial_conductance": 1.0953074101358653
+      }
+    },
+    {
+      "id": "sobol-107",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9896025402471423,
+        "convection": 0.9368887033313513,
+        "heat_capacity": 1.069257732667029,
+        "power_gain": 1.0319494714960455,
+        "axial_conductance": 0.9625837558880449
+      }
+    },
+    {
+      "id": "sobol-108",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9553908672183752,
+        "convection": 1.0262956326827406,
+        "heat_capacity": 1.0116115517914295,
+        "power_gain": 1.0058404732495547,
+        "axial_conductance": 0.9943611431866884
+      }
+    },
+    {
+      "id": "sobol-109",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0666963713243605,
+        "convection": 0.9009832981973886,
+        "heat_capacity": 0.9234940169379116,
+        "power_gain": 0.989694786630571,
+        "axial_conductance": 1.063419801928103
+      }
+    },
+    {
+      "id": "sobol-110",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.042878483235836,
+        "convection": 1.068177073635161,
+        "heat_capacity": 1.0866322895511984,
+        "power_gain": 1.0718297380954027,
+        "axial_conductance": 1.0098996529355646
+      }
+    },
+    {
+      "id": "sobol-111",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9291839657351375,
+        "convection": 0.9935027591884137,
+        "heat_capacity": 0.998577693104744,
+        "power_gain": 0.9361567175015807,
+        "axial_conductance": 0.9291467655450106
+      }
+    },
+    {
+      "id": "sobol-112",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9360505314543843,
+        "convection": 1.0724871095269919,
+        "heat_capacity": 1.039203043654561,
+        "power_gain": 1.0499692684039474,
+        "axial_conductance": 1.0830292545259
+      }
+    },
+    {
+      "id": "sobol-113",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.048133496567607,
+        "convection": 0.9969792841002345,
+        "heat_capacity": 0.9272471280768514,
+        "power_gain": 0.9580171633511781,
+        "axial_conductance": 0.9528385436162353
+      }
+    },
+    {
+      "id": "sobol-114",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0735385013744234,
+        "convection": 1.0329234778881073,
+        "heat_capacity": 1.0641158232465386,
+        "power_gain": 1.0777253543958067,
+        "axial_conductance": 0.9235494589433074
+      }
+    },
+    {
+      "id": "sobol-115",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9606214880943299,
+        "convection": 0.9084438921883703,
+        "heat_capacity": 0.9522434528917074,
+        "power_gain": 0.9178099293261767,
+        "axial_conductance": 1.0435593985021114
+      }
+    },
+    {
+      "id": "sobol-116",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9951629208400846,
+        "convection": 1.003374769538641,
+        "heat_capacity": 0.9161304755136371,
+        "power_gain": 0.9447968563064933,
+        "axial_conductance": 1.0242758831009269
+      }
+    },
+    {
+      "id": "sobol-117",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0831774707883597,
+        "convection": 0.9286968315020204,
+        "heat_capacity": 1.0034545086324216,
+        "power_gain": 1.060064587369561,
+        "axial_conductance": 0.9429431475698948
+      }
+    },
+    {
+      "id": "sobol-118",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0076505331322552,
+        "convection": 1.0896395538002253,
+        "heat_capacity": 0.9910975322127342,
+        "power_gain": 0.9795896282419563,
+        "axial_conductance": 0.9839388109743595
+      }
+    },
+    {
+      "id": "sobol-119",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9206650570034981,
+        "convection": 0.9643300807103515,
+        "heat_capacity": 1.0783830350264907,
+        "power_gain": 1.012820667400956,
+        "axial_conductance": 1.0520147940143942
+      }
+    },
+    {
+      "id": "sobol-120",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9010542716830969,
+        "convection": 1.047347936592996,
+        "heat_capacity": 0.9761740531772376,
+        "power_gain": 1.0628693625330925,
+        "axial_conductance": 0.973541940562427
+      }
+    },
+    {
+      "id": "sobol-121",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0147464411333202,
+        "convection": 0.9222175631672144,
+        "heat_capacity": 1.0885221222415566,
+        "power_gain": 0.929540896601975,
+        "axial_conductance": 1.09357640594244
+      }
+    },
+    {
+      "id": "sobol-122",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0885663017630578,
+        "convection": 1.0581732535734774,
+        "heat_capacity": 0.9013664485886693,
+        "power_gain": 1.0101133003830909,
+        "axial_conductance": 1.0330125853419303
+      }
+    },
+    {
+      "id": "sobol-123",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9772584496065975,
+        "convection": 0.9832902751863003,
+        "heat_capacity": 1.01362792737782,
+        "power_gain": 0.9947481544688345,
+        "axial_conductance": 0.902846391312778
+      }
+    },
+    {
+      "id": "sobol-124",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9677322756499053,
+        "convection": 1.0781362952664495,
+        "heat_capacity": 1.0555026208981872,
+        "power_gain": 0.9678586810827255,
+        "axial_conductance": 0.9339585185050965
+      }
+    },
+    {
+      "id": "sobol-125",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0539425911381841,
+        "convection": 0.953836190700531,
+        "heat_capacity": 0.9685707345604897,
+        "power_gain": 1.027676589973271,
+        "axial_conductance": 1.0020100114867092
+      }
+    },
+    {
+      "id": "sobol-126",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 1.0302446633577347,
+        "convection": 1.0147933660075068,
+        "heat_capacity": 1.030628751963377,
+        "power_gain": 0.9080659329891205,
+        "axial_conductance": 1.074280339293182
+      }
+    },
+    {
+      "id": "sobol-127",
+      "group": "sobol",
+      "factors": {
+        "emissivity": 0.9414550049230457,
+        "convection": 0.9390801187604666,
+        "heat_capacity": 0.9437323404476047,
+        "power_gain": 1.099920533783734,
+        "axial_conductance": 0.9929230988025666
+      }
+    }
+  ],
+  "command_powers_W": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.725099155665736,
+      0.6442886365751409,
+      0.6702357643403479
+    ],
+    [
+      0.5303884854718823,
+      0.4287373232563339,
+      0.3990024657281572
+    ],
+    [
+      0.3757527432139378,
+      0.2930926183518451,
+      0.2559631109942359
+    ]
+  ],
+  "hashes": {
+    "protocol.md": "29c2742be734a228f75d953e9c9d93dace13c2c6426c26aa7708a0d1fe639081",
+    "run_sensitivity.py": "7224939b3d6aca663a4a00bf534003e7b18e308c3d8f4defc1ea3137f43e8c7a",
+    "radiation/model.py": "ac5e84576b801bd7c9f50aa4286ed01d3338cfc26b0818a8bedae32d2c954c39",
+    "radiation/results/experiment.json": "bccdd1a6251eb5c29284b47e2bfcda89501cf4c263b78d85e0968e2ccef4b1a8",
+    "feasibility/requirements.lock": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+  },
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+  "numpy": "2.5.3"
+}

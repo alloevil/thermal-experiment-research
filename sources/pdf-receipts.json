@@ -1,0 +1,20 @@
+[
+  {
+    "id": "practical-mfbo-paper",
+    "url": "https://arxiv.org/pdf/1903.04703",
+    "accessed_at": "2026-09-23T22:56:10.078023+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/practical-mfbo-paper.pdf",
+    "sha256": "228992b8c453b420864e7a1be4650ab320c74aea82b07a25f29397f1f2ae9f49",
+    "bytes": 615427
+  },
+  {
+    "id": "multifidelity-review-full",
+    "url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+    "accessed_at": "2026-09-23T22:56:10.077507+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/multifidelity-review-full.pdf",
+    "sha256": "52ba8e1dcc6c64a70937ea0ef0fb54fe7223e4ca8134e53f878f49a980a33881",
+    "bytes": 11071497
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "file": "results/cost-error.png",
+    "sha256": "adf6ada8f4f4e72281d3f6a63df1c1ff7547799a1df923d31914a272f55182ac"
+  },
+  {
+    "file": "results/environment.json",
+    "sha256": "c8227a3bb52733d2af73db2690c99ee68b2675c6bbcb41213c57ddd033428c71"
+  },
+  {
+    "file": "results/thermal-config.json",
+    "sha256": "ed1c9fd6358bc36f5d471a9c26096546763cfc56f4f7177e653dc1a7a8077a5f"
+  },
+  {
+    "file": "results/thermal-raw.jsonl",
+    "sha256": "cfc0f1c127873586ec22057c8a6b821c33ae555b502a002211b5494d73ae9cea"
+  },
+  {
+    "file": "results/thermal-summary.json",
+    "sha256": "146920875497a4d731f8103334dda138b758d305b857df916b4f26de4ff75e2f"
+  },
+  {
+    "file": "results/thermal-warmups.json",
+    "sha256": "4a1d4aa842100d8a4477489ede33cddb5b0ce7925553ec540fa0d9d2b5790f91"
+  },
+  {
+    "file": "results/upstream-botorch-progress.json",
+    "sha256": "f70de39e569c4ddc92ba7331a352089d4922075bea7a8d80fd9cf15ad33ed271"
+  },
+  {
+    "file": "results/upstream-botorch.json",
+    "sha256": "783b4087aee2576a89f28922f3ac2f46e37b6b4973f0c413da3aa81db574dc3a"
+  },
+  {
+    "file": "results/upstream-heat.json",
+    "sha256": "a109130868843d1700fc2308e95b909279190954d813dadbacaeef71746fc4d1"
+  },
+  {
+    "file": "results/upstream-heat.png",
+    "sha256": "72e612d1e3169226103df674440194c2dbf1a16d46985a93ac0ee2b769e1a188"
+  },
+  {
+    "file": "logs/install.log",
+    "sha256": "c0c52933aacdcf9ddb163dc52c9b6fd703144204231362e0aa3f0228c94bef1d"
+  },
+  {
+    "file": "logs/metric-bug-reproduction.log",
+    "sha256": "2ff405e849389ce052abf32e7d60d2880689b0775eb0e21c6a5130031f2e8e49"
+  },
+  {
+    "file": "logs/plot.log",
+    "sha256": "dab3436fab9f441d67d7cb7f76412458baea560f5777989bc932515a13da5e55"
+  },
+  {
+    "file": "logs/thermal-measurement-final.log",
+    "sha256": "57e97b5339f258c90f1ddfdb96ff781869d3c83eef1536b9496b0ffd62b7748b"
+  },
+  {
+    "file": "logs/thermal-measurement.log",
+    "sha256": "3eef3fc1aed65f7b118eba6ea311f5321b6ac75acf32cef066a2f01d0efdd1f9"
+  },
+  {
+    "file": "logs/thermal-pilot-fixed.log",
+    "sha256": "0aa451e30314d0015faf1216803b5eb445ab13c3ac4ba1397a93993f338c017f"
+  },
+  {
+    "file": "logs/thermal-pilot.log",
+    "sha256": "20f26caf95a15d7b9f8dd33df7f8c9c23d01ea2ae87d4252685ffe924736c675"
+  },
+  {
+    "file": "logs/upstream-botorch.log",
+    "sha256": "a923fc576c1d0d4f9a8298f89d46eb4e98a2942f52ef378c242a877b6b9ed64d"
+  },
+  {
+    "file": "logs/upstream-heat.log",
+    "sha256": "1fd018e179d56897606399d155577269192f252f0dec1085de29e1f7163a691d"
+  },
+  {
+    "file": "scripts/fetch_sources.py",
+    "sha256": "26278d370f1e369a6417c8c7a4203a0c7145d3901dcd3fcb6ae2bea81a71090a"
+  },
+  {
+    "file": "scripts/plot_results.py",
+    "sha256": "df9a125ddb68f0d4d25e5fff08ab11b9f8db96c1819cb0188e92b04cca35cb4a"
+  },
+  {
+    "file": "scripts/run_upstream.py",
+    "sha256": "b8928d555047ed0b9f20128c9672eb5d8c14e1fee4a26738801693f25d9eb28c"
+  },
+  {
+    "file": "scripts/thermal_probe.py",
+    "sha256": "93eafef18d02de7fa6182492a0fa8bce84e05f513619455953f1ab5936feb2e8"
+  },
+  {
+    "file": "scripts/verify_results.py",
+    "sha256": "d690a2956acddc6f1e5e9bd1c06613441877051490257793ceefe9bec40ea3b4"
+  },
+  {
+    "file": "requirements.in",
+    "sha256": "8175fd725fcb9e9780f66a27637bf7ee5de6840ac4ef042ab287e23e6345b4e9"
+  },
+  {
+    "file": "requirements.lock",
+    "sha256": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+  },
+  {
+    "file": "protocol.md",
+    "sha256": "bfe3d3688bc0f3d16d21e9cf6dcd3cde0710948a9c59ed34e40891e3887ac1bf"
+  },
+  {
+    "file": "RESULTS.md",
+    "sha256": "5b35c0fa3bf3af522a91373468c56b5d0644ce6aedbb0dfce29febb162659737"
+  },
+  {
+    "file": "RUNBOOK.md",
+    "sha256": "54aa982172beb1361f7c91b594c322293dbc2b7b3668a7dac5ff34cf21d2090f"
+  }
+]

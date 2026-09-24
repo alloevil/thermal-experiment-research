@@ -1,0 +1,31 @@
+test_bad_data_cannot_force_two_way_classification (test_core.CoreTests.test_bad_data_cannot_force_two_way_classification) ... ok
+test_disabled_over_budget_and_reference_not_assumed (test_core.CoreTests.test_disabled_over_budget_and_reference_not_assumed) ... ok
+test_duplicate_json_keys_and_overwrite (test_core.CoreTests.test_duplicate_json_keys_and_overwrite) ... ok
+test_identical_models_abstain (test_core.CoreTests.test_identical_models_abstain) ... ok
+test_information_gain_rewards_separation (test_core.CoreTests.test_information_gain_rewards_separation) ... ok
+test_invalid_physics_and_data_rejected (test_core.CoreTests.test_invalid_physics_and_data_rejected) ... ok
+test_likelihood_matches_direct_bayes (test_core.CoreTests.test_likelihood_matches_direct_bayes) ... ok
+test_order_invariance (test_core.CoreTests.test_order_invariance) ... ok
+test_predicted_temperature_screen (test_core.CoreTests.test_predicted_temperature_screen) ... ok
+test_reference_semantics_and_spatial_resolution (test_core.CoreTests.test_reference_semantics_and_spatial_resolution) ... ok
+test_update_preserves_input_and_rejects_duplicates (test_core.CoreTests.test_update_preserves_input_and_rejects_duplicates) ... ok
+test_approval_record_cannot_be_missing_or_mismatched (test_workflow.WorkflowTests.test_approval_record_cannot_be_missing_or_mismatched) ... ok
+test_candidate_failure_is_retained_and_still_costs_an_experiment (test_workflow.WorkflowTests.test_candidate_failure_is_retained_and_still_costs_an_experiment) ... ok
+test_changed_model_source_requires_replanning (test_workflow.WorkflowTests.test_changed_model_source_requires_replanning) ... ok
+test_cli_resumes_across_processes_and_refuses_overwrite (test_workflow.WorkflowTests.test_cli_resumes_across_processes_and_refuses_overwrite) ... ok
+test_demo_without_optin_stops_before_new_observation (test_workflow.WorkflowTests.test_demo_without_optin_stops_before_new_observation) ... ok
+test_equivalent_outside_budget_and_temperature_cases_do_not_request_review (test_workflow.WorkflowTests.test_equivalent_outside_budget_and_temperature_cases_do_not_request_review) ... ok
+test_explicit_review_is_bound_and_has_no_numeric_execution (test_workflow.WorkflowTests.test_explicit_review_is_bound_and_has_no_numeric_execution) ... ok
+test_modified_proposal_requires_replanning (test_workflow.WorkflowTests.test_modified_proposal_requires_replanning) ... ok
+test_observation_origin_is_required (test_workflow.WorkflowTests.test_observation_origin_is_required) ... ok
+test_plan_retains_predictions_and_waits (test_workflow.WorkflowTests.test_plan_retains_predictions_and_waits) ... ok
+test_rejection_is_terminal (test_workflow.WorkflowTests.test_rejection_is_terminal) ... ok
+test_review_requires_acknowledgement_matching_proposal_and_experiment (test_workflow.WorkflowTests.test_review_requires_acknowledgement_matching_proposal_and_experiment) ... ok
+test_unreviewed_observation_is_rejected_before_numeric_tools (test_workflow.WorkflowTests.test_unreviewed_observation_is_rejected_before_numeric_tools) ... ok
+test_update_matches_original_math_and_preserves_inputs (test_workflow.WorkflowTests.test_update_matches_original_math_and_preserves_inputs) ... ok
+test_wrong_experiment_duplicate_record_and_nonfinite_data_rejected (test_workflow.WorkflowTests.test_wrong_experiment_duplicate_record_and_nonfinite_data_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 31.318s
+
+OK

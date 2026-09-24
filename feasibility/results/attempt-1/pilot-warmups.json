@@ -1,0 +1,74 @@
+[
+  {
+    "resolution": 16,
+    "amplitudes": [
+      2.527450545450452,
+      1.2033652002724091,
+      1.3318888606313108
+    ],
+    "wall_seconds": 0.5126946850214154,
+    "cpu_seconds": 0.5126047789999999,
+    "max_absolute_error_K": 0.016893546338427434,
+    "rmse_K": 0.006338832036633533,
+    "spatial_max_error_K": 0.016893546324505238,
+    "temporal_max_error_K": 1.5639295414260346e-11,
+    "mean_drift_K": 5.551115123125783e-17,
+    "final_nonuniformity_std_K": 0.06576649244315778,
+    "rhs_evaluations": 476,
+    "tolerance_scale": 1.0
+  },
+  {
+    "resolution": 32,
+    "amplitudes": [
+      2.527450545450452,
+      1.2033652002724091,
+      1.3318888606313108
+    ],
+    "wall_seconds": 0.2777030400466174,
+    "cpu_seconds": 0.277695958,
+    "max_absolute_error_K": 0.00444659368595568,
+    "rmse_K": 0.0015409199846211693,
+    "spatial_max_error_K": 0.004446593669197529,
+    "temporal_max_error_K": 1.709432595475846e-11,
+    "mean_drift_K": 1.8214596497756474e-17,
+    "final_nonuniformity_std_K": 0.032847347740681834,
+    "rhs_evaluations": 488,
+    "tolerance_scale": 1.0
+  },
+  {
+    "resolution": 64,
+    "amplitudes": [
+      2.527450545450452,
+      1.2033652002724091,
+      1.3318888606313108
+    ],
+    "wall_seconds": 0.3307639940176159,
+    "cpu_seconds": 0.330764222,
+    "max_absolute_error_K": 0.0011254249351559942,
+    "rmse_K": 0.00038267558404903555,
+    "spatial_max_error_K": 0.001125424931382124,
+    "temporal_max_error_K": 5.599276597934022e-11,
+    "mean_drift_K": 9.622294280808852e-19,
+    "final_nonuniformity_std_K": 0.016419257748557216,
+    "rhs_evaluations": 608,
+    "tolerance_scale": 1.0
+  },
+  {
+    "resolution": 128,
+    "amplitudes": [
+      2.527450545450452,
+      1.2033652002724091,
+      1.3318888606313108
+    ],
+    "wall_seconds": 1.0470237981062382,
+    "cpu_seconds": 1.0470050050000002,
+    "max_absolute_error_K": 0.00028221447544307665,
+    "rmse_K": 9.551201107503068e-05,
+    "spatial_max_error_K": 0.0002822144754168754,
+    "temporal_max_error_K": 2.2805313193430266e-11,
+    "mean_drift_K": 6.4598967722349215e-18,
+    "final_nonuniformity_std_K": 0.008209078959196146,
+    "rhs_evaluations": 2744,
+    "tolerance_scale": 1.0
+  }
+]

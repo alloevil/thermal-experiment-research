@@ -1,0 +1,12 @@
+{
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+  "prefix": "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "numpy_origin": "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment/lib/python3.12/site-packages/numpy/__init__.py",
+  "scipy_origin": "/tmp/thermal-science-msej07xo/minimal \u79d1\u5b66 environment/lib/python3.12/site-packages/scipy/__init__.py",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

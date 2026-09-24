@@ -1,0 +1,97 @@
+Python 3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]; platform Linux-6.8.0-139-generic-x86_64-with-glibc2.39
+BEGIN cell 2
+PASS cell 2: 0.000s
+BEGIN cell 3
+PASS cell 3: 0.000s
+BEGIN cell 5
+PASS cell 5: 0.299s
+BEGIN cell 7
+PASS cell 7: 0.056s
+BEGIN cell 9
+PASS cell 9: 0.113s
+BEGIN cell 11
+PASS cell 11: 0.000s
+BEGIN cell 13
+PASS cell 13: 0.001s
+BEGIN cell 15
+candidates:
+tensor([[0.791, 0.198, 0.410, 0.018, 0.714, 0.623, 0.345],
+        [0.437, 0.650, 0.323, 0.297, 0.515, 0.132, 0.818]],
+       dtype=torch.float64)
+
+observations:
+tensor([[0.040],
+        [0.870]], dtype=torch.float64)
+
+
+candidates:
+tensor([[0.473, 0.602, 0.796, 0.488, 0.595, 0.277, 0.928],
+        [0.339, 0.950, 0.562, 0.792, 0.447, 0.662, 0.020]],
+       dtype=torch.float64)
+
+observations:
+tensor([[0.696],
+        [0.033]], dtype=torch.float64)
+
+
+PASS cell 15: 8.785s
+BEGIN cell 17
+PASS cell 17: 0.000s
+BEGIN cell 18
+recommended point:
+tensor([[0.433, 0.552, 0.318, 0.228, 0.431, 0.154, 1.000]],
+       dtype=torch.float64)
+
+objective value:
+tensor([0.470], dtype=torch.float64)
+
+total cost: 22.110690144852093
+
+PASS cell 18: 0.112s
+BEGIN cell 20
+PASS cell 20: 0.000s
+BEGIN cell 21
+/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/lib/python3.12/site-packages/botorch/acquisition/monte_carlo.py:415: NumericsWarning: qExpectedImprovement has known numerical issues that lead to suboptimal optimization performance. It is strongly recommended to simply replace
+
+	 qExpectedImprovement 	 --> 	 qLogExpectedImprovement 
+
+instead, which fixes the issues and has the same API. See https://arxiv.org/abs/2310.20708 for details.
+  legacy_ei_numerics_warning(legacy_name=type(self).__name__)
+candidates:
+tensor([[0.700, 0.254, 0.305, 0.209, 0.479, 0.366, 1.000],
+        [0.593, 0.460, 0.408, 0.216, 0.495, 0.412, 1.000]],
+       dtype=torch.float64)
+
+observations:
+tensor([[0.420],
+        [0.492]], dtype=torch.float64)
+
+
+/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/lib/python3.12/site-packages/botorch/acquisition/monte_carlo.py:415: NumericsWarning: qExpectedImprovement has known numerical issues that lead to suboptimal optimization performance. It is strongly recommended to simply replace
+
+	 qExpectedImprovement 	 --> 	 qLogExpectedImprovement 
+
+instead, which fixes the issues and has the same API. See https://arxiv.org/abs/2310.20708 for details.
+  legacy_ei_numerics_warning(legacy_name=type(self).__name__)
+candidates:
+tensor([[0.613, 0.451, 0.461, 0.165, 0.457, 0.467, 1.000],
+        [0.524, 0.353, 0.467, 0.213, 0.475, 0.372, 1.000]],
+       dtype=torch.float64)
+
+observations:
+tensor([[0.632],
+        [0.665]], dtype=torch.float64)
+
+
+PASS cell 21: 2.208s
+BEGIN cell 22
+recommended point:
+tensor([[0.580, 0.420, 0.444, 0.201, 0.477, 0.416, 1.000]],
+       dtype=torch.float64)
+
+objective value:
+tensor([0.602], dtype=torch.float64)
+
+total cost: 24.0
+
+PASS cell 22: 0.112s

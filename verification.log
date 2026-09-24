@@ -1,0 +1,12 @@
+PASS: receipt JSON parsed and all recorded snapshot SHA-256 values matched
+PASS: search JSON files parsed: 7
+PASS: report contains 24 unique source groups (S01-S24)
+PASS: two PDF texts extracted; cost-table rendering exists and was visually inspected
+PASS: selected numerical quotations and paper/README discrepancy matched source snapshots
+SOURCE COUNTS: {"blocked_captcha_not_article": 1, "fetch_failed": 3, "verified_pdf_snapshot": 2, "verified_text_snapshot": 38}
+EXCLUDED: botorch-mfkg HTTP Error 404: Not Found
+EXCLUDED: fenics-nonlinear HTTP Error 404: Not Found
+EXCLUDED: rtp-1994-publisher blocked_captcha_not_article
+EXCLUDED: botorch-mfkg-notebook HTTP Error 404: Not Found
+NOT RUN: solver installation, upstream examples, optimization, neural-network training, hardware validation
+OUTPUT: research/thermal-ai4engineering/report.md

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "cases": 16,
+  "independent_signal_checks": [
+    {
+      "scenario": "clean",
+      "trace": "training",
+      "max_difference_K": 0.0
+    },
+    {
+      "scenario": "clean",
+      "trace": "diagnostic",
+      "max_difference_K": 0.0
+    },
+    {
+      "scenario": "bias",
+      "trace": "training",
+      "max_difference_K": 0.0
+    },
+    {
+      "scenario": "bias",
+      "trace": "diagnostic",
+      "max_difference_K": 0.0
+    },
+    {
+      "scenario": "lag",
+      "trace": "training",
+      "max_difference_K": 6.821210263296962e-13
+    },
+    {
+      "scenario": "lag",
+      "trace": "diagnostic",
+      "max_difference_K": 7.389644451905042e-13
+    },
+    {
+      "scenario": "cooling",
+      "trace": "training",
+      "max_difference_K": 0.0
+    },
+    {
+      "scenario": "cooling",
+      "trace": "diagnostic",
+      "max_difference_K": 0.0
+    }
+  ],
+  "confusion": {
+    "training": {
+      "TP": 12,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4
+    },
+    "combined": {
+      "TP": 12,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4
+    }
+  },
+  "refinement_flips": []
+}

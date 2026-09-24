@@ -1,0 +1,5 @@
+PASS fresh venv has zero packages; copied list/check work; report rejects missing NumPy
+PASS isolated install contains only hash-locked NumPy 2.5.3; import originates inside the venv
+PASS relocated JSON/Markdown/-O reports are byte-identical; 17 entrypoint and 14 report tests pass
+PASS 1196 relocated files unchanged; original pinned stages unchanged; temporary venv/copy removed
+LIMIT: same-host isolation only, no cross-platform or full scientific reproduction claim

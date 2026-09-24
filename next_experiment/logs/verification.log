@@ -1,0 +1,6 @@
+PASS separate recommend/update CLI round trip from unrelated cwd; duplicate observations rejected
+PASS equal-candidate abstention and out-of-candidate rejection
+PASS real 360K limit excludes heat_high and recommends permitted cooldown
+PASS all 64 policy/object updates recomputed with paired data and matching budget; temperature screen passes
+PASS final temperature screening does not change the first recorded policy counts or scores
+LIMIT: synthetic finite-grid demonstration; not an industrial or statistically powered performance claim

@@ -1,0 +1,302 @@
+[
+  {
+    "query": "multi fidelity benchmark",
+    "url": "https://api.github.com/search/repositories?q=multi+fidelity+benchmark&per_page=6",
+    "total_count": 37,
+    "items": [
+      {
+        "full_name": "sjvrijn/mf2",
+        "html_url": "https://github.com/sjvrijn/mf2",
+        "stargazers_count": 30,
+        "updated_at": "2026-03-16T09:12:33Z",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        }
+      },
+      {
+        "full_name": "davidbuterez/mf-pcba",
+        "html_url": "https://github.com/davidbuterez/mf-pcba",
+        "stargazers_count": 35,
+        "updated_at": "2026-08-20T15:04:43Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "automl/mf-prior-bench",
+        "html_url": "https://github.com/automl/mf-prior-bench",
+        "stargazers_count": 10,
+        "updated_at": "2025-06-06T23:39:00Z",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        }
+      },
+      {
+        "full_name": "HewlettPackard/sustain-cluster",
+        "html_url": "https://github.com/HewlettPackard/sustain-cluster",
+        "stargazers_count": 81,
+        "updated_at": "2026-09-18T21:57:56Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "zhengxyun/PKU-DyMVHumans",
+        "html_url": "https://github.com/zhengxyun/PKU-DyMVHumans",
+        "stargazers_count": 63,
+        "updated_at": "2026-09-16T01:31:17Z",
+        "license": null
+      },
+      {
+        "full_name": "trsav/reactor_benchmark",
+        "html_url": "https://github.com/trsav/reactor_benchmark",
+        "stargazers_count": 10,
+        "updated_at": "2026-05-20T20:13:05Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    ]
+  },
+  {
+    "query": "thermal optimization benchmark",
+    "url": "https://api.github.com/search/repositories?q=thermal+optimization+benchmark&per_page=6",
+    "total_count": 6,
+    "items": [
+      {
+        "full_name": "awneesht/m5-llm-benchmark",
+        "html_url": "https://github.com/awneesht/m5-llm-benchmark",
+        "stargazers_count": 2,
+        "updated_at": "2026-06-15T00:54:09Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "22jzmec0460-cmd/HVAC-Building-Analytics-Platform",
+        "html_url": "https://github.com/22jzmec0460-cmd/HVAC-Building-Analytics-Platform",
+        "stargazers_count": 2,
+        "updated_at": "2025-12-20T18:38:41Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "SID-Devu/isat-tuner",
+        "html_url": "https://github.com/SID-Devu/isat-tuner",
+        "stargazers_count": 0,
+        "updated_at": "2026-05-04T03:44:58Z",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        }
+      },
+      {
+        "full_name": "Kirthivaasan15/Drive-Cycle-Analysis",
+        "html_url": "https://github.com/Kirthivaasan15/Drive-Cycle-Analysis",
+        "stargazers_count": 0,
+        "updated_at": "2026-03-23T12:47:59Z",
+        "license": null
+      },
+      {
+        "full_name": "knowamit/android-doctor",
+        "html_url": "https://github.com/knowamit/android-doctor",
+        "stargazers_count": 1,
+        "updated_at": "2026-09-01T03:55:41Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "DHIWAHAR-K/Vantage",
+        "html_url": "https://github.com/DHIWAHAR-K/Vantage",
+        "stargazers_count": 0,
+        "updated_at": "2026-03-19T11:30:10Z",
+        "license": null
+      }
+    ]
+  },
+  {
+    "query": "PDE control benchmark",
+    "url": "https://api.github.com/search/repositories?q=PDE+control+benchmark&per_page=6",
+    "total_count": 7,
+    "items": [
+      {
+        "full_name": "xiangyuan-zhang/controlgym",
+        "html_url": "https://github.com/xiangyuan-zhang/controlgym",
+        "stargazers_count": 56,
+        "updated_at": "2026-08-17T07:43:03Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "1zuki/tsunami-surrogate",
+        "html_url": "https://github.com/1zuki/tsunami-surrogate",
+        "stargazers_count": 4,
+        "updated_at": "2026-09-15T10:03:47Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "TingweiMeng/benchmark",
+        "html_url": "https://github.com/TingweiMeng/benchmark",
+        "stargazers_count": 0,
+        "updated_at": "2025-07-30T04:39:36Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "fabianyiu/pinn-pdes",
+        "html_url": "https://github.com/fabianyiu/pinn-pdes",
+        "stargazers_count": 0,
+        "updated_at": "2026-03-18T23:09:07Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "QuantCodeAutomata/qca-methodological-replication-of-the-projected-hjb-re",
+        "html_url": "https://github.com/QuantCodeAutomata/qca-methodological-replication-of-the-projected-hjb-re",
+        "stargazers_count": 0,
+        "updated_at": "2026-07-27T10:08:32Z",
+        "license": null
+      },
+      {
+        "full_name": "HUSTOROP/Hust-WiSED-Dataset",
+        "html_url": "https://github.com/HUSTOROP/Hust-WiSED-Dataset",
+        "stargazers_count": 0,
+        "updated_at": "2026-07-23T14:38:50Z",
+        "license": null
+      }
+    ]
+  },
+  {
+    "query": "rapid thermal processing control",
+    "url": "https://api.github.com/search/repositories?q=rapid+thermal+processing+control&per_page=6",
+    "total_count": 4,
+    "items": [
+      {
+        "full_name": "MoSharkawy37/Rapid-Thermal-Processing-Simulation",
+        "html_url": "https://github.com/MoSharkawy37/Rapid-Thermal-Processing-Simulation",
+        "stargazers_count": 0,
+        "updated_at": "2026-06-12T15:35:34Z",
+        "license": null
+      },
+      {
+        "full_name": "laurenceli20051236/RTO-SPC-Dashboard-for-Semiconductor-Tool-Health-Monitoring",
+        "html_url": "https://github.com/laurenceli20051236/RTO-SPC-Dashboard-for-Semiconductor-Tool-Health-Monitoring",
+        "stargazers_count": 1,
+        "updated_at": "2026-08-07T04:32:36Z",
+        "license": null
+      },
+      {
+        "full_name": "concorde-speed/Concorde",
+        "html_url": "https://github.com/concorde-speed/Concorde",
+        "stargazers_count": 10,
+        "updated_at": "2026-01-20T14:49:29Z",
+        "license": {
+          "key": "lgpl-3.0",
+          "name": "GNU Lesser General Public License v3.0",
+          "spdx_id": "LGPL-3.0",
+          "url": "https://api.github.com/licenses/lgpl-3.0",
+          "node_id": "MDc6TGljZW5zZTEy"
+        }
+      },
+      {
+        "full_name": "teresanricet/improved-engine",
+        "html_url": "https://github.com/teresanricet/improved-engine",
+        "stargazers_count": 1,
+        "updated_at": "2024-08-11T08:04:41Z",
+        "license": null
+      }
+    ]
+  },
+  {
+    "query": "heat equation optimal control",
+    "url": "https://api.github.com/search/repositories?q=heat+equation+optimal+control&per_page=6",
+    "total_count": 3,
+    "items": [
+      {
+        "full_name": "abdelhady1/Optimal-boundary-control-of-the-heat-equation",
+        "html_url": "https://github.com/abdelhady1/Optimal-boundary-control-of-the-heat-equation",
+        "stargazers_count": 1,
+        "updated_at": "2023-08-13T15:18:22Z",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      },
+      {
+        "full_name": "GiacomoBarbi/pyheatcontrol",
+        "html_url": "https://github.com/GiacomoBarbi/pyheatcontrol",
+        "stargazers_count": 0,
+        "updated_at": "2026-03-10T15:38:57Z",
+        "license": null
+      },
+      {
+        "full_name": "deidaraho/OCSPDEs",
+        "html_url": "https://github.com/deidaraho/OCSPDEs",
+        "stargazers_count": 0,
+        "updated_at": "2016-03-22T02:26:14Z",
+        "license": null
+      }
+    ]
+  }
+]

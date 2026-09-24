@@ -1,0 +1,44 @@
+{
+  "manifest_sha256": "c8aff6b71ce612f1e4e25dd61c452abd514ee9ae719478de33c7a8b064970cda",
+  "files": [
+    {
+      "file": "model.py",
+      "source": "radiation/model.py",
+      "sha256": "ac5e84576b801bd7c9f50aa4286ed01d3338cfc26b0818a8bedae32d2c954c39"
+    },
+    {
+      "file": "check_model.py",
+      "source": "radiation/check_model.py",
+      "sha256": "0c702340f78440c0c3b85ae55cf98919fb46f0d261e5172684182acbf9c47f49"
+    },
+    {
+      "file": "experiment.py",
+      "source": "radiation/experiment.py",
+      "sha256": "5a99075d3584bc7c4acf5a9ed12cb485148fc51780448823cee4c673184d4dc4"
+    },
+    {
+      "file": "protocol.md",
+      "source": "radiation/protocol.md",
+      "sha256": "db8ad5530b7ca2619a8c92c2faff22b38efff23a3acc7620e0ac8975a4f34259"
+    },
+    {
+      "file": "results/protocol-sha256.txt",
+      "source": "radiation/results/protocol-sha256.txt",
+      "sha256": "fabf3dfe997cbdfdeefce3c4304e8837356556a70bf59d8642993080aebc7b21"
+    },
+    {
+      "file": "reference-experiment.json",
+      "source": "radiation/results/experiment.json",
+      "sha256": "bccdd1a6251eb5c29284b47e2bfcda89501cf4c263b78d85e0968e2ccef4b1a8"
+    },
+    {
+      "file": "check_replay.py",
+      "source": "tools/check_thermal_replay.py",
+      "sha256": "f2aaeab7e809554834658f4e2030a482ec120e6e9c32bc574d6c29249b3bad38"
+    }
+  ],
+  "reference_tolerance": {
+    "mse_K2": 0.02,
+    "temperature_K": 0.01
+  }
+}

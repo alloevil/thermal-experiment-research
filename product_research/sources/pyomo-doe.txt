@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `product_research/sources/pyomo-doe.txt`
+
+Original SHA-256: `cb37234f40017f68de5b21736b342a1194a5bbb82e4b2212950a8452ac7bb9b6`
+
+Sources:
+- https://pyomo.readthedocs.io/en/stable/explanation/analysis/doe/doe.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

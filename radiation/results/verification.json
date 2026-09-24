@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "energy_checks": {
+    "baseline": {
+      "exact_absorbed_J": 287.99999999999994,
+      "external_quadrature_residual_J": 1.4579255292801463e-05
+    },
+    "optimized": {
+      "exact_absorbed_J": 231.60936403905646,
+      "external_quadrature_residual_J": 8.989629705524749e-06
+    },
+    "linear-radiation": {
+      "exact_absorbed_J": 231.60936403905646,
+      "external_quadrature_residual_J": 5.501236074678673e-06
+    }
+  },
+  "extra_sampling_check": {
+    "step_s": 0.0625,
+    "metrics": {
+      "mse_K2": 9.348079231799868,
+      "peak_K": 350.67414677044246,
+      "max_spread_K": 1.214789432246448,
+      "final_mean_K": 349.37982888314326,
+      "final_std_K": 0.14383378923155307,
+      "absorbed_J": 231.60936400592064,
+      "convection_J": 75.01787885740029,
+      "radiation_J": 50.13182738223385,
+      "stored_J": 106.45965776628658,
+      "max_balance_residual_J": 1.5631940186722204e-13,
+      "wall_seconds": 0.075399334076792,
+      "rhs_evaluations": 564
+    },
+    "differences": {
+      "mse_K2": -5.637413902803701e-05,
+      "peak_K": 2.259606918642021e-05,
+      "max_spread_K": 0.0,
+      "final_mean_K": 0.0
+    }
+  }
+}

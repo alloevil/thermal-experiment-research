@@ -1,0 +1,224 @@
+{
+  "schema": "thermal-next-experiment/1",
+  "budget": 1,
+  "assumptions": {
+    "initial_temperature_K": 296.15,
+    "independent_gaussian_noise": true,
+    "independent_reference_available": false
+  },
+  "priors": {
+    "convection": 0.5,
+    "offset": 0.5
+  },
+  "grid": {
+    "convection": [
+      1,
+      1.2,
+      1.4,
+      1.6
+    ],
+    "offset_K": [
+      0,
+      -0.3,
+      -0.6,
+      -0.9
+    ],
+    "gain": [
+      0.95,
+      1,
+      1.05
+    ],
+    "capacity": [
+      0.95,
+      1,
+      1.05
+    ]
+  },
+  "experiments": {
+    "initial": {
+      "kind": "thermal",
+      "enabled": false,
+      "cost": 1,
+      "sigma_K": 0.25,
+      "knots_s": [
+        0,
+        20,
+        60
+      ],
+      "powers_W": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2
+        ]
+      ],
+      "observations": [
+        {
+          "time_s": 60,
+          "position_m": 0.03
+        }
+      ]
+    },
+    "heat_low": {
+      "kind": "thermal",
+      "enabled": true,
+      "cost": 1,
+      "sigma_K": 0.25,
+      "knots_s": [
+        0,
+        30,
+        120
+      ],
+      "powers_W": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.2
+        ]
+      ],
+      "observations": [
+        {
+          "time_s": 60,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 90,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 120,
+          "position_m": 0.03
+        }
+      ]
+    },
+    "heat_high": {
+      "kind": "thermal",
+      "enabled": true,
+      "cost": 1,
+      "sigma_K": 0.25,
+      "knots_s": [
+        0,
+        45,
+        180
+      ],
+      "powers_W": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ],
+        [
+          0.5,
+          0.5,
+          0.5
+        ]
+      ],
+      "observations": [
+        {
+          "time_s": 90,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 135,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 180,
+          "position_m": 0.03
+        }
+      ]
+    },
+    "cooldown": {
+      "kind": "thermal",
+      "enabled": true,
+      "cost": 1,
+      "sigma_K": 0.25,
+      "knots_s": [
+        0,
+        40,
+        80,
+        120,
+        180
+      ],
+      "powers_W": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "observations": [
+        {
+          "time_s": 120,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 150,
+          "position_m": 0.03
+        },
+        {
+          "time_s": 180,
+          "position_m": 0.03
+        }
+      ]
+    },
+    "reference": {
+      "kind": "reference",
+      "enabled": false,
+      "cost": 2,
+      "sigma_K": 0.15,
+      "duration_s": 30,
+      "observations": [
+        {
+          "time_s": 30,
+          "position_m": 0.03
+        }
+      ]
+    }
+  }
+}

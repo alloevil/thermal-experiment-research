@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "invalid_inputs_rejected": 10,
+  "checks": [
+    "channel offsets",
+    "non-mutating correction",
+    "reference error transfer",
+    "standard error arithmetic"
+  ]
+}

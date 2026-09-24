@@ -1,0 +1,301 @@
+{
+  "posterior": {
+    "status": "ambiguous",
+    "model_probability": {
+      "convection": 0.5,
+      "offset": 0.5
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.784798172213796,
+      "offset": 0.784798172213796
+    },
+    "incompatible_records": [],
+    "particle_ess": 5.980670175362381,
+    "particle_count": 18,
+    "records": 1,
+    "supported": null,
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "recommendation": null,
+  "options": [
+    {
+      "experiment": "heat_low",
+      "expected_information_gain_nats": 3.209238430557093e-17,
+      "monte_carlo_standard_error_nats": 5.528167120731087e-18,
+      "mean_separation_score": 0.0,
+      "most_separating_observation": 0,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          30,
+          120
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 60,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            306.6486795101198,
+            311.5886245543329,
+            315.3068337277669
+          ],
+          "predictive_p05_K": [
+            306.11075489934217,
+            310.8650931293523,
+            314.553201440922
+          ],
+          "predictive_p95_K": [
+            307.1338847497129,
+            312.1555555370622,
+            315.9783928746211
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            306.6486795101198,
+            311.5886245543329,
+            315.3068337277669
+          ],
+          "predictive_p05_K": [
+            306.0963209262326,
+            310.9081653817881,
+            314.5409246695339
+          ],
+          "predictive_p95_K": [
+            307.1636824576145,
+            312.1676440827464,
+            315.95129629198607
+          ]
+        }
+      }
+    },
+    {
+      "experiment": "heat_high",
+      "expected_information_gain_nats": 2.949029909160572e-17,
+      "monte_carlo_standard_error_nats": 6.337431039608701e-18,
+      "mean_separation_score": 0.0,
+      "most_separating_observation": 0,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          45,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 135,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            331.53067876614875,
+            344.9502784731102,
+            353.2447175285699
+          ],
+          "predictive_p05_K": [
+            330.151028909304,
+            343.2703529181079,
+            351.582304661637
+          ],
+          "predictive_p95_K": [
+            332.4964278497058,
+            346.16642039514215,
+            354.8032961838366
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            331.53067876614875,
+            344.9502784731102,
+            353.2447175285699
+          ],
+          "predictive_p05_K": [
+            330.1659708802686,
+            343.3174282247906,
+            351.56830439485196
+          ],
+          "predictive_p95_K": [
+            332.47655582056655,
+            346.1734349592308,
+            354.7551478284455
+          ]
+        }
+      }
+    },
+    {
+      "experiment": "cooldown",
+      "expected_information_gain_nats": 2.42861286636753e-17,
+      "monte_carlo_standard_error_nats": 6.025010082245261e-18,
+      "mean_separation_score": 0.0,
+      "most_separating_observation": 0,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          40,
+          80,
+          120,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 150,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            322.8616475201368,
+            316.296216994547,
+            311.42573588108223
+          ],
+          "predictive_p05_K": [
+            321.9503329732061,
+            315.6064616077416,
+            310.8186995980287
+          ],
+          "predictive_p95_K": [
+            323.6966422694753,
+            317.1227041558164,
+            312.2518176751183
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            322.8616475201368,
+            316.296216994547,
+            311.42573588108223
+          ],
+          "predictive_p05_K": [
+            321.9561487111576,
+            315.5954584412735,
+            310.791578151245
+          ],
+          "predictive_p95_K": [
+            323.6695431757525,
+            317.1074620146943,
+            312.21002539993066
+          ]
+        }
+      }
+    }
+  ],
+  "status": "not_distinguishable",
+  "engineering_release": "not_supported",
+  "requirements": [
+    "Each experiment restarts from independently confirmed 296.15K equilibrium.",
+    "User must approve inputs and instrument/reference validity; modeled constraints are not safety clearance.",
+    "Finite-grid predictions and assumed independent noise may be wrong; other causes are not excluded."
+  ],
+  "reason": "Allowed experiments provide <0.01 nat estimated model-label information; do not force a recommendation."
+}

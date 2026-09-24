@@ -1,0 +1,28 @@
+test_copy_only_pinned_files_and_explicit_entrypoints (test_isolated_report.IsolatedAuditTests.test_copy_only_pinned_files_and_explicit_entrypoints) ... ok
+test_corrupt_source_is_rejected_before_copy (test_isolated_report.IsolatedAuditTests.test_corrupt_source_is_rejected_before_copy) ... ok
+test_environment_drops_python_and_environment_inheritance (test_isolated_report.IsolatedAuditTests.test_environment_drops_python_and_environment_inheritance) ... ok
+test_existing_destination_is_not_overwritten (test_isolated_report.IsolatedAuditTests.test_existing_destination_is_not_overwritten) ... ok
+test_report_lock_has_one_hash_pinned_requirement (test_isolated_report.IsolatedAuditTests.test_report_lock_has_one_hash_pinned_requirement) ... ok
+test_requires_explicit_install_opt_in (test_isolated_report.IsolatedAuditTests.test_requires_explicit_install_opt_in) ... ok
+test_broken_snapshot_prevents_any_execution (test_workbench.DispatchTests.test_broken_snapshot_prevents_any_execution) ... ok
+test_invalid_check_json_and_exit_code (test_workbench.DispatchTests.test_invalid_check_json_and_exit_code) ... ok
+test_missing_numpy_does_not_install_or_start_report (test_workbench.DispatchTests.test_missing_numpy_does_not_install_or_start_report) ... ok
+test_report_failure_discards_partial_output (test_workbench.DispatchTests.test_report_failure_discards_partial_output) ... ok
+test_success_forwards_selected_format_without_extra_text (test_workbench.DispatchTests.test_success_forwards_selected_format_without_extra_text) ... ok
+test_all_checks_without_numpy_and_optimized_mode (test_workbench.RealCommandTests.test_all_checks_without_numpy_and_optimized_mode) ... ok
+test_list_without_site_packages_from_other_directory (test_workbench.RealCommandTests.test_list_without_site_packages_from_other_directory) ... ok
+test_single_stage (test_workbench.RealCommandTests.test_single_stage) ... ok
+test_unknown_stage_rejected (test_workbench.RealCommandTests.test_unknown_stage_rejected) ... ok
+test_count_mismatch (test_workbench.SnapshotTests.test_count_mismatch) ... ok
+test_duplicate_invalid_keys_and_numbers (test_workbench.SnapshotTests.test_duplicate_invalid_keys_and_numbers) ... ok
+test_file_and_stage_symlinks (test_workbench.SnapshotTests.test_file_and_stage_symlinks) ... ok
+test_one_broken_stage_invalidates_all (test_workbench.SnapshotTests.test_one_broken_stage_invalidates_all) ... ok
+test_rewritten_manifest_requires_new_pin (test_workbench.SnapshotTests.test_rewritten_manifest_requires_new_pin) ... ok
+test_tamper_and_missing_artifact (test_workbench.SnapshotTests.test_tamper_and_missing_artifact) ... ok
+test_unsafe_manifest_paths (test_workbench.SnapshotTests.test_unsafe_manifest_paths) ... ok
+test_valid_snapshot (test_workbench.SnapshotTests.test_valid_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 1.252s
+
+OK

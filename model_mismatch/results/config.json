@@ -1,0 +1,127 @@
+{
+  "objects": [
+    {
+      "emissivity": 0.9239656327292324,
+      "convection": 0.9389524200931192,
+      "heat_capacity": 1.0364833872765302,
+      "power_gain": 1.0602378996089101,
+      "axial_conductance": 0.9093833858147263
+    },
+    {
+      "emissivity": 1.0217371571809053,
+      "convection": 1.0998267952352763,
+      "heat_capacity": 0.9067521657794714,
+      "power_gain": 0.9722393848001957,
+      "axial_conductance": 1.0037675922736526
+    },
+    {
+      "emissivity": 1.0597017971798777,
+      "convection": 0.9543212005868554,
+      "heat_capacity": 1.0598124396055937,
+      "power_gain": 1.0411639081314206,
+      "axial_conductance": 1.0813214587047697
+    },
+    {
+      "emissivity": 0.9570947606116533,
+      "convection": 1.0090672943741084,
+      "heat_capacity": 0.9832801338285209,
+      "power_gain": 0.9295812778174878,
+      "axial_conductance": 0.9756081296131015
+    }
+  ],
+  "scenarios": [
+    "clean",
+    "bias",
+    "lag",
+    "cooling"
+  ],
+  "hashes": {
+    "protocol.md": "87b94a16813866a4155ee8abbc4346aa48bff3ede6dab1a197408062c5ceab23",
+    "experiment.py": "72928f19e6ce37da078bb21fd22e55055a6f83be302f5185a6f843b22d849900",
+    "radiation/model.py": "ac5e84576b801bd7c9f50aa4286ed01d3338cfc26b0818a8bedae32d2c954c39",
+    "calibration/effective.py": "0de6044f1a353c5ea20fe9df631d0824cf0936ba85da6c8146bdb26cd91a5f94",
+    "calibration/fit_and_control.py": "45d0de67f8c9e50ed76576621927441d944db32c79f3c2583c10d540b472b5c2",
+    "radiation/results/experiment.json": "bccdd1a6251eb5c29284b47e2bfcda89501cf4c263b78d85e0968e2ccef4b1a8",
+    "feasibility/requirements.lock": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+  },
+  "diagnostic_knots": [
+    0.0,
+    30.0,
+    60.0,
+    90.0,
+    120.0,
+    150.0,
+    180.0,
+    210.0,
+    240.0
+  ],
+  "diagnostic_powers": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.25,
+      0.25,
+      0.25
+    ],
+    [
+      0.5,
+      0.15,
+      0.15
+    ],
+    [
+      0.15,
+      0.5,
+      0.15
+    ],
+    [
+      0.15,
+      0.15,
+      0.5
+    ],
+    [
+      0.3,
+      0.3,
+      0.3
+    ],
+    [
+      0.1,
+      0.1,
+      0.1
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "process_powers": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.725099155665736,
+      0.6442886365751409,
+      0.6702357643403479
+    ],
+    [
+      0.5303884854718823,
+      0.4287373232563339,
+      0.3990024657281572
+    ],
+    [
+      0.3757527432139378,
+      0.2930926183518451,
+      0.2559631109942359
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+test_bad_data_cannot_force_two_way_classification (test_core.CoreTests.test_bad_data_cannot_force_two_way_classification) ... ok
+test_disabled_over_budget_and_reference_not_assumed (test_core.CoreTests.test_disabled_over_budget_and_reference_not_assumed) ... ok
+test_duplicate_json_keys_and_overwrite (test_core.CoreTests.test_duplicate_json_keys_and_overwrite) ... ok
+test_identical_models_abstain (test_core.CoreTests.test_identical_models_abstain) ... ok
+test_information_gain_rewards_separation (test_core.CoreTests.test_information_gain_rewards_separation) ... ok
+test_invalid_physics_and_data_rejected (test_core.CoreTests.test_invalid_physics_and_data_rejected) ... ok
+test_likelihood_matches_direct_bayes (test_core.CoreTests.test_likelihood_matches_direct_bayes) ... ok
+test_order_invariance (test_core.CoreTests.test_order_invariance) ... ok
+test_predicted_temperature_screen (test_core.CoreTests.test_predicted_temperature_screen) ... ok
+test_reference_semantics_and_spatial_resolution (test_core.CoreTests.test_reference_semantics_and_spatial_resolution) ... ok
+test_update_preserves_input_and_rejects_duplicates (test_core.CoreTests.test_update_preserves_input_and_rejects_duplicates) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.356s
+
+OK

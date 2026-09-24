@@ -1,0 +1,51 @@
+{
+  "parameters": {
+    "length": 0.06,
+    "mass": 0.004,
+    "heat_capacity": 500.0,
+    "surface_area": 0.0012,
+    "axial_conductance": 0.0002,
+    "convection": 10.0,
+    "convection_variation": 0.3,
+    "emissivity": 0.9,
+    "sigma": 5.670374419e-08,
+    "ambient": 296.15
+  },
+  "knots": [
+    0,
+    60,
+    120,
+    180
+  ],
+  "initial_powers": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.7,
+      0.7,
+      0.7
+    ],
+    [
+      0.7,
+      0.7,
+      0.7
+    ],
+    [
+      0.4,
+      0.4,
+      0.4
+    ]
+  ],
+  "optimizer": "SLSQP",
+  "maxiter": 40,
+  "ftol": 1e-06,
+  "finite_difference_step": 0.0001,
+  "optimization_cells": 24,
+  "verification_cells": 96,
+  "optimization_sample_step_s": 1,
+  "verification_sample_step_s": 0.25,
+  "protocol_sha256": "db8ad5530b7ca2619a8c92c2faff22b38efff23a3acc7620e0ac8975a4f34259"
+}

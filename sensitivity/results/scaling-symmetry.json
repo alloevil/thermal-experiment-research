@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "analysis": "Post-scan check using prespecified corners; no added or selected calibration data.",
+  "explanation": "Common scaling of heat capacity, axial conduction, convection, emissivity and absorbed power cancels from the temperature ODE.",
+  "checks": [
+    {
+      "id": "corner-000",
+      "common_scale": 0.9,
+      "max_trace_differences_K": {
+        "mean": 1.857642928371206e-10,
+        "std": 7.184030939577646e-10,
+        "minimum": 3.80589426640654e-09,
+        "maximum": 1.387149950460298e-09
+      },
+      "scaled_ledger_max_difference_J": 2.770028650900258e-10
+    },
+    {
+      "id": "corner-031",
+      "common_scale": 1.1,
+      "max_trace_differences_K": {
+        "mean": 1.0908252079389058e-10,
+        "std": 6.59256915334569e-10,
+        "minimum": 4.2423948798386846e-09,
+        "maximum": 1.2242367120052222e-09
+      },
+      "scaled_ledger_max_difference_J": 2.0228574371117247e-10
+    }
+  ]
+}

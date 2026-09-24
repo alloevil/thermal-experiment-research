@@ -1,0 +1,5 @@
+PASS original eight stages: 1186 pinned artifacts unchanged
+PASS source copies, new solver logs, two-package origins and temporary environment cleanup
+PASS newly computed baseline/optimized/linear scalar metrics reproduce reference
+PASS 29 documentation links
+LIMITS: same-platform example only; no calibration rerun, hardware validation or speedup claim

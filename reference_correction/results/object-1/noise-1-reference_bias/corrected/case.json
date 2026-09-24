@@ -1,0 +1,103 @@
+{
+  "key": "object-1/noise-1-reference_bias/corrected",
+  "object": 1,
+  "replicate": 1,
+  "scenario": "reference_bias",
+  "branch": "corrected",
+  "offset": {
+    "offset_K": [
+      -0.7802881956160889,
+      -0.7162590211598854,
+      -0.7537784009284166
+    ],
+    "samples": 10,
+    "difference_sample_std_K": [
+      0.07051381349630241,
+      0.10829209819402336,
+      0.11689258621873384
+    ],
+    "mean_standard_error_K": [
+      0.022298425715263664,
+      0.034244968289172055,
+      0.03696468140388082
+    ],
+    "scope": "One-point offset only; standard errors exclude reference systematic error and sensor drift."
+  },
+  "offset_hash": "01f38b74711dcf520a9a884da730cefc360212505ddea55ffbbb9ae8ad9d8507",
+  "fit": {
+    "ratios": [
+      1.0223238048043597,
+      1.0087004467925933,
+      1.1150082814886757,
+      1.13057156486951
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 5.119728258810937,
+    "train_rmse_K": 0.17447955783333546,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2783.144266909781,
+      290.55253618608094,
+      147.07393153328644,
+      51.967529808010305
+    ],
+    "jacobian_condition": 53.555446587357046,
+    "jacobian_column_cosines": [
+      [
+        1.0000000000000004,
+        0.02504875927283237,
+        0.10227727299227907,
+        -0.10557117399239303
+      ],
+      [
+        0.02504875927283237,
+        1.0,
+        0.9910886271939476,
+        -0.9584238379567681
+      ],
+      [
+        0.10227727299227907,
+        0.9910886271939476,
+        0.9999999999999997,
+        -0.9569075343244221
+      ],
+      [
+        -0.10557117399239303,
+        -0.9584238379567681,
+        -0.9569075343244221,
+        1.0000000000000002
+      ]
+    ]
+  },
+  "fit_hash": "121dc756592c7d079b6bf55eee76778c36ffed8baf8061152e53f8238f2135a2",
+  "alarm": {
+    "training": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.17447955783333546,
+      "max_sensor_mean_residual_K": 0.08657723573184366
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.17017539663848902,
+      "max_sensor_mean_residual_K": 0.08098816623576373
+    },
+    "combined": false
+  },
+  "alarm_hash": "1b49795b18d4f857161f23ebb454824ab875997f13c22aa8cd767f29b5e7d77b",
+  "score": {
+    "rmse_K": 0.5606936283494106,
+    "final_mean_error_K": 0.3794567916075948,
+    "inadequate": true
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "upstream/pde-example.py",
+    "url": "https://raw.githubusercontent.com/zwicker-group/py-pde/09b7354c4732646db9de2b4f24c334d776fc45db/examples/simple_pdes/simple.py",
+    "commit": "09b7354c4732646db9de2b4f24c334d776fc45db",
+    "sha256": "ec81d326ec37f97b4e12a5b87604f33019222c3640f22401db7b757db83628ec",
+    "retrieved_at": "2026-09-23T23:09:17.058970+00:00"
+  },
+  {
+    "file": "upstream/pde-tests.py",
+    "url": "https://raw.githubusercontent.com/zwicker-group/py-pde/09b7354c4732646db9de2b4f24c334d776fc45db/tests/pdes/test_diffusion_pdes.py",
+    "commit": "09b7354c4732646db9de2b4f24c334d776fc45db",
+    "sha256": "25d0de4126d5fc4dbe598da6f6ecc6bb59ebd962686371433905b291c18c4104",
+    "retrieved_at": "2026-09-23T23:09:17.231660+00:00"
+  },
+  {
+    "file": "upstream/pde-LICENSE",
+    "url": "https://raw.githubusercontent.com/zwicker-group/py-pde/09b7354c4732646db9de2b4f24c334d776fc45db/LICENSE",
+    "commit": "09b7354c4732646db9de2b4f24c334d776fc45db",
+    "sha256": "142702fa8d23c97a2c494abba9d8b067d74853e817005726fed65a005450c61b",
+    "retrieved_at": "2026-09-23T23:09:47.623684+00:00"
+  },
+  {
+    "file": "upstream/botorch-tutorial.ipynb",
+    "url": "https://raw.githubusercontent.com/pytorch/botorch/cd0249c60b2a81af0d91b5e7d462ef6f574fceec/tutorials/multi_fidelity_bo/multi_fidelity_bo.ipynb",
+    "commit": "cd0249c60b2a81af0d91b5e7d462ef6f574fceec",
+    "sha256": "19a228b4ac10854777014aa2e8afd6278624cdf857f9708589f02068d67ce150",
+    "retrieved_at": "2026-09-23T23:10:48.105832+00:00"
+  },
+  {
+    "file": "upstream/botorch-LICENSE",
+    "url": "https://raw.githubusercontent.com/pytorch/botorch/cd0249c60b2a81af0d91b5e7d462ef6f574fceec/LICENSE",
+    "commit": "cd0249c60b2a81af0d91b5e7d462ef6f574fceec",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "retrieved_at": "2026-09-23T23:10:48.492978+00:00"
+  }
+]

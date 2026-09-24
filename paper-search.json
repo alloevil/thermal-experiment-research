@@ -1,0 +1,978 @@
+[
+  {
+    "query": "multi fidelity heat transfer optimization benchmark",
+    "url": "https://api.openalex.org/works?search=multi+fidelity+heat+transfer+optimization+benchmark&per-page=6",
+    "items": [
+      {
+        "id": "https://openalex.org/W2981104727",
+        "doi": "https://doi.org/10.1029/2018ms001583",
+        "title": "The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty",
+        "publication_year": 2019,
+        "cited_by_count": 2207,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001583",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1029/2018ms001583",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1029/2018ms001583",
+          "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001583",
+          "source": {
+            "id": "https://openalex.org/S185824406",
+            "display_name": "Journal of Advances in Modeling Earth Systems",
+            "issn_l": "1942-2466",
+            "issn": [
+              "1942-2466"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-2",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320595",
+            "host_organization_name": "Wiley",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320595"
+            ],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Advances in Modeling Earth Systems",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4389050903",
+        "doi": "https://doi.org/10.3934/acse.2023015",
+        "title": "Review of multi-fidelity models",
+        "publication_year": 2023,
+        "cited_by_count": 143,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.3934/acse.2023015",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3934/acse.2023015",
+          "pdf_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+          "source": {
+            "id": "https://openalex.org/S4387288720",
+            "display_name": "Advances in Computational Science and Engineering",
+            "issn_l": "2837-1739",
+            "issn": [
+              "2837-1739"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4310315844",
+            "host_organization_name": "American Institute of Mathematical Sciences",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310315844"
+            ],
+            "host_organization_lineage_names": [
+              "American Institute of Mathematical Sciences"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Advances in Computational Science and Engineering",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4387542025",
+        "doi": "https://doi.org/10.1038/s41586-023-06481-y",
+        "title": "High-fidelity parallel entangling gates on a neutral-atom quantum computer",
+        "publication_year": 2023,
+        "cited_by_count": 527,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.nature.com/articles/s41586-023-06481-y.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1038/s41586-023-06481-y",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1038/s41586-023-06481-y",
+          "pdf_url": "https://www.nature.com/articles/s41586-023-06481-y.pdf",
+          "source": {
+            "id": "https://openalex.org/S137773608",
+            "display_name": "Nature",
+            "issn_l": "0028-0836",
+            "issn": [
+              "0028-0836",
+              "1476-4687"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "erih-plus",
+              "jufo-3",
+              "ki-jl-3",
+              "medline",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319908",
+            "host_organization_name": "Nature Portfolio",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319908",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Nature Portfolio",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nature",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2891186800",
+        "doi": "https://doi.org/10.1109/tevc.2018.2869001",
+        "title": "Data-Driven Evolutionary Optimization: An Overview and Case Studies",
+        "publication_year": 2018,
+        "cited_by_count": 694,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://jyx.jyu.fi/bitstreams/7acbf002-eb9c-440b-ad7f-9866a8eef33b/download",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1109/tevc.2018.2869001",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tevc.2018.2869001",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S93787993",
+            "display_name": "IEEE Transactions on Evolutionary Computation",
+            "issn_l": "1089-778X",
+            "issn": [
+              "1089-778X",
+              "1941-0026"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Evolutionary Computation",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W3209188603",
+        "doi": "https://doi.org/10.1080/19401493.2021.1986574",
+        "title": "Building optimization testing framework (BOPTEST) for simulation-based benchmarking of control strategies in buildings",
+        "publication_year": 2021,
+        "cited_by_count": 224,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://doi.org/10.1080/19401493.2021.1986574",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1080/19401493.2021.1986574",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1080/19401493.2021.1986574",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S59432305",
+            "display_name": "Journal of Building Performance Simulation",
+            "issn_l": "1940-1493",
+            "issn": [
+              "1940-1493",
+              "1940-1507"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320547",
+            "host_organization_name": "Taylor & Francis",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320547",
+              "https://openalex.org/P4310320449"
+            ],
+            "host_organization_lineage_names": [
+              "Taylor & Francis",
+              "Informa"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Building Performance Simulation",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4288039037",
+        "doi": "https://doi.org/10.1007/s10915-022-01939-z",
+        "title": "Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next",
+        "publication_year": 2022,
+        "cited_by_count": 2714,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.1007/s10915-022-01939-z",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s10915-022-01939-z",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10915-022-01939-z.pdf",
+          "source": {
+            "id": "https://openalex.org/S151550017",
+            "display_name": "Journal of Scientific Computing",
+            "issn_l": "0885-7474",
+            "issn": [
+              "0885-7474",
+              "1573-7691"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Scientific Computing",
+          "raw_type": "journal-article"
+        }
+      }
+    ]
+  },
+  {
+    "query": "rapid thermal processing model predictive control temperature uniformity",
+    "url": "https://api.openalex.org/works?search=rapid+thermal+processing+model+predictive+control+temperature+uniformity&per-page=6",
+    "items": [
+      {
+        "id": "https://openalex.org/W2086778233",
+        "doi": "https://doi.org/10.1063/1.1524305",
+        "title": "Nanoscale thermal transport",
+        "publication_year": 2003,
+        "cited_by_count": 3222,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://aip.scitation.org/doi/pdf/10.1063/1.1524305",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1063/1.1524305",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1063/1.1524305",
+          "pdf_url": "https://aip.scitation.org/doi/pdf/10.1063/1.1524305",
+          "source": {
+            "id": "https://openalex.org/S187991544",
+            "display_name": "Journal of Applied Physics",
+            "issn_l": "0021-8979",
+            "issn": [
+              "0021-8979",
+              "1089-7550",
+              "1520-8850"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320257",
+            "host_organization_name": "American Institute of Physics",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320257"
+            ],
+            "host_organization_lineage_names": [
+              "American Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Applied Physics",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2028979275",
+        "doi": "https://doi.org/10.1175/mwr3199.1",
+        "title": "A New Vertical Diffusion Package with an Explicit Treatment of Entrainment Processes",
+        "publication_year": 2006,
+        "cited_by_count": 7467,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.1175/mwr3199.1",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1175/mwr3199.1",
+          "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/mwre/134/9/mwr3199.1.pdf",
+          "source": {
+            "id": "https://openalex.org/S90791864",
+            "display_name": "Monthly Weather Review",
+            "issn_l": "0027-0644",
+            "issn": [
+              "0027-0644",
+              "1520-0493"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320260",
+            "host_organization_name": "American Meteorological Society",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320260"
+            ],
+            "host_organization_lineage_names": [
+              "American Meteorological Society"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Monthly Weather Review",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W3201073812",
+        "doi": "https://doi.org/10.1016/j.cpc.2021.108171",
+        "title": "LAMMPS - a flexible simulation tool for particle-based materials modeling at the atomic, meso, and continuum scales",
+        "publication_year": 2021,
+        "cited_by_count": 12569,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S0010465521002836/pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.cpc.2021.108171",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.cpc.2021.108171",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0010465521002836/pdf",
+          "source": {
+            "id": "https://openalex.org/S142305363",
+            "display_name": "Computer Physics Communications",
+            "issn_l": "0010-4655",
+            "issn": [
+              "0010-4655",
+              "1879-2944"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Computer Physics Communications",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2757803490",
+        "doi": "https://doi.org/10.1088/1361-648x/aa8f79",
+        "title": "Advanced capabilities for materials modelling with Q uantum ESPRESSO",
+        "publication_year": 2017,
+        "cited_by_count": 7842,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://iopscience.iop.org/article/10.1088/1361-648X/aa8f79/pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1088/1361-648x/aa8f79",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1088/1361-648x/aa8f79",
+          "pdf_url": "https://iopscience.iop.org/article/10.1088/1361-648X/aa8f79/pdf",
+          "source": {
+            "id": "https://openalex.org/S190924190",
+            "display_name": "Journal of Physics Condensed Matter",
+            "issn_l": "0953-8984",
+            "issn": [
+              "0953-8984",
+              "1361-648X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "ki-jl-1",
+              "medline",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_name": "IOP Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Physics: Condensed Matter",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2116064024",
+        "doi": "https://doi.org/10.1149/1.3515880",
+        "title": "A Critical Review of Thermal Issues in Lithium-Ion Batteries",
+        "publication_year": 2011,
+        "cited_by_count": 2185,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://iopscience.iop.org/article/10.1149/1.3515880/pdf",
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.1149/1.3515880",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1149/1.3515880",
+          "pdf_url": "https://iopscience.iop.org/article/10.1149/1.3515880/pdf",
+          "source": {
+            "id": "https://openalex.org/S138759888",
+            "display_name": "Journal of The Electrochemical Society",
+            "issn_l": "0013-4651",
+            "issn": [
+              "0013-4651",
+              "1945-7111"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310311669",
+            "host_organization_name": "Institute of Physics",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of The Electrochemical Society",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2002570742",
+        "doi": "https://doi.org/10.3389/fpls.2013.00001",
+        "title": "Rapid phosphatidic acid accumulation in response to low temperature stress in Arabidopsis is generated through diacylglycerol kinase",
+        "publication_year": 2013,
+        "cited_by_count": 1938,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.frontiersin.org/articles/10.3389/fpls.2013.00001/pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.3389/fpls.2013.00001",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3389/fpls.2013.00001",
+          "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2013.00001/pdf",
+          "source": {
+            "id": "https://openalex.org/S2493613807",
+            "display_name": "Frontiers in Plant Science",
+            "issn_l": "1664-462X",
+            "issn": [
+              "1664-462X"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310320527",
+            "host_organization_name": "Frontiers Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320527"
+            ],
+            "host_organization_lineage_names": [
+              "Frontiers Media"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Frontiers in Plant Science",
+          "raw_type": "journal-article"
+        }
+      }
+    ]
+  },
+  {
+    "query": "thermal design optimization benchmark dataset",
+    "url": "https://api.openalex.org/works?search=thermal+design+optimization+benchmark+dataset&per-page=6",
+    "items": [
+      {
+        "id": "https://openalex.org/W2910094941",
+        "doi": "https://doi.org/10.1016/j.media.2022.102680",
+        "title": "The Liver Tumor Segmentation Benchmark (LiTS)",
+        "publication_year": 2022,
+        "cited_by_count": 1236,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://linkinghub.elsevier.com/science/article/pii/S1361841522003085/pdfft?md5=42606dbee21641af7f9e50655c0fdff2&pid=1-s2.0-S1361841522003085-main.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.media.2022.102680",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.media.2022.102680",
+          "pdf_url": "https://linkinghub.elsevier.com/science/article/pii/S1361841522003085/pdfft?md5=42606dbee21641af7f9e50655c0fdff2&pid=1-s2.0-S1361841522003085-main.pdf",
+          "source": {
+            "id": "https://openalex.org/S116571295",
+            "display_name": "Medical Image Analysis",
+            "issn_l": "1361-8415",
+            "issn": [
+              "1361-8415",
+              "1361-8423",
+              "1361-8431"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doyens",
+              "jufo-3",
+              "ki-jl-3",
+              "medline",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Medical Image Analysis",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2981104727",
+        "doi": "https://doi.org/10.1029/2018ms001583",
+        "title": "The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty",
+        "publication_year": 2019,
+        "cited_by_count": 2207,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001583",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1029/2018ms001583",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1029/2018ms001583",
+          "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001583",
+          "source": {
+            "id": "https://openalex.org/S185824406",
+            "display_name": "Journal of Advances in Modeling Earth Systems",
+            "issn_l": "1942-2466",
+            "issn": [
+              "1942-2466"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-2",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320595",
+            "host_organization_name": "Wiley",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320595"
+            ],
+            "host_organization_lineage_names": [
+              "Wiley"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Advances in Modeling Earth Systems",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2958285686",
+        "doi": "https://doi.org/10.1186/s42400-019-0038-7",
+        "title": "Survey of intrusion detection systems: techniques, datasets and challenges",
+        "publication_year": 2019,
+        "cited_by_count": 1972,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://link.springer.com/content/pdf/10.1186/s42400-019-0038-7.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1186/s42400-019-0038-7",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1186/s42400-019-0038-7",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1186/s42400-019-0038-7.pdf",
+          "source": {
+            "id": "https://openalex.org/S3035238565",
+            "display_name": "Cybersecurity",
+            "issn_l": "2523-3246",
+            "issn": [
+              "2523-3246"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319965",
+            "host_organization_name": "Springer Nature",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Cybersecurity",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W2792416760",
+        "doi": "https://doi.org/10.1016/j.nds.2018.02.001",
+        "title": "ENDF/B-VIII.0: The 8 th Major Release of the Nuclear Reaction Data Library with CIELO-project Cross Sections, New Standards and Thermal Scattering Data",
+        "publication_year": 2018,
+        "cited_by_count": 2345,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S0090375218300206/pdf",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.nds.2018.02.001",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.nds.2018.02.001",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0090375218300206/pdf",
+          "source": {
+            "id": "https://openalex.org/S123665906",
+            "display_name": "Nuclear Data Sheets",
+            "issn_l": "0090-3752",
+            "issn": [
+              "0090-3752",
+              "1095-9904"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Nuclear Data Sheets",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4224300633",
+        "doi": "https://doi.org/10.1007/s11831-021-09694-4",
+        "title": "Particle Swarm Optimization Algorithm and Its Applications: A Systematic Review",
+        "publication_year": 2022,
+        "cited_by_count": 1869,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s11831-021-09694-4.pdf",
+          "any_repository_has_fulltext": false
+        },
+        "primary_location": {
+          "id": "doi:10.1007/s11831-021-09694-4",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s11831-021-09694-4",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11831-021-09694-4.pdf",
+          "source": {
+            "id": "https://openalex.org/S65486112",
+            "display_name": "Archives of Computational Methods in Engineering",
+            "issn_l": "1134-3060",
+            "issn": [
+              "1134-3060",
+              "1886-1784"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "latindex",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Archives of Computational Methods in Engineering",
+          "raw_type": "journal-article"
+        }
+      },
+      {
+        "id": "https://openalex.org/W4205129187",
+        "doi": "https://doi.org/10.1109/access.2022.3142859",
+        "title": "Particle Swarm Optimization: A Comprehensive Survey",
+        "publication_year": 2022,
+        "cited_by_count": 1420,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://doi.org/10.1109/access.2022.3142859",
+          "any_repository_has_fulltext": true
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2022.3142859",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2022.3142859",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2485537415",
+            "display_name": "IEEE Access",
+            "issn_l": "2169-3536",
+            "issn": [
+              "2169-3536"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "ki-jl-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article"
+        }
+      }
+    ]
+  }
+]

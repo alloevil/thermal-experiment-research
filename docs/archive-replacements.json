@@ -1,0 +1,404 @@
+[
+  {
+    "path": "sources/rtp-1994-publisher.txt",
+    "original_sha256": "2f5285ef57066a005e06f473d371c431035a7290668755221529a457e9419970",
+    "replacement_sha256": "aa58912899989ac7dd6c442c78b6a3a24e8b17fece8ec6c965619b23abe963d6",
+    "reason": "Unusable CAPTCHA HTML flagged for token-like data; original retained only in prior local workspace; see docs/ARCHIVE.md"
+  },
+  {
+    "path": "intent.md",
+    "original_sha256": "3732cd305b5466210485a65cbf5125ef81cca989ba438c340ce01c79d8e700dc",
+    "replacement_sha256": "d1f59c6540071818990a234de00929a7158bbac11fdc7b6fcfa97bf12e7006c0",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "calibration/sources/scipy-least-squares.txt",
+    "original_sha256": "9daf62eba0e21abc312675e4efdc099a625cf8d83b377cac015c6a636fc97258",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "a53402e432a9a90b057df7e8a8a1f5505f243e246bcbd23845277ee504417117"
+  },
+  {
+    "path": "product_research/sources/baybe-active-learning.txt",
+    "original_sha256": "20035911f9c64c0a9c1b0c2d72625fa8c47f2826d6a407aeb51aff1d73a89125",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "4fc65d1e611cba715771f7aaef304b4f74568f538b6a4b031dc42a8617b0298b"
+  },
+  {
+    "path": "product_research/sources/baybe.txt",
+    "original_sha256": "7cb379ae653138710b9909b4e79d60bac86630fb59a7c9322b1665bbebf1bbbb",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "b8190978f630dbbfa6bc72f1bd874ace891189dd6236292b1ce99e6952db736a"
+  },
+  {
+    "path": "product_research/sources/do-mpc.txt",
+    "original_sha256": "d4311fa835d171a9a55c3da264c65d54303888318ddcabad46ae880bce5d2351",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "2569ad524201cb1b2c8d477704ca3064824da208e86c6823cfc5689b1884a30c"
+  },
+  {
+    "path": "product_research/sources/parmest-estimability.txt",
+    "original_sha256": "a6352aa7c4740db4b5618b03da90432da73fd722fabe53d87bf610184e04b878",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "17eea737b189b5735a569274cdf99b0eba82a85279e62b4a145e56399a8ff912"
+  },
+  {
+    "path": "product_research/sources/parmest-workflow.txt",
+    "original_sha256": "d7801464005b7fde863b253b7b9527a2246e1c0416075c1ee9df207d321104fd",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "248cc17854512753ceb30638730e28d30c7d46495c5ed05359839bceadef6753"
+  },
+  {
+    "path": "product_research/sources/pybop-real-study.txt",
+    "original_sha256": "00523ac0bfb97c7f3cb76e5f9673d49eea0592882da1074ddf615b5d791dbadc",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "c42e17822e386465ba47b98a5ba7861fceefde211713f1a1c4e8c9da9d418529"
+  },
+  {
+    "path": "product_research/sources/pybop.txt",
+    "original_sha256": "2c5877626d391e39dd0dcb063ef6eb702a92495fc622405a7cf2cdf97b3adcf5",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "fefebd6867208cfd4139d62873d6924f2d613293dbf7cabbdd283784ee05e0c6"
+  },
+  {
+    "path": "product_research/sources/pyomo-doe.txt",
+    "original_sha256": "cb37234f40017f68de5b21736b342a1194a5bbb82e4b2212950a8452ac7bb9b6",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "4930726ca8a19b8727b4e25f127655f081c5b0afaa7fcf12575b3870148d2d19"
+  },
+  {
+    "path": "radiation/sources/nist.txt",
+    "original_sha256": "56f9b19635ae51986b769e5edca11e41b757176d8cbb623c170655a7fedeaef3",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "93b9633210b5b59f745c02329f388a0be5e37f781fb612557fb302de65526bd3"
+  },
+  {
+    "path": "radiation/sources/tclab.txt",
+    "original_sha256": "d4277b1b502f892f36566150a62e45ad2fa32a39964a8874cb6f02e4a2ca2b07",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "fba3fb822642f8aa41e35596cc880e9c81a0404773928e0900c2bcf3dee30961"
+  },
+  {
+    "path": "sources/Day333--ThermalBench.md",
+    "original_sha256": "53383cfa5b7ee0dc240d90b70db4231db8623480612f1f1f185571e8d8467233",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "3b1c93de70767b186a5e662760a55f48637f00b855e9dfe59302728284f7783d"
+  },
+  {
+    "path": "sources/MoSharkawy37--Rapid-Thermal-Processing-Simulation.md",
+    "original_sha256": "be9a02b2e3e70403301af3fc913093758ad85380ba4a115a455bd805ff3a1da7",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "bf7546b0fc9f6c77277821bda03e6e1441dbe61eb00f6339bf78a551c499e612"
+  },
+  {
+    "path": "sources/PolymathicAI--the_well.md",
+    "original_sha256": "d1a68b0b408e253f29df453217a98492fc1425836ad1556258a2a518f03f245a",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "8572dac58ddf2b64e86d2ccf5a061696fb71a319f764636da8f5751f67d09fa9"
+  },
+  {
+    "path": "sources/automl--mf-prior-bench.md",
+    "original_sha256": "6d84cefdfda69999f68d447c62d0ad6fa54ebad7d349c7940763c8c4983a7311",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "551d9200ff4f506d6afd97c878e42fbdf86c42d90710323473a91c2013c5a8ea"
+  },
+  {
+    "path": "sources/boptest-readme.txt",
+    "original_sha256": "7a31c3d175a54ab0fc77cee92989bf005e7eac64150176354379dbd21aa64700",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "30e401f550a415c72076f0ae99dd1750f500d3905191ce1b6028a4b76eb22621"
+  },
+  {
+    "path": "sources/botorch-discrete-mf.txt",
+    "original_sha256": "d9f173f1a477d33edd5bb6542d7af1334b6060a4407a68b6a19ac12132d28d5f",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "1bf7a1e06d44273f6cd0730a8613002c09e3c8e15bd1e1812282503c24dd5ff2"
+  },
+  {
+    "path": "sources/botorch-mfkg.txt",
+    "original_sha256": "2d496bf0aaaf9a47d20bc84f5642ca0a9a3b9d55eae914d5c2510298eea26568",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "e6e246b7ef70660c306d587d77aa1fcac158d097e1b104b6d7a6684e9f729e53"
+  },
+  {
+    "path": "sources/cnr-inm-mao--l2-sea-benchmark.md",
+    "original_sha256": "9fd62074ef54761ab6bea6e8fe293e0ed72b083754607c59eb396a5e2479db62",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "a6941726f84435de11412282f6f60cd3ec252426da30ebaed7ffd2525822d210"
+  },
+  {
+    "path": "sources/controlgym-paper.txt",
+    "original_sha256": "9c38e9cff45d69c5cac7d398cdad0d040e1dd0abd716169cb886ab0c134a672e",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "b870a0ec76b00dcd2c83026abcffd3a1390d4f186db74ceb01c7e68d38187328"
+  },
+  {
+    "path": "sources/elmer-heat-model.txt",
+    "original_sha256": "abd198d7151ca864d26d49fb4461d05ff4c0fc5d48007340bf252d4fe674f9a9",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "6cc0660142a79214de9d3aee8f93ff6a35d77b5c796059445fbcdfe0f1222ff0"
+  },
+  {
+    "path": "sources/elmer-license.txt",
+    "original_sha256": "fefdd4bb844eab34720e0a605a1d0c3f5e03b37ac5ae65322ce5ab94b4667181",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "8ed1da2a8a4e6b8ba6dcbd3dddc95f5c87769d59d1f471151218d73e10c7b047"
+  },
+  {
+    "path": "sources/elmer-readme.txt",
+    "original_sha256": "00ea51129affef198dce5b495269a16c880800f3d2b1d89e529fa5771b35d320",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "bdbb48efda79f60c64f9914430840de50e57ba338f0d686dd1e45662a31605aa"
+  },
+  {
+    "path": "sources/fenics-heat.txt",
+    "original_sha256": "a0bcda6de2628a291e68da2e7aa22c45b6e33ad3d8ae8ee7dec1e3bc32fb6c3d",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "6983ce229179f5bcf3268d2eec33449afec501a3be3da1d4a62f5dd2b9458eb8"
+  },
+  {
+    "path": "sources/fenics-install.txt",
+    "original_sha256": "c697d215576a955a0f8f9f4ee645fe8a6339cd8071c3125c1bfef0637709c27a",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "d51903476f65b7f59bf6f6a410ffd4fb7dc25ea15a113752151ff93d27531bbb"
+  },
+  {
+    "path": "sources/fenics-nonlinear-tutorial.txt",
+    "original_sha256": "b543ce5f4f4f8aebe4091cc02d5022b005eaf3556ff4fac7f40096eb7b2734e6",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "49ba7a156669cde0fdaf40b3db8eeb1a48d9bf45e32bfd537d0caab4b258644b"
+  },
+  {
+    "path": "sources/fenics-readme.txt",
+    "original_sha256": "6550c1135b0b7cad1f6b7839c7343c67ea81c826f32d2a7cda7b9d9b575003ea",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "fd812cabeca54caacabba236a7337e302cbf4cd4047234432fd98eaff013556b"
+  },
+  {
+    "path": "sources/icthermbench-limitations.txt",
+    "original_sha256": "dc1730d2f84def2d9c4cef35141ff290fd7ced997d6c3312ffb6809a4e421da9",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "12de31c3b83ab829853a6497c14fdd17e5d08a17a2340d82dc3b147498c609cc"
+  },
+  {
+    "path": "sources/icthermbench-paper.txt",
+    "original_sha256": "30e269fbd855e217b4c19a1e8236972774b6716ccad955d75311713850e6691c",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "5a54f721398e3f26670fd7f7080b0416d06879fc618df5c3328f637487e6ae0d"
+  },
+  {
+    "path": "sources/lukebhan--PDEControlGym.md",
+    "original_sha256": "b9a7ad6334bd989fea12da410ab20fc3af120801d0cf17f83f91dd485afdbd43",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "8e44f8a1bf739e82a25aaad7dcbfd7d873b362d0501fc316140a0457475f6632"
+  },
+  {
+    "path": "sources/mf2-paper.txt",
+    "original_sha256": "84100999d9762b7b10c7a80c4efa3db2295097c7898684d9fef0b088c3fb9877",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "1b52319e4b0a05b386965ea4790e4324b94ecfa134b86ccea6d3327b60de9f9d"
+  },
+  {
+    "path": "sources/multifidelity-review-full.txt",
+    "original_sha256": "718dc76069155f6412e532a42d4438e1087de6561d46701727ae18b4adfc65b1",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "7d208504674f79d549dca0a47d21fb0b2cb0a1522de150a6eea2306597dc56d0"
+  },
+  {
+    "path": "sources/multifidelity-review.txt",
+    "original_sha256": "43e5445dcb5e6d20fe6c6daf7534938c4db460dab52744fd1edac81a5e047fd9",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "6970cc4f3ed1007f83aa73d34eff41c7c67319e109cad448e41937f02cec5c01"
+  },
+  {
+    "path": "sources/nabenabe0928--mfhpo-simulator.md",
+    "original_sha256": "f7053dca552d769d7820459e5b04bcfe43081ae81a8cb21f4388aff16c277719",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "ada706a3d03052ea72acbcda8b0b941d5ea4a03eaa751b56f687cff959de224a"
+  },
+  {
+    "path": "sources/naura-cvd.txt",
+    "original_sha256": "b0ecb076cdabec9a0441922dfa80acd89afcca87e7a36f07e4d8b3c9d4efb501",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "b345bb6c3baebedf849512d37da4300045109a1b9a8395c6ae537caeec25dfc0"
+  },
+  {
+    "path": "sources/naura-rtp.txt",
+    "original_sha256": "6f909aaa9d3ce517ba10fd50f95bf9d53f74e1c3ec181837d1c51c18a208bbd1",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "b82dd5acdd87de1542ef65a288eb8128428a66b496b54f3c5a473c0f6517cbcd"
+  },
+  {
+    "path": "sources/pdebench--PDEBench.md",
+    "original_sha256": "2e135f822e790be9a86e561d4c071d78ae3f4faea8e415db74d9e243ca519aff",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "f2b1822136d0d57af32ba62f1380142e4350eed2ee74231ceb219d58a5f3ddcc"
+  },
+  {
+    "path": "sources/pdecontrolgym-paper.txt",
+    "original_sha256": "bef0ab89bd3dc33b1848289597b253c973dc37effaa50f15813c8b2485039fed",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "90c186112aeba1f9a3182852ae60a889b86ebbaad83ca73ea3b4e4b3eed39aac"
+  },
+  {
+    "path": "sources/practical-mfbo-paper.txt",
+    "original_sha256": "33b91e2eb7179ae05995543efbca20d6031a7697c1058e29fd9f49da32ea51e8",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "e5e6fd1cdf38d5a089a88da30dc80079becaec6fb0dead75a696042b88d20837"
+  },
+  {
+    "path": "sources/py-pde-boundaries.txt",
+    "original_sha256": "b600d547c777ac02f2d901b4b0760fb5260609209aab4fd8218c871703862545",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "74bb177e872519c21d655ac36e5b01139d3b2223df7184bdac1283cd0733e15d"
+  },
+  {
+    "path": "sources/py-pde-readme.txt",
+    "original_sha256": "284bf3099088dbe82479eb4b22d2f71a6209681945bc98789128893aedd3c938",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "64c048d3c23b30444c7a39d4e130436c8e1c36db987fa8eb713a13825870683e"
+  },
+  {
+    "path": "sources/sjvrijn--mf2.md",
+    "original_sha256": "a43c50b41f0ec9f5628f9ac9f26a1e0a4b28e3f27f5175bfcbbe2a927d3d52c2",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "67df6c731ba3477b17c3288f23b3f919f93262d7cff4145a8ccb43082482d735"
+  },
+  {
+    "path": "sources/tclab-readme.txt",
+    "original_sha256": "36e24aeec39f2b4cdee2e3308cec26c81be3a78dcb3b9c0450eda3996b430b1e",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "022b5db9811888da69a9371b31f51e7bb9444a0db9a18c5b2f4301b28533744f"
+  },
+  {
+    "path": "sources/trsav--reactor_benchmark.md",
+    "original_sha256": "a2eb7c6d09f2a09743a899e63b2f45941f0965fcb038944a8f39791e4966a103",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "e499e9b09a0493d9db55e4da3d5887671065a57053deaf7bbba14e1820f4691f"
+  },
+  {
+    "path": "sources/tum-pbs--apebench.md",
+    "original_sha256": "dec318b79f0f79f0715080843b77c7cff904b2fba59e84c2a5d7d896cb115e31",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "3e01916dca9029768af80d5c8e3e1e6b23a9e95897aa99498b913cc65f13ac53"
+  },
+  {
+    "path": "sources/umbridge-benchmarks.txt",
+    "original_sha256": "3ceb8835d7c3ab97761d0172aa910faeb9718f5aecca61bba85dd3e7a7e25b3e",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "2aa1578b2e50bd82d43a2b550218db6f8140d5c45f3378e2f00edc86f0030da5"
+  },
+  {
+    "path": "sources/umbridge-heat.txt",
+    "original_sha256": "aeaefe94b332a58dd605a2844992852645ab4ea2a5b897352136607eb8567634",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "ca10c6f2e9f9b7d6efecaadddfdee21d5bed7d6f73bfdf2df358f8863d81510e"
+  },
+  {
+    "path": "sources/umbridge-readme.txt",
+    "original_sha256": "694840a32b52a576669dd4f138b3d12c7a934f9130de2beacb6ca4af8b1ccbee",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "0c53a1e5945ddf887141b148f562c9a43f0db48a69bc61c1579ac7d32b0f661f"
+  },
+  {
+    "path": "sources/xiangyuan-zhang--controlgym.md",
+    "original_sha256": "b5982f849bf6509f369a47f127f32704e82c7aa3d559ef5e83932010fac2a621",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "8bbc9da6608dd7a81e4782de504d16da81778148be5b8c5d0f1bcd777343e921"
+  },
+  {
+    "path": "sources/multifidelity-review-full.pdf",
+    "original_sha256": "52ba8e1dcc6c64a70937ea0ef0fb54fe7223e4ca8134e53f878f49a980a33881",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "action": "omitted",
+    "notice_path": "sources/multifidelity-review-full.pdf.source.md",
+    "notice_sha256": "4c2b55eece4c13ea908efec71722701dece14a01fa1d02fc73aee41b20517531"
+  },
+  {
+    "path": "sources/practical-mfbo-paper.pdf",
+    "original_sha256": "228992b8c453b420864e7a1be4650ab320c74aea82b07a25f29397f1f2ae9f49",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "action": "omitted",
+    "notice_path": "sources/practical-mfbo-paper.pdf.source.md",
+    "notice_sha256": "243d6e4c83ba5ca8fa99aa64408fbf8a264719b93694ef9f50acec5866735a27"
+  },
+  {
+    "path": "tmp/pdfs/review-cost-table.png",
+    "original_sha256": "2d132685f333238fabf484beca5e0499c8417291a2cd28cd788446a1cf7076f5",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "action": "omitted",
+    "notice_path": "tmp/pdfs/review-cost-table.png.source.md",
+    "notice_sha256": "e95dc8cb4048f79c535ddddd3318e4f72c4f31bfca764e321bf495b2b14b59c9"
+  },
+  {
+    "path": "crossref-search.json",
+    "original_sha256": "a64f20c2210785c1d9e94f2c259bbc4cb606f442ed75c60876cdbb72992a4e2a",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "62e9cab3fd8ca5514bd79a4fc490965c437995f47ced179556ed4a0d6867bab7"
+  },
+  {
+    "path": "github-search-targeted.json",
+    "original_sha256": "8a3d2d181ba4419000bce7583b1fa52feb6886d0476fcb0d86983866f73fe53c",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "4b7ccc465328695a94550ed54b03e4cb1e70c3f4828beef395c3001eeb9d1ad5"
+  },
+  {
+    "path": "github-search.json",
+    "original_sha256": "7bcc462b496cbb93da707488c416c90d127c4e6aba6b95a0a56a56d9e2d9b61b",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "9d74c4ba2df474d3f422bca82c14b63ccb9d14223d0c16ccb4a4d0f509fc72bb"
+  },
+  {
+    "path": "paper-search-recent.json",
+    "original_sha256": "276aa2df9001b88fc5cb1968854cb2a00a544e7cadd971dfa1caca698476b4f4",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "64a595886cbdf5c21305f178cbb6e94dd5084fcec296eef25b82bd4575f218f8"
+  },
+  {
+    "path": "paper-search-targeted.json",
+    "original_sha256": "0425b40dc57d04996df0fdca70e565ddd637d5565ab9e01dd16564e595b4d4dd",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "bd409852e3b9588795d085ba1df3bc1cd3694df834301c2c9063ba0ba6e7bdad"
+  },
+  {
+    "path": "paper-search-title-filtered.json",
+    "original_sha256": "18ceeb4cebeaf2c1939920320fc01a5090136dd5181323fac27e410027aa3fbf",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "e649438fd7d55018dcbc5da34ec17cc7e889e635e23c9b893324f83b79dbbd96"
+  },
+  {
+    "path": "paper-search.json",
+    "original_sha256": "f16908e27548198d64820943eeda27370bf1d8abb044898bddb04bc844b8726a",
+    "reason": "Public edition retains provenance, not third-party reference bodies; public availability is not treated as redistribution permission.",
+    "replacement_sha256": "f69bfdebb97dd196acb92ebeff1493f71f82e89ca653ebbeb73c1ab985ae2ebb"
+  },
+  {
+    "path": "workbench.py",
+    "original_sha256": "05d4627eb4e0956d93d2b7aa92dd721ec69df62b36526642c9e06b27563fdf00",
+    "replacement_sha256": "2f12d6f6b3806668967e92f8cb177c9b7ef658f8fe74e69411c4fbefcd71d6ed",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "radiation/sources/manifest.json",
+    "original_sha256": "a548f89ce4926c77591ac66e4904bf7bc31d05fb2bc572777ec8b03785056fe9",
+    "replacement_sha256": "17c12172e06298f3ff63a2b805785fa97b10b46eed36a2b54737d3f994dbe987",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "calibration/sources/manifest.json",
+    "original_sha256": "e0aedcf4e6848d770bd4317253dbc2943009f87029d826d795f56af939207a07",
+    "replacement_sha256": "dbdf760850b566f2ac547386141bb39a48d342b48acd2566addd94f9e0d88342",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "radiation/results/artifact-manifest.json",
+    "original_sha256": "c8aff6b71ce612f1e4e25dd61c452abd514ee9ae719478de33c7a8b064970cda",
+    "replacement_sha256": "7e35e852fd126bf18cd40684871390a02373fe9bbbfba3c1011ed8bcccdcce9a",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "calibration/results/artifact-manifest.json",
+    "original_sha256": "f0e7dcfdfc12825b294b82bb3b9890e5bc481d2b60c76170796d3f23bf6af432",
+    "replacement_sha256": "c8831a6326e1d24eb5d1ad2112add55e61f351ada0b911b772a96b0565621e2c",
+    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  }
+]

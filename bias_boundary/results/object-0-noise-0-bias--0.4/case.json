@@ -1,0 +1,85 @@
+{
+  "id": "object-0-noise-0-bias--0.4",
+  "object": 0,
+  "noise": 0,
+  "bias_K": -0.4,
+  "fit": {
+    "ratios": [
+      0.9975329752551835,
+      0.9727511361161524,
+      0.8628139668477324,
+      0.9663227731350843
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 4.968912217998877,
+    "train_rmse_K": 0.19503994192542184,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2944.2855174138813,
+      280.9080552126226,
+      136.153934201414,
+      48.0378042204431
+    ],
+    "jacobian_condition": 61.29100955369861,
+    "jacobian_column_cosines": [
+      [
+        0.9999999999999996,
+        0.022242570359172164,
+        0.09953453837101132,
+        -0.1017138002735092
+      ],
+      [
+        0.022242570359172164,
+        0.9999999999999998,
+        0.991406729715624,
+        -0.9587788718092609
+      ],
+      [
+        0.09953453837101132,
+        0.991406729715624,
+        1.0000000000000002,
+        -0.9577825027011527
+      ],
+      [
+        -0.1017138002735092,
+        -0.9587788718092609,
+        -0.9577825027011527,
+        1.0000000000000004
+      ]
+    ]
+  },
+  "fit_hash": "08309eeca526472d13a6249cfdfb72f34202cd20ea375f7cbfdcad02026814fd",
+  "alarm_hash": "79d5bb38557c846f16e37d5e1274dd3f6a36ca0ae0d969a961fc160c02e583d2",
+  "alarm": {
+    "training": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.19503994192542184,
+      "max_sensor_mean_residual_K": 0.08970400344272396
+    },
+    "diagnostic": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K"
+      ],
+      "rmse_K": 0.20819359349384212,
+      "max_sensor_mean_residual_K": 0.07904513461733487
+    },
+    "combined": true
+  },
+  "score": {
+    "rmse_K": 0.6598094856432377,
+    "final_mean_error_K": 0.4684981591058204,
+    "inadequate": true
+  },
+  "near_boundary": true
+}

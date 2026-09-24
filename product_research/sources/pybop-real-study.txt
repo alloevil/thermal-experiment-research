@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `product_research/sources/pybop-real-study.txt`
+
+Original SHA-256: `00523ac0bfb97c7f3cb76e5f9673d49eea0592882da1074ddf615b5d791dbadc`
+
+Sources:
+- https://api.github.com/repos/Battery-Intelligence-Lab/Hallemans-2025-JES/readme
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

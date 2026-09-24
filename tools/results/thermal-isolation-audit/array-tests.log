@@ -1,0 +1,11 @@
+test_broken_energy_ledger_is_rejected (test_replay_verification.RecomputedArrayTests.test_broken_energy_ledger_is_rejected) ... ok
+test_different_input_invalidates_radiation_comparison (test_replay_verification.RecomputedArrayTests.test_different_input_invalidates_radiation_comparison) ... ok
+test_excess_power_is_rejected (test_replay_verification.RecomputedArrayTests.test_excess_power_is_rejected) ... ok
+test_false_feasibility_label_is_rejected (test_replay_verification.RecomputedArrayTests.test_false_feasibility_label_is_rejected) ... ok
+test_modified_field_is_not_accepted (test_replay_verification.RecomputedArrayTests.test_modified_field_is_not_accepted) ... ok
+test_new_result_matches_frozen_reference (test_replay_verification.RecomputedArrayTests.test_new_result_matches_frozen_reference) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.074s
+
+OK

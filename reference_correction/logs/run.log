@@ -1,0 +1,176 @@
+CASE 0/0/clean/raw: residual=0.1048/0.1023K hidden=0.0115K alarm=False bad=False
+CASE 0/0/clean/corrected: residual=0.1072/0.1054K hidden=0.0372K alarm=False bad=False
+CASE 0/0/stable/raw: residual=0.2019/0.1765K hidden=0.6592K alarm=True bad=True
+CASE 0/0/stable/corrected: residual=0.1072/0.1054K hidden=0.0372K alarm=False bad=False
+CASE 0/0/reference_bias/raw: residual=0.2019/0.1765K hidden=0.6592K alarm=True bad=True
+CASE 0/0/reference_bias/corrected: residual=0.1925/0.1700K hidden=0.6025K alarm=False bad=True
+CASE 0/0/thermal_drift/raw: residual=0.2020/0.1765K hidden=0.9559K alarm=True bad=True
+CASE 0/0/thermal_drift/corrected: residual=0.1073/0.1055K hidden=0.3242K alarm=False bad=False
+CASE 0/1/clean/raw: residual=0.1050/0.0978K hidden=0.0166K alarm=False bad=False
+CASE 0/1/clean/corrected: residual=0.1068/0.0982K hidden=0.0201K alarm=False bad=False
+CASE 0/1/stable/raw: residual=0.2027/0.1913K hidden=0.6794K alarm=True bad=True
+CASE 0/1/stable/corrected: residual=0.1068/0.0982K hidden=0.0201K alarm=False bad=False
+CASE 0/1/reference_bias/raw: residual=0.2027/0.1913K hidden=0.6794K alarm=True bad=True
+CASE 0/1/reference_bias/corrected: residual=0.1825/0.1718K hidden=0.5931K alarm=False bad=True
+CASE 0/1/thermal_drift/raw: residual=0.2027/0.1913K hidden=0.9762K alarm=True bad=True
+CASE 0/1/thermal_drift/corrected: residual=0.1068/0.0982K hidden=0.3196K alarm=False bad=False
+CASE 1/0/clean/raw: residual=0.0932/0.1030K hidden=0.0148K alarm=False bad=False
+CASE 1/0/clean/corrected: residual=0.0976/0.1074K hidden=0.0989K alarm=False bad=False
+CASE 1/0/stable/raw: residual=0.1963/0.1932K hidden=0.6698K alarm=False bad=True
+CASE 1/0/stable/corrected: residual=0.0976/0.1074K hidden=0.0989K alarm=False bad=False
+CASE 1/0/reference_bias/raw: residual=0.1963/0.1932K hidden=0.6698K alarm=False bad=True
+CASE 1/0/reference_bias/corrected: residual=0.1809/0.1718K hidden=0.5031K alarm=False bad=True
+CASE 1/0/thermal_drift/raw: residual=0.1962/0.1932K hidden=0.3528K alarm=False bad=False
+CASE 1/0/thermal_drift/corrected: residual=0.0976/0.1074K hidden=0.2688K alarm=False bad=False
+CASE 1/1/clean/raw: residual=0.0858/0.0981K hidden=0.0051K alarm=False bad=False
+CASE 1/1/clean/corrected: residual=0.0883/0.1035K hidden=0.0250K alarm=False bad=False
+CASE 1/1/stable/raw: residual=0.2000/0.1938K hidden=0.6563K alarm=True bad=True
+CASE 1/1/stable/corrected: residual=0.0883/0.1035K hidden=0.0250K alarm=False bad=False
+CASE 1/1/reference_bias/raw: residual=0.2000/0.1938K hidden=0.6563K alarm=True bad=True
+CASE 1/1/reference_bias/corrected: residual=0.1745/0.1702K hidden=0.5607K alarm=False bad=True
+CASE 1/1/thermal_drift/raw: residual=0.2000/0.1938K hidden=0.3389K alarm=False bad=False
+CASE 1/1/thermal_drift/corrected: residual=0.0883/0.1034K hidden=0.3278K alarm=False bad=False
+REFINE object-0/noise-0-clean/corrected: {'rmse_K': 9.107238113856275e-07, 'final_mean_error_K': -2.4060585701590753e-07} flip=False
+REFINE object-0/noise-0-reference_bias/corrected: {'rmse_K': 0.0002351386284213941, 'final_mean_error_K': 3.9551537156512495e-07} flip=False
+REFINE object-0/noise-0-stable/corrected: {'rmse_K': 9.107238113856275e-07, 'final_mean_error_K': -2.4060585701590753e-07} flip=False
+REFINE object-0/noise-0-thermal_drift/corrected: {'rmse_K': 4.08810908598678e-05, 'final_mean_error_K': 2.011286142078461e-07} flip=False
+REFINE object-0/noise-1-reference_bias/corrected: {'rmse_K': 0.00022469220805332313, 'final_mean_error_K': 6.620928161282791e-08} flip=False
+REFINE object-1/noise-0-reference_bias/corrected: {'rmse_K': 0.00020340198254154007, 'final_mean_error_K': 5.22410061876144e-07} flip=False
+REFINE object-1/noise-1-reference_bias/corrected: {'rmse_K': 0.00022172348644922124, 'final_mean_error_K': 2.5924992996806395e-07} flip=False
+{
+  "status": "COMPLETED",
+  "groups": {
+    "clean": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.0051393230381629965,
+          0.016643533961843204
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.020088940430227614,
+          0.09890435688435342
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    },
+    "stable": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.6562614056938801,
+          0.6793661856448459
+        ],
+        "confusion": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 1,
+          "TN": 0
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.020088940430227614,
+          0.09890435688435342
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    },
+    "reference_bias": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.6562614056938801,
+          0.6793661856448459
+        ],
+        "confusion": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 1,
+          "TN": 0
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.5030948198004548,
+          0.6024538628206578
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 4,
+          "TN": 0
+        }
+      }
+    },
+    "thermal_drift": {
+      "raw": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.3388955386299261,
+          0.9761517063398277
+        ],
+        "confusion": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "TN": 2
+        }
+      },
+      "corrected": {
+        "count": 4,
+        "fit_success": 4,
+        "rmse_range_K": [
+          0.26881972276169275,
+          0.32775185073351903
+        ],
+        "confusion": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "TN": 4
+        }
+      }
+    }
+  },
+  "refinements": [
+    "object-0/noise-0-clean/corrected",
+    "object-0/noise-0-reference_bias/corrected",
+    "object-0/noise-0-stable/corrected",
+    "object-0/noise-0-thermal_drift/corrected",
+    "object-0/noise-1-reference_bias/corrected",
+    "object-1/noise-0-reference_bias/corrected",
+    "object-1/noise-1-reference_bias/corrected"
+  ],
+  "fit_calls": 1170,
+  "fit_seconds": 144.0854887305759,
+  "wall_seconds": 159.19555881712586
+}

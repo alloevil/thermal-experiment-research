@@ -1,0 +1,11 @@
+{
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "threads": 1,
+  "prior_requirements_lock_sha256": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+}

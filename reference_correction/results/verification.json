@@ -1,0 +1,288 @@
+{
+  "status": "PASS",
+  "cases": 32,
+  "offset_checks": [
+    {
+      "object": 0,
+      "replicate": 0,
+      "scenario": "clean",
+      "offset_error_vs_fixed_bias_K": [
+        -0.012743839751158248,
+        -0.06626125866769143,
+        0.011613529148962697
+      ],
+      "reported_standard_errors_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 0,
+      "scenario": "stable",
+      "offset_error_vs_fixed_bias_K": [
+        -0.012743839751180985,
+        -0.0662612586677142,
+        0.011613529148939927
+      ],
+      "reported_standard_errors_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 0,
+      "scenario": "reference_bias",
+      "offset_error_vs_fixed_bias_K": [
+        -0.3627438397512037,
+        -0.41626125866773694,
+        -0.3383864708510828
+      ],
+      "reported_standard_errors_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 0,
+      "scenario": "thermal_drift",
+      "offset_error_vs_fixed_bias_K": [
+        -0.012743839751180985,
+        -0.0662612586677142,
+        0.011613529148939927
+      ],
+      "reported_standard_errors_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 1,
+      "scenario": "clean",
+      "offset_error_vs_fixed_bias_K": [
+        0.02377639754039933,
+        0.0009399340842776383,
+        7.444985278652894e-05
+      ],
+      "reported_standard_errors_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 1,
+      "scenario": "stable",
+      "offset_error_vs_fixed_bias_K": [
+        0.02377639754037658,
+        0.0009399340842548565,
+        7.444985276378047e-05
+      ],
+      "reported_standard_errors_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 1,
+      "scenario": "reference_bias",
+      "offset_error_vs_fixed_bias_K": [
+        -0.32622360245964616,
+        -0.3490600659157679,
+        -0.34992555014725896
+      ],
+      "reported_standard_errors_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ]
+    },
+    {
+      "object": 0,
+      "replicate": 1,
+      "scenario": "thermal_drift",
+      "offset_error_vs_fixed_bias_K": [
+        0.02377639754037658,
+        0.0009399340842548565,
+        7.444985276378047e-05
+      ],
+      "reported_standard_errors_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 0,
+      "scenario": "clean",
+      "offset_error_vs_fixed_bias_K": [
+        -0.024822435164571742,
+        -0.006763430287651318,
+        0.06470195953759798
+      ],
+      "reported_standard_errors_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771467
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 0,
+      "scenario": "stable",
+      "offset_error_vs_fixed_bias_K": [
+        -0.02482243516454896,
+        -0.006763430287628547,
+        0.06470195953762076
+      ],
+      "reported_standard_errors_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 0,
+      "scenario": "reference_bias",
+      "offset_error_vs_fixed_bias_K": [
+        -0.3748224351645717,
+        -0.35676343028765134,
+        -0.28529804046240204
+      ],
+      "reported_standard_errors_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771466
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 0,
+      "scenario": "thermal_drift",
+      "offset_error_vs_fixed_bias_K": [
+        -0.02482243516454896,
+        -0.006763430287628547,
+        0.06470195953762076
+      ],
+      "reported_standard_errors_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 1,
+      "scenario": "clean",
+      "offset_error_vs_fixed_bias_K": [
+        -0.030288195616088844,
+        0.03374097884011462,
+        -0.0037784009284166586
+      ],
+      "reported_standard_errors_K": [
+        0.02229842571526366,
+        0.034244968289172055,
+        0.036964681403880824
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 1,
+      "scenario": "stable",
+      "offset_error_vs_fixed_bias_K": [
+        -0.030288195616066105,
+        0.03374097884013738,
+        -0.003778400928393877
+      ],
+      "reported_standard_errors_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 1,
+      "scenario": "reference_bias",
+      "offset_error_vs_fixed_bias_K": [
+        -0.38028819561608884,
+        -0.31625902115988536,
+        -0.3537784009284166
+      ],
+      "reported_standard_errors_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ]
+    },
+    {
+      "object": 1,
+      "replicate": 1,
+      "scenario": "thermal_drift",
+      "offset_error_vs_fixed_bias_K": [
+        -0.030288195616066105,
+        0.03374097884013738,
+        -0.003778400928393877
+      ],
+      "reported_standard_errors_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ]
+    }
+  ],
+  "fit_replays": [
+    {
+      "key": "object-0/noise-0-clean/raw",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-clean/corrected",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-stable/raw",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-stable/corrected",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-reference_bias/raw",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-reference_bias/corrected",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-thermal_drift/raw",
+      "difference_K": 0.0
+    },
+    {
+      "key": "object-0/noise-0-thermal_drift/corrected",
+      "difference_K": 0.0
+    }
+  ],
+  "persistent_corrected_misses": [
+    "object-0/noise-0-reference_bias/corrected",
+    "object-0/noise-1-reference_bias/corrected",
+    "object-1/noise-0-reference_bias/corrected",
+    "object-1/noise-1-reference_bias/corrected"
+  ],
+  "refinement_flips": [],
+  "max_refinement_change_K": 0.0002351386284213941
+}

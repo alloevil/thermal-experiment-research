@@ -1,0 +1,123 @@
+{
+  "object": 0,
+  "scenario": "lag",
+  "fit": {
+    "ratios": [
+      0.8181818181818182,
+      0.81818181818182,
+      0.8181818181818191,
+      0.9447300805306321
+    ],
+    "success": true,
+    "status": 4,
+    "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 4.880625811871141,
+    "train_rmse_K": 1.1077158335441446,
+    "active_mask": [
+      -1,
+      -1,
+      -1,
+      0
+    ],
+    "singular_values": [
+      3136.4821713442657,
+      308.0653900535579,
+      154.65094102854474,
+      58.974832413888876
+    ],
+    "jacobian_condition": 53.18340117242297,
+    "jacobian_column_cosines": [
+      [
+        1.0,
+        0.018320612234618675,
+        0.0942933639108587,
+        -0.09677108034489568
+      ],
+      [
+        0.018320612234618675,
+        0.9999999999999999,
+        0.9900723890853377,
+        -0.9572507099052552
+      ],
+      [
+        0.0942933639108587,
+        0.9900723890853377,
+        0.9999999999999998,
+        -0.957274405561972
+      ],
+      [
+        -0.09677108034489568,
+        -0.9572507099052552,
+        -0.957274405561972,
+        1.0
+      ]
+    ]
+  },
+  "fit_frozen_sha256": "665b0ece015a2409011ba8da0d6789f8127154addfefd0872cd09677229394aa",
+  "alarm_frozen_sha256": "f32915ad7462c2c00c32d9b202d24ab940915b2134d739d737f40aef43716d8e",
+  "alarm": {
+    "training": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K",
+        "sensor_mean_residual_above_0.2K"
+      ],
+      "rmse_K": 1.1077158335441446,
+      "max_sensor_mean_residual_K": 0.31972052039048293
+    },
+    "diagnostic": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K",
+        "sensor_mean_residual_above_0.2K"
+      ],
+      "rmse_K": 1.1580241763405792,
+      "max_sensor_mean_residual_K": 0.23489389860197227
+    },
+    "combined_alarm": true
+  },
+  "score": {
+    "rmse_K": 1.7342668643041064,
+    "final_mean_error_K": 1.1045702421114356,
+    "inadequate": true
+  },
+  "training_energy": {
+    "max_balance_J": 1.5987211554602254e-13,
+    "external_balance_J": 2.643446466521482e-05,
+    "absorbed_J": 152.67425754368307,
+    "wall_seconds": 0.12372661894187331
+  },
+  "diagnostic_energy": {
+    "max_balance_J": 2.0961010704922955e-13,
+    "external_balance_J": 2.508593814809501e-05,
+    "absorbed_J": 162.21639864016328,
+    "wall_seconds": 0.15794847393408418
+  },
+  "evaluation_energy": {
+    "max_balance_J": 1.2789769243681803e-13,
+    "external_balance_J": 6.8740262264554985e-06,
+    "absorbed_J": 245.56102565852467,
+    "wall_seconds": 0.07378516206517816
+  },
+  "refinement": {
+    "score": {
+      "rmse_K": 1.734983761383275,
+      "final_mean_error_K": 1.1045695836081677,
+      "inadequate": true
+    },
+    "energy": {
+      "max_balance_J": 2.1316282072803006e-13,
+      "external_balance_J": 3.375894976898053e-07,
+      "absorbed_J": 245.56102565852467,
+      "wall_seconds": 0.0756574459373951
+    },
+    "classification_changed": false,
+    "differences": {
+      "rmse_K": 0.0007168970791686657,
+      "final_mean_error_K": -6.585032679140568e-07
+    },
+    "lag_input_step_difference_K": 4.9881286543040915e-05
+  }
+}

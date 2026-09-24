@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "objects": 8,
+  "fits": 16,
+  "observation_reproduction": [
+    {
+      "object": 0,
+      "max_difference_K": 0.0
+    },
+    {
+      "object": 7,
+      "max_difference_K": 0.0
+    }
+  ],
+  "fresh_fit_prediction_checks": [
+    {
+      "object": 0,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 0,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 1,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 1,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 2,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 2,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 3,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 3,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 4,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 4,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 5,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 5,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 6,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 6,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 7,
+      "replicate": 0,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    },
+    {
+      "object": 7,
+      "replicate": 1,
+      "max_residual_difference_K": 0.0,
+      "warnings": []
+    }
+  ],
+  "fit_solver_calls": 610,
+  "calibrated_control_solver_calls": 2179,
+  "checks": [
+    "frozen sources and case design",
+    "new cases not in prior scan",
+    "144 observations and exact noise regeneration",
+    "fit interface has no truth/validation arguments",
+    "frozen fits and numerical budgets",
+    "fresh fit prediction replay and warning capture",
+    "saved residual/SVD and prediction errors",
+    "matched physical evaluation and energy balance",
+    "input limits and sampled temperature feasibility",
+    "two predefined refinement cases"
+  ]
+}

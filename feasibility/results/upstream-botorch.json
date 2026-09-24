@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "mode": "upstream SMOKE_TEST=1",
+  "seed": 20260924,
+  "threads": 1,
+  "wall_seconds": 11.708183984039351,
+  "cells": [
+    {
+      "cell": 2,
+      "wall_seconds": 3.292597830295563e-05,
+      "status": "PASS"
+    },
+    {
+      "cell": 3,
+      "wall_seconds": 8.193519897758961e-05,
+      "status": "PASS"
+    },
+    {
+      "cell": 5,
+      "wall_seconds": 0.29850273486226797,
+      "status": "PASS"
+    },
+    {
+      "cell": 7,
+      "wall_seconds": 0.05640236381441355,
+      "status": "PASS"
+    },
+    {
+      "cell": 9,
+      "wall_seconds": 0.11258401186205447,
+      "status": "PASS"
+    },
+    {
+      "cell": 11,
+      "wall_seconds": 0.00016474188305437565,
+      "status": "PASS"
+    },
+    {
+      "cell": 13,
+      "wall_seconds": 0.0008511710911989212,
+      "status": "PASS"
+    },
+    {
+      "cell": 15,
+      "wall_seconds": 8.78526959195733,
+      "status": "PASS"
+    },
+    {
+      "cell": 17,
+      "wall_seconds": 0.00022459006868302822,
+      "status": "PASS"
+    },
+    {
+      "cell": 18,
+      "wall_seconds": 0.1120807440020144,
+      "status": "PASS"
+    },
+    {
+      "cell": 20,
+      "wall_seconds": 0.00031280191615223885,
+      "status": "PASS"
+    },
+    {
+      "cell": 21,
+      "wall_seconds": 2.2084513478912413,
+      "status": "PASS"
+    },
+    {
+      "cell": 22,
+      "wall_seconds": 0.11231308989226818,
+      "status": "PASS"
+    }
+  ],
+  "recommendations": [
+    {
+      "cell": 18,
+      "candidate": [
+        [
+          0.43344305965598284,
+          0.5517836687481986,
+          0.31782642293864105,
+          0.22829522710100028,
+          0.43130523447858254,
+          0.1539845181887227,
+          1.0
+        ]
+      ],
+      "objective": [
+        0.4699260579443515
+      ],
+      "tutorial_cost": 22.110690144852093,
+      "observations": 20
+    },
+    {
+      "cell": 22,
+      "candidate": [
+        [
+          0.5801736571654609,
+          0.4203748394781196,
+          0.44356970205516894,
+          0.20081393786242238,
+          0.4766638982866917,
+          0.4158576382122018,
+          1.0
+        ]
+      ],
+      "objective": [
+        0.6024297605804563
+      ],
+      "tutorial_cost": 24.0,
+      "observations": 20
+    }
+  ],
+  "transforms": [
+    {
+      "cell": 2,
+      "original": "    %pip install botorch",
+      "replacement": "pass"
+    }
+  ],
+  "execution_notes": [
+    "Only the unreachable Colab pip magic is replaced by pass; all problem and optimization code is unchanged.",
+    "Upstream EI comparison uses separate initial draws and unequal costs, so it is NOT a controlled performance comparison.",
+    "Tutorial cost is a synthetic fidelity cost and excludes initialization, optimizer time and final evaluation.",
+    "The original final model is not refit after the last observation batch; retained to reproduce upstream behavior."
+  ]
+}

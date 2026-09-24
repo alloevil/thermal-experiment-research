@@ -1,0 +1,33 @@
+{
+  "score": {
+    "rmse_K": 0.5029472148535942,
+    "final_mean_error_K": 0.33640258819269775,
+    "inadequate": true
+  },
+  "changes": {
+    "rmse_K": 0.00020162720959471248,
+    "final_mean_error_K": 1.9348635760252364e-07
+  },
+  "energy": {
+    "max_balance_J": 8.881784197001252e-14,
+    "external_balance_J": 5.58144080287093e-07,
+    "absorbed_J": 231.92027424387877,
+    "wall_seconds": 0.0760813329834491
+  },
+  "label_flipped": false,
+  "alarm96": {
+    "training": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.16331295899640194,
+      "max_sensor_mean_residual_K": 0.06722439415915815
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.16501719321369976,
+      "max_sensor_mean_residual_K": 0.05712258504116363
+    },
+    "combined": false
+  }
+}

@@ -1,0 +1,10 @@
+Using Python 3.12.8 environment at: minimal 科学 environment
+Resolved 2 packages in 637ms
+Downloading numpy (15.9MiB)
+Downloading scipy (33.7MiB)
+ Downloading numpy
+ Downloading scipy
+Prepared 2 packages in 7.56s
+Installed 2 packages in 12ms
+ + numpy==2.5.3
+ + scipy==1.18.1

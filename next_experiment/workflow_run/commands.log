@@ -1,0 +1,53 @@
+$ /mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/bin/python -B /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow.py plan --case /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/case.json --observations /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/observations.json --output /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/plan
+{
+  "stage": "pending_review",
+  "proposal_id": "4300066f348cca57c58f7bfb3d7d4ab7da64d4e6fbc633baa85cd9adbd68c14e",
+  "experiment": "heat_high",
+  "engineering_release": "not_supported"
+}
+
+exit_code=0
+
+$ /mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/bin/python -B /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow.py review --session /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/plan/session.json --proposal-id 4300066f348cca57c58f7bfb3d7d4ab7da64d4e6fbc633baa85cd9adbd68c14e --experiment heat_high --decision approve --reviewer simulation-demo-opt-in --acknowledge-research-only --output /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/review
+{
+  "stage": "approved",
+  "proposal_id": "4300066f348cca57c58f7bfb3d7d4ab7da64d4e6fbc633baa85cd9adbd68c14e",
+  "experiment": "heat_high",
+  "engineering_release": "not_supported"
+}
+
+exit_code=0
+
+$ /mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/bin/python -B /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow.py observe --session /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/review/session.json --measurement /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/measurement.json --origin simulated --output /mnt/newdisk/github/astra/research/thermal-ai4engineering/next_experiment/workflow_run/completed
+{
+  "stage": "completed",
+  "proposal_id": "4300066f348cca57c58f7bfb3d7d4ab7da64d4e6fbc633baa85cd9adbd68c14e",
+  "experiment": "heat_high",
+  "engineering_release": "not_supported",
+  "posterior": {
+    "status": "supported_hypothesis",
+    "model_probability": {
+      "convection": 1.0,
+      "offset": 3.348479336549548e-35
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.9144973581055874,
+      "offset": 1.6321166421504298e-33
+    },
+    "incompatible_records": [],
+    "particle_ess": 1.0062994326839514,
+    "particle_count": 72,
+    "records": 2,
+    "supported": "convection",
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "declared_budget": {
+    "before": 1,
+    "spent": 1,
+    "remaining": 0
+  }
+}
+
+exit_code=0
+

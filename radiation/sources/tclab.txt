@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `radiation/sources/tclab.txt`
+
+Original SHA-256: `d4277b1b502f892f36566150a62e45ad2fa32a39964a8874cb6f02e4a2ca2b07`
+
+Sources:
+- https://apmonitor.com/pdc/index.php/Main/ArduinoModeling
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

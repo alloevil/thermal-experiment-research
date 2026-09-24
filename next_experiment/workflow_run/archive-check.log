@@ -1,0 +1,10 @@
+清单内文件与固定快照一致；未重跑科学实验，不证明真实性、计量溯源或工程安全。
+matched_snapshot: feasibility 29/29
+matched_snapshot: radiation 25/25
+matched_snapshot: sensitivity 204/204
+matched_snapshot: calibration 195/195
+matched_snapshot: model_mismatch 172/172
+matched_snapshot: bias_boundary 248/248
+matched_snapshot: reference_correction 303/303
+matched_snapshot: evidence_report 10/10
+整体: matched_snapshot；工程放行: not_supported

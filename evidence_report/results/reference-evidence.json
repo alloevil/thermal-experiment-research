@@ -1,0 +1,1629 @@
+{
+  "schema_version": "reference-correction-evidence/1",
+  "study_kind": "synthetic_research",
+  "engineering_release": "not_supported",
+  "integrity": {
+    "manifest_sha256": "01baed21bc3979a858f6b207bbf3fa359f15e1562de3862aacd14e18dcb380f5",
+    "verified_artifacts": 303,
+    "meaning": "Matches caller-selected snapshot, not authenticity or metrological traceability."
+  },
+  "validation_scope": {
+    "performed": [
+      "artifact and dependency hashing",
+      "offset arithmetic",
+      "saved residual decision recomputation",
+      "saved field error recomputation"
+    ],
+    "not_performed": [
+      "ODE replay",
+      "parameter refitting",
+      "independent physics validation",
+      "hardware or reference certification"
+    ],
+    "source_verifier_reported_status": "PASS"
+  },
+  "missing_evidence": [
+    "reference_traceability_and_systematic_error_bound",
+    "independent_thermal_equilibrium_evidence",
+    "correction_valid_temperature_range_and_expiry",
+    "temperature_dependent_drift_bound",
+    "hardware_validation"
+  ],
+  "observable_review": [
+    {
+      "id": "case-001",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10476166033456351,
+        "max_sensor_mean_residual_K": 0.01473615991152144
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10231223014945182,
+        "max_sensor_mean_residual_K": 0.006658649669378273
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.012743839751158248,
+        -0.06626125866769143,
+        0.011613529148962697
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-002",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10720946395131406,
+        "max_sensor_mean_residual_K": 0.03276008634899933
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10537459464504335,
+        "max_sensor_mean_residual_K": 0.04763754881808069
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.012743839751158248,
+        -0.06626125866769143,
+        0.011613529148962697
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-003",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20191916320589137,
+        "max_sensor_mean_residual_K": 0.08446683024465429
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17648739417891787,
+        "max_sensor_mean_residual_K": 0.07560766389494351
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.38725616024881904,
+        0.3337387413322858,
+        0.41161352914893995
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-004",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10720946395131406,
+        "max_sensor_mean_residual_K": 0.03276008634899933
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10537459464504335,
+        "max_sensor_mean_residual_K": 0.04763754881808069
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.38725616024881904,
+        0.3337387413322858,
+        0.41161352914893995
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-005",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20191916320589137,
+        "max_sensor_mean_residual_K": 0.08446683024465429
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17648739417891787,
+        "max_sensor_mean_residual_K": 0.07560766389494351
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.03725616024879628,
+        -0.01626125866773691,
+        0.061613529148917226
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-006",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19254593888599883,
+        "max_sensor_mean_residual_K": 0.10000271316064631
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.1700018086609797,
+        "max_sensor_mean_residual_K": 0.09806377200442284
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.03725616024879628,
+        -0.01626125866773691,
+        0.061613529148917226
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-007",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20198669819554196,
+        "max_sensor_mean_residual_K": 0.08441224444239619
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17654926338052476,
+        "max_sensor_mean_residual_K": 0.07554895714934655
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.38725616024881904,
+        0.3337387413322858,
+        0.41161352914893995
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-008",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10728820336509585,
+        "max_sensor_mean_residual_K": 0.032771067507483785
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10546165132213678,
+        "max_sensor_mean_residual_K": 0.047761571060174646
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.38725616024881904,
+        0.3337387413322858,
+        0.41161352914893995
+      ],
+      "offset_mean_standard_error_K": [
+        0.024766989713617432,
+        0.019154223991262473,
+        0.030733812464681157
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-009",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10504926311531987,
+        "max_sensor_mean_residual_K": 0.023509022876986307
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09777633843558799,
+        "max_sensor_mean_residual_K": 0.017456710231848877
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.02377639754039933,
+        0.0009399340842776383,
+        7.444985278652894e-05
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-010",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10682988625719436,
+        "max_sensor_mean_residual_K": 0.02973774517525148
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09823890532763094,
+        "max_sensor_mean_residual_K": 0.023891340401906547
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.02377639754039933,
+        0.0009399340842776383,
+        7.444985278652894e-05
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-011",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20268179326692098,
+        "max_sensor_mean_residual_K": 0.10039267170200243
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19130565712505132,
+        "max_sensor_mean_residual_K": 0.05183898715568821
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.4237763975403766,
+        0.4009399340842549,
+        0.4000744498527638
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-012",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10682988625719436,
+        "max_sensor_mean_residual_K": 0.02973774517525148
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09823890532763094,
+        "max_sensor_mean_residual_K": 0.023891340401906547
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.4237763975403766,
+        0.4009399340842549,
+        0.4000744498527638
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-013",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20268179326692098,
+        "max_sensor_mean_residual_K": 0.10039267170200243
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19130565712505132,
+        "max_sensor_mean_residual_K": 0.05183898715568821
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.07377639754035385,
+        0.05093993408423216,
+        0.05007444985274105
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-014",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.18246841557473717,
+        "max_sensor_mean_residual_K": 0.09704307196550725
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17181601703682087,
+        "max_sensor_mean_residual_K": 0.04959401105853208
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.07377639754035385,
+        0.05093993408423216,
+        0.05007444985274105
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-015",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.202683004287412,
+        "max_sensor_mean_residual_K": 0.10040058868514734
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19130516772598988,
+        "max_sensor_mean_residual_K": 0.05180353101519467
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.4237763975403766,
+        0.4009399340842549,
+        0.4000744498527638
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-016",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10678884553786092,
+        "max_sensor_mean_residual_K": 0.029743152583080246
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.0982191279305081,
+        "max_sensor_mean_residual_K": 0.023644619363874853
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        0.4237763975403766,
+        0.4009399340842549,
+        0.4000744498527638
+      ],
+      "offset_mean_standard_error_K": [
+        0.03390954986182263,
+        0.034292756583836785,
+        0.038565948797747336
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-017",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09320557131366587,
+        "max_sensor_mean_residual_K": 0.009144476187553133
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.1030471953272474,
+        "max_sensor_mean_residual_K": 0.023965007002492673
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.024822435164571742,
+        -0.006763430287651318,
+        0.06470195953759798
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-018",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09757674615331023,
+        "max_sensor_mean_residual_K": 0.02563240150349581
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10739267775355978,
+        "max_sensor_mean_residual_K": 0.020479687428113163
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.024822435164571742,
+        -0.006763430287651318,
+        0.06470195953759798
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-019",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19626470191969297,
+        "max_sensor_mean_residual_K": 0.09226352052905777
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19317128010980847,
+        "max_sensor_mean_residual_K": 0.05259056753038038
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.424822435164549,
+        -0.40676343028762857,
+        -0.33529804046237927
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-020",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09757674615331023,
+        "max_sensor_mean_residual_K": 0.02563240150349581
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10739267775355978,
+        "max_sensor_mean_residual_K": 0.020479687428113163
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.424822435164549,
+        -0.40676343028762857,
+        -0.33529804046237927
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-021",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19626470191969297,
+        "max_sensor_mean_residual_K": 0.09226352052905777
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19317128010980847,
+        "max_sensor_mean_residual_K": 0.05259056753038038
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.7748224351645717,
+        -0.7567634302876514,
+        -0.6852980404624021
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771466
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-022",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.18092399017027253,
+        "max_sensor_mean_residual_K": 0.0823776414576874
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17184698157821324,
+        "max_sensor_mean_residual_K": 0.07118592750494912
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.7748224351645717,
+        -0.7567634302876514,
+        -0.6852980404624021
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.035108809457161806,
+        0.03620987579771466
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-023",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.1962418099654701,
+        "max_sensor_mean_residual_K": 0.09228616116712374
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19317815804929905,
+        "max_sensor_mean_residual_K": 0.05245619460729264
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.424822435164549,
+        -0.40676343028762857,
+        -0.33529804046237927
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-024",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09761174618347546,
+        "max_sensor_mean_residual_K": 0.02567728289857148
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10744047246822554,
+        "max_sensor_mean_residual_K": 0.020634332999338294
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.424822435164549,
+        -0.40676343028762857,
+        -0.33529804046237927
+      ],
+      "offset_mean_standard_error_K": [
+        0.03423197224592241,
+        0.0351088094571618,
+        0.03620987579771467
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-025",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.08581711006800144,
+        "max_sensor_mean_residual_K": 0.005116037614204316
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.09808567802382465,
+        "max_sensor_mean_residual_K": 0.017548352325382172
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.030288195616088844,
+        0.03374097884011462,
+        -0.0037784009284166586
+      ],
+      "offset_mean_standard_error_K": [
+        0.02229842571526366,
+        0.034244968289172055,
+        0.036964681403880824
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-026",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.08829502961871036,
+        "max_sensor_mean_residual_K": 0.031249584447647766
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10345947797907348,
+        "max_sensor_mean_residual_K": 0.05170535464891657
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.030288195616088844,
+        0.03374097884011462,
+        -0.0037784009284166586
+      ],
+      "offset_mean_standard_error_K": [
+        0.02229842571526366,
+        0.034244968289172055,
+        0.036964681403880824
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-027",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20000380801203974,
+        "max_sensor_mean_residual_K": 0.09033398064483933
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19378886510646445,
+        "max_sensor_mean_residual_K": 0.07575652110165858
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.4302881956160661,
+        -0.36625902115986264,
+        -0.4037784009283939
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-028",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.08829502961871036,
+        "max_sensor_mean_residual_K": 0.031249584447647766
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10345947797907348,
+        "max_sensor_mean_residual_K": 0.05170535464891657
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.4302881956160661,
+        -0.36625902115986264,
+        -0.4037784009283939
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-029",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": true,
+        "reasons": [
+          "residual_rmse_above_0.2K"
+        ],
+        "rmse_K": 0.20000380801203974,
+        "max_sensor_mean_residual_K": 0.09033398064483933
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19378886510646445,
+        "max_sensor_mean_residual_K": 0.07575652110165858
+      },
+      "combined_alarm": true,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.7802881956160889,
+        -0.7162590211598854,
+        -0.7537784009284166
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "observed_residual_alarm",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-030",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17447955783333546,
+        "max_sensor_mean_residual_K": 0.08657723573184366
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.17017539663848902,
+        "max_sensor_mean_residual_K": 0.08098816623576373
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.7802881956160889,
+        -0.7162590211598854,
+        -0.7537784009284166
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-031",
+      "branch": "raw",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19996602235550814,
+        "max_sensor_mean_residual_K": 0.09035196569610093
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.19375422609277895,
+        "max_sensor_mean_residual_K": 0.07562225223895662
+      },
+      "combined_alarm": false,
+      "offset_applied": false,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.4302881956160661,
+        -0.36625902115986264,
+        -0.4037784009283939
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    },
+    {
+      "id": "case-032",
+      "branch": "corrected",
+      "fit_converged": true,
+      "training": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.08828330561627114,
+        "max_sensor_mean_residual_K": 0.031240211222002046
+      },
+      "diagnostic": {
+        "alarm": false,
+        "reasons": [],
+        "rmse_K": 0.10342022238552485,
+        "max_sensor_mean_residual_K": 0.0515575712626782
+      },
+      "combined_alarm": false,
+      "offset_applied": true,
+      "anchor_samples": 10,
+      "offset_K": [
+        -0.4302881956160661,
+        -0.36625902115986264,
+        -0.4037784009283939
+      ],
+      "offset_mean_standard_error_K": [
+        0.022298425715263664,
+        0.034244968289172055,
+        0.03696468140388082
+      ],
+      "standard_error_scope": "Random sampling precision only; excludes systematic reference error and drift.",
+      "review_reasons": [
+        "no_residual_alarm_is_not_validation",
+        "missing_reference_and_applicability_evidence",
+        "synthetic_study_only"
+      ],
+      "engineering_release": "not_supported"
+    }
+  ],
+  "retrospective_evaluation": {
+    "use": "Simulation-only hindsight; never used by observable review reasons.",
+    "cases": [
+      {
+        "id": "case-001",
+        "source_case": "object-0/noise-0-clean/raw",
+        "scenario": "clean",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.01152677998958515,
+        "final_mean_error_K": 0.006031159662882146,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-002",
+        "source_case": "object-0/noise-0-clean/corrected",
+        "scenario": "clean",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.03718445930904285,
+        "final_mean_error_K": 0.003331431312233235,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-003",
+        "source_case": "object-0/noise-0-stable/raw",
+        "scenario": "stable",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.6592047043991661,
+        "final_mean_error_K": 0.4713330297178686,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-004",
+        "source_case": "object-0/noise-0-stable/corrected",
+        "scenario": "stable",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.03718445930904285,
+        "final_mean_error_K": 0.003331431312233235,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-005",
+        "source_case": "object-0/noise-0-reference_bias/raw",
+        "scenario": "reference_bias",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.6592047043991661,
+        "final_mean_error_K": 0.4713330297178686,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-006",
+        "source_case": "object-0/noise-0-reference_bias/corrected",
+        "scenario": "reference_bias",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.6024538628206578,
+        "final_mean_error_K": 0.41415185240322216,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-007",
+        "source_case": "object-0/noise-0-thermal_drift/raw",
+        "scenario": "thermal_drift",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.9559135290707448,
+        "final_mean_error_K": 0.8701478986832285,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-008",
+        "source_case": "object-0/noise-0-thermal_drift/corrected",
+        "scenario": "thermal_drift",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 0,
+        "field_rmse_K": 0.3242039044323618,
+        "final_mean_error_K": 0.39619106402216175,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-009",
+        "source_case": "object-0/noise-1-clean/raw",
+        "scenario": "clean",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.016643533961843204,
+        "final_mean_error_K": 0.008088121860737374,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-010",
+        "source_case": "object-0/noise-1-clean/corrected",
+        "scenario": "clean",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.020088940430227614,
+        "final_mean_error_K": 0.018500231877112583,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-011",
+        "source_case": "object-0/noise-1-stable/raw",
+        "scenario": "stable",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.6793661856448459,
+        "final_mean_error_K": 0.4856764004696288,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-012",
+        "source_case": "object-0/noise-1-stable/corrected",
+        "scenario": "stable",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.020088940430227614,
+        "final_mean_error_K": 0.018500231877112583,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-013",
+        "source_case": "object-0/noise-1-reference_bias/raw",
+        "scenario": "reference_bias",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.6793661856448459,
+        "final_mean_error_K": 0.4856764004696288,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-014",
+        "source_case": "object-0/noise-1-reference_bias/corrected",
+        "scenario": "reference_bias",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.5931232637227712,
+        "final_mean_error_K": 0.4370049405525265,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-015",
+        "source_case": "object-0/noise-1-thermal_drift/raw",
+        "scenario": "thermal_drift",
+        "branch": "raw",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.9761517063398277,
+        "final_mean_error_K": 0.8844643061543138,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-016",
+        "source_case": "object-0/noise-1-thermal_drift/corrected",
+        "scenario": "thermal_drift",
+        "branch": "corrected",
+        "object": 0,
+        "replicate": 1,
+        "field_rmse_K": 0.31956940771935366,
+        "final_mean_error_K": 0.4184082777597382,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-017",
+        "source_case": "object-1/noise-0-clean/raw",
+        "scenario": "clean",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.014841605946413204,
+        "final_mean_error_K": 0.006763600636531919,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-018",
+        "source_case": "object-1/noise-0-clean/corrected",
+        "scenario": "clean",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.09890435688435342,
+        "final_mean_error_K": 0.10401610961787355,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-019",
+        "source_case": "object-1/noise-0-stable/raw",
+        "scenario": "stable",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.6698056033687348,
+        "final_mean_error_K": 0.4747073267712949,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-020",
+        "source_case": "object-1/noise-0-stable/corrected",
+        "scenario": "stable",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.09890435688435342,
+        "final_mean_error_K": 0.10401610961787355,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-021",
+        "source_case": "object-1/noise-0-reference_bias/raw",
+        "scenario": "reference_bias",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.6698056033687348,
+        "final_mean_error_K": 0.4747073267712949,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-022",
+        "source_case": "object-1/noise-0-reference_bias/corrected",
+        "scenario": "reference_bias",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.5030948198004548,
+        "final_mean_error_K": 0.3010014566187351,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-023",
+        "source_case": "object-1/noise-0-thermal_drift/raw",
+        "scenario": "thermal_drift",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.3527984462903962,
+        "final_mean_error_K": 0.027824148316256014,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-024",
+        "source_case": "object-1/noise-0-thermal_drift/corrected",
+        "scenario": "thermal_drift",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 0,
+        "field_rmse_K": 0.26881972276169275,
+        "final_mean_error_K": 0.34123148888329524,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-025",
+        "source_case": "object-1/noise-1-clean/raw",
+        "scenario": "clean",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.0051393230381629965,
+        "final_mean_error_K": 0.0038456050168633737,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-026",
+        "source_case": "object-1/noise-1-clean/corrected",
+        "scenario": "clean",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.025031029543344883,
+        "final_mean_error_K": 0.02612390032550138,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-027",
+        "source_case": "object-1/noise-1-stable/raw",
+        "scenario": "stable",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.6562614056938801,
+        "final_mean_error_K": 0.47193096731018613,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-028",
+        "source_case": "object-1/noise-1-stable/corrected",
+        "scenario": "stable",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.025031029543344883,
+        "final_mean_error_K": 0.02612390032550138,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-029",
+        "source_case": "object-1/noise-1-reference_bias/raw",
+        "scenario": "reference_bias",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.6562614056938801,
+        "final_mean_error_K": 0.47193096731018613,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-030",
+        "source_case": "object-1/noise-1-reference_bias/corrected",
+        "scenario": "reference_bias",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.5606936283494106,
+        "final_mean_error_K": 0.3794567916075948,
+        "inadequate_prediction": true,
+        "missed_by_residual_rule": true
+      },
+      {
+        "id": "case-031",
+        "source_case": "object-1/noise-1-thermal_drift/raw",
+        "scenario": "thermal_drift",
+        "branch": "raw",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.3388955386299261,
+        "final_mean_error_K": 0.025122626268057502,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      },
+      {
+        "id": "case-032",
+        "source_case": "object-1/noise-1-thermal_drift/corrected",
+        "scenario": "thermal_drift",
+        "branch": "corrected",
+        "object": 1,
+        "replicate": 1,
+        "field_rmse_K": 0.32775185073351903,
+        "final_mean_error_K": 0.4194711074492261,
+        "inadequate_prediction": false,
+        "missed_by_residual_rule": false
+      }
+    ]
+  },
+  "counts": {
+    "branches": 32,
+    "alarmed": 8,
+    "retrospective_inadequate": 14,
+    "retrospective_missed": 6
+  }
+}

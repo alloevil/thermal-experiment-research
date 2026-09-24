@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "example_wall_seconds": 17.493228912120685,
+  "initial_mean": 0.25009264832532807,
+  "final_mean": 0.2500926483253281,
+  "initial_std": 0.0289782412313431,
+  "final_std": 0.006002496692587447,
+  "tests": [
+    {
+      "name": "test_simple_diffusion_value",
+      "status": "PASS",
+      "wall_seconds": 2.273262568982318
+    },
+    {
+      "name": "test_simple_diffusion_flux_right",
+      "status": "PASS",
+      "wall_seconds": 2.1386768200900406
+    },
+    {
+      "name": "test_simple_diffusion_flux_left",
+      "status": "PASS",
+      "wall_seconds": 2.096453267149627
+    }
+  ],
+  "execution_notes": [
+    "Original example executed unchanged with headless plotting; its default RNG is not overridden.",
+    "Three original test function ASTs run unchanged with a seeded RNG fixture substitute.",
+    "This is not execution of the entire upstream pytest suite."
+  ]
+}

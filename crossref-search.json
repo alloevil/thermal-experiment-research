@@ -1,0 +1,716 @@
+[
+  {
+    "query": "rapid thermal processing model predictive control",
+    "url": "https://api.crossref.org/works?query.bibliographic=rapid+thermal+processing+model+predictive+control&rows=6",
+    "items": [
+      {
+        "DOI": "10.23919/acc.1993.4793449",
+        "title": [
+          "A Model Predictive Controller for Multivariable Temperature Control in Rapid Thermal Processing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1993,
+              6
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.23919/acc.1993.4793449",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx5/4792781/4792782/04793449.pdf?arnumber=4793449",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Terence",
+            "family": "Breedijk",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Thomas F.",
+            "family": "Edgar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Isaac",
+            "family": "Trachtenberg",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/978-94-015-8711-2_5",
+        "title": [
+          "Temperature and Process Control in Rapid Thermal Processing"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-94-015-8711-2_5",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-94-015-8711-2_5",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "J.-M.",
+            "family": "Dilhac",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1109/icsmc.1993.384843",
+        "title": [
+          "Model-based control of semiconductor processing equipment: rapid thermal processing example"
+        ],
+        "published": null,
+        "URL": "https://doi.org/10.1109/icsmc.1993.384843",
+        "link": [
+          {
+            "URL": "http://xplorestaging.ieee.org/ielx2/3093/8733/00384843.pdf?arnumber=384843",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "R.S.",
+            "family": "Gyurcsik",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "R.K.",
+            "family": "Cavin",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "F.Y.",
+            "family": "Sorrell",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1115/isps2021-64988",
+        "title": [
+          "Thermal Throttling by Model Predictive Control in Flash Memory"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              2
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1115/isps2021-64988",
+        "link": [
+          {
+            "URL": "http://asmedigitalcollection.asme.org/ISPS/proceedings-pdf/doi/10.1115/ISPS2021-64988/6724153/v001t03a001-isps2021-64988.pdf",
+            "content-type": "application/pdf",
+            "content-version": "vor",
+            "intended-application": "syndication"
+          },
+          {
+            "URL": "http://asmedigitalcollection.asme.org/ISPS/proceedings-pdf/doi/10.1115/ISPS2021-64988/6724153/v001t03a001-isps2021-64988.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "Shaomin",
+            "family": "Xiong",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Western Digital Corporation, Milpitas, California, United States"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Toshiki",
+            "family": "Hirano",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Western Digital Corporation, Milpitas, California, United States"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/978-0-85729-398-5_8",
+        "title": [
+          "Robust Model Predictive Control"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-0-85729-398-5_8",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-0-85729-398-5_8.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "E. F.",
+            "family": "Camacho",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Bordons",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1007/978-0-85729-398-5_6",
+        "title": [
+          "Multivariable Model Predictive Control"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2007
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1007/978-0-85729-398-5_6",
+        "link": [
+          {
+            "URL": "http://link.springer.com/content/pdf/10.1007/978-0-85729-398-5_6.pdf",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "given": "E. F.",
+            "family": "Camacho",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "C.",
+            "family": "Bordons",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "rapid thermal processing wafer temperature emissivity control",
+    "url": "https://api.crossref.org/works?query.bibliographic=rapid+thermal+processing+wafer+temperature+emissivity+control&rows=6",
+    "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+  },
+  {
+    "query": "multi fidelity heat transfer optimization",
+    "url": "https://api.crossref.org/works?query.bibliographic=multi+fidelity+heat+transfer+optimization&rows=6",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "multi fidelity benchmark simulation engineering",
+    "url": "https://api.crossref.org/works?query.bibliographic=multi+fidelity+benchmark+simulation+engineering&rows=6",
+    "items": [
+      {
+        "DOI": "10.1016/j.nucengdes.2026.114885",
+        "title": [
+          "High-fidelity turbulence simulation for the OECD–NEA cold-leg mixing benchmark"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.nucengdes.2026.114885",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0029549326001378?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0029549326001378?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0009-0009-3287-6019",
+            "authenticated-orcid": false,
+            "given": "Qingji",
+            "family": "Su",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-5408-2529",
+            "authenticated-orcid": false,
+            "given": "Wanai",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Meilan",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.7717/peerj-cs.3429/table-2",
+        "title": [
+          "Table 2: Multi-fidelity simulation approaches in DSE."
+        ],
+        "published": null,
+        "URL": "https://doi.org/10.7717/peerj-cs.3429/table-2",
+        "link": null,
+        "author": null
+      },
+      {
+        "DOI": "10.1016/j.ress.2025.111739",
+        "title": [
+          "Multi-fidelity Subset Simulation for rare event simulation"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.ress.2025.111739",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0951832025009391?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0951832025009391?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Leila",
+            "family": "Naderi",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-9419-8481",
+            "authenticated-orcid": false,
+            "given": "Gaofeng",
+            "family": "Jia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.26434/chemrxiv-2023-fjjk7",
+        "title": [
+          "Materials Science Optimization Benchmark Dataset for Multi-fidelity Hard-sphere Packing Simulations"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              9
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.26434/chemrxiv-2023-fjjk7",
+        "link": [
+          {
+            "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-fjjk7",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4491-6876",
+            "authenticated-orcid": false,
+            "given": "Sterling G.",
+            "family": "Baird",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03r0ha626",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Utah",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Taylor D.",
+            "family": "Sparks",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03r0ha626",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Utah",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.1016/j.engstruct.2026.123677",
+        "title": [
+          "Efficient high-fidelity dynamic simulation and reliability assessment of wind-traffic-bridge systems via a multi-fidelity fourier neural operator"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              12
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.1016/j.engstruct.2026.123677",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0141029626015919?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0141029626015919?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "author": [
+          {
+            "given": "Yuchen",
+            "family": "Liu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-3708-5875",
+            "authenticated-orcid": false,
+            "given": "Suren",
+            "family": "Chen",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.26434/chemrxiv-2023-fjjk7-v2",
+        "title": [
+          "Materials Science Optimization Benchmark Dataset for Multi-Objective, Multi-Fidelity Optimization of Hard-Sphere Packing Simulations"
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2023,
+              3,
+              7
+            ]
+          ]
+        },
+        "URL": "https://doi.org/10.26434/chemrxiv-2023-fjjk7-v2",
+        "link": [
+          {
+            "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-fjjk7-v2",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-4491-6876",
+            "authenticated-orcid": false,
+            "given": "Sterling G.",
+            "family": "Baird",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03r0ha626",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Utah",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Ramsey",
+            "family": "Issa",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03r0ha626",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Utah",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Taylor D.",
+            "family": "Sparks",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "id": [
+                  {
+                    "id": "https://ror.org/03r0ha626",
+                    "id-type": "ROR",
+                    "asserted-by": "publisher"
+                  }
+                ],
+                "name": "University of Utah",
+                "place": [
+                  "United States"
+                ]
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

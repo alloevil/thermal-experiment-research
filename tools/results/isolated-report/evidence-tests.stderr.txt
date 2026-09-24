@@ -1,0 +1,19 @@
+test_duplicate_manifest_and_wrong_pin (test_report.PureChecks.test_duplicate_manifest_and_wrong_pin) ... ok
+test_nonfinite_and_duplicate_json (test_report.PureChecks.test_nonfinite_and_duplicate_json) ... ok
+test_observable_review_never_releases (test_report.PureChecks.test_observable_review_never_releases) ... ok
+test_path_rejection (test_report.PureChecks.test_path_rejection) ... ok
+test_residual_rules (test_report.PureChecks.test_residual_rules) ... ok
+test_cli_success_json (test_report.RealStudyChecks.test_cli_success_json) ... ok
+test_corrupted_evidence_fails_without_report (test_report.RealStudyChecks.test_corrupted_evidence_fails_without_report) ... ok
+test_missing_recorded_file_rejected (test_report.RealStudyChecks.test_missing_recorded_file_rejected) ... ok
+test_nonfinite_saved_residual_rejected_after_rehash (test_report.RealStudyChecks.test_nonfinite_saved_residual_rejected_after_rehash) ... ok
+test_real_counts_and_missing_evidence (test_report.RealStudyChecks.test_real_counts_and_missing_evidence) ... ok
+test_rehashed_but_inconsistent_hidden_label_rejected (test_report.RealStudyChecks.test_rehashed_but_inconsistent_hidden_label_rejected) ... ok
+test_source_dependency_changes_are_rejected (test_report.RealStudyChecks.test_source_dependency_changes_are_rejected) ... ok
+test_truth_does_not_enter_observable_reasons (test_report.RealStudyChecks.test_truth_does_not_enter_observable_reasons) ... ok
+test_unlisted_evidence_rejected (test_report.RealStudyChecks.test_unlisted_evidence_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 2.212s
+
+OK

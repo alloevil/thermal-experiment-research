@@ -1,0 +1,19 @@
+{
+  "offset_K": [
+    0.02377639754039933,
+    0.0009399340842776383,
+    7.444985278652894e-05
+  ],
+  "samples": 10,
+  "difference_sample_std_K": [
+    0.10723141199440747,
+    0.10844321805065918,
+    0.12195623832631397
+  ],
+  "mean_standard_error_K": [
+    0.03390954986182263,
+    0.034292756583836785,
+    0.038565948797747336
+  ],
+  "scope": "One-point offset only; standard errors exclude reference systematic error and sensor drift."
+}

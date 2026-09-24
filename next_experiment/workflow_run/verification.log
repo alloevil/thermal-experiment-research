@@ -1,0 +1,6 @@
+PASS: 76 existing model/recommendation/artifact files have unchanged SHA-256
+PASS: plan/review/completed all preserve engineering_release=not_supported
+PASS: freshly generated workflow posterior equals original numerical fixture
+PASS: unreviewed observe exits 2, creates no output
+Request rejected: Observation requires an approved, unfinished proposal
+PASS: 3 separate CLI commands exited 0; no hidden truth path supplied

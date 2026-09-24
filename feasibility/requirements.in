@@ -1,0 +1,3 @@
+torch==2.8.0+cpu
+botorch==0.18.1
+py-pde==0.59.0

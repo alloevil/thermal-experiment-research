@@ -1,0 +1,32 @@
+{
+  "posterior": {
+    "status": "unsupported",
+    "model_probability": {
+      "convection": 0.5000000000008233,
+      "offset": 0.5000000000008233
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.0,
+      "offset": 0.0
+    },
+    "incompatible_records": [
+      "out-of-scope"
+    ],
+    "particle_ess": 1.9999999999934133,
+    "particle_count": 72,
+    "records": 1,
+    "supported": null,
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "recommendation": null,
+  "options": [],
+  "status": "unsupported",
+  "engineering_release": "not_supported",
+  "requirements": [
+    "Each experiment restarts from independently confirmed 296.15K equilibrium.",
+    "User must approve inputs and instrument/reference validity; modeled constraints are not safety clearance.",
+    "Finite-grid predictions and assumed independent noise may be wrong; other causes are not excluded."
+  ],
+  "reason": "Both candidate grids cannot adequately explain at least one record or the joint data; revise models/measurement assumptions."
+}

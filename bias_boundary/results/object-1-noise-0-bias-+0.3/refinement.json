@@ -1,0 +1,18 @@
+{
+  "score": {
+    "rmse_K": 0.49744580038024305,
+    "final_mean_error_K": 0.4058505790634399,
+    "inadequate": false
+  },
+  "changes": {
+    "rmse_K": 0.0001719883044199455,
+    "final_mean_error_K": 1.0261635452479823e-07
+  },
+  "energy": {
+    "max_balance_J": 8.881784197001252e-14,
+    "external_balance_J": 5.58144080287093e-07,
+    "absorbed_J": 231.92027424387877,
+    "wall_seconds": 0.07303683809004724
+  },
+  "label_flipped": false
+}

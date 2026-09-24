@@ -1,0 +1,15 @@
+{
+  "training": {
+    "alarm": false,
+    "reasons": [],
+    "rmse_K": 0.1049449854572177,
+    "max_sensor_mean_residual_K": 0.01441754390689809
+  },
+  "diagnostic": {
+    "alarm": false,
+    "reasons": [],
+    "rmse_K": 0.10633858208998596,
+    "max_sensor_mean_residual_K": 0.0059091914008557
+  },
+  "combined": false
+}

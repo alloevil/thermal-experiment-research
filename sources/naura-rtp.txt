@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/naura-rtp.txt`
+
+Original SHA-256: `6f909aaa9d3ce517ba10fd50f95bf9d53f74e1c3ec181837d1c51c18a208bbd1`
+
+Sources:
+- https://www.naura.com/product/details_82_2302.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

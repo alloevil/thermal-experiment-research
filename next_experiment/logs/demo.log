@@ -1,0 +1,44 @@
+{
+  "initial": {
+    "status": "ambiguous",
+    "model_probability": {
+      "convection": 0.5116091571946059,
+      "offset": 0.4883908428053941
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.9145205957693037,
+      "offset": 0.784798172213796
+    },
+    "incompatible_records": [],
+    "particle_ess": 31.413526231443775,
+    "particle_count": 72,
+    "records": 1,
+    "supported": null,
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "selected": "heat_high",
+  "updated": {
+    "status": "supported_hypothesis",
+    "model_probability": {
+      "convection": 1.0000000000000004,
+      "offset": 3.34847933654955e-35
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.9144973581055874,
+      "offset": 1.6321166421504298e-33
+    },
+    "incompatible_records": [],
+    "particle_ess": 1.0062994326839505,
+    "particle_count": 72,
+    "records": 2,
+    "supported": "convection",
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "indistinguishable": "not_distinguishable",
+  "outside_candidate_set": "unsupported",
+  "planner_solver_calls": 144,
+  "wall_seconds": 7.010976159013808,
+  "scope": "One developer demonstration, not an algorithm benchmark or real device test"
+}

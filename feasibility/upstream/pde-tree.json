@@ -1,0 +1,3626 @@
+{
+  "sha": "09b7354c4732646db9de2b4f24c334d776fc45db",
+  "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/09b7354c4732646db9de2b4f24c334d776fc45db",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "931e4e14db1ebed9a13f51e04938533b4e60195e",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/931e4e14db1ebed9a13f51e04938533b4e60195e"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed1a94b1c162d912c35e07b2439438de8bb07b4",
+      "size": 876,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3ed1a94b1c162d912c35e07b2439438de8bb07b4"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9ed308f5bb78f1519493d31e05654de172375e6",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/a9ed308f5bb78f1519493d31e05654de172375e6"
+    },
+    {
+      "path": ".github/workflows/check_docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72665776630688ffb59f255182f2cf9bdc1371d",
+      "size": 413,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c72665776630688ffb59f255182f2cf9bdc1371d"
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2424545c34111aae3d328f6c9c85b87b8422c805",
+      "size": 1797,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2424545c34111aae3d328f6c9c85b87b8422c805"
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad08a92f22ea5eea1161e447862058ed826b885e",
+      "size": 861,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ad08a92f22ea5eea1161e447862058ed826b885e"
+    },
+    {
+      "path": ".github/workflows/coverage_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e210433ed4ce29554b92beeddd163a0bd2cc7e8",
+      "size": 2878,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0e210433ed4ce29554b92beeddd163a0bd2cc7e8"
+    },
+    {
+      "path": ".github/workflows/release_pip.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33bd82e50f0080c4c8fd7b080dc1fbdf1558b639",
+      "size": 871,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/33bd82e50f0080c4c8fd7b080dc1fbdf1558b639"
+    },
+    {
+      "path": ".github/workflows/tests_all.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "198e4410ec4bda5c075a709c975c4527042c87fd",
+      "size": 1638,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/198e4410ec4bda5c075a709c975c4527042c87fd"
+    },
+    {
+      "path": ".github/workflows/tests_minversion.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d99a81d5b150144e6ad16068a72fd0030859e6a",
+      "size": 974,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3d99a81d5b150144e6ad16068a72fd0030859e6a"
+    },
+    {
+      "path": ".github/workflows/tests_mpi.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77eb50bee9bb93a3e79a7f2149f76c19c2b3d42f",
+      "size": 1267,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/77eb50bee9bb93a3e79a7f2149f76c19c2b3d42f"
+    },
+    {
+      "path": ".github/workflows/tests_types.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19e18b1e915256535b8b281c2cba20e8afdd353",
+      "size": 1252,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d19e18b1e915256535b8b281c2cba20e8afdd353"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27a2c52f3caee66dd683f52370f0757db9efcaf",
+      "size": 1700,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e27a2c52f3caee66dd683f52370f0757db9efcaf"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a406e14ce53a1e254d48625aa97bd7694468c2b",
+      "size": 254,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7a406e14ce53a1e254d48625aa97bd7694468c2b"
+    },
+    {
+      "path": ".readthedocs.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1921c4161833024fe266146ea376a0a5907ca956",
+      "size": 680,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1921c4161833024fe266146ea376a0a5907ca956"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c59dd48b3b5fca449295cea9b502f132e6512e6",
+      "size": 5113,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8c59dd48b3b5fca449295cea9b502f132e6512e6"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be59189b3110bc3d136102aad8aa9ed7e5dc0303",
+      "size": 3355,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/be59189b3110bc3d136102aad8aa9ed7e5dc0303"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50844eecfa9549670cbb4f2a26f66289891d4b4",
+      "size": 1070,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b50844eecfa9549670cbb4f2a26f66289891d4b4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d886425ebcf54ad9f47e79adb351b8e1f14a211",
+      "size": 4323,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1d886425ebcf54ad9f47e79adb351b8e1f14a211"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b75c2d823e58cce7fe0c875a1bcf4e2f71b74377",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b75c2d823e58cce7fe0c875a1bcf4e2f71b74377"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eea64da2671448559db4b3d93d3bf4ba78b66c0",
+      "size": 1066,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0eea64da2671448559db4b3d93d3bf4ba78b66c0"
+    },
+    {
+      "path": "docs/build_all.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8224d73e8a3320f8a96d695b5a6e07315097ff37",
+      "size": 49,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8224d73e8a3320f8a96d695b5a6e07315097ff37"
+    },
+    {
+      "path": "docs/methods",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df3425ed85093680831c642a52265a4dd9f5bfa2",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/df3425ed85093680831c642a52265a4dd9f5bfa2"
+    },
+    {
+      "path": "docs/methods/boundary_discretization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91ca1af14c90f62abdbb5f9b0834b3dc867386bf",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/91ca1af14c90f62abdbb5f9b0834b3dc867386bf"
+    },
+    {
+      "path": "docs/methods/boundary_discretization/BoundaryDiscretization.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ee9b521d4bdf4a68cb932e1f370dc31fcdb276",
+      "size": 36739,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/36ee9b521d4bdf4a68cb932e1f370dc31fcdb276"
+    },
+    {
+      "path": "docs/methods/boundary_discretization/boundary_discretization.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "227e9268799237441cd91bb1ca7d004d3de7c2ad",
+      "size": 275042,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/227e9268799237441cd91bb1ca7d004d3de7c2ad"
+    },
+    {
+      "path": "docs/methods/boundary_discretization/boundary_discretization.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dcaba1e8f26e5775b00966ebf95d977772156f3",
+      "size": 30285,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1dcaba1e8f26e5775b00966ebf95d977772156f3"
+    },
+    {
+      "path": "docs/methods/common.tex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44123f425dbe4ef3405e0e3ba2729a0704f789c0",
+      "size": 4957,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/44123f425dbe4ef3405e0e3ba2729a0704f789c0"
+    },
+    {
+      "path": "docs/methods/stencils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2ca53196e036982226260b7ee18ae2de81bf2f8",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b2ca53196e036982226260b7ee18ae2de81bf2f8"
+    },
+    {
+      "path": "docs/methods/stencils/Cartesian2D.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d59f17083722358f1216f6e6704d78ddf316f534",
+      "size": 19468,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d59f17083722358f1216f6e6704d78ddf316f534"
+    },
+    {
+      "path": "docs/methods/vector_calculus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ece504a298ed092607079eba68053dc5c1009368",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/ece504a298ed092607079eba68053dc5c1009368"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Bipolar.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4d2fb67d95445c35d44cbcde7e1cd22e3edf47",
+      "size": 42990,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bf4d2fb67d95445c35d44cbcde7e1cd22e3edf47"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Bispherical.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9dbcdd524ebc23f523a899afef1ef5cac84637d",
+      "size": 60762,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c9dbcdd524ebc23f523a899afef1ef5cac84637d"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Cartesian.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01369170de24e799313f87141c5036b964f4c48",
+      "size": 30312,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b01369170de24e799313f87141c5036b964f4c48"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Cylindrical.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c69ef1eccdd5361e85de9b6a70a11922615cfce6",
+      "size": 68722,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c69ef1eccdd5361e85de9b6a70a11922615cfce6"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Polar.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce2a67a160a762f24a9ad8f97d0d207482cfad5",
+      "size": 55465,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2ce2a67a160a762f24a9ad8f97d0d207482cfad5"
+    },
+    {
+      "path": "docs/methods/vector_calculus/Spherical.nb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1d16f691a105f8aff27c62ddeb291cfe41ac94",
+      "size": 112423,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7e1d16f691a105f8aff27c62ddeb291cfe41ac94"
+    },
+    {
+      "path": "docs/paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfadb7bce206d9d4e92bbe65b00c9e3058c9f9e5",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/dfadb7bce206d9d4e92bbe65b00c9e3058c9f9e5"
+    },
+    {
+      "path": "docs/paper/paper.bib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186d64526dffeda73b084c199c15d39ce24ebd74",
+      "size": 8169,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/186d64526dffeda73b084c199c15d39ce24ebd74"
+    },
+    {
+      "path": "docs/paper/paper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd3afdaf61de10aeee6ac32f41b23c3b1560485",
+      "size": 8291,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8cd3afdaf61de10aeee6ac32f41b23c3b1560485"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4385faf19902c438ef406add72273912edc8de6e",
+      "size": 247,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4385faf19902c438ef406add72273912edc8de6e"
+    },
+    {
+      "path": "docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b71dd10c664fe21493d19c9bd87a71713ecc728b",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b71dd10c664fe21493d19c9bd87a71713ecc728b"
+    },
+    {
+      "path": "docs/source/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef2d463aa57ad8a9f944463069062911d9bca446",
+      "size": 24,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ef2d463aa57ad8a9f944463069062911d9bca446"
+    },
+    {
+      "path": "docs/source/_images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "668d10110b843ac778fe99673212423ff669da8c",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/668d10110b843ac778fe99673212423ff669da8c"
+    },
+    {
+      "path": "docs/source/_images/data_layout.key",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1628c924fdd73d8940aeb975fde8fdb8ca69cd50",
+      "size": 485308,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1628c924fdd73d8940aeb975fde8fdb8ca69cd50"
+    },
+    {
+      "path": "docs/source/_images/data_layout.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f327710b6728b6e8a29e6a2781aaaaff446c59ee",
+      "size": 26282,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f327710b6728b6e8a29e6a2781aaaaff446c59ee"
+    },
+    {
+      "path": "docs/source/_images/data_layout.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b9aee8a0667075a92a798ae7c320ae4650992e2",
+      "size": 68693,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6b9aee8a0667075a92a798ae7c320ae4650992e2"
+    },
+    {
+      "path": "docs/source/_images/discretization.key",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "df4865d60a114e5c074254f2249045fff50a2392",
+      "size": 737732,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/df4865d60a114e5c074254f2249045fff50a2392"
+    },
+    {
+      "path": "docs/source/_images/discretization.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb603d253ceaef87b521a00b4f383a36208af97",
+      "size": 60551,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ccb603d253ceaef87b521a00b4f383a36208af97"
+    },
+    {
+      "path": "docs/source/_images/discretization_cropped.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17660630448a02b82d0fd459d92d0f93fd6df663",
+      "size": 32305,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/17660630448a02b82d0fd459d92d0f93fd6df663"
+    },
+    {
+      "path": "docs/source/_images/discretization_cropped.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7de41bb356504aff01d50e2bc6bff7ff6252d0",
+      "size": 3420,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2b7de41bb356504aff01d50e2bc6bff7ff6252d0"
+    },
+    {
+      "path": "docs/source/_images/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1285c531a39846bbf1ce9c2c9b82abaf03c43b",
+      "size": 13784,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/be1285c531a39846bbf1ce9c2c9b82abaf03c43b"
+    },
+    {
+      "path": "docs/source/_images/logo_small.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27faa22d52d404055480694e06a3a655502ffa92",
+      "size": 4238,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/27faa22d52d404055480694e06a3a655502ffa92"
+    },
+    {
+      "path": "docs/source/_images/performance_cahn_hilliard.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769d5dc4def8be5559d81cddfe66cd32ea8dc543",
+      "size": 12928,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/769d5dc4def8be5559d81cddfe66cd32ea8dc543"
+    },
+    {
+      "path": "docs/source/_images/performance_cahn_hilliard.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39bfb163dbccd1f761efe9efbccaef7b2d777246",
+      "size": 36783,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/39bfb163dbccd1f761efe9efbccaef7b2d777246"
+    },
+    {
+      "path": "docs/source/_images/performance_noflux.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae83d34fe3d9cf940cef2d6c52655846ad20602c",
+      "size": 20574,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ae83d34fe3d9cf940cef2d6c52655846ad20602c"
+    },
+    {
+      "path": "docs/source/_images/performance_noflux.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8697ee90ef3ee2291d76895b30cd4c8476e04582",
+      "size": 64543,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8697ee90ef3ee2291d76895b30cd4c8476e04582"
+    },
+    {
+      "path": "docs/source/_images/performance_pde",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "996a8b0a6880f5070fe00a89176de7232b0852cb",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/996a8b0a6880f5070fe00a89176de7232b0852cb"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpcdf_raven_size1024.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e1629c2b00dbc6afa205f401554315798c7e23",
+      "size": 13368,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f7e1629c2b00dbc6afa205f401554315798c7e23"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpcdf_raven_size1024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11984c76b7f46d481e78f4ea60a75accf84e06ee",
+      "size": 51306,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/11984c76b7f46d481e78f4ea60a75accf84e06ee"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpcdf_raven_size256.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00fdf45a239570007bbd5a2fc2e5396a52761575",
+      "size": 14388,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/00fdf45a239570007bbd5a2fc2e5396a52761575"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpcdf_raven_size256.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50de253a1d486b69399098f92b89f42ba845b5ac",
+      "size": 52121,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/50de253a1d486b69399098f92b89f42ba845b5ac"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpi-ds_V100_size512.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc1f45d96d8d8a81e421f4a7a6908edab674851",
+      "size": 14069,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bcc1f45d96d8d8a81e421f4a7a6908edab674851"
+    },
+    {
+      "path": "docs/source/_images/performance_pde/mpi-ds_V100_size512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c622f3f00edbd6c6f8aee839f1f7f3367cb28f4d",
+      "size": 45150,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c622f3f00edbd6c6f8aee839f1f7f3367cb28f4d"
+    },
+    {
+      "path": "docs/source/_images/performance_periodic.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59cf15762890b3f08760779c9cb7c660b4f0b341",
+      "size": 20540,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/59cf15762890b3f08760779c9cb7c660b4f0b341"
+    },
+    {
+      "path": "docs/source/_images/performance_periodic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1328826cde8006a01314b5b4485d0a12387e6e3e",
+      "size": 63466,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1328826cde8006a01314b5b4485d0a12387e6e3e"
+    },
+    {
+      "path": "docs/source/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "705d47e86c285237e815e2c12e97df62edfe3f72",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/705d47e86c285237e815e2c12e97df62edfe3f72"
+    },
+    {
+      "path": "docs/source/_static/custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2668cdc402558e2bf75c58684fe1cd683c4a07",
+      "size": 151,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6c2668cdc402558e2bf75c58684fe1cd683c4a07"
+    },
+    {
+      "path": "docs/source/_static/requirements_main.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b3a4d99339a3e73b2d4b100645d9cabf0e58908",
+      "size": 375,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6b3a4d99339a3e73b2d4b100645d9cabf0e58908"
+    },
+    {
+      "path": "docs/source/_static/requirements_optional.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2440a1670e772bac653577e10e8f450c08e3bcd",
+      "size": 529,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b2440a1670e772bac653577e10e8f450c08e3bcd"
+    },
+    {
+      "path": "docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ebd060b58c33fa2400bb52e645755883b4b506",
+      "size": 8825,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/14ebd060b58c33fa2400bb52e645755883b4b506"
+    },
+    {
+      "path": "docs/source/create_performance_plots_ops.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "af89859f667eecd5408738f5de190c49bb62a623",
+      "size": 6761,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/af89859f667eecd5408738f5de190c49bb62a623"
+    },
+    {
+      "path": "docs/source/create_performance_plots_pde.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aa760226e58c884624b6d457be47e1b728b1545d",
+      "size": 5234,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/aa760226e58c884624b6d457be47e1b728b1545d"
+    },
+    {
+      "path": "docs/source/gallery.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5fabb055ab4b5aafa355aa0f7d786600c306314",
+      "size": 350,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d5fabb055ab4b5aafa355aa0f7d786600c306314"
+    },
+    {
+      "path": "docs/source/getting_started.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90bd58eb08b97158e66803b7d0dda2070ff7b3ca",
+      "size": 8625,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/90bd58eb08b97158e66803b7d0dda2070ff7b3ca"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bca06bb8766fc21254db45943f63e6123e06c10",
+      "size": 1618,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2bca06bb8766fc21254db45943f63e6123e06c10"
+    },
+    {
+      "path": "docs/source/manual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "222404656357c1213f062f25fc6cef27a63a581b",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/222404656357c1213f062f25fc6cef27a63a581b"
+    },
+    {
+      "path": "docs/source/manual/advanced_usage.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75453652334784f6a5cca2c2140244ec1462ca6f",
+      "size": 27659,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/75453652334784f6a5cca2c2140244ec1462ca6f"
+    },
+    {
+      "path": "docs/source/manual/basic_usage.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9041415a672ebc609f96a4275386abea38df77b",
+      "size": 6373,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a9041415a672ebc609f96a4275386abea38df77b"
+    },
+    {
+      "path": "docs/source/manual/citing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf12437b4707e50b18e2b639ec93e3f028033fc",
+      "size": 1039,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bcf12437b4707e50b18e2b639ec93e3f028033fc"
+    },
+    {
+      "path": "docs/source/manual/code_of_conduct.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b13e402da32b9fbfcb628fb248d1fcd12257d5c",
+      "size": 3410,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0b13e402da32b9fbfcb628fb248d1fcd12257d5c"
+    },
+    {
+      "path": "docs/source/manual/configuration.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f374bb218a6f37887f70971bd5a7496b195d4ff",
+      "size": 1570,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9f374bb218a6f37887f70971bd5a7496b195d4ff"
+    },
+    {
+      "path": "docs/source/manual/contributing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c2443b674d841da50a0030d37829eea5f8ab08",
+      "size": 7630,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/68c2443b674d841da50a0030d37829eea5f8ab08"
+    },
+    {
+      "path": "docs/source/manual/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc90589a6e199a34b32a559f2a9db4287b97949",
+      "size": 189,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1fc90589a6e199a34b32a559f2a9db4287b97949"
+    },
+    {
+      "path": "docs/source/manual/mathematical_basics.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef80fbc92f63962dec39f980947734acaa43eba",
+      "size": 7660,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1ef80fbc92f63962dec39f980947734acaa43eba"
+    },
+    {
+      "path": "docs/source/manual/performance.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09560a882a7f2b23851240458ec8b98bc1f582a",
+      "size": 9198,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e09560a882a7f2b23851240458ec8b98bc1f582a"
+    },
+    {
+      "path": "docs/source/parse_examples.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7c5fc7adad0dd61e21fb4d8d5fc0dd9fe86484ea",
+      "size": 1233,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7c5fc7adad0dd61e21fb4d8d5fc0dd9fe86484ea"
+    },
+    {
+      "path": "docs/source/run_autodoc.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3211f5ff9efa0078adeb260062131b7895d31851",
+      "size": 2286,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3211f5ff9efa0078adeb260062131b7895d31851"
+    },
+    {
+      "path": "docs/sphinx_ext",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a634cbc86a0b939cecc585f1a38cf6e51f204346",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/a634cbc86a0b939cecc585f1a38cf6e51f204346"
+    },
+    {
+      "path": "docs/sphinx_ext/package_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cecded8d32708a5a2e190cefb91b02a2effa7bd4",
+      "size": 1098,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cecded8d32708a5a2e190cefb91b02a2effa7bd4"
+    },
+    {
+      "path": "docs/sphinx_ext/simplify_typehints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e8dd9e99a2ed2de69ffd979aa7b3e13468e24e",
+      "size": 3837,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/00e8dd9e99a2ed2de69ffd979aa7b3e13468e24e"
+    },
+    {
+      "path": "docs/sphinx_ext/toctree_filter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233eb68fc8e9e1bf02825ab5788954a3340589bd",
+      "size": 1102,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/233eb68fc8e9e1bf02825ab5788954a3340589bd"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "341bc91d71d57158dac628169ea5aebf62212d27",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/341bc91d71d57158dac628169ea5aebf62212d27"
+    },
+    {
+      "path": "examples/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ebe281ae600bc9d08bdbfd921de4882c6b54aa6",
+      "size": 142,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3ebe281ae600bc9d08bdbfd921de4882c6b54aa6"
+    },
+    {
+      "path": "examples/advanced_pdes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd20c3a8aff45c1ebcae799ec21dbf9d03a8c686",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/fd20c3a8aff45c1ebcae799ec21dbf9d03a8c686"
+    },
+    {
+      "path": "examples/advanced_pdes/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd573b82068a43170e2969dd1d2e0aae75c810e8",
+      "size": 91,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fd573b82068a43170e2969dd1d2e0aae75c810e8"
+    },
+    {
+      "path": "examples/advanced_pdes/custom_noise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2020bca7fc48ae42a7fdf2b30d662ea1ab17004",
+      "size": 837,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c2020bca7fc48ae42a7fdf2b30d662ea1ab17004"
+    },
+    {
+      "path": "examples/advanced_pdes/heterogeneous_bcs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa3941e7dde337df6ac1fa3a846cd513079c7670",
+      "size": 779,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fa3941e7dde337df6ac1fa3a846cd513079c7670"
+    },
+    {
+      "path": "examples/advanced_pdes/heterogeneous_pde.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0674987b5694e90aa945e04ae8c13ad91b1fb3b",
+      "size": 732,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b0674987b5694e90aa945e04ae8c13ad91b1fb3b"
+    },
+    {
+      "path": "examples/advanced_pdes/mpi_parallel_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9c5951e5ff8b890932241c54de5c51bad963ec",
+      "size": 1379,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6c9c5951e5ff8b890932241c54de5c51bad963ec"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_1d_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43df85ed37cd759a1e6f61a54a3f6db0c88affba",
+      "size": 1285,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/43df85ed37cd759a1e6f61a54a3f6db0c88affba"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_brusselator_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e838959615f0cb36d07d43d4aac3a44519424949",
+      "size": 2623,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e838959615f0cb36d07d43d4aac3a44519424949"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_brusselator_rd_pde.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d7e852f38d9dfa4590c218042a9530f39948219",
+      "size": 1376,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1d7e852f38d9dfa4590c218042a9530f39948219"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_coupled.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1dc1a91e094cfa9682a672268a309dee543d03b",
+      "size": 1376,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a1dc1a91e094cfa9682a672268a309dee543d03b"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_custom_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e35bc8bd02b975f80301fae721de28fc5275ac6",
+      "size": 1188,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4e35bc8bd02b975f80301fae721de28fc5275ac6"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_custom_numba.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9792868d42b5e0c2b543c6be0e19312c7b4339ad",
+      "size": 1790,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9792868d42b5e0c2b543c6be0e19312c7b4339ad"
+    },
+    {
+      "path": "examples/advanced_pdes/pde_sir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c8152335bc1ac9fc799114b2018e2c0c68dc67",
+      "size": 2125,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/56c8152335bc1ac9fc799114b2018e2c0c68dc67"
+    },
+    {
+      "path": "examples/advanced_pdes/post_step_hook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64821b3ba0f4868eebc787735e381e9598cd42fa",
+      "size": 681,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/64821b3ba0f4868eebc787735e381e9598cd42fa"
+    },
+    {
+      "path": "examples/advanced_pdes/post_step_hook_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18154b8a4c99b0d9fc14e28f024ec8746243c8c5",
+      "size": 1698,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/18154b8a4c99b0d9fc14e28f024ec8746243c8c5"
+    },
+    {
+      "path": "examples/advanced_pdes/solver_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd254ca45fa7d5bcd2179ac228adfb268e8ffec",
+      "size": 1358,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4bd254ca45fa7d5bcd2179ac228adfb268e8ffec"
+    },
+    {
+      "path": "examples/advanced_pdes/stratonovich.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8cf2e7048a87186a96ba88fc22aad0b1c06f375",
+      "size": 1035,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f8cf2e7048a87186a96ba88fc22aad0b1c06f375"
+    },
+    {
+      "path": "examples/fields",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21d68776a8ad050c04f388098e2ea96748d01615",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/21d68776a8ad050c04f388098e2ea96748d01615"
+    },
+    {
+      "path": "examples/fields/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee30f8d2ef0bc96ee93872603059e0ef14c1d5af",
+      "size": 103,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ee30f8d2ef0bc96ee93872603059e0ef14c1d5af"
+    },
+    {
+      "path": "examples/fields/analyze_scalar_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869ed40070e0b4bb6196798e8319816e93ea7f65",
+      "size": 1036,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/869ed40070e0b4bb6196798e8319816e93ea7f65"
+    },
+    {
+      "path": "examples/fields/finite_differences.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b95616dcf1d925b43ecab343adfc06ea012d07",
+      "size": 2636,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/91b95616dcf1d925b43ecab343adfc06ea012d07"
+    },
+    {
+      "path": "examples/fields/plot_cylindrical_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58d3a636a940462186a6371ee6a2cfe9ac8cbff",
+      "size": 482,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e58d3a636a940462186a6371ee6a2cfe9ac8cbff"
+    },
+    {
+      "path": "examples/fields/plot_nematic_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5d3c23afc7d82d8c708713919f0d2e13168b16",
+      "size": 813,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bb5d3c23afc7d82d8c708713919f0d2e13168b16"
+    },
+    {
+      "path": "examples/fields/plot_polar_grid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37905b580aed17949b953fc10f85a01bd2f3035",
+      "size": 294,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a37905b580aed17949b953fc10f85a01bd2f3035"
+    },
+    {
+      "path": "examples/fields/plot_vector_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a1e87cfe04cfce182ed72f8d7d54bdb25a7386",
+      "size": 387,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c5a1e87cfe04cfce182ed72f8d7d54bdb25a7386"
+    },
+    {
+      "path": "examples/fields/random_fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77bbecfd76211daa727a592a71eb3f3f7ccbb157",
+      "size": 822,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/77bbecfd76211daa727a592a71eb3f3f7ccbb157"
+    },
+    {
+      "path": "examples/fields/show_3d_field_interactively.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0be0d305006d344b0da8667f9fce315ab95ab1",
+      "size": 532,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ec0be0d305006d344b0da8667f9fce315ab95ab1"
+    },
+    {
+      "path": "examples/jupyter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c9551e45376983f296abd485e7c5b69c2df35e4",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/0c9551e45376983f296abd485e7c5b69c2df35e4"
+    },
+    {
+      "path": "examples/jupyter/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4704b018ee87627e7482c290c4e5253426a8ce86",
+      "size": 5,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4704b018ee87627e7482c290c4e5253426a8ce86"
+    },
+    {
+      "path": "examples/jupyter/Different solvers.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515a237dbced5ce114cae856aa768b66074e2e4d",
+      "size": 18340,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/515a237dbced5ce114cae856aa768b66074e2e4d"
+    },
+    {
+      "path": "examples/jupyter/Discretized Fields.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0083a4d95319290bc32c7bfa1f19cbb03386a94a",
+      "size": 2890,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0083a4d95319290bc32c7bfa1f19cbb03386a94a"
+    },
+    {
+      "path": "examples/jupyter/Solve PDEs.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4193a6729b82e271ae3a57db8f40b576ab11d2c",
+      "size": 43239,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e4193a6729b82e271ae3a57db8f40b576ab11d2c"
+    },
+    {
+      "path": "examples/jupyter/Tutorial 1 - Grids and fields.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a20c3b9dfd152911ae365ecc7d5d575b15a2ae9",
+      "size": 18124,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3a20c3b9dfd152911ae365ecc7d5d575b15a2ae9"
+    },
+    {
+      "path": "examples/jupyter/Tutorial 2 - Solving pre-defined partial differential equations.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb1525bc601012e2ef266ea3fea8e8b4bfe31490",
+      "size": 13428,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/eb1525bc601012e2ef266ea3fea8e8b4bfe31490"
+    },
+    {
+      "path": "examples/output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa503198d2a1749e769b10a0c7bd20e09308cf4a",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/fa503198d2a1749e769b10a0c7bd20e09308cf4a"
+    },
+    {
+      "path": "examples/output/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da35b675e02eb18c806999738fe82028b188390a",
+      "size": 100,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/da35b675e02eb18c806999738fe82028b188390a"
+    },
+    {
+      "path": "examples/output/logarithmic_kymograph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "806d9ed30d41bdddac1f06152b3b23b2ffe3e9db",
+      "size": 852,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/806d9ed30d41bdddac1f06152b3b23b2ffe3e9db"
+    },
+    {
+      "path": "examples/output/make_movie_live.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e6a12336bcfb939fd0c4403b3bc9f76d52489c",
+      "size": 552,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/25e6a12336bcfb939fd0c4403b3bc9f76d52489c"
+    },
+    {
+      "path": "examples/output/make_movie_storage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0fbd268d0cae3d14de336dacd021f0620a7b4ef",
+      "size": 712,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f0fbd268d0cae3d14de336dacd021f0620a7b4ef"
+    },
+    {
+      "path": "examples/output/py_modelrunner.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a966e79f688d62ad0d4452298ac8d1f8d9308f6e",
+      "size": 1541,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a966e79f688d62ad0d4452298ac8d1f8d9308f6e"
+    },
+    {
+      "path": "examples/output/storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b560f0e99f508554f80b3a2c41275e7e18f52f1",
+      "size": 716,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9b560f0e99f508554f80b3a2c41275e7e18f52f1"
+    },
+    {
+      "path": "examples/output/tracker_interactive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c36371d3e7a4d857d3e1e002c2f9b9d99fb30e8",
+      "size": 540,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3c36371d3e7a4d857d3e1e002c2f9b9d99fb30e8"
+    },
+    {
+      "path": "examples/output/trackers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcdfbae43ded1748d482e1a98cbbc32f5099b7ed",
+      "size": 826,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/dcdfbae43ded1748d482e1a98cbbc32f5099b7ed"
+    },
+    {
+      "path": "examples/output/trajectory_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5acee84d30ceb7d775534c2131f7eb3118759d86",
+      "size": 895,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5acee84d30ceb7d775534c2131f7eb3118759d86"
+    },
+    {
+      "path": "examples/simple_pdes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5dad60065c848f47a6d663a28e53817a7e31d245",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/5dad60065c848f47a6d663a28e53817a7e31d245"
+    },
+    {
+      "path": "examples/simple_pdes/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d244dba213104af33060bce541a0b2b77d204498",
+      "size": 93,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d244dba213104af33060bce541a0b2b77d204498"
+    },
+    {
+      "path": "examples/simple_pdes/boundary_conditions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b54926b518767e16a5e77f3bc2f180438c53510",
+      "size": 549,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1b54926b518767e16a5e77f3bc2f180438c53510"
+    },
+    {
+      "path": "examples/simple_pdes/cartesian_grid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb720a387bbae6dac9ae6888bbb270d58420642",
+      "size": 464,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1fb720a387bbae6dac9ae6888bbb270d58420642"
+    },
+    {
+      "path": "examples/simple_pdes/klein_gordon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658c70344c079a0a15cd905f9d4037591e4273f6",
+      "size": 602,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/658c70344c079a0a15cd905f9d4037591e4273f6"
+    },
+    {
+      "path": "examples/simple_pdes/laplace_eq_2d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c75ff0ebd315677680ca46d17a31aefd8196fc16",
+      "size": 419,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c75ff0ebd315677680ca46d17a31aefd8196fc16"
+    },
+    {
+      "path": "examples/simple_pdes/multiplicative_noise.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3252b143787ce98623b82143b3f3de1c2281310",
+      "size": 647,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a3252b143787ce98623b82143b3f3de1c2281310"
+    },
+    {
+      "path": "examples/simple_pdes/pde_1d_expression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8100a69010cdf2cdb3f13cf5008d0e550fe269ea",
+      "size": 918,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8100a69010cdf2cdb3f13cf5008d0e550fe269ea"
+    },
+    {
+      "path": "examples/simple_pdes/pde_brusselator_expression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbef87cabd9aac77437d1b925d17e26a8dc7ad21",
+      "size": 1316,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/dbef87cabd9aac77437d1b925d17e26a8dc7ad21"
+    },
+    {
+      "path": "examples/simple_pdes/pde_custom_expression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10702b8fce49980e3240f499e6d975ad73f4ca79",
+      "size": 733,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/10702b8fce49980e3240f499e6d975ad73f4ca79"
+    },
+    {
+      "path": "examples/simple_pdes/pde_heterogeneous_diffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e341b5a3840071974d2de9f0d7dd8e1ab96b874",
+      "size": 1458,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7e341b5a3840071974d2de9f0d7dd8e1ab96b874"
+    },
+    {
+      "path": "examples/simple_pdes/pde_schroedinger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ac7d363794225ffb6ff795b3fb5c468eeaf309",
+      "size": 1170,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a8ac7d363794225ffb6ff795b3fb5c468eeaf309"
+    },
+    {
+      "path": "examples/simple_pdes/poisson_eq_1d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9e9649203fc12d3df192b15b23321be90020e0",
+      "size": 408,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/db9e9649203fc12d3df192b15b23321be90020e0"
+    },
+    {
+      "path": "examples/simple_pdes/simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b884831a2b3f24a0f9904099091559226bc3478",
+      "size": 411,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7b884831a2b3f24a0f9904099091559226bc3478"
+    },
+    {
+      "path": "examples/simple_pdes/spherical_grid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3edd3b5009a467e4eee5e57fc7f5f7fdd30b11ce",
+      "size": 459,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3edd3b5009a467e4eee5e57fc7f5f7fdd30b11ce"
+    },
+    {
+      "path": "examples/simple_pdes/stochastic_simulation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8518acfc47422365e70457e5df57c2c25745b62f",
+      "size": 484,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8518acfc47422365e70457e5df57c2c25745b62f"
+    },
+    {
+      "path": "examples/simple_pdes/time_dependent_bcs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7fea43bfb342214af1f282e4b2ba7a2526d2dc",
+      "size": 606,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cc7fea43bfb342214af1f282e4b2ba7a2526d2dc"
+    },
+    {
+      "path": "pde",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "338369e0a5e37c4efd61f6e20fea577d6a627ecc",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/338369e0a5e37c4efd61f6e20fea577d6a627ecc"
+    },
+    {
+      "path": "pde/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1004a104dfc9932f1f6f4d06152eb5e03b820ef",
+      "size": 2067,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f1004a104dfc9932f1f6f4d06152eb5e03b820ef"
+    },
+    {
+      "path": "pde/backends",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b4254dc2010abb6375506ccb8e3770d26474485",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/9b4254dc2010abb6375506ccb8e3770d26474485"
+    },
+    {
+      "path": "pde/backends/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "859036a1842aa7848fd344c263fdcc858a5838d5",
+      "size": 2446,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/859036a1842aa7848fd344c263fdcc858a5838d5"
+    },
+    {
+      "path": "pde/backends/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc863918393dbc9b75de772f67768b8b3eeffa96",
+      "size": 29638,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fc863918393dbc9b75de772f67768b8b3eeffa96"
+    },
+    {
+      "path": "pde/backends/jax",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f19164768400c809b0ea82b354cf88731a803b0",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/7f19164768400c809b0ea82b354cf88731a803b0"
+    },
+    {
+      "path": "pde/backends/jax/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3866d95ff3e2ff12dbd39b8997aab1462eb3da8",
+      "size": 395,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e3866d95ff3e2ff12dbd39b8997aab1462eb3da8"
+    },
+    {
+      "path": "pde/backends/jax/_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb14d2291687a8d414ba4930482e23dde0b3583",
+      "size": 12553,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/acb14d2291687a8d414ba4930482e23dde0b3583"
+    },
+    {
+      "path": "pde/backends/jax/_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7cb22351eb228c604ecb1cbc0403b9f8071da07",
+      "size": 13130,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a7cb22351eb228c604ecb1cbc0403b9f8071da07"
+    },
+    {
+      "path": "pde/backends/jax/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039be40572c30d298e28fc145a4d1d73db9930f9",
+      "size": 38570,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/039be40572c30d298e28fc145a4d1d73db9930f9"
+    },
+    {
+      "path": "pde/backends/jax/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3daea8851f5c71beb631212957e2232dbddae21",
+      "size": 1237,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f3daea8851f5c71beb631212957e2232dbddae21"
+    },
+    {
+      "path": "pde/backends/jax/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ab91190c1c7c795dc61628cd397a052b586f7d1",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/6ab91190c1c7c795dc61628cd397a052b586f7d1"
+    },
+    {
+      "path": "pde/backends/jax/operators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe9dc4ccb3d121bf163b1f08940e9d01eef8529",
+      "size": 378,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5fe9dc4ccb3d121bf163b1f08940e9d01eef8529"
+    },
+    {
+      "path": "pde/backends/jax/operators/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ca293b7eb2f8f60008558399a58c4c3a6d839b3",
+      "size": 23946,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5ca293b7eb2f8f60008558399a58c4c3a6d839b3"
+    },
+    {
+      "path": "pde/backends/jax/operators/cylindrical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98812ac3242427de2e032fa236ba2f15921e61a1",
+      "size": 10582,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/98812ac3242427de2e032fa236ba2f15921e61a1"
+    },
+    {
+      "path": "pde/backends/jax/operators/polar_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5aaa58b9f3640d96bea371680684c8ab20a8203",
+      "size": 7569,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e5aaa58b9f3640d96bea371680684c8ab20a8203"
+    },
+    {
+      "path": "pde/backends/jax/operators/spherical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18ae59b42ebf266e5f8ec2f10f10a4b5f44b435f",
+      "size": 17445,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/18ae59b42ebf266e5f8ec2f10f10a4b5f44b435f"
+    },
+    {
+      "path": "pde/backends/jax/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba56fe83a54fd0524918f26cc4f06859166a456",
+      "size": 2066,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/dba56fe83a54fd0524918f26cc4f06859166a456"
+    },
+    {
+      "path": "pde/backends/numba",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "456ea902cf1dfdbddbc84bef773b5ec2c65d5ae6",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/456ea902cf1dfdbddbc84bef773b5ec2c65d5ae6"
+    },
+    {
+      "path": "pde/backends/numba/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ebd20c8de37b145ba72aa1629fa007115942a4",
+      "size": 510,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/35ebd20c8de37b145ba72aa1629fa007115942a4"
+    },
+    {
+      "path": "pde/backends/numba/_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa92131158fda90b26607f9ed123bea7eab79fc",
+      "size": 25866,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1aa92131158fda90b26607f9ed123bea7eab79fc"
+    },
+    {
+      "path": "pde/backends/numba/_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f73cb3e29acbed0a5bf9b8e35c8be33253ad32d8",
+      "size": 18901,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f73cb3e29acbed0a5bf9b8e35c8be33253ad32d8"
+    },
+    {
+      "path": "pde/backends/numba/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b694d9e6f9803418b25910296c3f4e1490847e",
+      "size": 65379,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/45b694d9e6f9803418b25910296c3f4e1490847e"
+    },
+    {
+      "path": "pde/backends/numba/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bfe7190b9a5e96fe7e133fd728471a67014220",
+      "size": 2089,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/70bfe7190b9a5e96fe7e133fd728471a67014220"
+    },
+    {
+      "path": "pde/backends/numba/grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b07fa64358015d62b37cf2399ef241609b4adea",
+      "size": 13310,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7b07fa64358015d62b37cf2399ef241609b4adea"
+    },
+    {
+      "path": "pde/backends/numba/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35f2b27f71ce9b38aeeb31e0710c245334977bd2",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/35f2b27f71ce9b38aeeb31e0710c245334977bd2"
+    },
+    {
+      "path": "pde/backends/numba/operators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "582567e07a1346b91fb21e1c898ba1a6ae8ebd30",
+      "size": 381,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/582567e07a1346b91fb21e1c898ba1a6ae8ebd30"
+    },
+    {
+      "path": "pde/backends/numba/operators/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "192ecc6acc4b1be8c294154fef5401273f684ada",
+      "size": 42296,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/192ecc6acc4b1be8c294154fef5401273f684ada"
+    },
+    {
+      "path": "pde/backends/numba/operators/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0caeea9def8132a82f98c49c15bae4fec2f437c4",
+      "size": 6946,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0caeea9def8132a82f98c49c15bae4fec2f437c4"
+    },
+    {
+      "path": "pde/backends/numba/operators/cylindrical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a185f04be3886819501fa86bcd7725200d1ffd86",
+      "size": 16098,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a185f04be3886819501fa86bcd7725200d1ffd86"
+    },
+    {
+      "path": "pde/backends/numba/operators/polar_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76bbbf5a65e6821492f1755db98cdf6a5abd71c9",
+      "size": 10613,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/76bbbf5a65e6821492f1755db98cdf6a5abd71c9"
+    },
+    {
+      "path": "pde/backends/numba/operators/spherical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a5ea75a35c0660d60e03aa92cc72a509219566",
+      "size": 26843,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/66a5ea75a35c0660d60e03aa92cc72a509219566"
+    },
+    {
+      "path": "pde/backends/numba/overloads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28c3883e72d9a22b98a14e51678c34282666023",
+      "size": 2506,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d28c3883e72d9a22b98a14e51678c34282666023"
+    },
+    {
+      "path": "pde/backends/numba/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e00f5f410954e80874af34522f6c70793edf256c",
+      "size": 360,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e00f5f410954e80874af34522f6c70793edf256c"
+    },
+    {
+      "path": "pde/backends/numba/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0c8dca9d763f28c488c01c2c72896a193b152fd",
+      "size": 15618,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c0c8dca9d763f28c488c01c2c72896a193b152fd"
+    },
+    {
+      "path": "pde/backends/numba_mpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7bc16af93c28e9f4df742febfca32f67701a2f5",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/f7bc16af93c28e9f4df742febfca32f67701a2f5"
+    },
+    {
+      "path": "pde/backends/numba_mpi/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e0575271526e6fb0c75fbb3696286af4cf2bd3",
+      "size": 738,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/31e0575271526e6fb0c75fbb3696286af4cf2bd3"
+    },
+    {
+      "path": "pde/backends/numba_mpi/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3ee6e2fdafbf72a51fd1b92190f7a3bbabe81f",
+      "size": 10357,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bc3ee6e2fdafbf72a51fd1b92190f7a3bbabe81f"
+    },
+    {
+      "path": "pde/backends/numba_mpi/overloads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d302547032165bf356ab4cc39c257497b803fcbc",
+      "size": 3733,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d302547032165bf356ab4cc39c257497b803fcbc"
+    },
+    {
+      "path": "pde/backends/numpy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "705ab9e24c4965eb9249384788d0370550bb5d1c",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/705ab9e24c4965eb9249384788d0370550bb5d1c"
+    },
+    {
+      "path": "pde/backends/numpy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e5d0b8b078b35e5ae1f0e6e1bba76709e59d56d",
+      "size": 283,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7e5d0b8b078b35e5ae1f0e6e1bba76709e59d56d"
+    },
+    {
+      "path": "pde/backends/numpy/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19db44dc5ec0c6efbe0e9c0b70499b72cff409e7",
+      "size": 22402,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/19db44dc5ec0c6efbe0e9c0b70499b72cff409e7"
+    },
+    {
+      "path": "pde/backends/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae105c1815e267ed23762f8fad46f9a97456ed3e",
+      "size": 14566,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ae105c1815e267ed23762f8fad46f9a97456ed3e"
+    },
+    {
+      "path": "pde/backends/scipy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "885bdd0d8016eef7a876b557ed4ebc5e9ee4b1a0",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/885bdd0d8016eef7a876b557ed4ebc5e9ee4b1a0"
+    },
+    {
+      "path": "pde/backends/scipy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e292213b4932f3cffbca68aaf9ee2d941ba004e",
+      "size": 408,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3e292213b4932f3cffbca68aaf9ee2d941ba004e"
+    },
+    {
+      "path": "pde/backends/scipy/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a22380eaaa85ab85112b643a36cb93f2efac4e",
+      "size": 251,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/74a22380eaaa85ab85112b643a36cb93f2efac4e"
+    },
+    {
+      "path": "pde/backends/scipy/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3eb7aa1a524d21b5aec8a4ec49c2cef987d5a651",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/3eb7aa1a524d21b5aec8a4ec49c2cef987d5a651"
+    },
+    {
+      "path": "pde/backends/scipy/operators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8b7cba90753540f59c6c6d96163460e61b1d6d",
+      "size": 389,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9e8b7cba90753540f59c6c6d96163460e61b1d6d"
+    },
+    {
+      "path": "pde/backends/scipy/operators/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3056e5c30854e78d95d414ad4ca2015c8424e8",
+      "size": 16681,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/aa3056e5c30854e78d95d414ad4ca2015c8424e8"
+    },
+    {
+      "path": "pde/backends/scipy/operators/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7921a569a7585fc1fcbceae5b69923c7600faf1",
+      "size": 5015,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f7921a569a7585fc1fcbceae5b69923c7600faf1"
+    },
+    {
+      "path": "pde/backends/scipy/operators/cylindrical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84b4d5535ffbaa2f2511b8773842d10f9822392",
+      "size": 4012,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e84b4d5535ffbaa2f2511b8773842d10f9822392"
+    },
+    {
+      "path": "pde/backends/scipy/operators/polar_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf42d71b834bfbad2aef143f4885ac93547ddabf",
+      "size": 3051,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cf42d71b834bfbad2aef143f4885ac93547ddabf"
+    },
+    {
+      "path": "pde/backends/scipy/operators/spherical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42a9de6e4f60f2ccd6dec1418a47e4bd67ad5929",
+      "size": 3326,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/42a9de6e4f60f2ccd6dec1418a47e4bd67ad5929"
+    },
+    {
+      "path": "pde/backends/scipy/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3502af05240471903addfe5d02bf841255270445",
+      "size": 360,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3502af05240471903addfe5d02bf841255270445"
+    },
+    {
+      "path": "pde/backends/torch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54908a3a8d0172735b13456ceac39fc73c3f265b",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/54908a3a8d0172735b13456ceac39fc73c3f265b"
+    },
+    {
+      "path": "pde/backends/torch/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c415c4ae705b431905e783bee4c5bb9ba7e657",
+      "size": 408,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c1c415c4ae705b431905e783bee4c5bb9ba7e657"
+    },
+    {
+      "path": "pde/backends/torch/_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28052b0e981276a5b40c3d98d08c9d1ce89d00f2",
+      "size": 15554,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/28052b0e981276a5b40c3d98d08c9d1ce89d00f2"
+    },
+    {
+      "path": "pde/backends/torch/_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bae7d12f95b97aa107f77a6e0c3af923a8ed62f",
+      "size": 27961,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7bae7d12f95b97aa107f77a6e0c3af923a8ed62f"
+    },
+    {
+      "path": "pde/backends/torch/backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18469f06f530247e9e308698d8d7a52631eed871",
+      "size": 27958,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/18469f06f530247e9e308698d8d7a52631eed871"
+    },
+    {
+      "path": "pde/backends/torch/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a93701259b7ed8a5453d58c8af6fc833efc920",
+      "size": 1286,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/44a93701259b7ed8a5453d58c8af6fc833efc920"
+    },
+    {
+      "path": "pde/backends/torch/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34306b1bf46c401337838af87916273714d186ab",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/34306b1bf46c401337838af87916273714d186ab"
+    },
+    {
+      "path": "pde/backends/torch/operators/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82d8ffa5d2744af88b465cf57c9f5c40df35e42",
+      "size": 381,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d82d8ffa5d2744af88b465cf57c9f5c40df35e42"
+    },
+    {
+      "path": "pde/backends/torch/operators/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "056d0ad9c764c1cd0edc2367f0eab967cdcfd097",
+      "size": 14967,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/056d0ad9c764c1cd0edc2367f0eab967cdcfd097"
+    },
+    {
+      "path": "pde/backends/torch/operators/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f92a45e6b0ff3a26a374c4dea6e10eb01aff98c",
+      "size": 4997,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9f92a45e6b0ff3a26a374c4dea6e10eb01aff98c"
+    },
+    {
+      "path": "pde/backends/torch/operators/cylindrical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543e260c8eb9b443b182ef4346298d2df103da65",
+      "size": 15115,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/543e260c8eb9b443b182ef4346298d2df103da65"
+    },
+    {
+      "path": "pde/backends/torch/operators/polar_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e8f6d5a1fe1c8a4fc2b142fb813d2b6e78e757",
+      "size": 10892,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/72e8f6d5a1fe1c8a4fc2b142fb813d2b6e78e757"
+    },
+    {
+      "path": "pde/backends/torch/operators/spherical_sym.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36559974fc1dc8e2b8b4c644c7f512d53fd05803",
+      "size": 17193,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/36559974fc1dc8e2b8b4c644c7f512d53fd05803"
+    },
+    {
+      "path": "pde/backends/torch/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b0b924442f2692391f2d9cbdb24724567b147a",
+      "size": 2034,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/95b0b924442f2692391f2d9cbdb24724567b147a"
+    },
+    {
+      "path": "pde/backends/torch/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d88662d14a1152502055b77cfbb726d7dd264c6",
+      "size": 3945,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4d88662d14a1152502055b77cfbb726d7dd264c6"
+    },
+    {
+      "path": "pde/fields",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1a58bdca18a7a011425240e40e2f83c6244cb43",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/f1a58bdca18a7a011425240e40e2f83c6244cb43"
+    },
+    {
+      "path": "pde/fields/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde3c429aedf6a08531a39a2e962df5ee46e8010",
+      "size": 852,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bde3c429aedf6a08531a39a2e962df5ee46e8010"
+    },
+    {
+      "path": "pde/fields/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f92fb7709e56687d89c464e8b614c81e24157ee",
+      "size": 29422,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9f92fb7709e56687d89c464e8b614c81e24157ee"
+    },
+    {
+      "path": "pde/fields/collection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a4f5a8430e5cf6e8a57ccdc04e0095dc8dd3b0",
+      "size": 52182,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/09a4f5a8430e5cf6e8a57ccdc04e0095dc8dd3b0"
+    },
+    {
+      "path": "pde/fields/datafield_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8a7a3675d5b6905e22834d2108daa474c9d3a52",
+      "size": 64236,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d8a7a3675d5b6905e22834d2108daa474c9d3a52"
+    },
+    {
+      "path": "pde/fields/scalar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "074a36fbab104280ccd501b04e6079d29c8f1c7b",
+      "size": 21448,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/074a36fbab104280ccd501b04e6079d29c8f1c7b"
+    },
+    {
+      "path": "pde/fields/tensorial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971bd0477edb50b598675849235b20a2c0c364e2",
+      "size": 22913,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/971bd0477edb50b598675849235b20a2c0c364e2"
+    },
+    {
+      "path": "pde/fields/vectorial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44bcfc24254d8cb7163c6dc5f41a558f13771b6a",
+      "size": 22776,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/44bcfc24254d8cb7163c6dc5f41a558f13771b6a"
+    },
+    {
+      "path": "pde/grids",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cd53038fff804ae337ad11f7f5ebddca07177a1",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/0cd53038fff804ae337ad11f7f5ebddca07177a1"
+    },
+    {
+      "path": "pde/grids/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b90f0ce490d55929410f657b69c3c9b93433ab01",
+      "size": 1273,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b90f0ce490d55929410f657b69c3c9b93433ab01"
+    },
+    {
+      "path": "pde/grids/_mesh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a01b42644a09d8cdb7d69f49aa3b373b0a2e9f7",
+      "size": 29688,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6a01b42644a09d8cdb7d69f49aa3b373b0a2e9f7"
+    },
+    {
+      "path": "pde/grids/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd5169b8cb830b0bd2ab22b42e8d1a67077235d1",
+      "size": 57590,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bd5169b8cb830b0bd2ab22b42e8d1a67077235d1"
+    },
+    {
+      "path": "pde/grids/boundaries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee0bf1cfe7cc0ed476938b360ceec560c0f06ac4",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/ee0bf1cfe7cc0ed476938b360ceec560c0f06ac4"
+    },
+    {
+      "path": "pde/grids/boundaries/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "238ed8cb5dbfbf7da9fe6f73ecc5d29308720be5",
+      "size": 8522,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/238ed8cb5dbfbf7da9fe6f73ecc5d29308720be5"
+    },
+    {
+      "path": "pde/grids/boundaries/axes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58819d7033d06fd0c2732bf10fd573fdb7424e68",
+      "size": 23585,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/58819d7033d06fd0c2732bf10fd573fdb7424e68"
+    },
+    {
+      "path": "pde/grids/boundaries/axis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af0d7c1b24fb66a60fcf064a37229fe9af9e16e",
+      "size": 16229,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3af0d7c1b24fb66a60fcf064a37229fe9af9e16e"
+    },
+    {
+      "path": "pde/grids/boundaries/local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "241d88e9e20b0b39f7a3ddab41a9e50eac98a81f",
+      "size": 82448,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/241d88e9e20b0b39f7a3ddab41a9e50eac98a81f"
+    },
+    {
+      "path": "pde/grids/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e544515a6bba4c15ca0a7eccdc4d8f52458c7b71",
+      "size": 20120,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e544515a6bba4c15ca0a7eccdc4d8f52458c7b71"
+    },
+    {
+      "path": "pde/grids/coordinates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c103b8cdc4c2c58bf24656a0f6f5a7c1ad667e18",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/c103b8cdc4c2c58bf24656a0f6f5a7c1ad667e18"
+    },
+    {
+      "path": "pde/grids/coordinates/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "937125ffb86739e1501fc1540ed3326a6a6b361f",
+      "size": 834,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/937125ffb86739e1501fc1540ed3326a6a6b361f"
+    },
+    {
+      "path": "pde/grids/coordinates/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c22d12407e1c3384db46070e9d800505bcefab",
+      "size": 11102,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e5c22d12407e1c3384db46070e9d800505bcefab"
+    },
+    {
+      "path": "pde/grids/coordinates/bipolar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db88c3e886e1c6fcc815b406b2a0994d112d8c2",
+      "size": 3213,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5db88c3e886e1c6fcc815b406b2a0994d112d8c2"
+    },
+    {
+      "path": "pde/grids/coordinates/bispherical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b418a7f2df247d1e026b331f945a2e780ac1e236",
+      "size": 4083,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b418a7f2df247d1e026b331f945a2e780ac1e236"
+    },
+    {
+      "path": "pde/grids/coordinates/cartesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66028ac12b32659ac0970573637fa226bc9ad39f",
+      "size": 2263,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/66028ac12b32659ac0970573637fa226bc9ad39f"
+    },
+    {
+      "path": "pde/grids/coordinates/cylindrical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451b4c21104d64e84d59719dad3bb67034e1dd0c",
+      "size": 2611,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/451b4c21104d64e84d59719dad3bb67034e1dd0c"
+    },
+    {
+      "path": "pde/grids/coordinates/polar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87c7a7f62388cd95611b8e44e55a1a8a2e5eb2c",
+      "size": 2309,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f87c7a7f62388cd95611b8e44e55a1a8a2e5eb2c"
+    },
+    {
+      "path": "pde/grids/coordinates/spherical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "648c5ce65412580f9295bf3d2654115b9cbc6bd3",
+      "size": 3170,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/648c5ce65412580f9295bf3d2654115b9cbc6bd3"
+    },
+    {
+      "path": "pde/grids/cylindrical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b9994783a3b91561f38bd70eaf48b42a1a1eef3",
+      "size": 16788,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8b9994783a3b91561f38bd70eaf48b42a1a1eef3"
+    },
+    {
+      "path": "pde/grids/spherical.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b534b5f3d98d21a751014d5ee1c7b5e9c5b1c8b",
+      "size": 17555,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6b534b5f3d98d21a751014d5ee1c7b5e9c5b1c8b"
+    },
+    {
+      "path": "pde/pdes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c4afb798fbca06edbf8cdacc596097b170cb3ef",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/2c4afb798fbca06edbf8cdacc596097b170cb3ef"
+    },
+    {
+      "path": "pde/pdes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d67c793bb70fe9708506b312d7f7cc0595adafed",
+      "size": 2291,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d67c793bb70fe9708506b312d7f7cc0595adafed"
+    },
+    {
+      "path": "pde/pdes/allen_cahn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "658516ed3823661a4abe85969799af754698e432",
+      "size": 4063,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/658516ed3823661a4abe85969799af754698e432"
+    },
+    {
+      "path": "pde/pdes/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c307d0f582915eca39763af9e3cea87481364ae7",
+      "size": 32728,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c307d0f582915eca39763af9e3cea87481364ae7"
+    },
+    {
+      "path": "pde/pdes/cahn_hilliard.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e430ff660a4570aaa333843bdeb7f91e9bad14cb",
+      "size": 4511,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e430ff660a4570aaa333843bdeb7f91e9bad14cb"
+    },
+    {
+      "path": "pde/pdes/diffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5e4d96df0daf79e2a75f550e88871e0d9ec72e5",
+      "size": 4217,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f5e4d96df0daf79e2a75f550e88871e0d9ec72e5"
+    },
+    {
+      "path": "pde/pdes/klein_gordon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc523b4c71dbd0cf9c58943f148a09a2faa11b02",
+      "size": 5333,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fc523b4c71dbd0cf9c58943f148a09a2faa11b02"
+    },
+    {
+      "path": "pde/pdes/kpz_interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0123e9921c7df36985b63d43a153ad5142b6c0f",
+      "size": 5093,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d0123e9921c7df36985b63d43a153ad5142b6c0f"
+    },
+    {
+      "path": "pde/pdes/kuramoto_sivashinsky.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42afe5406e8b30165bcc3841361eec5b9b2aba5f",
+      "size": 5453,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/42afe5406e8b30165bcc3841361eec5b9b2aba5f"
+    },
+    {
+      "path": "pde/pdes/laplace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d176d1ca06c05cdd41367d331cb3eaa70a1c5d",
+      "size": 5211,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/64d176d1ca06c05cdd41367d331cb3eaa70a1c5d"
+    },
+    {
+      "path": "pde/pdes/pde.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52a4a402dbcac6843c40352c451e9b81246a8f1",
+      "size": 57863,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f52a4a402dbcac6843c40352c451e9b81246a8f1"
+    },
+    {
+      "path": "pde/pdes/reaction_diffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "204a5d1d57ab4c8907454e23f574f58f2c3cf372",
+      "size": 6077,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/204a5d1d57ab4c8907454e23f574f58f2c3cf372"
+    },
+    {
+      "path": "pde/pdes/swift_hohenberg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90b82ca33e9c5b9e8f764dbb4a3c1f41a240cc90",
+      "size": 5131,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/90b82ca33e9c5b9e8f764dbb4a3c1f41a240cc90"
+    },
+    {
+      "path": "pde/pdes/wave.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e17f8d2d059f3877a3116401344b006d678ad27f",
+      "size": 4637,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e17f8d2d059f3877a3116401344b006d678ad27f"
+    },
+    {
+      "path": "pde/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2259f1d8001c4718a36d347d9a352d369649e46",
+      "size": 85,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e2259f1d8001c4718a36d347d9a352d369649e46"
+    },
+    {
+      "path": "pde/solvers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8c063f9c73a42c218d84f21d9751616694c9b96",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/f8c063f9c73a42c218d84f21d9751616694c9b96"
+    },
+    {
+      "path": "pde/solvers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e9cf8adc108767172b4677f69afcc335c9b8271",
+      "size": 1680,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2e9cf8adc108767172b4677f69afcc335c9b8271"
+    },
+    {
+      "path": "pde/solvers/adams_bashforth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca6ca87725dfa50b5110a1a9834e4fc8ced89bb7",
+      "size": 2827,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ca6ca87725dfa50b5110a1a9834e4fc8ced89bb7"
+    },
+    {
+      "path": "pde/solvers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8188ef16ac3c980a05fbfffc0515ef313be9dc21",
+      "size": 22838,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8188ef16ac3c980a05fbfffc0515ef313be9dc21"
+    },
+    {
+      "path": "pde/solvers/controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39e480bee5b523ad8050ab3ec1c46c8350eb475",
+      "size": 18694,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a39e480bee5b523ad8050ab3ec1c46c8350eb475"
+    },
+    {
+      "path": "pde/solvers/crank_nicolson.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30743b24477d25f65db2bf0cd3b6b3f219564ee9",
+      "size": 4081,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/30743b24477d25f65db2bf0cd3b6b3f219564ee9"
+    },
+    {
+      "path": "pde/solvers/euler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce6a133f06d7a180e2bf2e1728bc67f792cdd504",
+      "size": 12515,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ce6a133f06d7a180e2bf2e1728bc67f792cdd504"
+    },
+    {
+      "path": "pde/solvers/explicit_mpi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ec428b84e5b10e2a56d8857a76e63fa8194b071",
+      "size": 9477,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7ec428b84e5b10e2a56d8857a76e63fa8194b071"
+    },
+    {
+      "path": "pde/solvers/implicit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b027d3b606e4fe7b443016db41bea37e80c4a914",
+      "size": 8158,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b027d3b606e4fe7b443016db41bea37e80c4a914"
+    },
+    {
+      "path": "pde/solvers/milstein.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53153209e745e1bfadef4a169bf57d692e620be",
+      "size": 4824,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a53153209e745e1bfadef4a169bf57d692e620be"
+    },
+    {
+      "path": "pde/solvers/runge_kutta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1590e87902f249aeaf218767f31e749be754292a",
+      "size": 5191,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1590e87902f249aeaf218767f31e749be754292a"
+    },
+    {
+      "path": "pde/solvers/scipy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ed9d34239b535317bce3a9d32f07acef8ebdfee",
+      "size": 4496,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2ed9d34239b535317bce3a9d32f07acef8ebdfee"
+    },
+    {
+      "path": "pde/storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8feb5861e5909079e0252e10d58900d11faf04db",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/8feb5861e5909079e0252e10d58900d11faf04db"
+    },
+    {
+      "path": "pde/storage/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54dd0497ddee72fcc9f52b8256286c932b920c24",
+      "size": 771,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/54dd0497ddee72fcc9f52b8256286c932b920c24"
+    },
+    {
+      "path": "pde/storage/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41a473923fdb67c40d2187a58ad55e8d021eff8",
+      "size": 25278,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c41a473923fdb67c40d2187a58ad55e8d021eff8"
+    },
+    {
+      "path": "pde/storage/file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab941a4165166f73d1dcc4be447823ebe6c04606",
+      "size": 15880,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ab941a4165166f73d1dcc4be447823ebe6c04606"
+    },
+    {
+      "path": "pde/storage/memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0062377a88c171dd8e16fb78c6818c6562b45c",
+      "size": 9012,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/df0062377a88c171dd8e16fb78c6818c6562b45c"
+    },
+    {
+      "path": "pde/storage/modelrunner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe5fd5611a2e0322c3d814483b966f0355484aa3",
+      "size": 6582,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fe5fd5611a2e0322c3d814483b966f0355484aa3"
+    },
+    {
+      "path": "pde/storage/movie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01f5e87b03da0218c108dc974c7fdc876d9a3c6",
+      "size": 28600,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a01f5e87b03da0218c108dc974c7fdc876d9a3c6"
+    },
+    {
+      "path": "pde/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "115e3032979cf69893bb64ee37c76bee21c70c38",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/115e3032979cf69893bb64ee37c76bee21c70c38"
+    },
+    {
+      "path": "pde/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c298cd0ee32c13f2dd7f1bbae5aa7e1ad204cc75",
+      "size": 337,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c298cd0ee32c13f2dd7f1bbae5aa7e1ad204cc75"
+    },
+    {
+      "path": "pde/tools/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd1c837f0549ce0f39541fd6fe68bc9637d67db7",
+      "size": 22428,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/dd1c837f0549ce0f39541fd6fe68bc9637d67db7"
+    },
+    {
+      "path": "pde/tools/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4808fe35f1a7eace38fa9e55df93c8f755c83f4",
+      "size": 27983,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b4808fe35f1a7eace38fa9e55df93c8f755c83f4"
+    },
+    {
+      "path": "pde/tools/cuboid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb29915103c86696461d722b025174786d8bd369",
+      "size": 9086,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fb29915103c86696461d722b025174786d8bd369"
+    },
+    {
+      "path": "pde/tools/docstrings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0eed8612088e4523f56d952116bd7a4533c5919",
+      "size": 8039,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c0eed8612088e4523f56d952116bd7a4533c5919"
+    },
+    {
+      "path": "pde/tools/expressions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ad537742356c12afd718c1d7c0a7f103e3147bf",
+      "size": 41563,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2ad537742356c12afd718c1d7c0a7f103e3147bf"
+    },
+    {
+      "path": "pde/tools/ffmpeg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6000135ccc439b593cf7f388a98046a591f5a288",
+      "size": 4447,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6000135ccc439b593cf7f388a98046a591f5a288"
+    },
+    {
+      "path": "pde/tools/math.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4d817680ba436f808f71c79669491724c29f3d",
+      "size": 5206,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8a4d817680ba436f808f71c79669491724c29f3d"
+    },
+    {
+      "path": "pde/tools/misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009e43ba5be36d22c1cc6e016b01823784e3de73",
+      "size": 12160,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/009e43ba5be36d22c1cc6e016b01823784e3de73"
+    },
+    {
+      "path": "pde/tools/modelrunner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df790014112e40829445c2f75316c2a4350a55b",
+      "size": 3684,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6df790014112e40829445c2f75316c2a4350a55b"
+    },
+    {
+      "path": "pde/tools/mpi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b7fc28befe7bc8837ac8594726c1e6ecb06faf",
+      "size": 5501,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a0b7fc28befe7bc8837ac8594726c1e6ecb06faf"
+    },
+    {
+      "path": "pde/tools/nested_dict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0131dc0babcd86ebea9caaf333837c37b40d4fd",
+      "size": 14981,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b0131dc0babcd86ebea9caaf333837c37b40d4fd"
+    },
+    {
+      "path": "pde/tools/numba.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5093e586add0df4764edf3e15b367a12c1546ae5",
+      "size": 670,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5093e586add0df4764edf3e15b367a12c1546ae5"
+    },
+    {
+      "path": "pde/tools/output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1365e3bfd3cc4c3623ff2c094e4eb46473c05eb9",
+      "size": 3783,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1365e3bfd3cc4c3623ff2c094e4eb46473c05eb9"
+    },
+    {
+      "path": "pde/tools/parse_duration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb379941f7095c1c43caa022110172008ffc3fc",
+      "size": 4113,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0fb379941f7095c1c43caa022110172008ffc3fc"
+    },
+    {
+      "path": "pde/tools/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d8fd93b56c6f93e5d39ae368d6960c73a60792",
+      "size": 29228,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/20d8fd93b56c6f93e5d39ae368d6960c73a60792"
+    },
+    {
+      "path": "pde/tools/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d67682aa42544ccd8fb265a890d7e57b66132e9",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/0d67682aa42544ccd8fb265a890d7e57b66132e9"
+    },
+    {
+      "path": "pde/tools/resources/requirements_basic.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f3f204d1b26e20c200bcd0b8c34f5f685a4b68b",
+      "size": 148,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8f3f204d1b26e20c200bcd0b8c34f5f685a4b68b"
+    },
+    {
+      "path": "pde/tools/resources/requirements_full.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9508c3103703190526c0029f9bb164c6ce2aaf9",
+      "size": 271,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e9508c3103703190526c0029f9bb164c6ce2aaf9"
+    },
+    {
+      "path": "pde/tools/resources/requirements_mpi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0273374a28bec1d2e13b444fc03443e7850542f8",
+      "size": 200,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0273374a28bec1d2e13b444fc03443e7850542f8"
+    },
+    {
+      "path": "pde/tools/spectral.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad4f2703206b872e2a3d3db0042cadb11b2688e",
+      "size": 9743,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0ad4f2703206b872e2a3d3db0042cadb11b2688e"
+    },
+    {
+      "path": "pde/tools/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b03f8f4448dbdb76ff561e12fdf0ee7743ff6f6",
+      "size": 7537,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2b03f8f4448dbdb76ff561e12fdf0ee7743ff6f6"
+    },
+    {
+      "path": "pde/trackers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a06b2d5e141c469c47f57b0ef4f7b36f555d8d0e",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/a06b2d5e141c469c47f57b0ef4f7b36f555d8d0e"
+    },
+    {
+      "path": "pde/trackers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92fadbef29e377e3244071dacca4567c29da20bd",
+      "size": 2388,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/92fadbef29e377e3244071dacca4567c29da20bd"
+    },
+    {
+      "path": "pde/trackers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abb218c4ba3f633027492b547d6e8fdcf8fd4c5a",
+      "size": 13054,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/abb218c4ba3f633027492b547d6e8fdcf8fd4c5a"
+    },
+    {
+      "path": "pde/trackers/interactive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "994969665baca427e0ca217d49acf5a00554d19d",
+      "size": 10517,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/994969665baca427e0ca217d49acf5a00554d19d"
+    },
+    {
+      "path": "pde/trackers/interrupts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8183f49fe324ae814c37f79a84fdb00d44436d6b",
+      "size": 14122,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8183f49fe324ae814c37f79a84fdb00d44436d6b"
+    },
+    {
+      "path": "pde/trackers/trackers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c8930ff77a5d7e578feb6891f7bee20c42310d",
+      "size": 40917,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e0c8930ff77a5d7e578feb6891f7bee20c42310d"
+    },
+    {
+      "path": "pde/visualization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f181f95734fe68b1506218e85cdeaa5cb47fe90",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/4f181f95734fe68b1506218e85cdeaa5cb47fe90"
+    },
+    {
+      "path": "pde/visualization/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a689f941c697e262d9722af153a6c34870944e35",
+      "size": 530,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a689f941c697e262d9722af153a6c34870944e35"
+    },
+    {
+      "path": "pde/visualization/movies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26964741a02050a4012105770f2e6440bdbff298",
+      "size": 9817,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/26964741a02050a4012105770f2e6440bdbff298"
+    },
+    {
+      "path": "pde/visualization/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f2ce2841188d4b8d9b507f6c03be95d27f4e22",
+      "size": 31501,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/15f2ce2841188d4b8d9b507f6c03be95d27f4e22"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b2c8c6ef802a3c88a32108b1e9edf59eb06bf1",
+      "size": 5086,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b8b2c8c6ef802a3c88a32108b1e9edf59eb06bf1"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e342d96a079f7914a3dcc4e0677900e4ee3c07f",
+      "size": 97,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/7e342d96a079f7914a3dcc4e0677900e4ee3c07f"
+    },
+    {
+      "path": "runtime.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f31904fcb9165e71f5777bee4b1b5dc1cd22b4b7",
+      "size": 11,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f31904fcb9165e71f5777bee4b1b5dc1cd22b4b7"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0d43e2a277f0ba88738bee9dd49e18e2afad72c",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b0d43e2a277f0ba88738bee9dd49e18e2afad72c"
+    },
+    {
+      "path": "scripts/_templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8a28d9ce2042f9cab9f651d7f36a2f46f950633",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/d8a28d9ce2042f9cab9f651d7f36a2f46f950633"
+    },
+    {
+      "path": "scripts/_templates/_pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21689d7e3fcc205aa6b1cd38e52c8e034302f846",
+      "size": 4878,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/21689d7e3fcc205aa6b1cd38e52c8e034302f846"
+    },
+    {
+      "path": "scripts/_templates/_runtime.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c9dd2fd9717aab081b4ce9ede9815b0881c650",
+      "size": 26,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c6c9dd2fd9717aab081b4ce9ede9815b0881c650"
+    },
+    {
+      "path": "scripts/create_requirements.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b3e07192fbd974053a1e28f0c9b295c197aa7cb5",
+      "size": 14753,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b3e07192fbd974053a1e28f0c9b295c197aa7cb5"
+    },
+    {
+      "path": "scripts/create_storage_test_resources.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5c8fe9c11ed91c6f4741132d553f60f2e61cd682",
+      "size": 1238,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5c8fe9c11ed91c6f4741132d553f60f2e61cd682"
+    },
+    {
+      "path": "scripts/format_code.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "215b6376eb649488d2e8b111edb39e4b9f5b8b51",
+      "size": 313,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/215b6376eb649488d2e8b111edb39e4b9f5b8b51"
+    },
+    {
+      "path": "scripts/performance_boundaries.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "67ddf9b63249a1f0cd3b63bd2935c972b34a6143",
+      "size": 2401,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/67ddf9b63249a1f0cd3b63bd2935c972b34a6143"
+    },
+    {
+      "path": "scripts/performance_laplace.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f990568e8601be1950f1d28540586c1b9c8419a4",
+      "size": 12517,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f990568e8601be1950f1d28540586c1b9c8419a4"
+    },
+    {
+      "path": "scripts/performance_solvers.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "73b8429415bed4692540c457d258828b688a4653",
+      "size": 7413,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/73b8429415bed4692540c457d258828b688a4653"
+    },
+    {
+      "path": "scripts/profile_import.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "94d5962ce95ea1abe05235e68238e5703581024c",
+      "size": 405,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/94d5962ce95ea1abe05235e68238e5703581024c"
+    },
+    {
+      "path": "scripts/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "112673f865ad2c7615f4902ce5654d07ba1f52cd",
+      "size": 75,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/112673f865ad2c7615f4902ce5654d07ba1f52cd"
+    },
+    {
+      "path": "scripts/run_tests.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d51cbbaaedda298bcca6b27e2a36e42d783e81dd",
+      "size": 11984,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d51cbbaaedda298bcca6b27e2a36e42d783e81dd"
+    },
+    {
+      "path": "scripts/show_environment.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1fae827a033dd74ef46d3ad854ede527dfce2ca8",
+      "size": 693,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1fae827a033dd74ef46d3ad854ede527dfce2ca8"
+    },
+    {
+      "path": "scripts/tests_all.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23a79d6de9999e601ab82d6f2da4633cbac860e1",
+      "size": 279,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/23a79d6de9999e601ab82d6f2da4633cbac860e1"
+    },
+    {
+      "path": "scripts/tests_codestyle.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3146dfc182d74e62f5d532643ff35af6bb62dc63",
+      "size": 123,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3146dfc182d74e62f5d532643ff35af6bb62dc63"
+    },
+    {
+      "path": "scripts/tests_coverage.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "664d15ae373cc3be0a371c32caa0e17bcb5358af",
+      "size": 885,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/664d15ae373cc3be0a371c32caa0e17bcb5358af"
+    },
+    {
+      "path": "scripts/tests_debug.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b19c435c7bd012822c258095bac4220df36971e2",
+      "size": 481,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b19c435c7bd012822c258095bac4220df36971e2"
+    },
+    {
+      "path": "scripts/tests_extensive.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "54ec0115a6e139026083a2faf3418313c585c9cc",
+      "size": 145,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/54ec0115a6e139026083a2faf3418313c585c9cc"
+    },
+    {
+      "path": "scripts/tests_mpi.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b9ca9fca0c96223d2d03c0b598a4947f0772955d",
+      "size": 336,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b9ca9fca0c96223d2d03c0b598a4947f0772955d"
+    },
+    {
+      "path": "scripts/tests_parallel.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0914f21d809aebe006eff8954a33d3351893fdd5",
+      "size": 297,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0914f21d809aebe006eff8954a33d3351893fdd5"
+    },
+    {
+      "path": "scripts/tests_run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b88d610fd81810ba8c2ba07c1e23239a8115a003",
+      "size": 265,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b88d610fd81810ba8c2ba07c1e23239a8115a003"
+    },
+    {
+      "path": "scripts/tests_types.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff429edb56444c21dc3e67c31ce502748e761bc0",
+      "size": 135,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ff429edb56444c21dc3e67c31ce502748e761bc0"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ff83ea218700adc434115412e2ea7b814c448eb",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/3ff83ea218700adc434115412e2ea7b814c448eb"
+    },
+    {
+      "path": "tests/_notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1f9237ef7dabfab9a8c99e4d2e4880b8cb342da",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/e1f9237ef7dabfab9a8c99e4d2e4880b8cb342da"
+    },
+    {
+      "path": "tests/_notebooks/Test PlotTracker for different backend.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68d217dcc3c58f58343ff810ff1ef0467d536b8",
+      "size": 8471,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d68d217dcc3c58f58343ff810ff1ef0467d536b8"
+    },
+    {
+      "path": "tests/backends",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e41b5f49107e077b9b5f07018997c58ed374bfb9",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/e41b5f49107e077b9b5f07018997c58ed374bfb9"
+    },
+    {
+      "path": "tests/backends/generic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9a481518e9088d4914f3c5eda4cbd4a68aceeef",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b9a481518e9088d4914f3c5eda4cbd4a68aceeef"
+    },
+    {
+      "path": "tests/backends/generic/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecd5387c2c142e36db10c9af9ae3e16edbd87768",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/ecd5387c2c142e36db10c9af9ae3e16edbd87768"
+    },
+    {
+      "path": "tests/backends/generic/operators/test_cartesian_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927b48583cb063974e0109133d40dfb4381293ca",
+      "size": 8412,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/927b48583cb063974e0109133d40dfb4381293ca"
+    },
+    {
+      "path": "tests/backends/generic/operators/test_cylindrical_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572c00f189b8d17f8702d0832f0fa62d2fbd905f",
+      "size": 10803,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/572c00f189b8d17f8702d0832f0fa62d2fbd905f"
+    },
+    {
+      "path": "tests/backends/generic/operators/test_polar_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "847da61bc873d3689d10409e134048d22d1c86a8",
+      "size": 8639,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/847da61bc873d3689d10409e134048d22d1c86a8"
+    },
+    {
+      "path": "tests/backends/generic/operators/test_spherical_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eebce2347e8cf75d585fbfa00533489b33450917",
+      "size": 12853,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/eebce2347e8cf75d585fbfa00533489b33450917"
+    },
+    {
+      "path": "tests/backends/generic/test_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af384618fcf92abfad1a8675e0fa6a45817ee16",
+      "size": 5058,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4af384618fcf92abfad1a8675e0fa6a45817ee16"
+    },
+    {
+      "path": "tests/backends/generic/test_generic_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66ed166ec7c0911542b0ffb2668beb1dd662b0c5",
+      "size": 5261,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/66ed166ec7c0911542b0ffb2668beb1dd662b0c5"
+    },
+    {
+      "path": "tests/backends/jax_",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6321cd062ac40037cb3b035e7f4d348a8d381db4",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/6321cd062ac40037cb3b035e7f4d348a8d381db4"
+    },
+    {
+      "path": "tests/backends/jax_/test_jax_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aa8f0d7706980592901ace2c7967f446cc95921",
+      "size": 2505,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/3aa8f0d7706980592901ace2c7967f446cc95921"
+    },
+    {
+      "path": "tests/backends/numba_",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eec4b6ce2a695c3a21d98efcb5fa56f4391a82c3",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/eec4b6ce2a695c3a21d98efcb5fa56f4391a82c3"
+    },
+    {
+      "path": "tests/backends/numba_/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dab5e47a271280b5eb9c4412042727de700b207b",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/dab5e47a271280b5eb9c4412042727de700b207b"
+    },
+    {
+      "path": "tests/backends/numba_/operators/test_numba_cartesian_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bec91b7171e6254abf86d76caeb883f19445d7b",
+      "size": 9617,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2bec91b7171e6254abf86d76caeb883f19445d7b"
+    },
+    {
+      "path": "tests/backends/numba_/operators/test_numba_common_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75faaf8385f5ff8fea07dfe91382030db19d0df5",
+      "size": 1902,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/75faaf8385f5ff8fea07dfe91382030db19d0df5"
+    },
+    {
+      "path": "tests/backends/numba_/test_numba_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8089d536fc2772ccabc1ef8e4befdd14185d795e",
+      "size": 3435,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8089d536fc2772ccabc1ef8e4befdd14185d795e"
+    },
+    {
+      "path": "tests/backends/numba_/test_numba_grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb132f8dd17fe4cb3fbf456b096548f0035764f0",
+      "size": 680,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bb132f8dd17fe4cb3fbf456b096548f0035764f0"
+    },
+    {
+      "path": "tests/backends/numba_/test_numba_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b2405ef6e8e42fb0b686c7ca56d896213c9c93b",
+      "size": 460,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1b2405ef6e8e42fb0b686c7ca56d896213c9c93b"
+    },
+    {
+      "path": "tests/backends/numba_/test_numba_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ecbe1e6c26960e81d1329388f5da5cafce1fb2",
+      "size": 2232,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a6ecbe1e6c26960e81d1329388f5da5cafce1fb2"
+    },
+    {
+      "path": "tests/backends/numba_mpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9944bbce88321aca581790c23c59c30782d87497",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/9944bbce88321aca581790c23c59c30782d87497"
+    },
+    {
+      "path": "tests/backends/numba_mpi/test_numba_mpi_backend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6897372d0e76d90f5d35e7dc9b78c0874ee9b932",
+      "size": 877,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6897372d0e76d90f5d35e7dc9b78c0874ee9b932"
+    },
+    {
+      "path": "tests/backends/scipy_",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "872a43d6c51c54ffbf104bc11515854d3e80ac60",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/872a43d6c51c54ffbf104bc11515854d3e80ac60"
+    },
+    {
+      "path": "tests/backends/scipy_/operators",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2009d8e7b65016123ba12aa94477b5eb3ec67e5",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/e2009d8e7b65016123ba12aa94477b5eb3ec67e5"
+    },
+    {
+      "path": "tests/backends/scipy_/operators/test_scipy_cartesian_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a25083471bd240b4a7124155f64c4e5739a3c7",
+      "size": 1676,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/12a25083471bd240b4a7124155f64c4e5739a3c7"
+    },
+    {
+      "path": "tests/backends/scipy_/operators/test_scipy_cylindrical_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cbb2f310c5833ff45e27e1ae559e095e1f57dba",
+      "size": 1621,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8cbb2f310c5833ff45e27e1ae559e095e1f57dba"
+    },
+    {
+      "path": "tests/backends/scipy_/operators/test_scipy_polar_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "833ed65bb73711c78b8a35ee75a32362611cab42",
+      "size": 1490,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/833ed65bb73711c78b8a35ee75a32362611cab42"
+    },
+    {
+      "path": "tests/backends/scipy_/operators/test_scipy_spherical_operators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd674fb6f36c13f6ac89e18270d4f9184dc9df5",
+      "size": 1504,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/bbd674fb6f36c13f6ac89e18270d4f9184dc9df5"
+    },
+    {
+      "path": "tests/backends/test_backends.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd0d2e9eb561a7cbd3a8d727b14dc8195ca71126",
+      "size": 4510,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fd0d2e9eb561a7cbd3a8d727b14dc8195ca71126"
+    },
+    {
+      "path": "tests/backends/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e47c56ec01bb3eb1411df71250e5937354d75e0e",
+      "size": 2286,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e47c56ec01bb3eb1411df71250e5937354d75e0e"
+    },
+    {
+      "path": "tests/backends/torch_",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1967f0d36ee8e88cdd1bde312f75a0a08f483f8",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/a1967f0d36ee8e88cdd1bde312f75a0a08f483f8"
+    },
+    {
+      "path": "tests/backends/torch_/test_torch_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7306786bb999c8f3e8584b3f440b8d8701b65d0",
+      "size": 755,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/f7306786bb999c8f3e8584b3f440b8d8701b65d0"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9023a489b4b44cbcc54590b08dcadae1d1f7b74b",
+      "size": 6672,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9023a489b4b44cbcc54590b08dcadae1d1f7b74b"
+    },
+    {
+      "path": "tests/fields",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19ea30ff746b354a31eff4b9d1f59bcf57ed2b31",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/19ea30ff746b354a31eff4b9d1f59bcf57ed2b31"
+    },
+    {
+      "path": "tests/fields/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef97b6ee24d19dc3ea2761cdca16ec5b3b550cda",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/ef97b6ee24d19dc3ea2761cdca16ec5b3b550cda"
+    },
+    {
+      "path": "tests/fields/fixtures/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/fields/fixtures/fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d4c4daa35e6a061b0b6464618c19951a4a2b778",
+      "size": 1518,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4d4c4daa35e6a061b0b6464618c19951a4a2b778"
+    },
+    {
+      "path": "tests/fields/test_field_collections.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "545d7adb9392a23808974904160f9c2220ce54cd",
+      "size": 14050,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/545d7adb9392a23808974904160f9c2220ce54cd"
+    },
+    {
+      "path": "tests/fields/test_generic_fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d0c4f2bd9066fe8c0200c29d7e1dd2385a1fc6",
+      "size": 22543,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c4d0c4f2bd9066fe8c0200c29d7e1dd2385a1fc6"
+    },
+    {
+      "path": "tests/fields/test_scalar_fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabd59818cd45770f73599c2fd6089d6090f373c",
+      "size": 21998,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fabd59818cd45770f73599c2fd6089d6090f373c"
+    },
+    {
+      "path": "tests/fields/test_tensorial_fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf37ead492fa071b62c070eb3bf65ca4e37bbc6",
+      "size": 11966,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8bf37ead492fa071b62c070eb3bf65ca4e37bbc6"
+    },
+    {
+      "path": "tests/fields/test_vectorial_fields.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94b48dc202b9de54002bfdee7730bfd20d2306b",
+      "size": 14165,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b94b48dc202b9de54002bfdee7730bfd20d2306b"
+    },
+    {
+      "path": "tests/grids",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "470c3e1d9560e0f6feb1dc076249cef93146c057",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/470c3e1d9560e0f6feb1dc076249cef93146c057"
+    },
+    {
+      "path": "tests/grids/boundaries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9d763cd12ab31352237439975d21ec0bb1f5101",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/f9d763cd12ab31352237439975d21ec0bb1f5101"
+    },
+    {
+      "path": "tests/grids/boundaries/test_axes_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa48743f8f4573b02e19753c162b97ea776aaf7",
+      "size": 9718,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9aa48743f8f4573b02e19753c162b97ea776aaf7"
+    },
+    {
+      "path": "tests/grids/boundaries/test_axes_boundaries_legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38bebdc28b1dbc6924f76fa46ef594c35a395a74",
+      "size": 3709,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/38bebdc28b1dbc6924f76fa46ef594c35a395a74"
+    },
+    {
+      "path": "tests/grids/boundaries/test_axis_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd27d5c743eaa1fdbdde1a65f1f14bede6e1beba",
+      "size": 2495,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cd27d5c743eaa1fdbdde1a65f1f14bede6e1beba"
+    },
+    {
+      "path": "tests/grids/boundaries/test_local_boundaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6de1e9ef2592938d3dbce97775fc41fd724680",
+      "size": 24233,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4f6de1e9ef2592938d3dbce97775fc41fd724680"
+    },
+    {
+      "path": "tests/grids/test_cartesian_grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc61589914a79b0c58a32c1aae1b0a6b4be1d60e",
+      "size": 11855,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cc61589914a79b0c58a32c1aae1b0a6b4be1d60e"
+    },
+    {
+      "path": "tests/grids/test_coordinates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb3c7c6785a3a66ea92f300eabbfca96ccf414a",
+      "size": 3898,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ddb3c7c6785a3a66ea92f300eabbfca96ccf414a"
+    },
+    {
+      "path": "tests/grids/test_cylindrical_grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d5267b309f84c93dee9b7c9771662d4d227105",
+      "size": 3737,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e7d5267b309f84c93dee9b7c9771662d4d227105"
+    },
+    {
+      "path": "tests/grids/test_generic_grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06df19dc136580292f7652cdf1fc5e2883d14bb8",
+      "size": 9555,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/06df19dc136580292f7652cdf1fc5e2883d14bb8"
+    },
+    {
+      "path": "tests/grids/test_grid_mesh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecac3ee8e28a4d57f02e4e03a3dcda41a2c52adf",
+      "size": 10264,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ecac3ee8e28a4d57f02e4e03a3dcda41a2c52adf"
+    },
+    {
+      "path": "tests/grids/test_spherical_grids.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647d8aac8dda7a482a108a73a0bb97ed632e48fa",
+      "size": 6429,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/647d8aac8dda7a482a108a73a0bb97ed632e48fa"
+    },
+    {
+      "path": "tests/pdes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b1ce2c2aeeec5575c438dbbc9a19956f0a6b971",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/3b1ce2c2aeeec5575c438dbbc9a19956f0a6b971"
+    },
+    {
+      "path": "tests/pdes/test_diffusion_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b7f8eb24240bb10a3f71afc603b5c901921c99e",
+      "size": 4669,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1b7f8eb24240bb10a3f71afc603b5c901921c99e"
+    },
+    {
+      "path": "tests/pdes/test_generic_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee02d0b12c0f3d28bcbc81a3dc1549c3f867784",
+      "size": 3133,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/cee02d0b12c0f3d28bcbc81a3dc1549c3f867784"
+    },
+    {
+      "path": "tests/pdes/test_klein_gordon_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb7da53e64ae4f255482846cff83261bfa22024",
+      "size": 2612,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6bb7da53e64ae4f255482846cff83261bfa22024"
+    },
+    {
+      "path": "tests/pdes/test_laplace_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a00961ee543c9fe53a81e54253fd3f4afe4447d1",
+      "size": 3148,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a00961ee543c9fe53a81e54253fd3f4afe4447d1"
+    },
+    {
+      "path": "tests/pdes/test_pde_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93fd62c963376482dadd02ddb79e081e9c637363",
+      "size": 27220,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/93fd62c963376482dadd02ddb79e081e9c637363"
+    },
+    {
+      "path": "tests/pdes/test_pdes_mpi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f0ec36f38e7ab653e46407ba3d4165edc6361c6",
+      "size": 4868,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1f0ec36f38e7ab653e46407ba3d4165edc6361c6"
+    },
+    {
+      "path": "tests/pdes/test_reaction_diffusion_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa824deaddb51faf5d6e8ea264be44cea02fb686",
+      "size": 1933,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/aa824deaddb51faf5d6e8ea264be44cea02fb686"
+    },
+    {
+      "path": "tests/pdes/test_wave_pdes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baef16e04b963f76d9809198e6b198feb2cef01a",
+      "size": 1447,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/baef16e04b963f76d9809198e6b198feb2cef01a"
+    },
+    {
+      "path": "tests/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24a1effe62206744bdbe37a30c61e70b7bf24962",
+      "size": 141,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/24a1effe62206744bdbe37a30c61e70b7bf24962"
+    },
+    {
+      "path": "tests/requirements_full.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9508c3103703190526c0029f9bb164c6ce2aaf9",
+      "size": 271,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e9508c3103703190526c0029f9bb164c6ce2aaf9"
+    },
+    {
+      "path": "tests/requirements_min.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b5d30bc01ff37961125c9d1a9bca94e10a27bcd",
+      "size": 161,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8b5d30bc01ff37961125c9d1a9bca94e10a27bcd"
+    },
+    {
+      "path": "tests/requirements_mpi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fbbfeff511d8333b5aff55c0afe6647a638058c",
+      "size": 198,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/5fbbfeff511d8333b5aff55c0afe6647a638058c"
+    },
+    {
+      "path": "tests/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93606d314ea93b4277cb9b709389e2120e5ce27a",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/93606d314ea93b4277cb9b709389e2120e5ce27a"
+    },
+    {
+      "path": "tests/resources/run_pde.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38e4ba3d8f0c40ad401a426092e57d45786fe875",
+      "size": 440,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/38e4ba3d8f0c40ad401a426092e57d45786fe875"
+    },
+    {
+      "path": "tests/solvers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb066ef26f9b160adb45872bbb559d0ecffbd0cd",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/fb066ef26f9b160adb45872bbb559d0ecffbd0cd"
+    },
+    {
+      "path": "tests/solvers/test_adams_bashforth_solver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1617cfc2d532a45db022e7d1cbb9d40b527ea03f",
+      "size": 576,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/1617cfc2d532a45db022e7d1cbb9d40b527ea03f"
+    },
+    {
+      "path": "tests/solvers/test_controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0edd64afdcb0452de8fdb17665c7041c357d0ae9",
+      "size": 1205,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0edd64afdcb0452de8fdb17665c7041c357d0ae9"
+    },
+    {
+      "path": "tests/solvers/test_explicit_mpi_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b06c18fdd727fd81c82346eb90e43f43841659b",
+      "size": 3435,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8b06c18fdd727fd81c82346eb90e43f43841659b"
+    },
+    {
+      "path": "tests/solvers/test_explicit_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b423d434093966f8f4a77c532abf4bc8c1a35c02",
+      "size": 12907,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/b423d434093966f8f4a77c532abf4bc8c1a35c02"
+    },
+    {
+      "path": "tests/solvers/test_generic_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a16a310f23b90a434349c6884b4161afb01997",
+      "size": 6984,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e1a16a310f23b90a434349c6884b4161afb01997"
+    },
+    {
+      "path": "tests/solvers/test_implicit_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb085ae24f94eb494c3d8cc0365529086ea8f693",
+      "size": 1731,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/eb085ae24f94eb494c3d8cc0365529086ea8f693"
+    },
+    {
+      "path": "tests/solvers/test_scipy_solvers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908a92067198af98f60532f53996ac524d61fc3c",
+      "size": 1018,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/908a92067198af98f60532f53996ac524d61fc3c"
+    },
+    {
+      "path": "tests/storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "898014c09be3c92695e4c2a7504513baa9aa0187",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/898014c09be3c92695e4c2a7504513baa9aa0187"
+    },
+    {
+      "path": "tests/storage/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf681664bb015b2c088af7ad3c6ad3c0d6a2f7be",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/cf681664bb015b2c088af7ad3c6ad3c0d6a2f7be"
+    },
+    {
+      "path": "tests/storage/resources/empty.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/storage/resources/no_metadata.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a1029394507294c4718d9221d5f8d3254b32585",
+      "size": 5920,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/6a1029394507294c4718d9221d5f8d3254b32585"
+    },
+    {
+      "path": "tests/storage/resources/storage_1.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a067890ce42b8d2e587184c182e9a3bd361e925a",
+      "size": 6492,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a067890ce42b8d2e587184c182e9a3bd361e925a"
+    },
+    {
+      "path": "tests/storage/resources/storage_1.hdf5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "986e0f68065247bb060b0d009ce89e3c71bfec58",
+      "size": 13221,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/986e0f68065247bb060b0d009ce89e3c71bfec58"
+    },
+    {
+      "path": "tests/storage/resources/storage_2.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a15cfecd9bf281c4e90d06381a7d1127847a961",
+      "size": 6544,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8a15cfecd9bf281c4e90d06381a7d1127847a961"
+    },
+    {
+      "path": "tests/storage/resources/storage_2.avi.times",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc54609f3cc88a542600676226b87b3373e82fd8",
+      "size": 12,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fc54609f3cc88a542600676226b87b3373e82fd8"
+    },
+    {
+      "path": "tests/storage/resources/storage_2.hdf5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646c1a36dc2d9339c43706de3b063c66f492af9c",
+      "size": 13290,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/646c1a36dc2d9339c43706de3b063c66f492af9c"
+    },
+    {
+      "path": "tests/storage/test_file_storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777a8aca04c0cf2e88dd96ccfc8cf97fa2e0a0c4",
+      "size": 7910,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/777a8aca04c0cf2e88dd96ccfc8cf97fa2e0a0c4"
+    },
+    {
+      "path": "tests/storage/test_generic_storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49b581e7394a3c7e2c6ee7aba7f95dac430c2918",
+      "size": 14261,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/49b581e7394a3c7e2c6ee7aba7f95dac430c2918"
+    },
+    {
+      "path": "tests/storage/test_memory_storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0770fe7de2cd4e534179b3bec673e1c828ad6ee6",
+      "size": 1833,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/0770fe7de2cd4e534179b3bec673e1c828ad6ee6"
+    },
+    {
+      "path": "tests/storage/test_modelrunner_storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead97d6ce6020d6b11995237b5af44d3cb7a28b8",
+      "size": 891,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/ead97d6ce6020d6b11995237b5af44d3cb7a28b8"
+    },
+    {
+      "path": "tests/storage/test_movie_storages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "290feff560893b81b7ce70f8aa0f15bfee9fe906",
+      "size": 9299,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/290feff560893b81b7ce70f8aa0f15bfee9fe906"
+    },
+    {
+      "path": "tests/test_examples.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1638750de6357f5debb3a7bfef4cf0b99640e65",
+      "size": 3520,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/a1638750de6357f5debb3a7bfef4cf0b99640e65"
+    },
+    {
+      "path": "tests/test_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "890f191fb96e1d8cd76c88b6f3b44c19f61b2deb",
+      "size": 13210,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/890f191fb96e1d8cd76c88b6f3b44c19f61b2deb"
+    },
+    {
+      "path": "tests/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9793b83ba12f5f4932ef55ee60b0c67c102d272",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/f9793b83ba12f5f4932ef55ee60b0c67c102d272"
+    },
+    {
+      "path": "tests/tools/test_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cd3ca139dad794ccec465904d1940d18e055f01",
+      "size": 16128,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2cd3ca139dad794ccec465904d1940d18e055f01"
+    },
+    {
+      "path": "tests/tools/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2519510d9fb542640e769a40e98403bf5f2d5b14",
+      "size": 12587,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2519510d9fb542640e769a40e98403bf5f2d5b14"
+    },
+    {
+      "path": "tests/tools/test_cuboid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19357c5911374bea6c0183442181f2f48207ad74",
+      "size": 3897,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/19357c5911374bea6c0183442181f2f48207ad74"
+    },
+    {
+      "path": "tests/tools/test_expressions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf30af2507c1e1a7acfa67afc7461db6ac5bae9",
+      "size": 20060,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8bf30af2507c1e1a7acfa67afc7461db6ac5bae9"
+    },
+    {
+      "path": "tests/tools/test_ffmpeg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9293107927836bf324345ba71b2d6989e07d14d",
+      "size": 443,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/c9293107927836bf324345ba71b2d6989e07d14d"
+    },
+    {
+      "path": "tests/tools/test_math.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8636539580118304e754106f0dbc8b25fe08d8bf",
+      "size": 1473,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8636539580118304e754106f0dbc8b25fe08d8bf"
+    },
+    {
+      "path": "tests/tools/test_misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8d5dbf3b9619035c3fbda7eee1db93e42336af",
+      "size": 3613,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/2a8d5dbf3b9619035c3fbda7eee1db93e42336af"
+    },
+    {
+      "path": "tests/tools/test_mpi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f55e0731407b73a4f547c65d634dda4e8ee71b",
+      "size": 1602,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d3f55e0731407b73a4f547c65d634dda4e8ee71b"
+    },
+    {
+      "path": "tests/tools/test_nested_dict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9489413bd8aa6721de455bb78c45b26d5547123c",
+      "size": 6237,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9489413bd8aa6721de455bb78c45b26d5547123c"
+    },
+    {
+      "path": "tests/tools/test_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fde8d8d230492e7b0c2f23003270f37e3ef2caf",
+      "size": 631,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/9fde8d8d230492e7b0c2f23003270f37e3ef2caf"
+    },
+    {
+      "path": "tests/tools/test_parse_duration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf3de8c0842a01e1dcb4443aa4ce38b8334d1f5",
+      "size": 363,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/abf3de8c0842a01e1dcb4443aa4ce38b8334d1f5"
+    },
+    {
+      "path": "tests/tools/test_plotting_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1c30bf115f35c0fa5c64699edad6c792d4186b",
+      "size": 1460,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/fc1c30bf115f35c0fa5c64699edad6c792d4186b"
+    },
+    {
+      "path": "tests/tools/test_spectral.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f27504ba6337252f8d5723ed5d158e295b49cd",
+      "size": 7661,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/05f27504ba6337252f8d5723ed5d158e295b49cd"
+    },
+    {
+      "path": "tests/trackers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b78550871163b1adec5fbbc36ff78c724fb6687f",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/b78550871163b1adec5fbbc36ff78c724fb6687f"
+    },
+    {
+      "path": "tests/trackers/test_interrupts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cabe77ce15dff6467b63bba2aa15702b13da021",
+      "size": 6610,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/4cabe77ce15dff6467b63bba2aa15702b13da021"
+    },
+    {
+      "path": "tests/trackers/test_trackers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b9a966e2619033ce90b149f531cb952b99628e",
+      "size": 9842,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/25b9a966e2619033ce90b149f531cb952b99628e"
+    },
+    {
+      "path": "tests/visualization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "705fc886e67d425150171cbc7cf4108451107111",
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/trees/705fc886e67d425150171cbc7cf4108451107111"
+    },
+    {
+      "path": "tests/visualization/test_movies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f76c29a18bd796e692b106a892a0e01dbbed715",
+      "size": 1885,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/8f76c29a18bd796e692b106a892a0e01dbbed715"
+    },
+    {
+      "path": "tests/visualization/test_plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e1cd0cebc3441819566cef27006d58e407e3f9",
+      "size": 3782,
+      "url": "https://api.github.com/repos/zwicker-group/py-pde/git/blobs/d4e1cd0cebc3441819566cef27006d58e407e3f9"
+    }
+  ],
+  "truncated": false
+}

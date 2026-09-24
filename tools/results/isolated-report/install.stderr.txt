@@ -1,0 +1,7 @@
+Using Python 3.12.8 environment at: /tmp/thermal-isolated-l_kvivpc/minimal python
+Resolved 1 package in 606ms
+Downloading numpy (15.9MiB)
+ Downloading numpy
+Prepared 1 package in 2.56s
+Installed 1 package in 9ms
+ + numpy==2.5.3

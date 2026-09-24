@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/pdecontrolgym-paper.txt`
+
+Original SHA-256: `bef0ab89bd3dc33b1848289597b253c973dc37effaa50f15813c8b2485039fed`
+
+Sources:
+- https://arxiv.org/html/2405.11401v1
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

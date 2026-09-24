@@ -1,0 +1,9 @@
+PASS isolated environment has zero third-party packages
+PASS installed only NumPy 2.5.3 and SciPy 1.18.1
+PASS check_model.py
+PASS experiment.py
+PASS check_replay.py
+New calculation and verification saved to /mnt/newdisk/github/astra/research/thermal-ai4engineering/tools/results/thermal-replay
+LIMIT: same-platform synthetic thermal task; not hardware validation or full-project reproduction
+
+PASS temporary scientific environment removed; new ODE arrays/logs retained separately

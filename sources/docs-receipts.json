@@ -1,0 +1,78 @@
+[
+  {
+    "id": "controlgym-paper",
+    "url": "https://arxiv.org/html/2311.18736",
+    "accessed_at": "2026-09-23T22:50:47.995928+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/controlgym-paper.txt",
+    "sha256": "9c38e9cff45d69c5cac7d398cdad0d040e1dd0abd716169cb886ab0c134a672e"
+  },
+  {
+    "id": "pdecontrolgym-paper",
+    "url": "https://arxiv.org/html/2405.11401v1",
+    "accessed_at": "2026-09-23T22:50:47.996473+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/pdecontrolgym-paper.txt",
+    "sha256": "bef0ab89bd3dc33b1848289597b253c973dc37effaa50f15813c8b2485039fed"
+  },
+  {
+    "id": "mf2-paper",
+    "url": "https://joss.theoj.org/papers/10.21105/joss.02049",
+    "accessed_at": "2026-09-23T22:50:47.996853+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/mf2-paper.txt",
+    "sha256": "84100999d9762b7b10c7a80c4efa3db2295097c7898684d9fef0b088c3fb9877"
+  },
+  {
+    "id": "botorch-mfkg",
+    "url": "https://botorch.org/docs/tutorials/multi_fidelity_bo/",
+    "accessed_at": "2026-09-23T22:50:47.997253+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "boptest-readme",
+    "url": "https://raw.githubusercontent.com/ibpsa/project1-boptest/master/README.md",
+    "accessed_at": "2026-09-23T22:50:47.997634+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/boptest-readme.txt",
+    "sha256": "7a31c3d175a54ab0fc77cee92989bf005e7eac64150176354379dbd21aa64700"
+  },
+  {
+    "id": "fenics-heat",
+    "url": "https://jsdokken.com/dolfinx-tutorial/chapter2/heat_equation.html",
+    "accessed_at": "2026-09-23T22:50:47.998059+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/fenics-heat.txt",
+    "sha256": "a0bcda6de2628a291e68da2e7aa22c45b6e33ad3d8ae8ee7dec1e3bc32fb6c3d"
+  },
+  {
+    "id": "fenics-nonlinear",
+    "url": "https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_nonlinearpoisson.html",
+    "accessed_at": "2026-09-23T22:50:47.998388+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "tclab-readme",
+    "url": "https://raw.githubusercontent.com/jckantor/TCLab/master/README.rst",
+    "accessed_at": "2026-09-23T22:50:48.386835+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/tclab-readme.txt",
+    "sha256": "36e24aeec39f2b4cdee2e3308cec26c81be3a78dcb3b9c0450eda3996b430b1e"
+  },
+  {
+    "id": "py-pde-readme",
+    "url": "https://raw.githubusercontent.com/zwicker-group/py-pde/master/README.md",
+    "accessed_at": "2026-09-23T22:50:48.744672+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/py-pde-readme.txt",
+    "sha256": "284bf3099088dbe82479eb4b22d2f71a6209681945bc98789128893aedd3c938"
+  },
+  {
+    "id": "elmer-readme",
+    "url": "https://raw.githubusercontent.com/ElmerCSC/elmerfem/devel/README.adoc",
+    "accessed_at": "2026-09-23T22:50:48.909964+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/elmer-readme.txt",
+    "sha256": "00ea51129affef198dce5b495269a16c880800f3d2b1d89e529fa5771b35d320"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "query": "heat transfer multi-fidelity",
+    "url": "https://api.github.com/search/repositories?q=heat+transfer+multi-fidelity&per_page=7",
+    "total_count": 0,
+    "items": []
+  },
+  {
+    "query": "thermal benchmark in:name,description",
+    "url": "https://api.github.com/search/repositories?q=thermal+benchmark+in%3Aname%2Cdescription&per_page=7",
+    "total_count": 169,
+    "items": [
+      {
+        "name": "XinyiYing/RGBT-Tiny",
+        "url": "https://github.com/XinyiYing/RGBT-Tiny"
+      },
+      {
+        "name": "QiaoLiuHit/LSOTB-TIR",
+        "url": "https://github.com/QiaoLiuHit/LSOTB-TIR"
+      },
+      {
+        "name": "QiaoLiuHit/PTB-TIR_Evaluation_toolkit",
+        "url": "https://github.com/QiaoLiuHit/PTB-TIR_Evaluation_toolkit"
+      },
+      {
+        "name": "zhang-pengyu/DUT-VTUAV",
+        "url": "https://github.com/zhang-pengyu/DUT-VTUAV"
+      },
+      {
+        "name": "Day333/ThermalBench",
+        "url": "https://github.com/Day333/ThermalBench"
+      },
+      {
+        "name": "UkcheolShin/SupDepth4Thermal",
+        "url": "https://github.com/UkcheolShin/SupDepth4Thermal"
+      },
+      {
+        "name": "hassanattout/thermopinn-api",
+        "url": "https://github.com/hassanattout/thermopinn-api"
+      }
+    ]
+  },
+  {
+    "query": "heat source layout benchmark",
+    "url": "https://api.github.com/search/repositories?q=heat+source+layout+benchmark&per_page=7",
+    "total_count": 0,
+    "items": []
+  },
+  {
+    "query": "rapid thermal processing in:name,description",
+    "url": "https://api.github.com/search/repositories?q=rapid+thermal+processing+in%3Aname%2Cdescription&per_page=7",
+    "total_count": 16,
+    "items": [
+      {
+        "name": "mokhaledd111/Rapid-thermal-processing",
+        "url": "https://github.com/mokhaledd111/Rapid-thermal-processing"
+      },
+      {
+        "name": "MoSharkawy37/Rapid-Thermal-Processing-Simulation",
+        "url": "https://github.com/MoSharkawy37/Rapid-Thermal-Processing-Simulation"
+      },
+      {
+        "name": "youssefahmed59/Rapid-Thermal-Processing-RTP-",
+        "url": "https://github.com/youssefahmed59/Rapid-Thermal-Processing-RTP-"
+      },
+      {
+        "name": "karstb/RTP-rapid-thermal-processing-",
+        "url": "https://github.com/karstb/RTP-rapid-thermal-processing-"
+      },
+      {
+        "name": "nathanieltwarog/RapidShift",
+        "url": "https://github.com/nathanieltwarog/RapidShift"
+      },
+      {
+        "name": "deadlicht771/Simulation-of-a-Rapid-Thermal-Processing-RTP-Chamber-COMSOL-Multiphysics",
+        "url": "https://github.com/deadlicht771/Simulation-of-a-Rapid-Thermal-Processing-RTP-Chamber-COMSOL-Multiphysics"
+      },
+      {
+        "name": "chenghao9/Multi-task-thermal-conductivity-calculation",
+        "url": "https://github.com/chenghao9/Multi-task-thermal-conductivity-calculation"
+      }
+    ]
+  },
+  {
+    "query": "multi fidelity optimization benchmark in:name,description",
+    "url": "https://api.github.com/search/repositories?q=multi+fidelity+optimization+benchmark+in%3Aname%2Cdescription&per_page=7",
+    "total_count": 8,
+    "items": [
+      {
+        "name": "machinelearningnuremberg/DPL",
+        "url": "https://github.com/machinelearningnuremberg/DPL"
+      },
+      {
+        "name": "nabenabe0928/mfhpo-simulator",
+        "url": "https://github.com/nabenabe0928/mfhpo-simulator"
+      },
+      {
+        "name": "cnr-inm-mao/l2-sea-benchmark",
+        "url": "https://github.com/cnr-inm-mao/l2-sea-benchmark"
+      },
+      {
+        "name": "nabenabe0928/mfhpo-simulator-experiments",
+        "url": "https://github.com/nabenabe0928/mfhpo-simulator-experiments"
+      },
+      {
+        "name": "ArlindKadra/DPL",
+        "url": "https://github.com/ArlindKadra/DPL"
+      },
+      {
+        "name": "Macbeth1501/CORE-RL",
+        "url": "https://github.com/Macbeth1501/CORE-RL"
+      },
+      {
+        "name": "Akshay8087/MultiModel-Movie-Rating-Predictor",
+        "url": "https://github.com/Akshay8087/MultiModel-Movie-Rating-Predictor"
+      }
+    ]
+  }
+]

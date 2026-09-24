@@ -1,0 +1,35 @@
+{
+  "scope": "Unified entry points only; no scientific rerun",
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "artifacts": [
+    {
+      "file": "workbench.py",
+      "sha256": "05d4627eb4e0956d93d2b7aa92dd721ec69df62b36526642c9e06b27563fdf00"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "sha256": "a8e83519e750fd854cbde55599897193b20abb64e144a59ba0f073c910633cd9"
+    },
+    {
+      "file": "tests/test_workbench.py",
+      "sha256": "ba69f0db58fb812931397ce7cb654737e37e76a365c73a3d49518e71e728fff6"
+    },
+    {
+      "file": "tools/verify_workbench.py",
+      "sha256": "fcf72f624f5959a7f046eed1848e7948280aed9fb93b779b656e95beded465ac"
+    },
+    {
+      "file": "tools/WORKBENCH_RESULTS.md",
+      "sha256": "5d89f88bb90e812892db0f327908e7ecbc3dfea55774a9301978133b4988040e"
+    },
+    {
+      "file": "tools/results/workbench-tests.log",
+      "sha256": "d46a5f88cc6f781cbd3dcf49258259e221ff617e8a240ead8599273d55059113"
+    },
+    {
+      "file": "tools/results/workbench-integration.log",
+      "sha256": "c2959dafe9750f126a042981f3b0f64f48ae3242f84ff74758151e08a0b6e95c"
+    }
+  ]
+}

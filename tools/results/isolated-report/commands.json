@@ -1,0 +1,177 @@
+[
+  {
+    "label": "empty-environment",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import importlib.util,importlib.metadata,json,sys; print(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'numpy_available':importlib.util.find_spec('numpy') is not None,'packages':{d.metadata['Name'].lower():d.version for d in importlib.metadata.distributions()}}))"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "list-empty",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "list",
+      "--json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "check-empty",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "check",
+      "--json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "report-missing-numpy",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "report",
+      "--format",
+      "json"
+    ],
+    "exit_code": 2
+  },
+  {
+    "label": "install",
+    "command": [
+      "/home/gaoruilin/.local/bin/uv",
+      "--no-config",
+      "--no-cache",
+      "pip",
+      "install",
+      "--python",
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "--require-hashes",
+      "--only-binary",
+      ":all:",
+      "--index-url",
+      "https://pypi.org/simple",
+      "-r",
+      "/mnt/newdisk/github/astra/research/thermal-ai4engineering/requirements-report.lock"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "installed-environment",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import importlib.util,importlib.metadata,json,sys; print(json.dumps({'python':sys.version,'prefix':sys.prefix,'base_prefix':sys.base_prefix,'numpy_available':importlib.util.find_spec('numpy') is not None,'packages':{d.metadata['Name'].lower():d.version for d in importlib.metadata.distributions()}}))"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "numpy-origin",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-c",
+      "import numpy,json; print(json.dumps({'file':numpy.__file__,'version':numpy.__version__}))"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "dependencies",
+    "command": [
+      "/home/gaoruilin/.local/bin/uv",
+      "--no-config",
+      "pip",
+      "check",
+      "--python",
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "report-json",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "report",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "report-markdown",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "report",
+      "--format",
+      "markdown"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "report-optimized",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-O",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/workbench.py",
+      "report",
+      "--format",
+      "json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "workbench-tests",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-S",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/tests",
+      "-v"
+    ],
+    "exit_code": 0
+  },
+  {
+    "label": "evidence-tests",
+    "command": [
+      "/tmp/thermal-isolated-l_kvivpc/minimal python/bin/python",
+      "-I",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "/tmp/thermal-isolated-l_kvivpc/relocated snapshot \u4e2d\u6587/evidence_report",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit_code": 0
+  }
+]

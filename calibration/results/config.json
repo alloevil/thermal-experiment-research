@@ -1,0 +1,154 @@
+{
+  "objects": [
+    {
+      "emissivity": 0.9039612779393792,
+      "convection": 1.0893431866541505,
+      "heat_capacity": 1.0782006591558457,
+      "power_gain": 1.0867257008329034,
+      "axial_conductance": 0.9502208322286606
+    },
+    {
+      "emissivity": 1.019239414855838,
+      "convection": 0.9848782457411289,
+      "heat_capacity": 0.9047936737537384,
+      "power_gain": 0.9743026036769152,
+      "axial_conductance": 1.044589453190565
+    },
+    {
+      "emissivity": 1.0972577666863799,
+      "convection": 1.0031526500359178,
+      "heat_capacity": 1.0364822488278151,
+      "power_gain": 1.0388749377802013,
+      "axial_conductance": 1.0531409757211805
+    },
+    {
+      "emissivity": 0.9764136761426926,
+      "convection": 0.9210634417831898,
+      "heat_capacity": 0.9597915720194579,
+      "power_gain": 0.9014517676085234,
+      "axial_conductance": 0.947944481112063
+    },
+    {
+      "emissivity": 0.9575458684936166,
+      "convection": 1.0451915817335249,
+      "heat_capacity": 0.9292155005037784,
+      "power_gain": 0.93924794588238,
+      "axial_conductance": 0.9038641868159175
+    },
+    {
+      "emissivity": 1.0657072823494673,
+      "convection": 0.9305892735719681,
+      "heat_capacity": 1.0557596869766712,
+      "power_gain": 1.0016783881932496,
+      "axial_conductance": 1.0981734490022064
+    },
+    {
+      "emissivity": 1.0381096547469497,
+      "convection": 1.062141685374081,
+      "heat_capacity": 0.9873508427292109,
+      "power_gain": 0.9851441549137235,
+      "axial_conductance": 1.0005839299410582
+    },
+    {
+      "emissivity": 0.9355150520801544,
+      "convection": 0.9636399328708649,
+      "heat_capacity": 1.0109043065458536,
+      "power_gain": 1.0725744765251874,
+      "axial_conductance": 0.9952273506671191
+    }
+  ],
+  "hashes": {
+    "protocol.md": "863de4e29b58295bb18765f850de30f2523483b8263ada682f639c186e4e2e5e",
+    "effective.py": "0de6044f1a353c5ea20fe9df631d0824cf0936ba85da6c8146bdb26cd91a5f94",
+    "fit_and_control.py": "45d0de67f8c9e50ed76576621927441d944db32c79f3c2583c10d540b472b5c2",
+    "run_experiment.py": "b9fafc4ac9f0ab58aa6a10e83a1fbd42ebad5354fd46ae6ed201efed9b5ec8de",
+    "radiation/model.py": "ac5e84576b801bd7c9f50aa4286ed01d3338cfc26b0818a8bedae32d2c954c39",
+    "radiation/results/experiment.json": "bccdd1a6251eb5c29284b47e2bfcda89501cf4c263b78d85e0968e2ccef4b1a8",
+    "feasibility/requirements.lock": "9509ff72377be4d9f1282c043c35c9ede5eb766f6e6498745a66ca572a2bb766"
+  },
+  "calibration_knots": [
+    0.0,
+    40.0,
+    80.0,
+    120.0,
+    160.0,
+    200.0,
+    240.0
+  ],
+  "calibration_commands": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.4,
+      0.1,
+      0.1
+    ],
+    [
+      0.1,
+      0.4,
+      0.1
+    ],
+    [
+      0.1,
+      0.1,
+      0.4
+    ],
+    [
+      0.4,
+      0.4,
+      0.4
+    ],
+    [
+      0.2,
+      0.2,
+      0.2
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "sensor_positions_m": [
+    0.009,
+    0.03,
+    0.051
+  ],
+  "noise_std_K": 0.1,
+  "initial_powers": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.725099155665736,
+      0.6442886365751409,
+      0.6702357643403479
+    ],
+    [
+      0.5303884854718823,
+      0.4287373232563339,
+      0.3990024657281572
+    ],
+    [
+      0.3757527432139378,
+      0.2930926183518451,
+      0.2559631109942359
+    ]
+  ],
+  "ratio_names": [
+    "conduction_per_capacity",
+    "convection_per_capacity",
+    "radiation_per_capacity",
+    "gain_per_capacity"
+  ],
+  "ratio_bounds": [
+    0.8181818181818181,
+    1.2222222222222223
+  ],
+  "replicates": 2
+}

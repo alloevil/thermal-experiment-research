@@ -1,0 +1,11 @@
+Publisher access was blocked by a CAPTCHA, not a scientific article.
+
+The downloaded challenge HTML has intentionally been withheld from this repository
+because a secret scanner flagged token-like data in it. It was never used as
+full-text scientific evidence. The original remains in the author's local research
+workspace; its digest is recorded in docs/archive-import.json and the historical
+source retrieval receipts. Those historical digests refer to the original response,
+not this replacement notice. See docs/ARCHIVE.md for the migration exception.
+
+Requested article: https://doi.org/10.1149/1.2059302
+Do not interpret an HTTP 200 challenge response as successful article retrieval.

@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/practical-mfbo-paper.txt`
+
+Original SHA-256: `33b91e2eb7179ae05995543efbca20d6031a7697c1058e29fd9f49da32ea51e8`
+
+Sources:
+- https://arxiv.org/abs/1903.04703
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

@@ -1,0 +1,105 @@
+{
+  "object": 1,
+  "scenario": "cooling",
+  "fit": {
+    "ratios": [
+      0.8181818181818188,
+      1.222222222222222,
+      0.9634220451252804,
+      1.05294561381385
+    ],
+    "success": true,
+    "status": 4,
+    "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 5.098270111950114,
+    "train_rmse_K": 0.8073072439176647,
+    "active_mask": [
+      -1,
+      1,
+      0,
+      0
+    ],
+    "singular_values": [
+      2672.9896052966265,
+      260.59509617264064,
+      161.4040944704533,
+      49.542935519482576
+    ],
+    "jacobian_condition": 53.952992031436715,
+    "jacobian_column_cosines": [
+      [
+        1.0000000000000002,
+        0.045725826807221405,
+        0.13457414222762518,
+        -0.12846893915909358
+      ],
+      [
+        0.045725826807221405,
+        1.0000000000000002,
+        0.9891535329423115,
+        -0.9575248061016165
+      ],
+      [
+        0.13457414222762518,
+        0.9891535329423115,
+        1.0000000000000004,
+        -0.9572549902490397
+      ],
+      [
+        -0.12846893915909358,
+        -0.9575248061016165,
+        -0.9572549902490397,
+        0.9999999999999992
+      ]
+    ]
+  },
+  "fit_frozen_sha256": "1be3053fe412d173adc83375794bb458996dc58a68e4b44642984fe3610a3865",
+  "alarm_frozen_sha256": "5b2903f1ace0f2396ae557519c660518a8cb69ed771399b03a910b27d133ba51",
+  "alarm": {
+    "training": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K",
+        "sensor_mean_residual_above_0.2K"
+      ],
+      "rmse_K": 0.8073072439176646,
+      "max_sensor_mean_residual_K": 0.8851366874765164
+    },
+    "diagnostic": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K",
+        "sensor_mean_residual_above_0.2K"
+      ],
+      "rmse_K": 0.9589714911040423,
+      "max_sensor_mean_residual_K": 1.0310153824261608
+    },
+    "combined_alarm": true
+  },
+  "score": {
+    "rmse_K": 1.5404409013238285,
+    "final_mean_error_K": 0.6625909249231086,
+    "inadequate": true
+  },
+  "training_energy": {
+    "max_balance_J": 9.237055564881302e-14,
+    "external_balance_J": 3.195021569979417e-05,
+    "absorbed_J": 140.00247141122816,
+    "wall_seconds": 0.12691858690232038
+  },
+  "diagnostic_energy": {
+    "max_balance_J": 1.4210854715202004e-13,
+    "external_balance_J": 2.9275200390088685e-05,
+    "absorbed_J": 148.75262587442992,
+    "wall_seconds": 0.15997666609473526
+  },
+  "evaluation_energy": {
+    "max_balance_J": 1.1368683772161603e-13,
+    "external_balance_J": 1.2962802543370344e-05,
+    "absorbed_J": 225.1797456072968,
+    "wall_seconds": 0.0742394900880754
+  },
+  "refinement": null
+}

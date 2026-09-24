@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETED",
+  "policies": {
+    "information_gain": {
+      "trials": 16,
+      "decided": 13,
+      "wrong_decisions": 0,
+      "ambiguous": 3,
+      "unsupported": 0,
+      "mean_brier_all_cases": 0.027029440158854612,
+      "selection_counts": {
+        "heat_low": 0,
+        "heat_high": 16,
+        "cooldown": 0
+      }
+    },
+    "fixed_cooldown": {
+      "trials": 16,
+      "decided": 12,
+      "wrong_decisions": 0,
+      "ambiguous": 4,
+      "unsupported": 0,
+      "mean_brier_all_cases": 0.025921769455286004,
+      "selection_counts": {
+        "heat_low": 0,
+        "heat_high": 0,
+        "cooldown": 16
+      }
+    },
+    "random": {
+      "trials": 16,
+      "decided": 10,
+      "wrong_decisions": 0,
+      "ambiguous": 6,
+      "unsupported": 0,
+      "mean_brier_all_cases": 0.04277348207387652,
+      "selection_counts": {
+        "heat_low": 6,
+        "heat_high": 4,
+        "cooldown": 6
+      }
+    },
+    "mean_separation": {
+      "trials": 16,
+      "decided": 13,
+      "wrong_decisions": 0,
+      "ambiguous": 3,
+      "unsupported": 0,
+      "mean_brier_all_cases": 0.027029440158854612,
+      "selection_counts": {
+        "heat_low": 0,
+        "heat_high": 16,
+        "cooldown": 0
+      }
+    }
+  },
+  "planning_wall_seconds": 4.802858215291053,
+  "cached_planner_ODE_calls": 144,
+  "total_wall_seconds": 9.148726589977741,
+  "limits": [
+    "16 synthetic objects, finite approximate priors, same family of equations; no population significance claim.",
+    "An observation for every plan was simulated offline to permit paired policy evaluation; real use would only execute the selected plan.",
+    "Brier counts all cases, including unsupported; abstention is reported separately. Mean-separation is a heuristic, not D-optimal or SOTA.",
+    "No independent reference is available in this comparison; each selected thermal plan costs one declared budget unit, not equal duration or energy."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "purpose": "Demo evaluation only; never supplied to recommend or update",
+  "parameters": {
+    "convection": 1.4,
+    "gain": 1.0,
+    "capacity": 1.0,
+    "offset": 0.0
+  }
+}

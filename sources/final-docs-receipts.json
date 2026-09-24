@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fenics-readme",
+    "url": "https://raw.githubusercontent.com/FEniCS/dolfinx/main/README.md",
+    "accessed_at": "2026-09-23T22:55:00.636862+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/fenics-readme.txt",
+    "sha256": "6550c1135b0b7cad1f6b7839c7343c67ea81c826f32d2a7cda7b9d9b575003ea"
+  },
+  {
+    "id": "botorch-discrete-mf",
+    "url": "https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/discrete_multi_fidelity_bo/discrete_multi_fidelity_bo.ipynb",
+    "accessed_at": "2026-09-23T22:55:00.635672+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/botorch-discrete-mf.txt",
+    "sha256": "d9f173f1a477d33edd5bb6542d7af1334b6060a4407a68b6a19ac12132d28d5f"
+  },
+  {
+    "id": "umbridge-heat",
+    "url": "https://raw.githubusercontent.com/UM-Bridge/benchmarks/main/benchmarks/heat-1d/README.md",
+    "accessed_at": "2026-09-23T22:55:00.636436+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/umbridge-heat.txt",
+    "sha256": "aeaefe94b332a58dd605a2844992852645ab4ea2a5b897352136607eb8567634"
+  },
+  {
+    "id": "botorch-mfkg",
+    "url": "https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/multi_fidelity_bo/multi_fidelity_bo.ipynb",
+    "accessed_at": "2026-09-23T22:55:00.635149+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/botorch-mfkg.txt",
+    "sha256": "2d496bf0aaaf9a47d20bc84f5642ca0a9a3b9d55eae914d5c2510298eea26568"
+  },
+  {
+    "id": "py-pde-boundaries",
+    "url": "https://py-pde.readthedocs.io/en/latest/manual/advanced_usage.html",
+    "accessed_at": "2026-09-23T22:55:01.103960+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/py-pde-boundaries.txt",
+    "sha256": "b600d547c777ac02f2d901b4b0760fb5260609209aab4fd8218c871703862545"
+  },
+  {
+    "id": "rtp-1994-publisher",
+    "url": "https://iopscience.iop.org/article/10.1149/1.2059302",
+    "accessed_at": "2026-09-23T22:55:01.099144+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/rtp-1994-publisher.txt",
+    "sha256": "2f5285ef57066a005e06f473d371c431035a7290668755221529a457e9419970"
+  },
+  {
+    "id": "multifidelity-review",
+    "url": "https://www.aimsciences.org/article/doi/10.3934/acse.2023015",
+    "accessed_at": "2026-09-23T22:55:01.042226+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/multifidelity-review.txt",
+    "sha256": "43e5445dcb5e6d20fe6c6daf7534938c4db460dab52744fd1edac81a5e047fd9"
+  },
+  {
+    "id": "botorch-license",
+    "url": "https://raw.githubusercontent.com/pytorch/botorch/main/LICENSE",
+    "accessed_at": "2026-09-23T22:55:00.636044+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/botorch-license.txt",
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+  },
+  {
+    "id": "fenics-license",
+    "url": "https://raw.githubusercontent.com/FEniCS/dolfinx/main/COPYING",
+    "accessed_at": "2026-09-23T22:55:01.004586+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/fenics-license.txt",
+    "sha256": "be369c9241427cb8454a94f279794a54af606141de4b019fa5924ae8be744441"
+  }
+]

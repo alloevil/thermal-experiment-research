@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sjvrijn--mf2",
+    "url": "https://api.github.com/repos/sjvrijn/mf2/readme",
+    "repository": "https://github.com/sjvrijn/mf2",
+    "accessed_at": "2026-09-23T22:49:50.084420+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/sjvrijn--mf2.md",
+    "sha256": "a43c50b41f0ec9f5628f9ac9f26a1e0a4b28e3f27f5175bfcbbe2a927d3d52c2"
+  },
+  {
+    "id": "automl--mf-prior-bench",
+    "url": "https://api.github.com/repos/automl/mf-prior-bench/readme",
+    "repository": "https://github.com/automl/mf-prior-bench",
+    "accessed_at": "2026-09-23T22:49:50.084997+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/automl--mf-prior-bench.md",
+    "sha256": "6d84cefdfda69999f68d447c62d0ad6fa54ebad7d349c7940763c8c4983a7311"
+  },
+  {
+    "id": "trsav--reactor_benchmark",
+    "url": "https://api.github.com/repos/trsav/reactor_benchmark/readme",
+    "repository": "https://github.com/trsav/reactor_benchmark",
+    "accessed_at": "2026-09-23T22:49:50.085340+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/trsav--reactor_benchmark.md",
+    "sha256": "a2eb7c6d09f2a09743a899e63b2f45941f0965fcb038944a8f39791e4966a103"
+  },
+  {
+    "id": "xiangyuan-zhang--controlgym",
+    "url": "https://api.github.com/repos/xiangyuan-zhang/controlgym/readme",
+    "repository": "https://github.com/xiangyuan-zhang/controlgym",
+    "accessed_at": "2026-09-23T22:49:50.085863+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/xiangyuan-zhang--controlgym.md",
+    "sha256": "b5982f849bf6509f369a47f127f32704e82c7aa3d559ef5e83932010fac2a621"
+  },
+  {
+    "id": "lukebhan--PDEControlGym",
+    "url": "https://api.github.com/repos/lukebhan/PDEControlGym/readme",
+    "repository": "https://github.com/lukebhan/PDEControlGym",
+    "accessed_at": "2026-09-23T22:49:50.086212+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/lukebhan--PDEControlGym.md",
+    "sha256": "b9a7ad6334bd989fea12da410ab20fc3af120801d0cf17f83f91dd485afdbd43"
+  },
+  {
+    "id": "pdebench--PDEBench",
+    "url": "https://api.github.com/repos/pdebench/PDEBench/readme",
+    "repository": "https://github.com/pdebench/PDEBench",
+    "accessed_at": "2026-09-23T22:49:50.608809+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/pdebench--PDEBench.md",
+    "sha256": "2e135f822e790be9a86e561d4c071d78ae3f4faea8e415db74d9e243ca519aff"
+  },
+  {
+    "id": "PolymathicAI--the_well",
+    "url": "https://api.github.com/repos/PolymathicAI/the_well/readme",
+    "repository": "https://github.com/PolymathicAI/the_well",
+    "accessed_at": "2026-09-23T22:49:50.646751+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/PolymathicAI--the_well.md",
+    "sha256": "d1a68b0b408e253f29df453217a98492fc1425836ad1556258a2a518f03f245a"
+  },
+  {
+    "id": "tum-pbs--apebench",
+    "url": "https://api.github.com/repos/tum-pbs/apebench/readme",
+    "repository": "https://github.com/tum-pbs/apebench",
+    "accessed_at": "2026-09-23T22:49:50.692738+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/tum-pbs--apebench.md",
+    "sha256": "dec318b79f0f79f0715080843b77c7cff904b2fba59e84c2a5d7d896cb115e31"
+  }
+]

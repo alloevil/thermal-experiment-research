@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETED",
+  "groups": {
+    "clean": {
+      "count": 4,
+      "fit_success": 4,
+      "training_alarms": 0,
+      "combined_alarms": 0,
+      "inadequate_predictions": 0,
+      "hidden_rmse_range_K": [
+        0.0068825127463614235,
+        0.028719258821193517
+      ]
+    },
+    "bias": {
+      "count": 4,
+      "fit_success": 4,
+      "training_alarms": 4,
+      "combined_alarms": 4,
+      "inadequate_predictions": 4,
+      "hidden_rmse_range_K": [
+        0.8026815071043474,
+        0.8389895513152831
+      ]
+    },
+    "lag": {
+      "count": 4,
+      "fit_success": 4,
+      "training_alarms": 4,
+      "combined_alarms": 4,
+      "inadequate_predictions": 4,
+      "hidden_rmse_range_K": [
+        1.7342668643041064,
+        2.905484991216629
+      ]
+    },
+    "cooling": {
+      "count": 4,
+      "fit_success": 4,
+      "training_alarms": 4,
+      "combined_alarms": 4,
+      "inadequate_predictions": 4,
+      "hidden_rmse_range_K": [
+        1.1486851369367996,
+        1.5404409013238285
+      ]
+    }
+  },
+  "confusion_vs_hidden_prediction": {
+    "training": {
+      "TP": 12,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4
+    },
+    "combined": {
+      "TP": 12,
+      "FP": 0,
+      "FN": 0,
+      "TN": 4
+    }
+  },
+  "fit_calls": 707,
+  "fit_seconds": 88.36014191666618,
+  "invocation_wall_seconds": 100.05702102207579
+}

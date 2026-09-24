@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/fenics-nonlinear-tutorial.txt`
+
+Original SHA-256: `b543ce5f4f4f8aebe4091cc02d5022b005eaf3556ff4fac7f40096eb7b2734e6`
+
+Sources:
+- https://jsdokken.com/dolfinx-tutorial/chapter2/nonlinpoisson.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

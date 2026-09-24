@@ -1,0 +1,66 @@
+[
+  {
+    "id": "pyomo-doe",
+    "url": "https://pyomo.readthedocs.io/en/stable/explanation/analysis/doe/doe.html",
+    "retrieved_at": "2026-09-24T01:40:09.050527+00:00",
+    "file": "sources/pyomo-doe.txt",
+    "sha256": "cb37234f40017f68de5b21736b342a1194a5bbb82e4b2212950a8452ac7bb9b6",
+    "status": "retrieved"
+  },
+  {
+    "id": "parmest-estimability",
+    "url": "https://pyomo.readthedocs.io/en/stable/explanation/analysis/parmest/estimability.html",
+    "retrieved_at": "2026-09-24T01:40:09.051091+00:00",
+    "file": "sources/parmest-estimability.txt",
+    "sha256": "a6352aa7c4740db4b5618b03da90432da73fd722fabe53d87bf610184e04b878",
+    "status": "retrieved"
+  },
+  {
+    "id": "parmest-workflow",
+    "url": "https://pyomo.readthedocs.io/en/stable/explanation/analysis/parmest/driver.html",
+    "retrieved_at": "2026-09-24T01:40:09.051424+00:00",
+    "file": "sources/parmest-workflow.txt",
+    "sha256": "d7801464005b7fde863b253b7b9527a2246e1c0416075c1ee9df207d321104fd",
+    "status": "retrieved"
+  },
+  {
+    "id": "baybe",
+    "url": "https://api.github.com/repos/emdgroup/baybe/readme",
+    "retrieved_at": "2026-09-24T01:40:09.051847+00:00",
+    "file": "sources/baybe.txt",
+    "sha256": "7cb379ae653138710b9909b4e79d60bac86630fb59a7c9322b1665bbebf1bbbb",
+    "status": "retrieved"
+  },
+  {
+    "id": "baybe-active-learning",
+    "url": "https://emdgroup.github.io/baybe/stable/concepts/active_learning.html",
+    "retrieved_at": "2026-09-24T01:40:09.623658+00:00",
+    "file": "sources/baybe-active-learning.txt",
+    "sha256": "20035911f9c64c0a9c1b0c2d72625fa8c47f2826d6a407aeb51aff1d73a89125",
+    "status": "retrieved"
+  },
+  {
+    "id": "pybop",
+    "url": "https://raw.githubusercontent.com/pybop-team/PyBOP/main/README.md",
+    "retrieved_at": "2026-09-24T01:40:09.661210+00:00",
+    "file": "sources/pybop.txt",
+    "sha256": "2c5877626d391e39dd0dcb063ef6eb702a92495fc622405a7cf2cdf97b3adcf5",
+    "status": "retrieved"
+  },
+  {
+    "id": "do-mpc",
+    "url": "https://raw.githubusercontent.com/do-mpc/do-mpc/master/README.md",
+    "retrieved_at": "2026-09-24T01:40:09.671413+00:00",
+    "file": "sources/do-mpc.txt",
+    "sha256": "d4311fa835d171a9a55c3da264c65d54303888318ddcabad46ae880bce5d2351",
+    "status": "retrieved"
+  },
+  {
+    "id": "pybop-real-study",
+    "url": "https://api.github.com/repos/Battery-Intelligence-Lab/Hallemans-2025-JES/readme",
+    "retrieved_at": "2026-09-24T01:40:10.209405+00:00",
+    "file": "sources/pybop-real-study.txt",
+    "sha256": "00523ac0bfb97c7f3cb76e5f9673d49eea0592882da1074ddf615b5d791dbadc",
+    "status": "retrieved"
+  }
+]

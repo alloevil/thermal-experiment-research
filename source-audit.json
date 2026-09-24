@@ -1,0 +1,462 @@
+{
+  "created_at": "2026-09-23T23:00:10.020145+00:00",
+  "scope": "Source and document verification only; no scientific software or performance experiments executed.",
+  "summary": {
+    "blocked_captcha_not_article": 1,
+    "fetch_failed": 3,
+    "verified_pdf_snapshot": 2,
+    "verified_text_snapshot": 38
+  },
+  "search_json_files": 7,
+  "report_source_groups": 24,
+  "receipts": [
+    {
+      "id": "Day333--ThermalBench",
+      "url": "https://api.github.com/repos/Day333/ThermalBench/readme",
+      "repository": "https://github.com/Day333/ThermalBench",
+      "accessed_at": "2026-09-23T22:52:15.866489+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/Day333--ThermalBench.md",
+      "sha256": "53383cfa5b7ee0dc240d90b70db4231db8623480612f1f1f185571e8d8467233",
+      "receipt_file": "research/thermal-ai4engineering/sources/adjacent-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "cnr-inm-mao--l2-sea-benchmark",
+      "url": "https://api.github.com/repos/cnr-inm-mao/l2-sea-benchmark/readme",
+      "repository": "https://github.com/cnr-inm-mao/l2-sea-benchmark",
+      "accessed_at": "2026-09-23T22:52:15.867016+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/cnr-inm-mao--l2-sea-benchmark.md",
+      "sha256": "9fd62074ef54761ab6bea6e8fe293e0ed72b083754607c59eb396a5e2479db62",
+      "receipt_file": "research/thermal-ai4engineering/sources/adjacent-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "nabenabe0928--mfhpo-simulator",
+      "url": "https://api.github.com/repos/nabenabe0928/mfhpo-simulator/readme",
+      "repository": "https://github.com/nabenabe0928/mfhpo-simulator",
+      "accessed_at": "2026-09-23T22:52:15.867365+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/nabenabe0928--mfhpo-simulator.md",
+      "sha256": "f7053dca552d769d7820459e5b04bcfe43081ae81a8cb21f4388aff16c277719",
+      "receipt_file": "research/thermal-ai4engineering/sources/adjacent-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "MoSharkawy37--Rapid-Thermal-Processing-Simulation",
+      "url": "https://api.github.com/repos/MoSharkawy37/Rapid-Thermal-Processing-Simulation/readme",
+      "repository": "https://github.com/MoSharkawy37/Rapid-Thermal-Processing-Simulation",
+      "accessed_at": "2026-09-23T22:52:15.867853+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/MoSharkawy37--Rapid-Thermal-Processing-Simulation.md",
+      "sha256": "be9a02b2e3e70403301af3fc913093758ad85380ba4a115a455bd805ff3a1da7",
+      "receipt_file": "research/thermal-ai4engineering/sources/adjacent-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "controlgym-paper",
+      "url": "https://arxiv.org/html/2311.18736",
+      "accessed_at": "2026-09-23T22:50:47.995928+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/controlgym-paper.txt",
+      "sha256": "9c38e9cff45d69c5cac7d398cdad0d040e1dd0abd716169cb886ab0c134a672e",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "pdecontrolgym-paper",
+      "url": "https://arxiv.org/html/2405.11401v1",
+      "accessed_at": "2026-09-23T22:50:47.996473+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/pdecontrolgym-paper.txt",
+      "sha256": "bef0ab89bd3dc33b1848289597b253c973dc37effaa50f15813c8b2485039fed",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "mf2-paper",
+      "url": "https://joss.theoj.org/papers/10.21105/joss.02049",
+      "accessed_at": "2026-09-23T22:50:47.996853+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/mf2-paper.txt",
+      "sha256": "84100999d9762b7b10c7a80c4efa3db2295097c7898684d9fef0b088c3fb9877",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "botorch-mfkg",
+      "url": "https://botorch.org/docs/tutorials/multi_fidelity_bo/",
+      "accessed_at": "2026-09-23T22:50:47.997253+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "fetch_failed"
+    },
+    {
+      "id": "boptest-readme",
+      "url": "https://raw.githubusercontent.com/ibpsa/project1-boptest/master/README.md",
+      "accessed_at": "2026-09-23T22:50:47.997634+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/boptest-readme.txt",
+      "sha256": "7a31c3d175a54ab0fc77cee92989bf005e7eac64150176354379dbd21aa64700",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-heat",
+      "url": "https://jsdokken.com/dolfinx-tutorial/chapter2/heat_equation.html",
+      "accessed_at": "2026-09-23T22:50:47.998059+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/fenics-heat.txt",
+      "sha256": "a0bcda6de2628a291e68da2e7aa22c45b6e33ad3d8ae8ee7dec1e3bc32fb6c3d",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-nonlinear",
+      "url": "https://docs.fenicsproject.org/dolfinx/main/python/demos/demo_nonlinearpoisson.html",
+      "accessed_at": "2026-09-23T22:50:47.998388+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "fetch_failed"
+    },
+    {
+      "id": "tclab-readme",
+      "url": "https://raw.githubusercontent.com/jckantor/TCLab/master/README.rst",
+      "accessed_at": "2026-09-23T22:50:48.386835+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/tclab-readme.txt",
+      "sha256": "36e24aeec39f2b4cdee2e3308cec26c81be3a78dcb3b9c0450eda3996b430b1e",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "py-pde-readme",
+      "url": "https://raw.githubusercontent.com/zwicker-group/py-pde/master/README.md",
+      "accessed_at": "2026-09-23T22:50:48.744672+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/py-pde-readme.txt",
+      "sha256": "284bf3099088dbe82479eb4b22d2f71a6209681945bc98789128893aedd3c938",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "elmer-readme",
+      "url": "https://raw.githubusercontent.com/ElmerCSC/elmerfem/devel/README.adoc",
+      "accessed_at": "2026-09-23T22:50:48.909964+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/elmer-readme.txt",
+      "sha256": "00ea51129affef198dce5b495269a16c880800f3d2b1d89e529fa5771b35d320",
+      "receipt_file": "research/thermal-ai4engineering/sources/docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-readme",
+      "url": "https://raw.githubusercontent.com/FEniCS/dolfinx/main/README.md",
+      "accessed_at": "2026-09-23T22:55:00.636862+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/fenics-readme.txt",
+      "sha256": "6550c1135b0b7cad1f6b7839c7343c67ea81c826f32d2a7cda7b9d9b575003ea",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "botorch-discrete-mf",
+      "url": "https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/discrete_multi_fidelity_bo/discrete_multi_fidelity_bo.ipynb",
+      "accessed_at": "2026-09-23T22:55:00.635672+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/botorch-discrete-mf.txt",
+      "sha256": "d9f173f1a477d33edd5bb6542d7af1334b6060a4407a68b6a19ac12132d28d5f",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "umbridge-heat",
+      "url": "https://raw.githubusercontent.com/UM-Bridge/benchmarks/main/benchmarks/heat-1d/README.md",
+      "accessed_at": "2026-09-23T22:55:00.636436+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/umbridge-heat.txt",
+      "sha256": "aeaefe94b332a58dd605a2844992852645ab4ea2a5b897352136607eb8567634",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "botorch-mfkg",
+      "url": "https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/multi_fidelity_bo/multi_fidelity_bo.ipynb",
+      "accessed_at": "2026-09-23T22:55:00.635149+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/botorch-mfkg.txt",
+      "sha256": "2d496bf0aaaf9a47d20bc84f5642ca0a9a3b9d55eae914d5c2510298eea26568",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "py-pde-boundaries",
+      "url": "https://py-pde.readthedocs.io/en/latest/manual/advanced_usage.html",
+      "accessed_at": "2026-09-23T22:55:01.103960+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/py-pde-boundaries.txt",
+      "sha256": "b600d547c777ac02f2d901b4b0760fb5260609209aab4fd8218c871703862545",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "rtp-1994-publisher",
+      "url": "https://iopscience.iop.org/article/10.1149/1.2059302",
+      "accessed_at": "2026-09-23T22:55:01.099144+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/rtp-1994-publisher.txt",
+      "sha256": "2f5285ef57066a005e06f473d371c431035a7290668755221529a457e9419970",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "blocked_captcha_not_article"
+    },
+    {
+      "id": "multifidelity-review",
+      "url": "https://www.aimsciences.org/article/doi/10.3934/acse.2023015",
+      "accessed_at": "2026-09-23T22:55:01.042226+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/multifidelity-review.txt",
+      "sha256": "43e5445dcb5e6d20fe6c6daf7534938c4db460dab52744fd1edac81a5e047fd9",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "botorch-license",
+      "url": "https://raw.githubusercontent.com/pytorch/botorch/main/LICENSE",
+      "accessed_at": "2026-09-23T22:55:00.636044+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/botorch-license.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-license",
+      "url": "https://raw.githubusercontent.com/FEniCS/dolfinx/main/COPYING",
+      "accessed_at": "2026-09-23T22:55:01.004586+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/fenics-license.txt",
+      "sha256": "be369c9241427cb8454a94f279794a54af606141de4b019fa5924ae8be744441",
+      "receipt_file": "research/thermal-ai4engineering/sources/final-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "practical-mfbo-paper",
+      "url": "https://arxiv.org/pdf/1903.04703",
+      "accessed_at": "2026-09-23T22:56:10.078023+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/practical-mfbo-paper.pdf",
+      "sha256": "228992b8c453b420864e7a1be4650ab320c74aea82b07a25f29397f1f2ae9f49",
+      "bytes": 615427,
+      "receipt_file": "research/thermal-ai4engineering/sources/pdf-receipts.json",
+      "audit_status": "verified_pdf_snapshot"
+    },
+    {
+      "id": "multifidelity-review-full",
+      "url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+      "accessed_at": "2026-09-23T22:56:10.077507+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/multifidelity-review-full.pdf",
+      "sha256": "52ba8e1dcc6c64a70937ea0ef0fb54fe7223e4ca8134e53f878f49a980a33881",
+      "bytes": 11071497,
+      "receipt_file": "research/thermal-ai4engineering/sources/pdf-receipts.json",
+      "audit_status": "verified_pdf_snapshot"
+    },
+    {
+      "id": "sjvrijn--mf2",
+      "url": "https://api.github.com/repos/sjvrijn/mf2/readme",
+      "repository": "https://github.com/sjvrijn/mf2",
+      "accessed_at": "2026-09-23T22:49:50.084420+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/sjvrijn--mf2.md",
+      "sha256": "a43c50b41f0ec9f5628f9ac9f26a1e0a4b28e3f27f5175bfcbbe2a927d3d52c2",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "automl--mf-prior-bench",
+      "url": "https://api.github.com/repos/automl/mf-prior-bench/readme",
+      "repository": "https://github.com/automl/mf-prior-bench",
+      "accessed_at": "2026-09-23T22:49:50.084997+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/automl--mf-prior-bench.md",
+      "sha256": "6d84cefdfda69999f68d447c62d0ad6fa54ebad7d349c7940763c8c4983a7311",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "trsav--reactor_benchmark",
+      "url": "https://api.github.com/repos/trsav/reactor_benchmark/readme",
+      "repository": "https://github.com/trsav/reactor_benchmark",
+      "accessed_at": "2026-09-23T22:49:50.085340+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/trsav--reactor_benchmark.md",
+      "sha256": "a2eb7c6d09f2a09743a899e63b2f45941f0965fcb038944a8f39791e4966a103",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "xiangyuan-zhang--controlgym",
+      "url": "https://api.github.com/repos/xiangyuan-zhang/controlgym/readme",
+      "repository": "https://github.com/xiangyuan-zhang/controlgym",
+      "accessed_at": "2026-09-23T22:49:50.085863+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/xiangyuan-zhang--controlgym.md",
+      "sha256": "b5982f849bf6509f369a47f127f32704e82c7aa3d559ef5e83932010fac2a621",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "lukebhan--PDEControlGym",
+      "url": "https://api.github.com/repos/lukebhan/PDEControlGym/readme",
+      "repository": "https://github.com/lukebhan/PDEControlGym",
+      "accessed_at": "2026-09-23T22:49:50.086212+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/lukebhan--PDEControlGym.md",
+      "sha256": "b9a7ad6334bd989fea12da410ab20fc3af120801d0cf17f83f91dd485afdbd43",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "pdebench--PDEBench",
+      "url": "https://api.github.com/repos/pdebench/PDEBench/readme",
+      "repository": "https://github.com/pdebench/PDEBench",
+      "accessed_at": "2026-09-23T22:49:50.608809+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/pdebench--PDEBench.md",
+      "sha256": "2e135f822e790be9a86e561d4c071d78ae3f4faea8e415db74d9e243ca519aff",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "PolymathicAI--the_well",
+      "url": "https://api.github.com/repos/PolymathicAI/the_well/readme",
+      "repository": "https://github.com/PolymathicAI/the_well",
+      "accessed_at": "2026-09-23T22:49:50.646751+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/PolymathicAI--the_well.md",
+      "sha256": "d1a68b0b408e253f29df453217a98492fc1425836ad1556258a2a518f03f245a",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "tum-pbs--apebench",
+      "url": "https://api.github.com/repos/tum-pbs/apebench/readme",
+      "repository": "https://github.com/tum-pbs/apebench",
+      "accessed_at": "2026-09-23T22:49:50.692738+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/tum-pbs--apebench.md",
+      "sha256": "dec318b79f0f79f0715080843b77c7cff904b2fba59e84c2a5d7d896cb115e31",
+      "receipt_file": "research/thermal-ai4engineering/sources/repositories-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "botorch-mfkg-notebook",
+      "url": "https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/multi_fidelity_bo.ipynb",
+      "accessed_at": "2026-09-23T22:52:46.671059+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "fetch_failed"
+    },
+    {
+      "id": "icthermbench-paper",
+      "url": "https://arxiv.org/html/2608.23977v1",
+      "accessed_at": "2026-09-23T22:52:46.671559+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/icthermbench-paper.txt",
+      "sha256": "30e269fbd855e217b4c19a1e8236972774b6716ccad955d75311713850e6691c",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "icthermbench-limitations",
+      "url": "https://raw.githubusercontent.com/Day333/ThermalBench/main/docs/REPRODUCE.md",
+      "accessed_at": "2026-09-23T22:52:46.671959+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/icthermbench-limitations.txt",
+      "sha256": "dc1730d2f84def2d9c4cef35141ff290fd7ced997d6c3312ffb6809a4e421da9",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "umbridge-readme",
+      "url": "https://raw.githubusercontent.com/UM-Bridge/umbridge/main/README.md",
+      "accessed_at": "2026-09-23T22:52:46.672341+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/umbridge-readme.txt",
+      "sha256": "694840a32b52a576669dd4f138b3d12c7a934f9130de2beacb6ca4af8b1ccbee",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "umbridge-benchmarks",
+      "url": "https://um-bridge-benchmarks.readthedocs.io/en/docs/",
+      "accessed_at": "2026-09-23T22:52:46.672755+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/umbridge-benchmarks.txt",
+      "sha256": "3ceb8835d7c3ab97761d0172aa910faeb9718f5aecca61bba85dd3e7a7e25b3e",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-install",
+      "url": "https://docs.fenicsproject.org/dolfinx/main/python/installation.html",
+      "accessed_at": "2026-09-23T22:52:46.673095+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/fenics-install.txt",
+      "sha256": "c697d215576a955a0f8f9f4ee645fe8a6339cd8071c3125c1bfef0637709c27a",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "fenics-nonlinear-tutorial",
+      "url": "https://jsdokken.com/dolfinx-tutorial/chapter2/nonlinpoisson.html",
+      "accessed_at": "2026-09-23T22:52:47.112669+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/fenics-nonlinear-tutorial.txt",
+      "sha256": "b543ce5f4f4f8aebe4091cc02d5022b005eaf3556ff4fac7f40096eb7b2734e6",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "elmer-license",
+      "url": "https://raw.githubusercontent.com/ElmerCSC/elmerfem/devel/license_texts/ElmerLicensePolicy.md",
+      "accessed_at": "2026-09-23T22:52:47.631560+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/elmer-license.txt",
+      "sha256": "fefdd4bb844eab34720e0a605a1d0c3f5e03b37ac5ae65322ce5ab94b4667181",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "elmer-heat-model",
+      "url": "https://raw.githubusercontent.com/ElmerCSC/elmerfem/devel/fem/src/modules/HeatSolve.F90",
+      "accessed_at": "2026-09-23T22:52:47.814371+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/elmer-heat-model.txt",
+      "sha256": "abd198d7151ca864d26d49fb4461d05ff4c0fc5d48007340bf252d4fe674f9a9",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "naura-rtp",
+      "url": "https://www.naura.com/product/details_82_2302.html",
+      "accessed_at": "2026-09-23T22:52:48.150946+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/naura-rtp.txt",
+      "sha256": "6f909aaa9d3ce517ba10fd50f95bf9d53f74e1c3ec181837d1c51c18a208bbd1",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    },
+    {
+      "id": "naura-cvd",
+      "url": "https://www.naura.com/product/details_82_1586.html",
+      "accessed_at": "2026-09-23T22:52:48.366805+00:00",
+      "status": 200,
+      "path": "research/thermal-ai4engineering/sources/naura-cvd.txt",
+      "sha256": "b0ecb076cdabec9a0441922dfa80acd89afcca87e7a36f07e4d8b3c9d4efb501",
+      "receipt_file": "research/thermal-ai4engineering/sources/verification-docs-receipts.json",
+      "audit_status": "verified_text_snapshot"
+    }
+  ]
+}

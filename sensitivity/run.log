@@ -1,0 +1,289 @@
+SCAN 1/181 nominal final=349.3798K violated=[]
+SCAN 2/181 oat-emissivity-0.9 final=350.8130K violated=[]
+SCAN 3/181 oat-emissivity-0.95 final=350.0883K violated=[]
+SCAN 4/181 oat-emissivity-1.05 final=348.6870K violated=[]
+SCAN 5/181 oat-emissivity-1.1 final=348.0094K violated=[]
+SCAN 6/181 oat-convection-0.9 final=351.4815K violated=[]
+SCAN 7/181 oat-convection-0.95 final=350.4166K violated=[]
+SCAN 8/181 oat-convection-1.05 final=348.3703K violated=[]
+SCAN 9/181 oat-convection-1.1 final=347.3872K violated=['final_low']
+SCAN 10/181 oat-heat_capacity-0.9 final=350.8589K violated=[]
+SCAN 11/181 oat-heat_capacity-0.95 final=350.1346K violated=[]
+SCAN 12/181 oat-heat_capacity-1.05 final=348.6040K violated=[]
+SCAN 13/181 oat-heat_capacity-1.1 final=347.8148K violated=['final_low']
+SCAN 14/181 oat-power_gain-0.9 final=344.3647K violated=['final_low']
+SCAN 15/181 oat-power_gain-0.95 final=346.8809K violated=['final_low']
+SCAN 16/181 oat-power_gain-1.05 final=351.8615K violated=[]
+SCAN 17/181 oat-power_gain-1.1 final=354.3258K violated=['final_high']
+SCAN 18/181 oat-axial_conductance-0.9 final=349.3797K violated=[]
+SCAN 19/181 oat-axial_conductance-0.95 final=349.3798K violated=[]
+SCAN 20/181 oat-axial_conductance-1.05 final=349.3799K violated=[]
+SCAN 21/181 oat-axial_conductance-1.1 final=349.3799K violated=[]
+SCAN 22/181 corner-000 final=349.3798K violated=[]
+SCAN 23/181 corner-001 final=349.3800K violated=[]
+SCAN 24/181 corner-002 final=360.2769K violated=['peak', 'final_high']
+SCAN 25/181 corner-003 final=360.2772K violated=['peak', 'final_high']
+SCAN 26/181 corner-004 final=345.8661K violated=['final_low']
+SCAN 27/181 corner-005 final=345.8676K violated=['final_low']
+SCAN 28/181 corner-006 final=356.2465K violated=['final_high']
+SCAN 29/181 corner-007 final=356.2484K violated=['final_high']
+SCAN 30/181 corner-008 final=345.0907K violated=['final_low']
+SCAN 31/181 corner-009 final=345.0884K violated=['final_low']
+SCAN 32/181 corner-010 final=355.1936K violated=['final_high']
+SCAN 33/181 corner-011 final=355.1911K violated=['final_high']
+SCAN 34/181 corner-012 final=342.3396K violated=['final_low']
+SCAN 35/181 corner-013 final=342.3395K violated=['final_low']
+SCAN 36/181 corner-014 final=352.0353K violated=['final_high']
+SCAN 37/181 corner-015 final=352.0352K violated=['final_high']
+SCAN 38/181 corner-016 final=346.4141K violated=['final_low']
+SCAN 39/181 corner-017 final=346.4147K violated=['final_low']
+SCAN 40/181 corner-018 final=356.5938K violated=['final_high']
+SCAN 41/181 corner-019 final=356.5945K violated=['final_high']
+SCAN 42/181 corner-020 final=343.4915K violated=['final_low']
+SCAN 43/181 corner-021 final=343.4931K violated=['final_low']
+SCAN 44/181 corner-022 final=353.2849K violated=['final_high']
+SCAN 45/181 corner-023 final=353.2869K violated=['final_high']
+SCAN 46/181 corner-024 final=342.4794K violated=['final_low']
+SCAN 47/181 corner-025 final=342.4778K violated=['final_low']
+SCAN 48/181 corner-026 final=351.9498K violated=[]
+SCAN 49/181 corner-027 final=351.9479K violated=[]
+SCAN 50/181 corner-028 final=340.2098K violated=['final_low']
+SCAN 51/181 corner-029 final=340.2099K violated=['final_low']
+SCAN 52/181 corner-030 final=349.3796K violated=[]
+SCAN 53/181 corner-031 final=349.3798K violated=[]
+SCAN 54/181 sobol-000 final=345.3175K violated=['final_low']
+SCAN 55/181 sobol-001 final=354.9140K violated=['final_high']
+SCAN 56/181 sobol-002 final=346.5420K violated=['final_low']
+SCAN 57/181 sobol-003 final=351.4145K violated=[]
+SCAN 58/181 sobol-004 final=350.4713K violated=[]
+SCAN 59/181 sobol-005 final=346.9712K violated=['final_low']
+SCAN 60/181 sobol-006 final=353.7630K violated=['final_high']
+SCAN 61/181 sobol-007 final=345.3971K violated=['final_low']
+SCAN 62/181 sobol-008 final=347.0812K violated=['final_low']
+SCAN 63/181 sobol-009 final=350.4443K violated=[]
+SCAN 64/181 sobol-010 final=344.6940K violated=['final_low']
+SCAN 65/181 sobol-011 final=355.1932K violated=['final_high']
+SCAN 66/181 sobol-012 final=351.5703K violated=[]
+SCAN 67/181 sobol-013 final=347.5099K violated=['final_low']
+SCAN 68/181 sobol-014 final=346.8437K violated=['final_low']
+SCAN 69/181 sobol-015 final=350.9324K violated=[]
+SCAN 70/181 sobol-016 final=351.8958K violated=[]
+SCAN 71/181 sobol-017 final=344.7778K violated=['final_low']
+SCAN 72/181 sobol-018 final=349.9639K violated=[]
+SCAN 73/181 sobol-019 final=351.5636K violated=[]
+SCAN 74/181 sobol-020 final=349.0023K violated=[]
+SCAN 75/181 sobol-021 final=349.2975K violated=[]
+SCAN 76/181 sobol-022 final=345.6575K violated=['final_low']
+SCAN 77/181 sobol-023 final=353.4060K violated=['final_high']
+SCAN 78/181 sobol-024 final=352.4534K violated=['final_high']
+SCAN 79/181 sobol-025 final=349.1955K violated=[]
+SCAN 80/181 sobol-026 final=349.5134K violated=[]
+SCAN 81/181 sobol-027 final=346.6132K violated=['final_low']
+SCAN 82/181 sobol-028 final=344.5562K violated=['final_low']
+SCAN 83/181 sobol-029 final=354.4579K violated=['final_high']
+SCAN 84/181 sobol-030 final=344.2892K violated=['final_low']
+SCAN 85/181 sobol-031 final=354.3441K violated=['final_high']
+SCAN 86/181 sobol-032 final=353.8608K violated=['final_high']
+SCAN 87/181 sobol-033 final=345.9398K violated=['final_low']
+SCAN 88/181 sobol-034 final=347.9098K violated=['final_low']
+SCAN 89/181 sobol-035 final=349.7783K violated=[]
+SCAN 90/181 sobol-036 final=346.9220K violated=['final_low']
+SCAN 91/181 sobol-037 final=351.7705K violated=[]
+SCAN 92/181 sobol-038 final=341.8360K violated=['final_low']
+SCAN 93/181 sobol-039 final=356.8569K violated=['final_high']
+SCAN 94/181 sobol-040 final=350.8996K violated=[]
+SCAN 95/181 sobol-041 final=349.3104K violated=[]
+SCAN 96/181 sobol-042 final=350.5374K violated=[]
+SCAN 97/181 sobol-043 final=346.3561K violated=['final_low']
+SCAN 98/181 sobol-044 final=345.5220K violated=['final_low']
+SCAN 99/181 sobol-045 final=350.1204K violated=[]
+SCAN 100/181 sobol-046 final=349.1657K violated=[]
+SCAN 101/181 sobol-047 final=352.7303K violated=['final_high']
+SCAN 102/181 sobol-048 final=346.3330K violated=['final_low']
+SCAN 103/181 sobol-049 final=354.1506K violated=['final_high']
+SCAN 104/181 sobol-050 final=345.6608K violated=['final_low']
+SCAN 105/181 sobol-051 final=351.7113K violated=[]
+SCAN 106/181 sobol-052 final=347.0704K violated=['final_low']
+SCAN 107/181 sobol-053 final=348.4965K violated=[]
+SCAN 108/181 sobol-054 final=351.5493K violated=[]
+SCAN 109/181 sobol-055 final=350.0858K violated=[]
+SCAN 110/181 sobol-056 final=347.8698K violated=['final_low']
+SCAN 111/181 sobol-057 final=352.3127K violated=['final_high']
+SCAN 112/181 sobol-058 final=344.1633K violated=['final_low']
+SCAN 113/181 sobol-059 final=353.9027K violated=['final_high']
+SCAN 114/181 sobol-060 final=354.0811K violated=['final_high']
+SCAN 115/181 sobol-061 final=345.4397K violated=['final_low']
+SCAN 116/181 sobol-062 final=350.6603K violated=[]
+SCAN 117/181 sobol-063 final=347.6038K violated=['final_low']
+SCAN 118/181 sobol-064 final=349.9841K violated=[]
+SCAN 119/181 sobol-065 final=347.6136K violated=['final_low']
+SCAN 120/181 sobol-066 final=351.8972K violated=[]
+SCAN 121/181 sobol-067 final=347.5780K violated=['final_low']
+SCAN 122/181 sobol-068 final=343.3468K violated=['final_low']
+SCAN 123/181 sobol-069 final=353.8287K violated=['final_high']
+SCAN 124/181 sobol-070 final=345.9586K violated=['final_low']
+SCAN 125/181 sobol-071 final=354.7979K violated=['final_high']
+SCAN 126/181 sobol-072 final=354.6856K violated=['final_high']
+SCAN 127/181 sobol-073 final=347.3553K violated=['final_low']
+SCAN 128/181 sobol-074 final=346.3652K violated=['final_low']
+SCAN 129/181 sobol-075 final=348.2388K violated=[]
+SCAN 130/181 sobol-076 final=349.4733K violated=[]
+SCAN 131/181 sobol-077 final=348.5551K violated=[]
+SCAN 132/181 sobol-078 final=344.9961K violated=['final_low']
+SCAN 133/181 sobol-079 final=354.8244K violated=['final_high']
+SCAN 134/181 sobol-080 final=348.8845K violated=[]
+SCAN 135/181 sobol-081 final=352.4279K violated=['final_high']
+SCAN 136/181 sobol-082 final=343.6126K violated=['final_low']
+SCAN 137/181 sobol-083 final=352.9132K violated=['final_high']
+SCAN 138/181 sobol-084 final=349.7476K violated=[]
+SCAN 139/181 sobol-085 final=346.8814K violated=['final_low']
+SCAN 140/181 sobol-086 final=349.6010K violated=[]
+SCAN 141/181 sobol-087 final=351.8058K violated=[]
+SCAN 142/181 sobol-088 final=344.9573K violated=['final_low']
+SCAN 143/181 sobol-089 final=353.6487K violated=['final_high']
+SCAN 144/181 sobol-090 final=346.1204K violated=['final_low']
+SCAN 145/181 sobol-091 final=352.4799K violated=['final_high']
+SCAN 146/181 sobol-092 final=351.4394K violated=[]
+SCAN 147/181 sobol-093 final=347.1746K violated=['final_low']
+SCAN 148/181 sobol-094 final=352.8434K violated=['final_high']
+SCAN 149/181 sobol-095 final=346.2552K violated=['final_low']
+SCAN 150/181 sobol-096 final=347.4648K violated=['final_low']
+SCAN 151/181 sobol-097 final=351.3610K violated=[]
+SCAN 152/181 sobol-098 final=343.6902K violated=['final_low']
+SCAN 153/181 sobol-099 final=354.8945K violated=['final_high']
+SCAN 154/181 sobol-100 final=352.9995K violated=['final_high']
+SCAN 155/181 sobol-101 final=343.9209K violated=['final_low']
+SCAN 156/181 sobol-102 final=350.9780K violated=[]
+SCAN 157/181 sobol-103 final=349.2513K violated=[]
+SCAN 158/181 sobol-104 final=344.6816K violated=['final_low']
+SCAN 159/181 sobol-105 final=353.7602K violated=['final_high']
+SCAN 160/181 sobol-106 final=347.3638K violated=['final_low']
+SCAN 161/181 sobol-107 final=351.2761K violated=[]
+SCAN 162/181 sobol-108 final=349.5781K violated=[]
+SCAN 163/181 sobol-109 final=351.1699K violated=[]
+SCAN 164/181 sobol-110 final=349.6121K violated=[]
+SCAN 165/181 sobol-111 final=347.2757K violated=['final_low']
+SCAN 166/181 sobol-112 final=350.6515K violated=[]
+SCAN 167/181 sobol-113 final=347.7174K violated=['final_low']
+SCAN 168/181 sobol-114 final=350.4992K violated=[]
+SCAN 169/181 sobol-115 final=348.3763K violated=[]
+SCAN 170/181 sobol-116 final=347.8235K violated=['final_low']
+SCAN 171/181 sobol-117 final=352.5948K violated=['final_high']
+SCAN 172/181 sobol-118 final=346.6222K violated=['final_low']
+SCAN 173/181 sobol-119 final=350.5542K violated=[]
+SCAN 174/181 sobol-120 final=353.3567K violated=['final_high']
+SCAN 175/181 sobol-121 final=345.7619K violated=['final_low']
+SCAN 176/181 sobol-122 final=348.7453K violated=[]
+SCAN 177/181 sobol-123 final=349.5634K violated=[]
+SCAN 178/181 sobol-124 final=345.8817K violated=['final_low']
+SCAN 179/181 sobol-125 final=351.4319K violated=[]
+SCAN 180/181 sobol-126 final=343.6955K violated=['final_low']
+SCAN 181/181 sobol-127 final=357.6830K violated=['final_high']
+REFINED corner-002 changes={'mse_K2': 0.00015866377654560893, 'peak_K': 0.00045164350291315714, 'max_spread_K': 0.001136907618274563, 'final_mean_K': -6.071273219276918e-06} flipped=False
+REFINED corner-003 changes={'mse_K2': 0.00018283450231137977, 'peak_K': 0.0004022279696869191, 'max_spread_K': 0.001047436634735277, 'final_mean_K': -5.577128206368798e-06} flipped=False
+REFINED corner-010 changes={'mse_K2': 3.152830696251385e-05, 'peak_K': -8.770285484160922e-05, 'max_spread_K': 0.0013406685948211816, 'final_mean_K': -7.80520667831297e-06} flipped=False
+REFINED corner-014 changes={'mse_K2': -8.916363688271645e-05, 'peak_K': 0.00017623830382262895, 'max_spread_K': 0.0011528658830002314, 'final_mean_K': -5.998035533139046e-06} flipped=False
+REFINED corner-015 changes={'mse_K2': -6.716545366458604e-05, 'peak_K': 0.00012464927073096987, 'max_spread_K': 0.0009857707083256173, 'final_mean_K': -5.579714070336195e-06} flipped=False
+REFINED corner-026 changes={'mse_K2': -1.4272251071645314e-05, 'peak_K': -0.00013631318552143057, 'max_spread_K': 0.0009083003739078777, 'final_mean_K': -7.091844622664212e-06} flipped=False
+REFINED corner-028 changes={'mse_K2': -0.0003277403188732819, 'peak_K': 0.00011969666030609005, 'max_spread_K': 0.0009269713169146598, 'final_mean_K': -4.703724926002906e-06} flipped=False
+REFINED nominal changes={'mse_K2': -0.00010348261100823208, 'peak_K': 0.0002327227436467183, 'max_spread_K': 0.0009331633247597892, 'final_mean_K': -5.171189172870072e-06} flipped=False
+REFINED oat-emissivity-1.1 changes={'mse_K2': -0.0001245372302296488, 'peak_K': 0.0004065937035306888, 'max_spread_K': 0.0009212321397171763, 'final_mean_K': -4.966083281487954e-06} flipped=False
+{
+  "status": "PASS",
+  "groups": {
+    "nominal": {
+      "count": 1,
+      "feasible": 1,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 0,
+        "final_high": 0
+      },
+      "near_boundary": [],
+      "final_mean_range_K": [
+        349.37982888314326,
+        349.37982888314326
+      ]
+    },
+    "oat": {
+      "count": 20,
+      "feasible": 15,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 4,
+        "final_high": 1
+      },
+      "near_boundary": [
+        "oat-emissivity-1.1"
+      ],
+      "final_mean_range_K": [
+        344.364682734454,
+        354.3257749724146
+      ]
+    },
+    "corners": {
+      "count": 32,
+      "feasible": 6,
+      "violations": {
+        "peak": 2,
+        "spread": 0,
+        "final_low": 14,
+        "final_high": 12
+      },
+      "near_boundary": [
+        "corner-014",
+        "corner-015"
+      ],
+      "final_mean_range_K": [
+        340.2097872476327,
+        360.27723280819765
+      ]
+    },
+    "sobol": {
+      "count": 128,
+      "feasible": 48,
+      "violations": {
+        "peak": 0,
+        "spread": 0,
+        "final_low": 51,
+        "final_high": 29
+      },
+      "near_boundary": [],
+      "final_mean_range_K": [
+        341.83597472055664,
+        357.68304268889915
+      ]
+    }
+  },
+  "local_final_mean_K_per_percentage_point": {
+    "emissivity": -0.14013094752372127,
+    "convection": -0.2046366501945613,
+    "heat_capacity": -0.15305916416319293,
+    "power_gain": 0.49805471866687867,
+    "axial_conductance": 1.1233871731519685e-05
+  },
+  "worst_peak": "corner-002",
+  "worst_spread": "corner-010",
+  "lowest_final": "corner-028",
+  "highest_final": "corner-003",
+  "refined_cases": [
+    "corner-002",
+    "corner-003",
+    "corner-010",
+    "corner-014",
+    "corner-015",
+    "corner-026",
+    "corner-028",
+    "nominal",
+    "oat-emissivity-1.1"
+  ],
+  "refinement_flips": [],
+  "summed_scan_solve_seconds": 13.022194988559932,
+  "limitations": [
+    "Synthetic sensitivity box, not a calibrated uncertainty distribution or failure probability.",
+    "One fixed open-loop input; no recalibration, robustness optimization, or AI comparison.",
+    "Grid refinement uses the same physical model; not independent solver or hardware validation."
+  ]
+}

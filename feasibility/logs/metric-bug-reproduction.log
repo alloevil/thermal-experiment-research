@@ -1,0 +1,3 @@
+n=16: numpy_std=0.50000000, pde_fluctuations=0.03125000, ratio=16.0
+n=32: numpy_std=0.50000000, pde_fluctuations=0.01562500, ratio=32.0
+REPRODUCED: pde.fluctuations is volume-scaled; use np.std for temperature nonuniformity

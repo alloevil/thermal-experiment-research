@@ -1,0 +1,21 @@
+{
+  "status": "applied",
+  "repository_name": "thermal-experiment-research",
+  "description": "Python research archive for thermal modeling, sensor calibration and Bayesian model discrimination: choose the next experiment, retain negative results, and reproduce the evidence.",
+  "topics": [
+    "thermal-modeling",
+    "heat-transfer",
+    "parameter-estimation",
+    "sensor-calibration",
+    "model-discrimination",
+    "experimental-design",
+    "bayesian-inference",
+    "uncertainty-quantification",
+    "reproducible-research",
+    "python"
+  ],
+  "homepage": null,
+  "canonical_repository_url": "https://github.com/alloevil/thermal-experiment-research",
+  "citation_status": "author-and-publication-metadata-pending",
+  "notes": "Description and all ten topics applied through GitHub API to the owner-authorized public repository. No search-ranking, indexing or AI-citation effect claimed."
+}

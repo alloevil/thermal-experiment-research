@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/multifidelity-review-full.txt`
+
+Original SHA-256: `718dc76069155f6412e532a42d4438e1087de6561d46701727ae18b4adfc65b1`
+
+Sources:
+- https://doi.org/10.3934/acse.2023015
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

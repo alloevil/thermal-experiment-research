@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://apmonitor.com/pdc/index.php/Main/ArduinoModeling",
+    "file": "sources/tclab.txt",
+    "sha256": "fba3fb822642f8aa41e35596cc880e9c81a0404773928e0900c2bcf3dee30961",
+    "retrieved_at": "2026-09-23T23:25:06.175062+00:00",
+    "original_capture_sha256": "d4277b1b502f892f36566150a62e45ad2fa32a39964a8874cb6f02e4a2ca2b07",
+    "content_status": "source_notice_original_not_redistributed"
+  },
+  {
+    "url": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma",
+    "file": "sources/nist.txt",
+    "sha256": "93b9633210b5b59f745c02329f388a0be5e37f781fb612557fb302de65526bd3",
+    "retrieved_at": "2026-09-23T23:25:07.298639+00:00",
+    "original_capture_sha256": "56f9b19635ae51986b769e5edca11e41b757176d8cbb623c170655a7fedeaef3",
+    "content_status": "source_notice_original_not_redistributed"
+  }
+]

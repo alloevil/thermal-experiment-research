@@ -1,0 +1,11 @@
+PASS frozen sources and case design
+PASS new cases not in prior scan
+PASS 144 observations and exact noise regeneration
+PASS fit interface has no truth/validation arguments
+PASS frozen fits and numerical budgets
+PASS fresh fit prediction replay and warning capture
+PASS saved residual/SVD and prediction errors
+PASS matched physical evaluation and energy balance
+PASS input limits and sampled temperature feasibility
+PASS two predefined refinement cases
+NOT CLAIMED: absolute parameter identification, real sensor accuracy, independent model validation or industrial reliability

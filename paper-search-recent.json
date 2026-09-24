@@ -1,0 +1,188 @@
+[
+  {
+    "url": "https://api.openalex.org/works?filter=title.search%3Arapid+thermal+processing%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-09-24&search=control&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "title": "Pure CuBi2O4 Photoelectrodes with Increased Stability by Rapid Thermal Processing of Bi2O3/CuO Grown by Pulsed Laser Deposition",
+        "doi": "https://doi.org/10.1002/adfm.201910832",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adfm.201910832",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Point-defect engineering of nanoporous CuBi2O4 photocathode via rapid thermal processing for enhanced photoelectrochemical activity",
+        "doi": "https://doi.org/10.1016/j.jechem.2022.03.013",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Rapid Thermal Processing and Long Term Stability of Interlayer-free Silica-P123 Membranes for Wetland Saline Water Desalination",
+        "doi": "https://doi.org/10.37934/arfmts.71.2.19",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.37934/arfmts.71.2.19",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Imprinting the Polytype Structure of Silicon Carbide by Rapid Thermal Processing",
+        "doi": "https://doi.org/10.3390/cryst10060523",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.mdpi.com/2073-4352/10/6/523/pdf?version=1592872757",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Preparation of Al-Containing ZSM-58 Zeolite Membranes Using Rapid Thermal Processing for CO2/CH4 Mixture Separation",
+        "doi": "https://doi.org/10.3390/membranes11080623",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.mdpi.com/2077-0375/11/8/623/pdf?version=1629100502",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Rapid-thermal-process pre-treatment promoted precipitation towards strengthening hard magnetism of Sm2Co17-type magnets",
+        "doi": "https://doi.org/10.1016/j.actamat.2024.119966",
+        "publication_year": 2024,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.actamat.2024.119966",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Cu3BiS3 film synthesis through rapid thermal processing sulfurization of electron beam evaporated precursors",
+        "doi": "https://doi.org/10.1007/s42247-024-00878-9",
+        "publication_year": 2024,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s42247-024-00878-9.pdf",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Pulsed rapid thermal process for tailoring the surface sulfurization of CIGSe thin film at low temperature",
+        "doi": "https://doi.org/10.1016/j.solmat.2020.110871",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      }
+    ]
+  },
+  {
+    "url": "https://api.openalex.org/works?filter=title.search%3Athermal%2Cfrom_publication_date%3A2020-01-01%2Cto_publication_date%3A2026-09-24&search=multi-fidelity+optimization&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "title": "Optimization of Thermal and Structural Design in Lithium-Ion Batteries to Obtain Energy Efficient Battery Thermal Management System (BTMS): A Critical Review",
+        "doi": "https://doi.org/10.1007/s11831-021-09571-0",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s11831-021-09571-0.pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Phase change material-based thermal energy storage",
+        "doi": "https://doi.org/10.1016/j.xcrp.2021.100540",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S2666386421002514/pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Physics informed neural networks for control oriented thermal modeling of buildings",
+        "doi": "https://doi.org/10.1016/j.apenergy.2022.118852",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2111.12066",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Efficient Preconstruction of Three-Dimensional Graphene Networks for Thermally Conductive Polymer Composites",
+        "doi": "https://doi.org/10.1007/s40820-022-00878-6",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s40820-022-00878-6.pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "Lowering the thermal noise barrier in functional brain mapping with magnetic resonance imaging",
+        "doi": "https://doi.org/10.1038/s41467-021-25431-8",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.nature.com/articles/s41467-021-25431-8.pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "High-fidelity modelling of selective laser melting copper alloy: Laser reflection behavior and thermal-fluid dynamics",
+        "doi": "https://doi.org/10.1016/j.matdes.2021.109857",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S026412752100410X/pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "title": "A multi-objective optimization approach for battery thermal management system based on the combination of BP neural network prediction and NSGA-II algorithm",
+        "doi": "https://doi.org/10.1016/j.est.2024.113212",
+        "publication_year": 2024,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "title": "Thermal Management of Electrified Vehicles—A Review",
+        "doi": "https://doi.org/10.3390/en15041326",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.mdpi.com/1996-1073/15/4/1326/pdf?version=1644590953",
+          "any_repository_has_fulltext": true
+        }
+      }
+    ]
+  }
+]

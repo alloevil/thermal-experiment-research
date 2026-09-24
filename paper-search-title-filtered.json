@@ -1,0 +1,1779 @@
+[
+  {
+    "url": "https://api.openalex.org/works?filter=title.search%3Arapid+thermal+processing&search=control&per-page=15&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "title": "Rapid thermal processing systems: A review with emphasis on temperature control",
+        "doi": "https://doi.org/10.1116/1.584902",
+        "publication_year": 1990,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1116/1.584902",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1116/1.584902",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210191927",
+              "display_name": "Journal of Vacuum Science & Technology B Microelectronics Processing and Phenomena",
+              "issn_l": "0734-211X",
+              "issn": [
+                "0734-211X",
+                "2327-9877"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/P4310320061",
+              "host_organization_name": "AIP Publishing",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320061",
+                "https://openalex.org/P4310320257"
+              ],
+              "host_organization_lineage_names": [
+                "AIP Publishing",
+                "American Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Vacuum Science &amp; Technology B: Microelectronics Processing and Phenomena",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Controlled activation of ZnTe:Cu contacted CdTe solar cells using rapid thermal processing",
+        "doi": "https://doi.org/10.1016/j.solmat.2014.10.045",
+        "publication_year": 2014,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.solmat.2014.10.045",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.solmat.2014.10.045",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.solmat.2014.10.045",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S166040772",
+              "display_name": "Solar Energy Materials and Solar Cells",
+              "issn_l": "0927-0248",
+              "issn": [
+                "0927-0248",
+                "1879-3398"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "acceptedVersion",
+            "is_accepted": true,
+            "is_published": false,
+            "raw_source_name": "Solar Energy Materials and Solar Cells",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:osti.gov:1250103",
+            "is_oa": true,
+            "landing_page_url": "https://www.osti.gov/biblio/1250103",
+            "pdf_url": "https://www.osti.gov/servlets/purl/1579806",
+            "source": {
+              "id": "https://openalex.org/S4306402487",
+              "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I139351228",
+              "host_organization_name": "Office of Scientific and Technical Information",
+              "host_organization_lineage": [
+                "https://openalex.org/I139351228"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": null
+          },
+          {
+            "id": "pmh:oai:osti.gov:1579806",
+            "is_oa": false,
+            "landing_page_url": "https://www.osti.gov/biblio/1579806",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402487",
+              "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I139351228",
+              "host_organization_name": "Office of Scientific and Technical Information",
+              "host_organization_lineage": [
+                "https://openalex.org/I139351228"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": null
+          }
+        ]
+      },
+      {
+        "title": "Rapid thermal processing : science and technology",
+        "doi": null,
+        "publication_year": 1993,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "pmh:oai:aleph.bib-bvb.de:BVB01-027745720",
+            "is_oa": false,
+            "landing_page_url": "http://www.sciencedirect.com/science/book/9780122476907",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": "software, multimedia"
+          },
+          {
+            "id": "pmh:oai:cds.cern.ch:1616950",
+            "is_oa": false,
+            "landing_page_url": "http://cds.cern.ch/record/1616950",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402195",
+              "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/I67311998",
+              "host_organization_name": "European Organization for Nuclear Research",
+              "host_organization_lineage": [
+                "https://openalex.org/I67311998"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "",
+            "raw_type": null
+          },
+          {
+            "id": "mag:633801999",
+            "is_oa": false,
+            "landing_page_url": "http://ci.nii.ac.jp/ncid/BA21128480",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306462761",
+              "display_name": "Academic Press eBooks",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "host_organization": "https://openalex.org/P4310319955",
+              "host_organization_name": "Academic Press",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319955",
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Academic Press",
+                "Elsevier BV"
+              ],
+              "type": "ebook platform"
+            },
+            "license": null,
+            "license_id": null,
+            "version": null,
+            "is_accepted": false,
+            "is_published": null,
+            "raw_source_name": "Academic Press eBooks",
+            "raw_type": null
+          }
+        ]
+      },
+      {
+        "title": "Modeling, Identification, and Control of Rapid Thermal Processing Systems",
+        "doi": "https://doi.org/10.1149/1.2059302",
+        "publication_year": 1994,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://iopscience.iop.org/article/10.1149/1.2059302/pdf",
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1149/1.2059302",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1149/1.2059302",
+            "pdf_url": "https://iopscience.iop.org/article/10.1149/1.2059302/pdf",
+            "source": {
+              "id": "https://openalex.org/S138759888",
+              "display_name": "Journal of The Electrochemical Society",
+              "issn_l": "0013-4651",
+              "issn": [
+                "0013-4651",
+                "1945-7111"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310311669",
+              "host_organization_name": "Institute of Physics",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310311669"
+              ],
+              "host_organization_lineage_names": [
+                "Institute of Physics"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of The Electrochemical Society",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:CiteSeerX.psu:10.1.1.995.4615",
+            "is_oa": false,
+            "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.995.4615",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "http://jes.ecsdl.org/content/141/11/3200.full.pdf",
+            "raw_type": "text"
+          }
+        ]
+      },
+      {
+        "title": "A model for rapid thermal processing: achieving uniformity through lamp control",
+        "doi": "https://doi.org/10.1109/66.75858",
+        "publication_year": 1991,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/66.75858",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/66.75858",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S14676311",
+              "display_name": "IEEE Transactions on Semiconductor Manufacturing",
+              "issn_l": "0894-6507",
+              "issn": [
+                "0894-6507",
+                "1558-2345"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320439",
+              "host_organization_name": "IEEE Computer Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320439",
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "IEEE Computer Society",
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Transactions on Semiconductor Manufacturing",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Modeling and temperature control of rapid thermal processing",
+        "doi": "https://doi.org/10.1016/j.compchemeng.2005.11.007",
+        "publication_year": 2006,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.compchemeng.2005.11.007",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.compchemeng.2005.11.007",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S150671403",
+              "display_name": "Computers & Chemical Engineering",
+              "issn_l": "0098-1354",
+              "issn": [
+                "0098-1354",
+                "1873-4375"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Computers &amp; Chemical Engineering",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:CiteSeerX.psu:10.1.1.122.680",
+            "is_oa": false,
+            "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.122.680",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "http://tx.technion.ac.il/~dlewin/publications/rtp_paper_v9.pdf",
+            "raw_type": "text"
+          }
+        ]
+      },
+      {
+        "title": "Rapid thermal processing of thin gate dielectrics. Oxidation of silicon",
+        "doi": "https://doi.org/10.1109/edl.1985.26099",
+        "publication_year": 1985,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/edl.1985.26099",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/edl.1985.26099",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S19887683",
+              "display_name": "IEEE Electron Device Letters",
+              "issn_l": "0741-3106",
+              "issn": [
+                "0741-3106",
+                "1558-0563"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310319808",
+              "host_organization_name": "Institute of Electrical and Electronics Engineers",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Electron Device Letters",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Model-based control in rapid thermal processing",
+        "doi": "https://doi.org/10.1016/s0040-6090(99)01049-4",
+        "publication_year": 2000,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/s0040-6090(99)01049-4",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/s0040-6090(99)01049-4",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S84339699",
+              "display_name": "Thin Solid Films",
+              "issn_l": "0040-6090",
+              "issn": [
+                "0040-6090",
+                "1879-2731"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Thin Solid Films",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Experimental application of a quadratic optimal iterative learning control method for control of wafer temperature uniformity in rapid thermal processing",
+        "doi": "https://doi.org/10.1109/tsm.2002.807740",
+        "publication_year": 2003,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/tsm.2002.807740",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/tsm.2002.807740",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S14676311",
+              "display_name": "IEEE Transactions on Semiconductor Manufacturing",
+              "issn_l": "0894-6507",
+              "issn": [
+                "0894-6507",
+                "1558-2345"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320439",
+              "host_organization_name": "IEEE Computer Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320439",
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "IEEE Computer Society",
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Transactions on Semiconductor Manufacturing",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Nanofabrication and characterization of ZnO nanorod arrays and branched microrods by aqueous solution route and rapid thermal processing",
+        "doi": "https://doi.org/10.1016/j.mseb.2007.10.004",
+        "publication_year": 2007,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://stars.library.ucf.edu/facultybib2000/7388",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.mseb.2007.10.004",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.mseb.2007.10.004",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210190818",
+              "display_name": "Materials Science and Engineering B",
+              "issn_l": "0921-5107",
+              "issn": [
+                "0921-5107",
+                "1873-4944"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Materials Science and Engineering: B",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:stars.library.ucf.edu:facultybib2000-8387",
+            "is_oa": true,
+            "landing_page_url": "https://stars.library.ucf.edu/facultybib2000/7388",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172555",
+              "display_name": "Journal of International Crisis and Risk Communication Research",
+              "issn_l": "2576-0017",
+              "issn": [
+                "2576-0017",
+                "2576-0025"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Faculty Bibliography 2000s",
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:stars.library.ucf.edu:scopus2000-6794",
+            "is_oa": true,
+            "landing_page_url": "https://stars.library.ucf.edu/scopus2000/5795",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4210172555",
+              "display_name": "Journal of International Crisis and Risk Communication Research",
+              "issn_l": "2576-0017",
+              "issn": [
+                "2576-0017",
+                "2576-0025"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Scopus Export 2000s",
+            "raw_type": "text"
+          },
+          {
+            "id": "pmh:oai:ibn.idsi.md:183222",
+            "is_oa": true,
+            "landing_page_url": "https://ibn.idsi.md/vizualizare_articol/183222",
+            "pdf_url": null,
+            "source": null,
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Materials Science and Engineering B: Solid-State Materials for Advanced Technology 57-66",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:pure.mpg.de:item_3247685",
+            "is_oa": false,
+            "landing_page_url": "http://hdl.handle.net/21.11116/0000-0006-DA25-B",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400654",
+              "display_name": "MPG.PuRe (Max Planck Society)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I149899117",
+              "host_organization_name": "Max Planck Society",
+              "host_organization_lineage": [
+                "https://openalex.org/I149899117"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Materials Science and Engineering B",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "title": "Control of Wafer Temperature Uniformity in Rapid Thermal Processing Using an Optimal Iterative Learning Control Technique",
+        "doi": "https://doi.org/10.1021/ie0005553",
+        "publication_year": 2001,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1021/ie0005553",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1021/ie0005553",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S202680183",
+              "display_name": "Industrial & Engineering Chemistry Research",
+              "issn_l": "0888-5885",
+              "issn": [
+                "0888-5885",
+                "1520-5045"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320006",
+              "host_organization_name": "American Chemical Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320006"
+              ],
+              "host_organization_lineage_names": [
+                "American Chemical Society"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Industrial &amp; Engineering Chemistry Research",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Control of rapid thermal processing: a system theoretic approach",
+        "doi": "https://doi.org/10.1109/87.641407",
+        "publication_year": 1997,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/87.641407",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/87.641407",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S133363738",
+              "display_name": "IEEE Transactions on Control Systems Technology",
+              "issn_l": "1063-6536",
+              "issn": [
+                "1063-6536",
+                "1558-0865",
+                "2374-0159"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310319808",
+              "host_organization_name": "Institute of Electrical and Electronics Engineers",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Transactions on Control Systems Technology",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Nonlinear model reduction for simulation and control of rapid thermal processing",
+        "doi": "https://doi.org/10.1109/acc.1997.608956",
+        "publication_year": 1997,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/acc.1997.608956",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/acc.1997.608956",
+            "pdf_url": null,
+            "source": null,
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Proceedings of the 1997 American Control Conference (Cat. No.97CH36041)",
+            "raw_type": "proceedings-article"
+          }
+        ]
+      },
+      {
+        "title": "Decentralized control of wafer temperature for multizone rapid thermal processing systems",
+        "doi": "https://doi.org/10.1109/66.762877",
+        "publication_year": 1999,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/66.762877",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/66.762877",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S14676311",
+              "display_name": "IEEE Transactions on Semiconductor Manufacturing",
+              "issn_l": "0894-6507",
+              "issn": [
+                "0894-6507",
+                "1558-2345"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320439",
+              "host_organization_name": "IEEE Computer Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320439",
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "IEEE Computer Society",
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Transactions on Semiconductor Manufacturing",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "A learning approach of wafer temperature control in a rapid thermal processing system",
+        "doi": "https://doi.org/10.1109/66.909649",
+        "publication_year": 2001,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1109/66.909649",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1109/66.909649",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S14676311",
+              "display_name": "IEEE Transactions on Semiconductor Manufacturing",
+              "issn_l": "0894-6507",
+              "issn": [
+                "0894-6507",
+                "1558-2345"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-1",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320439",
+              "host_organization_name": "IEEE Computer Society",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320439",
+                "https://openalex.org/P4310319808"
+              ],
+              "host_organization_lineage_names": [
+                "IEEE Computer Society",
+                "Institute of Electrical and Electronics Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "IEEE Transactions on Semiconductor Manufacturing",
+            "raw_type": "journal-article"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": "https://api.openalex.org/works?filter=title.search%3Amulti-fidelity&search=heat+transfer&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "title": "Review of multi-fidelity models",
+        "doi": "https://doi.org/10.3934/acse.2023015",
+        "publication_year": 2023,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.3934/acse.2023015",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.3934/acse.2023015",
+            "pdf_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+            "source": {
+              "id": "https://openalex.org/S4387288720",
+              "display_name": "Advances in Computational Science and Engineering",
+              "issn_l": "2837-1739",
+              "issn": [
+                "2837-1739"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core"
+              ],
+              "host_organization": "https://openalex.org/P4310315844",
+              "host_organization_name": "American Institute of Mathematical Sciences",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310315844"
+              ],
+              "host_organization_lineage_names": [
+                "American Institute of Mathematical Sciences"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Advances in Computational Science and Engineering",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:osti.gov:2367379",
+            "is_oa": false,
+            "landing_page_url": "https://www.osti.gov/biblio/2367379",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306402487",
+              "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I139351228",
+              "host_organization_name": "Office of Scientific and Technical Information",
+              "host_organization_lineage": [
+                "https://openalex.org/I139351228"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": null
+          }
+        ]
+      },
+      {
+        "title": "Multi-fidelity topology optimization of flow boiling heat transfer in microchannels",
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126585",
+        "publication_year": 2024,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.ijheatmasstransfer.2024.126585",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2024.126585",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S90999920",
+              "display_name": "International Journal of Heat and Mass Transfer",
+              "issn_l": "0017-9310",
+              "issn": [
+                "0017-9310",
+                "1879-2189"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "International Journal of Heat and Mass Transfer",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Multi-Fidelity Physics-Constrained Neural Network and Its Application in Materials Modeling",
+        "doi": "https://doi.org/10.1115/1.4044400",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1115/1.4044400",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1115/1.4044400",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S88457320",
+              "display_name": "Journal of Mechanical Design",
+              "issn_l": "0161-8458",
+              "issn": [
+                "0161-8458",
+                "1050-0472",
+                "1528-9001"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310321320",
+              "host_organization_name": "American Society of Mechanical Engineers",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310321320"
+              ],
+              "host_organization_lineage_names": [
+                "American Society of Mechanical Engineers"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Mechanical Design",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Prediction of supercritical CO2 heat transfer behaviors by combining transfer learning and deep learning based on multi-fidelity data",
+        "doi": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124802",
+        "publication_year": 2023,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.ijheatmasstransfer.2023.124802",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.ijheatmasstransfer.2023.124802",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S90999920",
+              "display_name": "International Journal of Heat and Mass Transfer",
+              "issn_l": "0017-9310",
+              "issn": [
+                "0017-9310",
+                "1879-2189"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "International Journal of Heat and Mass Transfer",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Adaptive multi-fidelity polynomial chaos approach to Bayesian inference in inverse problems",
+        "doi": "https://doi.org/10.1016/j.jcp.2018.12.025",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/1807.00618",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.jcp.2018.12.025",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.jcp.2018.12.025",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S148709879",
+              "display_name": "Journal of Computational Physics",
+              "issn_l": "0021-9991",
+              "issn": [
+                "0021-9991",
+                "1090-2716"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-2",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Journal of Computational Physics",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:arXiv.org:1807.00618",
+            "is_oa": true,
+            "landing_page_url": "https://arxiv.org/abs/1807.00618",
+            "pdf_url": "https://arxiv.org/pdf/1807.00618",
+            "source": {
+              "id": "https://openalex.org/S4306400194",
+              "display_name": "arXiv (Cornell University)",
+              "issn_l": "2331-8422",
+              "issn": [
+                "2331-8422"
+              ],
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I205783295",
+              "host_organization_name": "Cornell University",
+              "host_organization_lineage": [
+                "https://openalex.org/I205783295"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "text"
+          }
+        ]
+      },
+      {
+        "title": "An efficient and high-fidelity local multi-mesh finite volume method for heat transfer and fluid flow problems in metal additive manufacturing",
+        "doi": "https://doi.org/10.1016/j.cma.2022.115828",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cma.2022.115828",
+            "is_oa": false,
+            "landing_page_url": "https://doi.org/10.1016/j.cma.2022.115828",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S40006715",
+              "display_name": "Computer Methods in Applied Mechanics and Engineering",
+              "issn_l": "0045-7825",
+              "issn": [
+                "0045-7825",
+                "1879-2138"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-3",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Computer Methods in Applied Mechanics and Engineering",
+            "raw_type": "journal-article"
+          }
+        ]
+      },
+      {
+        "title": "Multi-fidelity surrogate modeling using long short-term memory networks",
+        "doi": "https://doi.org/10.1016/j.cma.2022.115811",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S0045782522007678",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "id": "doi:10.1016/j.cma.2022.115811",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1016/j.cma.2022.115811",
+            "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0045782522007678",
+            "source": {
+              "id": "https://openalex.org/S40006715",
+              "display_name": "Computer Methods in Applied Mechanics and Engineering",
+              "issn_l": "0045-7825",
+              "issn": [
+                "0045-7825",
+                "1879-2138"
+              ],
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "jufo-3",
+                "norway-2"
+              ],
+              "host_organization": "https://openalex.org/P4310320990",
+              "host_organization_name": "Elsevier BV",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310320990"
+              ],
+              "host_organization_lineage_names": [
+                "Elsevier BV"
+              ],
+              "type": "journal"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Computer Methods in Applied Mechanics and Engineering",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmh:oai:infoscience.epfl.ch:300978",
+            "is_oa": true,
+            "landing_page_url": "https://infoscience.epfl.ch/handle/20.500.14299/195773",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400487",
+              "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I5124864",
+              "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+              "host_organization_lineage": [
+                "https://openalex.org/I5124864"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by-nc-nd",
+            "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "WoS",
+            "raw_type": "research article"
+          },
+          {
+            "id": "pmh:oai:re.public.polimi.it:11311/1226092",
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11311/1226092",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306400312",
+              "display_name": "Virtual Community of Pathological Anatomy (University of Castilla La Mancha)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I79189158",
+              "host_organization_name": "University of Castilla-La Mancha",
+              "host_organization_lineage": [
+                "https://openalex.org/I79189158"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:ris.utwente.nl:openaire/978d91c7-dd84-4a85-8c18-5f68937c531d",
+            "is_oa": true,
+            "landing_page_url": "https://research.utwente.nl/en/publications/978d91c7-dd84-4a85-8c18-5f68937c531d",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406922991",
+              "display_name": "University of Twente Research Information",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Conti, P, Guo, M, Manzoni, A & Hesthaven, J S 2023, 'Multi-fidelity surrogate modeling using long short-term memory networks', Computer methods in applied mechanics and engineering, vol. 404, 115811. https://doi.org/10.1016/j.cma.2022.115811",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:ut:oai:ris.utwente.nl:publications/978d91c7-dd84-4a85-8c18-5f68937c531d",
+            "is_oa": true,
+            "landing_page_url": "https://research.utwente.nl/en/publications/978d91c7-dd84-4a85-8c18-5f68937c531d",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4406922991",
+              "display_name": "University of Twente Research Information",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "other-oa",
+            "license_id": "https://openalex.org/licenses/other-oa",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Computer methods in applied mechanics and engineering, 404:115811. Elsevier",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      },
+      {
+        "title": "Multi-fidelity information fusion with concatenated neural networks",
+        "doi": "https://doi.org/10.1038/s41598-022-09938-8",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.nature.com/articles/s41598-022-09938-8.pdf",
+          "any_repository_has_fulltext": true
+        },
+        "locations": [
+          {
+            "id": "doi:10.1038/s41598-022-09938-8",
+            "is_oa": true,
+            "landing_page_url": "https://doi.org/10.1038/s41598-022-09938-8",
+            "pdf_url": "https://www.nature.com/articles/s41598-022-09938-8.pdf",
+            "source": {
+              "id": "https://openalex.org/S196734849",
+              "display_name": "Scientific Reports",
+              "issn_l": "2045-2322",
+              "issn": [
+                "2045-2322"
+              ],
+              "is_oa": true,
+              "is_in_doaj": true,
+              "is_core": true,
+              "listed_in": [
+                "cwts-core",
+                "doaj",
+                "doyens",
+                "jufo-1",
+                "medline",
+                "norway-1"
+              ],
+              "host_organization": "https://openalex.org/P4310319908",
+              "host_organization_name": "Nature Portfolio",
+              "host_organization_lineage": [
+                "https://openalex.org/P4310319908",
+                "https://openalex.org/P4310319965"
+              ],
+              "host_organization_lineage_names": [
+                "Nature Portfolio",
+                "Springer Nature"
+              ],
+              "type": "journal"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific Reports",
+            "raw_type": "journal-article"
+          },
+          {
+            "id": "pmid:35393511",
+            "is_oa": false,
+            "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/35393511",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306525036",
+              "display_name": "PubMed",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1299303238",
+              "host_organization_name": "National Institutes of Health",
+              "host_organization_lineage": [
+                "https://openalex.org/I1299303238"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "publishedVersion",
+            "is_accepted": true,
+            "is_published": true,
+            "raw_source_name": "Scientific reports",
+            "raw_type": "Journal Article"
+          },
+          {
+            "id": "pmh:oai:osti.gov:1904349",
+            "is_oa": true,
+            "landing_page_url": "https://www.osti.gov/biblio/1904349",
+            "pdf_url": "https://www.osti.gov/servlets/purl/1904349",
+            "source": {
+              "id": "https://openalex.org/S4306402487",
+              "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I139351228",
+              "host_organization_name": "Office of Scientific and Technical Information",
+              "host_organization_lineage": [
+                "https://openalex.org/I139351228"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": null,
+            "raw_type": null
+          },
+          {
+            "id": "pmh:oai:pubmedcentral.nih.gov:8989982",
+            "is_oa": true,
+            "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8989982",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S2764455111",
+              "display_name": "PubMed Central",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": true,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": "https://openalex.org/I1299303238",
+              "host_organization_name": "National Institutes of Health",
+              "host_organization_lineage": [
+                "https://openalex.org/I1299303238"
+              ],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Sci Rep",
+            "raw_type": "Text"
+          },
+          {
+            "id": "pmh:oai:doaj.org/article:dc7beb6894c94891922172b414818dd9",
+            "is_oa": false,
+            "landing_page_url": "https://doaj.org/article/dc7beb6894c94891922172b414818dd9",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S4306401280",
+              "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": null,
+            "license_id": null,
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "Scientific Reports, Vol 12, Iss 1, Pp 1-13 (2022)",
+            "raw_type": "article"
+          },
+          {
+            "id": "pmh:oai:ntnuopen.ntnu.no:11250/3042392",
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11250/3042392",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407064446",
+              "display_name": "NORA - Norwegian Open Research Archives",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "12",
+            "raw_type": "info:eu-repo/semantics/article"
+          },
+          {
+            "id": "pmh:oai:sintef.brage.unit.no:11250/3055772",
+            "is_oa": true,
+            "landing_page_url": "https://hdl.handle.net/11250/3055772",
+            "pdf_url": null,
+            "source": {
+              "id": "https://openalex.org/S7407064446",
+              "display_name": "NORA - Norwegian Open Research Archives",
+              "issn_l": null,
+              "issn": null,
+              "is_oa": false,
+              "is_in_doaj": false,
+              "is_core": false,
+              "listed_in": [],
+              "host_organization": null,
+              "host_organization_name": null,
+              "host_organization_lineage": [],
+              "host_organization_lineage_names": [],
+              "type": "repository"
+            },
+            "license": "cc-by",
+            "license_id": "https://openalex.org/licenses/cc-by",
+            "version": "submittedVersion",
+            "is_accepted": false,
+            "is_published": false,
+            "raw_source_name": "12",
+            "raw_type": "info:eu-repo/semantics/article"
+          }
+        ]
+      }
+    ]
+  }
+]

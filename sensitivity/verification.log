@@ -1,0 +1,7 @@
+PASS fixed protocol, model, command trajectory and 181-case design
+PASS parameter isolation, actual/command power limits, all traces and reconstructed metrics
+PASS energy conservation, independent time-integrated heat loss and exact absorbed energy
+PASS 9 selected refined cases; maximum temperature-metric difference <0.01K
+PASS independently recounted violations; nominal reproduces previous fine-grid result
+PASS common +/-10% parameter scaling leaves saved temperature traces unchanged within 1e-6K
+PASS results/sensitivity.png rendered

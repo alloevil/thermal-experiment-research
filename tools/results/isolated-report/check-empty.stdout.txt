@@ -1,0 +1,81 @@
+{
+  "schema_version": "thermal-workbench/check/1",
+  "scope": "清单内文件与固定快照一致；未重跑科学实验，不证明真实性、计量溯源或工程安全。",
+  "status": "matched_snapshot",
+  "engineering_release": "not_supported",
+  "stages": [
+    {
+      "stage": "feasibility",
+      "title": "数值复现与成本测量",
+      "status": "matched_snapshot",
+      "verified_artifacts": 29,
+      "expected_artifacts": 29,
+      "manifest_sha256": "362b14f3dd0ff0822fcb531617f1aa4f9be89c31079809f557cd6ae1225fd18a",
+      "errors": []
+    },
+    {
+      "stage": "radiation",
+      "title": "受限加热与非线性辐射",
+      "status": "matched_snapshot",
+      "verified_artifacts": 25,
+      "expected_artifacts": 25,
+      "manifest_sha256": "c8aff6b71ce612f1e4e25dd61c452abd514ee9ae719478de33c7a8b064970cda",
+      "errors": []
+    },
+    {
+      "stage": "sensitivity",
+      "title": "参数失配与不可辨识性",
+      "status": "matched_snapshot",
+      "verified_artifacts": 204,
+      "expected_artifacts": 204,
+      "manifest_sha256": "f01a0ad1a930509c416d57c99de4d18d115538e397f83b4a5683c59c9e28fbdd",
+      "errors": []
+    },
+    {
+      "stage": "calibration",
+      "title": "有效比值校准与留出验证",
+      "status": "matched_snapshot",
+      "verified_artifacts": 195,
+      "expected_artifacts": 195,
+      "manifest_sha256": "f0e7dcfdfc12825b294b82bb3b9890e5bc481d2b60c76170796d3f23bf6af432",
+      "errors": []
+    },
+    {
+      "stage": "model_mismatch",
+      "title": "未知偏差与残差告警",
+      "status": "matched_snapshot",
+      "verified_artifacts": 172,
+      "expected_artifacts": 172,
+      "manifest_sha256": "7173d1aafd925e6596143164823ef3f17016aef770189a1ed788654e8d532999",
+      "errors": []
+    },
+    {
+      "stage": "bias_boundary",
+      "title": "小偏置告警盲区",
+      "status": "matched_snapshot",
+      "verified_artifacts": 248,
+      "expected_artifacts": 248,
+      "manifest_sha256": "136c8a2c14787b1423ff9235b2352e08928066713442e54bdf5e219343fefdb1",
+      "errors": []
+    },
+    {
+      "stage": "reference_correction",
+      "title": "独立参考校正与失效条件",
+      "status": "matched_snapshot",
+      "verified_artifacts": 303,
+      "expected_artifacts": 303,
+      "manifest_sha256": "01baed21bc3979a858f6b207bbf3fa359f15e1562de3862aacd14e18dcb380f5",
+      "errors": []
+    },
+    {
+      "stage": "evidence_report",
+      "title": "有边界的证据报告",
+      "status": "matched_snapshot",
+      "verified_artifacts": 10,
+      "expected_artifacts": 10,
+      "manifest_sha256": "7f3bc1619cbcc3c1e63e0db67872fd7325a7e911ec40d76341b419cd226b27a5",
+      "errors": []
+    }
+  ],
+  "verified_artifacts": 1186
+}

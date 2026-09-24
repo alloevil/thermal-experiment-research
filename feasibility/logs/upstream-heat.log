@@ -1,0 +1,6 @@
+Python 3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]; platform Linux-6.8.0-139-generic-x86_64-with-glibc2.39
+  0%|          | 0/10.0 [00:00<?, ?it/s]Initializing:   0%|          | 0/10.0 [00:00<?, ?it/s]  0%|          | 0/10.0 [00:16<?, ?it/s]                0%|          | 0.00316/10.0 [00:16<14:39:15, 5277.23s/it]  2%|▏         | 0.18528/10.0 [00:16<14:43, 90.01s/it]      91%|█████████ | 9.08361/10.0 [00:16<00:01,  1.84s/it] 91%|█████████ | 9.08361/10.0 [00:16<00:01,  1.84s/it]100%|██████████| 10.0/10.0 [00:16<00:00,  1.67s/it]   100%|██████████| 10.0/10.0 [00:16<00:00,  1.67s/it]
+PASS original heat example: 17.493s
+PASS original test_simple_diffusion_value: 2.273s
+PASS original test_simple_diffusion_flux_right: 2.139s
+PASS original test_simple_diffusion_flux_left: 2.096s

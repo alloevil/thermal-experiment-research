@@ -1,0 +1,105 @@
+{
+  "key": "object-0/noise-0-reference_bias/raw",
+  "object": 0,
+  "replicate": 0,
+  "scenario": "reference_bias",
+  "branch": "raw",
+  "offset": {
+    "offset_K": [
+      0.03725616024879628,
+      -0.01626125866773691,
+      0.061613529148917226
+    ],
+    "samples": 10,
+    "difference_sample_std_K": [
+      0.07832009828099246,
+      0.06057097462543053,
+      0.09718884856886571
+    ],
+    "mean_standard_error_K": [
+      0.024766989713617432,
+      0.019154223991262473,
+      0.030733812464681157
+    ],
+    "scope": "One-point offset only; standard errors exclude reference systematic error and sensor drift."
+  },
+  "offset_hash": "5b404c6a0219f82f17a1f3f9cdb57c0d36d2c5f57525a66ae8b8621c17313d6b",
+  "fit": {
+    "ratios": [
+      1.1130421915042306,
+      1.0221025651903681,
+      1.1223845995916515,
+      1.0121036084609134
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 4.889146193861961,
+    "train_rmse_K": 0.20191916320589134,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2740.5995979183404,
+      260.56748545320914,
+      123.639359265684,
+      43.16079149576579
+    ],
+    "jacobian_condition": 63.497436051125284,
+    "jacobian_column_cosines": [
+      [
+        1.0000000000000002,
+        0.024637945262967607,
+        0.09944315636546336,
+        -0.10448796920839915
+      ],
+      [
+        0.024637945262967607,
+        1.0,
+        0.9919551482781157,
+        -0.9591643234568762
+      ],
+      [
+        0.09944315636546336,
+        0.9919551482781157,
+        1.0000000000000002,
+        -0.9579417631592028
+      ],
+      [
+        -0.10448796920839915,
+        -0.9591643234568762,
+        -0.9579417631592028,
+        0.9999999999999998
+      ]
+    ]
+  },
+  "fit_hash": "1c4817fed7cd0d3735133592dd4f510916db24e34b22898b1f51274a7b8e7426",
+  "alarm": {
+    "training": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K"
+      ],
+      "rmse_K": 0.20191916320589137,
+      "max_sensor_mean_residual_K": 0.08446683024465429
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.17648739417891787,
+      "max_sensor_mean_residual_K": 0.07560766389494351
+    },
+    "combined": true
+  },
+  "alarm_hash": "d2753be4adf14ae3d33a9aafcca58518b6b909be950b55198723ce922c1a25e6",
+  "score": {
+    "rmse_K": 0.6592047043991661,
+    "final_mean_error_K": 0.4713330297178686,
+    "inadequate": true
+  }
+}

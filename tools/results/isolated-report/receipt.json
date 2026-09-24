@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "copied_files": 1196,
+  "copied_bytes": 227867335,
+  "venv_regular_file_bytes": 150914753,
+  "environment": {
+    "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+    "prefix": "/tmp/thermal-isolated-l_kvivpc/minimal python",
+    "base_prefix": "/home/gaoruilin/miniforge3",
+    "numpy_available": true,
+    "packages": {
+      "numpy": "2.5.3"
+    }
+  },
+  "lock_sha256": "31e8825521f3004736bd5c175e2ffc77be8ca13ad5c225b5b17ee563040f7cb0",
+  "read_only_copy_verified": true,
+  "elapsed_seconds": 16.01057891594246,
+  "scope": "Fresh venv and relocated files on the same OS/CPU/base Python; not another machine, full science rerun, or distribution license review."
+}

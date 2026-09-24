@@ -1,0 +1,437 @@
+{
+  "id": 14,
+  "truth": {
+    "label": "convection",
+    "convection": 1.5250064299762642,
+    "offset": 0.0,
+    "gain": 1.0061238517403839,
+    "capacity": 0.9984290935467658
+  },
+  "observations": {
+    "initial": {
+      "id": "trial-14-initial",
+      "experiment": "initial",
+      "values_K": [
+        307.43466117801233
+      ]
+    },
+    "heat_low": {
+      "id": "trial-14-heat_low",
+      "experiment": "heat_low",
+      "values_K": [
+        306.583265393022,
+        311.03082685296556,
+        313.76398517181275
+      ]
+    },
+    "heat_high": {
+      "id": "trial-14-heat_high",
+      "experiment": "heat_high",
+      "values_K": [
+        330.0997101320916,
+        341.1920517885928,
+        346.7632326397054
+      ]
+    },
+    "cooldown": {
+      "id": "trial-14-cooldown",
+      "experiment": "cooldown",
+      "values_K": [
+        319.9327734527566,
+        312.29233240271043,
+        307.7521661505786
+      ]
+    }
+  },
+  "initial": {
+    "status": "ambiguous",
+    "model_probability": {
+      "convection": 0.512117373776148,
+      "offset": 0.48788262622385214
+    },
+    "best_grid_fit_tail_probability": {
+      "convection": 0.9681866572102968,
+      "offset": 0.9668250767283653
+    },
+    "incompatible_records": [],
+    "particle_ess": 30.610227682872832,
+    "particle_count": 72,
+    "records": 1,
+    "supported": null,
+    "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+    "engineering_release": "not_supported"
+  },
+  "ranked_experiments": [
+    {
+      "experiment": "heat_high",
+      "expected_information_gain_nats": 0.5231293851384626,
+      "monte_carlo_standard_error_nats": 0.022617135096410553,
+      "mean_separation_score": 7.221710636768064,
+      "most_separating_observation": 2,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          45,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 135,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            330.53978954631503,
+            342.16147123611177,
+            348.7656044841874
+          ],
+          "predictive_p05_K": [
+            328.9947828085857,
+            339.19079422040096,
+            344.84315380021764
+          ],
+          "predictive_p95_K": [
+            331.99824250066393,
+            345.4510372615654,
+            353.38289883362154
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            332.0773442818225,
+            345.7611081623586,
+            354.14314770026607
+          ],
+          "predictive_p05_K": [
+            330.3090681654425,
+            343.54632377538695,
+            351.76473402703596
+          ],
+          "predictive_p95_K": [
+            333.50992101497036,
+            347.73815493773793,
+            356.6533726433678
+          ]
+        }
+      },
+      "finite_grid_peak_K": 362.5937344187673
+    },
+    {
+      "experiment": "cooldown",
+      "expected_information_gain_nats": 0.47316925551309363,
+      "monte_carlo_standard_error_nats": 0.022244997466767818,
+      "mean_separation_score": 6.619538588103986,
+      "most_separating_observation": 0,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          40,
+          80,
+          120,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 150,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            320.9123940117963,
+            313.7288207021123,
+            308.7253465528143
+          ],
+          "predictive_p05_K": [
+            318.90281390838726,
+            311.42817911018483,
+            306.36571646285915
+          ],
+          "predictive_p95_K": [
+            323.05789053137556,
+            316.3348776605408,
+            311.53234654733745
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            323.0614089947912,
+            316.23783939385254,
+            311.19845099304683
+          ],
+          "predictive_p05_K": [
+            321.9845427457153,
+            315.29820844367305,
+            310.20342786283516
+          ],
+          "predictive_p95_K": [
+            324.1592726717397,
+            317.18553668240867,
+            312.1248417594496
+          ]
+        }
+      },
+      "finite_grid_peak_K": 330.60231673584445
+    },
+    {
+      "experiment": "heat_low",
+      "expected_information_gain_nats": 0.3679446378129861,
+      "monte_carlo_standard_error_nats": 0.02160015216760823,
+      "mean_separation_score": 2.171698635476712,
+      "most_separating_observation": 2,
+      "cost": 1,
+      "details": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          30,
+          120
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 60,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "predictions": {
+        "convection": {
+          "mean_K": [
+            306.5518977150849,
+            311.0750887886317,
+            314.2794819606944
+          ],
+          "predictive_p05_K": [
+            305.9707413972087,
+            310.2921959929647,
+            313.12434389829025
+          ],
+          "predictive_p95_K": [
+            307.0760122892265,
+            311.8519080870103,
+            315.46174865433466
+          ]
+        },
+        "offset": {
+          "mean_K": [
+            306.4735484043315,
+            311.54268230148534,
+            315.3416795409202
+          ],
+          "predictive_p05_K": [
+            305.88879510708887,
+            310.860074973001,
+            314.53509320700573
+          ],
+          "predictive_p95_K": [
+            306.9997309061134,
+            312.16611974737907,
+            316.14595859418046
+          ]
+        }
+      },
+      "finite_grid_peak_K": 318.7169355567213
+    }
+  ],
+  "outcomes": {
+    "information_gain": {
+      "experiment": "heat_high",
+      "posterior": {
+        "status": "supported_hypothesis",
+        "model_probability": {
+          "convection": 1.0,
+          "offset": 2.5652624016478795e-70
+        },
+        "best_grid_fit_tail_probability": {
+          "convection": 0.9168060619113302,
+          "offset": 4.08524918196117e-68
+        },
+        "incompatible_records": [],
+        "particle_ess": 1.8771750930618762,
+        "particle_count": 72,
+        "records": 2,
+        "supported": "convection",
+        "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+        "engineering_release": "not_supported"
+      },
+      "brier": 0.0,
+      "decided": true,
+      "wrong": false
+    },
+    "fixed_cooldown": {
+      "experiment": "cooldown",
+      "posterior": {
+        "status": "supported_hypothesis",
+        "model_probability": {
+          "convection": 1.0,
+          "offset": 1.1125162566893168e-57
+        },
+        "best_grid_fit_tail_probability": {
+          "convection": 0.684946122589539,
+          "offset": 8.994772551216142e-56
+        },
+        "incompatible_records": [],
+        "particle_ess": 2.2785822604438812,
+        "particle_count": 72,
+        "records": 2,
+        "supported": "convection",
+        "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+        "engineering_release": "not_supported"
+      },
+      "brier": 0.0,
+      "decided": true,
+      "wrong": false
+    },
+    "random": {
+      "experiment": "cooldown",
+      "posterior": {
+        "status": "supported_hypothesis",
+        "model_probability": {
+          "convection": 1.0,
+          "offset": 1.1125162566893168e-57
+        },
+        "best_grid_fit_tail_probability": {
+          "convection": 0.684946122589539,
+          "offset": 8.994772551216142e-56
+        },
+        "incompatible_records": [],
+        "particle_ess": 2.2785822604438812,
+        "particle_count": 72,
+        "records": 2,
+        "supported": "convection",
+        "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+        "engineering_release": "not_supported"
+      },
+      "brier": 0.0,
+      "decided": true,
+      "wrong": false
+    },
+    "mean_separation": {
+      "experiment": "heat_high",
+      "posterior": {
+        "status": "supported_hypothesis",
+        "model_probability": {
+          "convection": 1.0,
+          "offset": 2.5652624016478795e-70
+        },
+        "best_grid_fit_tail_probability": {
+          "convection": 0.9168060619113302,
+          "offset": 4.08524918196117e-68
+        },
+        "incompatible_records": [],
+        "particle_ess": 1.8771750930618762,
+        "particle_count": 72,
+        "records": 2,
+        "supported": "convection",
+        "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+        "engineering_release": "not_supported"
+      },
+      "brier": 0.0,
+      "decided": true,
+      "wrong": false
+    }
+  }
+}

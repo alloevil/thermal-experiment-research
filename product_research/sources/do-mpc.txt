@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `product_research/sources/do-mpc.txt`
+
+Original SHA-256: `d4311fa835d171a9a55c3da264c65d54303888318ddcabad46ae880bce5d2351`
+
+Sources:
+- https://raw.githubusercontent.com/do-mpc/do-mpc/master/README.md
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

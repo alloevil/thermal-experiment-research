@@ -1,0 +1,11 @@
+{
+  "parameters": {
+    "convection": 1.4,
+    "offset": 0.0,
+    "gain": 1.0,
+    "capacity": 1.0
+  },
+  "seed": 20261001,
+  "cells": 96,
+  "scope": "Existing developer fixture, not an unseen benchmark; never passed to workflow commands"
+}

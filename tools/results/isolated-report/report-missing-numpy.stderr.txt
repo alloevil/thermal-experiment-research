@@ -1,0 +1,1 @@
+当前Python不能导入NumPy；请显式使用 feasibility/.venv/bin/python 运行 report。未安装依赖或执行实验。

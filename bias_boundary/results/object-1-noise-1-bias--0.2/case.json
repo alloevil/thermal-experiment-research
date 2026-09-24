@@ -1,0 +1,83 @@
+{
+  "id": "object-1-noise-1-bias--0.2",
+  "object": 1,
+  "noise": 1,
+  "bias_K": -0.2,
+  "fit": {
+    "ratios": [
+      0.9378388403778094,
+      1.101569764679276,
+      0.9716271609483146,
+      0.9971818102314068
+    ],
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "scipy_nfev": 8,
+    "actual_solver_calls": 40,
+    "wall_seconds": 5.009808435104787,
+    "train_rmse_K": 0.13245350051165272,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2759.7515401343026,
+      261.377062461604,
+      141.55185823906834,
+      46.37805072569632
+    ],
+    "jacobian_condition": 59.5055526688022,
+    "jacobian_column_cosines": [
+      [
+        1.0,
+        0.03296360392672189,
+        0.11511328958657971,
+        -0.11425023437225455
+      ],
+      [
+        0.03296360392672189,
+        1.0000000000000002,
+        0.9905902809877994,
+        -0.9583264517848041
+      ],
+      [
+        0.11511328958657971,
+        0.9905902809877994,
+        1.0,
+        -0.9577351054317331
+      ],
+      [
+        -0.11425023437225455,
+        -0.9583264517848041,
+        -0.9577351054317331,
+        0.9999999999999997
+      ]
+    ]
+  },
+  "fit_hash": "8aca3c77c01f72d90897da6fdd882a41f0810b51d12b1f00fb75b47533019376",
+  "alarm_hash": "201ec98d5f7c1f5ec5a6dfd7e00addf9e4eaf10eed69e87ef27fbdfa45960453",
+  "alarm": {
+    "training": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.13245350051165272,
+      "max_sensor_mean_residual_K": 0.04770181690425682
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.13680916158885564,
+      "max_sensor_mean_residual_K": 0.03842764915060807
+    },
+    "combined": false
+  },
+  "score": {
+    "rmse_K": 0.3377761531800784,
+    "final_mean_error_K": 0.2157355912875687,
+    "inadequate": false
+  },
+  "near_boundary": false
+}

@@ -1,0 +1,86 @@
+NOMINAL CONTROL success=True time=1.11s
+FIT object=0 noise=0 success=True train=0.0892K cond=54.7
+RESULT 0/0: heldout 1.4028->0.0272K feasible True->True
+FIT object=0 noise=1 success=True train=0.1011K cond=55.2
+RESULT 0/1: heldout 1.4028->0.0071K feasible True->True
+/mnt/newdisk/github/astra/research/thermal-ai4engineering/feasibility/.venv/lib/python3.12/site-packages/scipy/integrate/_ivp/bdf.py:421: RuntimeWarning: invalid value encountered in subtract
+  D[order + 2] = d - D[order + 1]
+FIT object=1 noise=0 success=True train=0.0994K cond=61.3
+RESULT 1/0: heldout 1.2435->0.0159K feasible True->True
+FIT object=1 noise=1 success=True train=0.0885K cond=62.0
+RESULT 1/1: heldout 1.2435->0.0283K feasible True->True
+FIT object=2 noise=0 success=True train=0.0984K cond=59.9
+RESULT 2/0: heldout 0.0621->0.0383K feasible True->True
+FIT object=2 noise=1 success=True train=0.1010K cond=60.0
+RESULT 2/1: heldout 0.0621->0.0158K feasible True->True
+FIT object=3 noise=0 success=True train=0.1063K cond=63.2
+RESULT 3/0: heldout 2.0614->0.0172K feasible False->True
+FIT object=3 noise=1 success=True train=0.0939K cond=62.8
+RESULT 3/1: heldout 2.0614->0.0264K feasible False->True
+FIT object=4 noise=0 success=True train=0.1076K cond=59.2
+RESULT 4/0: heldout 1.1779->0.0691K feasible False->True
+FIT object=4 noise=1 success=True train=0.0879K cond=59.5
+RESULT 4/1: heldout 1.1779->0.0386K feasible False->True
+FIT object=5 noise=0 success=True train=0.0902K cond=62.2
+RESULT 5/0: heldout 0.9175->0.0161K feasible True->True
+FIT object=5 noise=1 success=True train=0.0860K cond=62.3
+RESULT 5/1: heldout 0.9175->0.0453K feasible True->True
+FIT object=6 noise=0 success=True train=0.1009K cond=62.1
+RESULT 6/0: heldout 1.2615->0.0224K feasible False->True
+FIT object=6 noise=1 success=True train=0.0942K cond=61.6
+RESULT 6/1: heldout 1.2615->0.0203K feasible False->True
+FIT object=7 noise=0 success=True train=0.0997K cond=54.7
+RESULT 7/0: heldout 3.4564->0.0211K feasible False->True
+FIT object=7 noise=1 success=True train=0.0936K cond=55.3
+RESULT 7/1: heldout 3.4564->0.0244K feasible False->True
+{
+  "status": "COMPLETED",
+  "object_count": 8,
+  "fit_count": 16,
+  "fit_success_count": 16,
+  "control_success_count": 16,
+  "nominal_control_success": true,
+  "nominal_feasible_objects": 4,
+  "calibrated_feasible_runs": 16,
+  "nominal_heldout_rmse_median_K": 1.252475599108711,
+  "calibrated_heldout_rmse_median_K": 0.023412031212502966,
+  "paired_prediction_improvements": 16,
+  "paired_control_mse_improvements": 16,
+  "fit_wall_seconds_sum": 74.66330616897903,
+  "fit_solver_calls_sum": 610,
+  "calibrated_control_wall_seconds_sum": 171.89774254290387,
+  "calibrated_control_solver_calls_sum": 2179,
+  "nominal_control": {
+    "success": true,
+    "message": "Optimization terminated successfully",
+    "iterations": 1,
+    "actual_solver_calls": 13,
+    "wall_seconds": 1.1091973870061338,
+    "powers": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.7251080869397675,
+        0.6442949450346734,
+        0.6702493787061604
+      ],
+      [
+        0.5303926619463375,
+        0.42874993977962667,
+        0.3990144216509867
+      ],
+      [
+        0.37575713012308487,
+        0.29309461093412204,
+        0.25596856944730323
+      ]
+    ],
+    "predicted_mse_K2": 9.349958429005659
+  },
+  "invocation_wall_seconds": 256.77044049603865,
+  "all_refinement_checks_pass": true,
+  "refinement_classification_flips": []
+}

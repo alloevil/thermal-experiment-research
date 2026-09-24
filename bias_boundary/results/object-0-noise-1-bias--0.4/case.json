@@ -1,0 +1,85 @@
+{
+  "id": "object-0-noise-1-bias--0.4",
+  "object": 0,
+  "noise": 1,
+  "bias_K": -0.4,
+  "fit": {
+    "ratios": [
+      0.9992667759474659,
+      0.983436117334317,
+      0.8537578861247597,
+      0.9682714461294861
+    ],
+    "success": true,
+    "status": 3,
+    "message": "`xtol` termination condition is satisfied.",
+    "scipy_nfev": 10,
+    "actual_solver_calls": 42,
+    "wall_seconds": 5.1081030608620495,
+    "train_rmse_K": 0.20245390576844616,
+    "active_mask": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "singular_values": [
+      2940.2153076858726,
+      280.57548538018517,
+      136.4276797906093,
+      47.886206807081486
+    ],
+    "jacobian_condition": 61.4000461454606,
+    "jacobian_column_cosines": [
+      [
+        1.0,
+        0.02279194331665455,
+        0.10038495219353187,
+        -0.10230093872400875
+      ],
+      [
+        0.02279194331665455,
+        0.9999999999999999,
+        0.9914085947325558,
+        -0.958813368246545
+      ],
+      [
+        0.10038495219353187,
+        0.9914085947325558,
+        0.9999999999999998,
+        -0.9577890425127638
+      ],
+      [
+        -0.10230093872400875,
+        -0.958813368246545,
+        -0.9577890425127638,
+        1.0000000000000002
+      ]
+    ]
+  },
+  "fit_hash": "00a85054c2d008d1aba09f51070085e0dd375aa4a061c73f5dab8dbd6ffbcc11",
+  "alarm_hash": "21ba02c010a070286748462895e7f0025afe8150b628689a1d926a0a787680f3",
+  "alarm": {
+    "training": {
+      "alarm": true,
+      "reasons": [
+        "residual_rmse_above_0.2K"
+      ],
+      "rmse_K": 0.20245390576844619,
+      "max_sensor_mean_residual_K": 0.08448684034172634
+    },
+    "diagnostic": {
+      "alarm": false,
+      "reasons": [],
+      "rmse_K": 0.1854165302598884,
+      "max_sensor_mean_residual_K": 0.08208590399447857
+    },
+    "combined": true
+  },
+  "score": {
+    "rmse_K": 0.6304947854326725,
+    "final_mean_error_K": 0.461353026252425,
+    "inadequate": true
+  },
+  "near_boundary": true
+}

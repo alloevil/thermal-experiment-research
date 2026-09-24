@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Day333--ThermalBench",
+    "url": "https://api.github.com/repos/Day333/ThermalBench/readme",
+    "repository": "https://github.com/Day333/ThermalBench",
+    "accessed_at": "2026-09-23T22:52:15.866489+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/Day333--ThermalBench.md",
+    "sha256": "53383cfa5b7ee0dc240d90b70db4231db8623480612f1f1f185571e8d8467233"
+  },
+  {
+    "id": "cnr-inm-mao--l2-sea-benchmark",
+    "url": "https://api.github.com/repos/cnr-inm-mao/l2-sea-benchmark/readme",
+    "repository": "https://github.com/cnr-inm-mao/l2-sea-benchmark",
+    "accessed_at": "2026-09-23T22:52:15.867016+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/cnr-inm-mao--l2-sea-benchmark.md",
+    "sha256": "9fd62074ef54761ab6bea6e8fe293e0ed72b083754607c59eb396a5e2479db62"
+  },
+  {
+    "id": "nabenabe0928--mfhpo-simulator",
+    "url": "https://api.github.com/repos/nabenabe0928/mfhpo-simulator/readme",
+    "repository": "https://github.com/nabenabe0928/mfhpo-simulator",
+    "accessed_at": "2026-09-23T22:52:15.867365+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/nabenabe0928--mfhpo-simulator.md",
+    "sha256": "f7053dca552d769d7820459e5b04bcfe43081ae81a8cb21f4388aff16c277719"
+  },
+  {
+    "id": "MoSharkawy37--Rapid-Thermal-Processing-Simulation",
+    "url": "https://api.github.com/repos/MoSharkawy37/Rapid-Thermal-Processing-Simulation/readme",
+    "repository": "https://github.com/MoSharkawy37/Rapid-Thermal-Processing-Simulation",
+    "accessed_at": "2026-09-23T22:52:15.867853+00:00",
+    "status": 200,
+    "path": "research/thermal-ai4engineering/sources/MoSharkawy37--Rapid-Thermal-Processing-Simulation.md",
+    "sha256": "be9a02b2e3e70403301af3fc913093758ad85380ba4a115a455bd805ff3a1da7"
+  }
+]

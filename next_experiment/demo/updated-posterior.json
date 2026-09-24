@@ -1,0 +1,18 @@
+{
+  "status": "supported_hypothesis",
+  "model_probability": {
+    "convection": 1.0,
+    "offset": 3.348479336549548e-35
+  },
+  "best_grid_fit_tail_probability": {
+    "convection": 0.9144973581055874,
+    "offset": 1.6321166421504298e-33
+  },
+  "incompatible_records": [],
+  "particle_ess": 1.0062994326839514,
+  "particle_count": 72,
+  "records": 2,
+  "supported": "convection",
+  "meaning": "Relative support within two finite candidate grids, not proven root cause or calibrated confidence.",
+  "engineering_release": "not_supported"
+}

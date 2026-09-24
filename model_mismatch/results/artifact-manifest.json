@@ -1,0 +1,690 @@
+[
+  {
+    "file": "RESULTS.md",
+    "sha256": "ddc5471917e328e2b11f9f9c0ffcb93f56ceda08b762f0bdd7d1d9acdec51806"
+  },
+  {
+    "file": "experiment.py",
+    "sha256": "72928f19e6ce37da078bb21fd22e55055a6f83be302f5185a6f843b22d849900"
+  },
+  {
+    "file": "logs/experiment.log",
+    "sha256": "72578fb9fbbcf83f64dcfccb403f16345f8ee8e41079a6f067bfcd2e7252fda3"
+  },
+  {
+    "file": "logs/verification.log",
+    "sha256": "d58f4bffd0c74be12ae3f7f05536e56ea9f4bbcaa4d70eb10f38a558c45b1478"
+  },
+  {
+    "file": "protocol.md",
+    "sha256": "87b94a16813866a4155ee8abbc4346aa48bff3ede6dab1a197408062c5ceab23"
+  },
+  {
+    "file": "results/config.json",
+    "sha256": "14399d50039ab09785906b3a1f58ff6a3f885459ebfa9f236b6e89a98122c062"
+  },
+  {
+    "file": "results/environment.json",
+    "sha256": "fe6ce1241c9ea14a67eb936328591097cc56280c0080e86e95c7a7592ce551a5"
+  },
+  {
+    "file": "results/lag-check.json",
+    "sha256": "668c22b74ac7caf0cdfad8f7a02857a64fb0f5862108bc6197d79d9be39042fd"
+  },
+  {
+    "file": "results/mismatch.png",
+    "sha256": "133c8d529639a716a3c88643b4c7f377ba7f8fd27c49519275cecbe10b04469e"
+  },
+  {
+    "file": "results/object-0-bias/alarm.json",
+    "sha256": "6773ae7d1e9650724d5a3fc32b5e49229b0c904190cdc0e1299283bcba23643b"
+  },
+  {
+    "file": "results/object-0-bias/case.json",
+    "sha256": "abac109e21238a86028293cc2b1e005011cc3a0d538a74bb714062bd11dcea20"
+  },
+  {
+    "file": "results/object-0-bias/diagnostic.npz",
+    "sha256": "459f2ea847fd6f58418de5f2f4496cd29d9482d43efa5533f27624178962d01a"
+  },
+  {
+    "file": "results/object-0-bias/evaluation.npz",
+    "sha256": "3c091ee08f3a159bbc3a64f6d23615a091b8fff9405b8f2bcbd87cc53d14a760"
+  },
+  {
+    "file": "results/object-0-bias/fit-calls.jsonl",
+    "sha256": "664411994e4ed61df9bc8bd7066fde7620b720ba6aa0d9271811b6f5391122bc"
+  },
+  {
+    "file": "results/object-0-bias/fit-diagnostics.npz",
+    "sha256": "ec515a4b457ec3ebb65679b63e652233451d4586f74c2f8ea5c5274a141cb734"
+  },
+  {
+    "file": "results/object-0-bias/fit.json",
+    "sha256": "ac856c2a5121562ea2762ed78a98e15cb5772064b5e433464d74e10d14eeae38"
+  },
+  {
+    "file": "results/object-0-bias/train-prediction.npz",
+    "sha256": "592dcf98eb6a271f4de6c68b3e7c976862a037d5c64c713df1bde44d7fe04d91"
+  },
+  {
+    "file": "results/object-0-bias/training-energy.json",
+    "sha256": "67bbff073f27c81cfc3741a960f209a0dbb0dc828dada16fb6f66cd493ca0213"
+  },
+  {
+    "file": "results/object-0-bias/training.npz",
+    "sha256": "4b2e4c35d9ed5f2a2b834d012cbfdacb9c0d9acced90be68f2bfa7ee39a9dd06"
+  },
+  {
+    "file": "results/object-0-clean/alarm.json",
+    "sha256": "ab774d174748b4dd91d3055e7ec73395d148722cd9bec8c3e633729f436f63d0"
+  },
+  {
+    "file": "results/object-0-clean/case.json",
+    "sha256": "933fc6bdfc3c3cfa592e2dd717f22c49f18f0eb899bd3feafb4946e7ce731126"
+  },
+  {
+    "file": "results/object-0-clean/diagnostic.npz",
+    "sha256": "6435962f05179c126130572414c6bca9ea01a9abdeec44b4fd9b150967c23634"
+  },
+  {
+    "file": "results/object-0-clean/evaluation.npz",
+    "sha256": "d5f03c8e1af39804edb5a6567914a99b6794aa42c0ba7f427ed4f7408f202f48"
+  },
+  {
+    "file": "results/object-0-clean/fit-calls.jsonl",
+    "sha256": "c8e37c895437bb2251225f75e270562b70140cd4a9d4c39e4df9f9699ac26f79"
+  },
+  {
+    "file": "results/object-0-clean/fit-diagnostics.npz",
+    "sha256": "1073c7b66ec6f1997626ad86f7d0092176470603bf9025e7f06f49545b27eea5"
+  },
+  {
+    "file": "results/object-0-clean/fit.json",
+    "sha256": "46df45190053360b21f0e8e9fc3e0d97cbaa6dde7d66346e7b8f992daccf74d1"
+  },
+  {
+    "file": "results/object-0-clean/train-prediction.npz",
+    "sha256": "845c2e08d07e03a8005bfd271209b41c52f4d4823d1bc42859a60284e794ca92"
+  },
+  {
+    "file": "results/object-0-clean/training-energy.json",
+    "sha256": "55b2dcf6f02d3aecd7855171d0f3c5ba0a5327a3cdc1cb57a7890f4465446944"
+  },
+  {
+    "file": "results/object-0-clean/training.npz",
+    "sha256": "c688955a05aa7c7d6189fffec8b82dceeeb11272f0ac180cd456b889ad711c15"
+  },
+  {
+    "file": "results/object-0-cooling/alarm.json",
+    "sha256": "9a3c8e35c214d0292c5a44d56465571d694470e0d888b497d0467bf51048b137"
+  },
+  {
+    "file": "results/object-0-cooling/case.json",
+    "sha256": "134ad54be0e5b227dde725706ec252b8f9eaf7ec63ebcbc40048602518090738"
+  },
+  {
+    "file": "results/object-0-cooling/diagnostic.npz",
+    "sha256": "87b4a24659a63a98fbc35c55894ac125d276f16a6848d14cb7a9ea5cf42c5f65"
+  },
+  {
+    "file": "results/object-0-cooling/evaluation.npz",
+    "sha256": "bfcbf3c005f9af688459cc0407b4ec353cca2b37432ea5d191b0094e5ef9ab9e"
+  },
+  {
+    "file": "results/object-0-cooling/fit-calls.jsonl",
+    "sha256": "7406e7da6cd23a9c7b62d4ae0ca92ce6a63eb7ca5961ca75fea0fc1a65266433"
+  },
+  {
+    "file": "results/object-0-cooling/fit-diagnostics.npz",
+    "sha256": "aa114378acb3015b4ca28ab5afac1c1a2872b20e510ec09923a78e76bc135ce1"
+  },
+  {
+    "file": "results/object-0-cooling/fit.json",
+    "sha256": "a245a2be17735d3efbb510353e984924ab855ccaf44c1a30ffa9f4618c9116f6"
+  },
+  {
+    "file": "results/object-0-cooling/train-prediction.npz",
+    "sha256": "b7d30b65048742d918e026a0b35cdf77616d17451f64707744321d582142aa39"
+  },
+  {
+    "file": "results/object-0-cooling/training-energy.json",
+    "sha256": "b5f18a6da8449c22506d569fbae1bc6989f446900cfb6fed1173088138773fe3"
+  },
+  {
+    "file": "results/object-0-cooling/training.npz",
+    "sha256": "5b7acc1dd2542b879bb6236177bf307e3b2ef37de193387e372e33f5bd6e0846"
+  },
+  {
+    "file": "results/object-0-lag/alarm.json",
+    "sha256": "f32915ad7462c2c00c32d9b202d24ab940915b2134d739d737f40aef43716d8e"
+  },
+  {
+    "file": "results/object-0-lag/case.json",
+    "sha256": "0a21fb746710b02368606cf412fc2a0e4df537c22aa2394f12bc69f2fdcee218"
+  },
+  {
+    "file": "results/object-0-lag/diagnostic.npz",
+    "sha256": "98c06b0cfab4d6fe3a450cd257e8fc302f4f1a61baabe3027c1a4787f5a18dc1"
+  },
+  {
+    "file": "results/object-0-lag/evaluation.npz",
+    "sha256": "47a289c5cadcf1c89c496c30eaa3b8bafb6a4951cdaced2f9208fe499cccca25"
+  },
+  {
+    "file": "results/object-0-lag/fit-calls.jsonl",
+    "sha256": "7446c0483a21782303788428845b5f42c40b2fa1b1bcf85d1327087f9c428d1b"
+  },
+  {
+    "file": "results/object-0-lag/fit-diagnostics.npz",
+    "sha256": "a6e2c4e8543d16c8c75f70f9adde1e212ab31114e1a10dfc86bb26b20fcd362d"
+  },
+  {
+    "file": "results/object-0-lag/fit.json",
+    "sha256": "665b0ece015a2409011ba8da0d6789f8127154addfefd0872cd09677229394aa"
+  },
+  {
+    "file": "results/object-0-lag/train-prediction.npz",
+    "sha256": "8c02f0cf686ffde50f43b48e49ca394f23e3d2f312caea676a419a1896f980a5"
+  },
+  {
+    "file": "results/object-0-lag/training-energy.json",
+    "sha256": "66eb6ae39fad586f3a0b9d7f48a8e9b4ff2e1cb32e004fb9469c851bc89c850b"
+  },
+  {
+    "file": "results/object-0-lag/training.npz",
+    "sha256": "86fd42a5f68304c1297d330df41b9051c69b6e89a772295d4396bdf28adb9c76"
+  },
+  {
+    "file": "results/object-1-bias/alarm.json",
+    "sha256": "2b7a2c16ed662ba6d8c94c6f8bad01ece14763c4b2c3ed3ac32bba5386531039"
+  },
+  {
+    "file": "results/object-1-bias/case.json",
+    "sha256": "2024ebc496040d4987c59af9135a2a9453448c4c2e89d24121722acc709ea868"
+  },
+  {
+    "file": "results/object-1-bias/diagnostic.npz",
+    "sha256": "17c355139d4976e8f07a93dc1ba45fe3b4ed33a423331a80baa95cdbe53d7f1b"
+  },
+  {
+    "file": "results/object-1-bias/evaluation.npz",
+    "sha256": "1bb081f26ec9a33d7543418206162f3741218478d0f0f56539162ae892cd9a3b"
+  },
+  {
+    "file": "results/object-1-bias/fit-calls.jsonl",
+    "sha256": "e900f94010d7e1e177b294b8a7214af63df42e4cf77cd1d5b9aeaad67f525d63"
+  },
+  {
+    "file": "results/object-1-bias/fit-diagnostics.npz",
+    "sha256": "d560b10ab2bf9576bb19fd29e6e785fb1ba9788e5a15ed4e6cad0a08c45f78e5"
+  },
+  {
+    "file": "results/object-1-bias/fit.json",
+    "sha256": "46047f6675f4c2214a19173465e5e58933f252c8e93a20dc391b13a820ef85af"
+  },
+  {
+    "file": "results/object-1-bias/train-prediction.npz",
+    "sha256": "c6b16d1c4fc87a4e6717c10368eed02373bb4c8fa8c43ce3bd05f94f54cbfe1c"
+  },
+  {
+    "file": "results/object-1-bias/training-energy.json",
+    "sha256": "324fb38b54d5617a3469527151e9e288c60a4abb57ea362f2573d4a7c36bd64d"
+  },
+  {
+    "file": "results/object-1-bias/training.npz",
+    "sha256": "e046c6a1d4840b83a126ccb7b212853cec10e37fe9eab8c4d798ad044f0b06d3"
+  },
+  {
+    "file": "results/object-1-clean/alarm.json",
+    "sha256": "39a266ea2ff51ae3846176911993025f5f29906a4b15b834450d058664c7f894"
+  },
+  {
+    "file": "results/object-1-clean/case.json",
+    "sha256": "57be64b374ff0ba1b424508ffd13b91fca34978cde377612089a1ef6bc947216"
+  },
+  {
+    "file": "results/object-1-clean/diagnostic.npz",
+    "sha256": "31024fb5fc835763caa13816039892c07a98e3cfb8f8f0f9fe2cf0f01765271c"
+  },
+  {
+    "file": "results/object-1-clean/evaluation.npz",
+    "sha256": "92bca44def40867f35a7f7ccee8bdb3cfe742e136846a270ba7b0a78967b5f63"
+  },
+  {
+    "file": "results/object-1-clean/fit-calls.jsonl",
+    "sha256": "1a0758262ab2a7bbf87ab81356693c1030913d4dff83ea426a94955328ff80cc"
+  },
+  {
+    "file": "results/object-1-clean/fit-diagnostics.npz",
+    "sha256": "dc14f5dfef3d5b36ae08a1123a38e314b2c53fd750fd19e73e13c52b5f7c24f7"
+  },
+  {
+    "file": "results/object-1-clean/fit.json",
+    "sha256": "634ab2cdd003619132d7a31d4c970d0ed1339e607246611431346de4d6849526"
+  },
+  {
+    "file": "results/object-1-clean/train-prediction.npz",
+    "sha256": "ec85d1a6257bb5d85e9798f1ed17008c62271ea37756f25c8d667ca5ad2ef7b6"
+  },
+  {
+    "file": "results/object-1-clean/training-energy.json",
+    "sha256": "6c5420fc9679de4e202ecebbe8443f225e25707c0ee2354ab392003638db8d27"
+  },
+  {
+    "file": "results/object-1-clean/training.npz",
+    "sha256": "8e949411513c39af31430605e4d8cbf4832073327cd482fc403545afd19ac9ea"
+  },
+  {
+    "file": "results/object-1-cooling/alarm.json",
+    "sha256": "5b2903f1ace0f2396ae557519c660518a8cb69ed771399b03a910b27d133ba51"
+  },
+  {
+    "file": "results/object-1-cooling/case.json",
+    "sha256": "e944003e213ce3a4f2c210a6c23e8ae4395297e412ad69c83727667d667b2951"
+  },
+  {
+    "file": "results/object-1-cooling/diagnostic.npz",
+    "sha256": "7d7fbdae43458bb106be406a0cd825bf38957411ec78f67f4e5d21d91d2f4198"
+  },
+  {
+    "file": "results/object-1-cooling/evaluation.npz",
+    "sha256": "fc12d7cff7cbcd987864a25fccf2500d1102b7e0cbce07b76b2afff99408d204"
+  },
+  {
+    "file": "results/object-1-cooling/fit-calls.jsonl",
+    "sha256": "95884111317ba2f59fa60fd0db5fb0e0b4d6641b11c142702dd677cc6ac3a1ae"
+  },
+  {
+    "file": "results/object-1-cooling/fit-diagnostics.npz",
+    "sha256": "95f8f48eff6dde4ccc711a46cb3bd19bd4be5aa92d4a284373cd947ee2072cec"
+  },
+  {
+    "file": "results/object-1-cooling/fit.json",
+    "sha256": "1be3053fe412d173adc83375794bb458996dc58a68e4b44642984fe3610a3865"
+  },
+  {
+    "file": "results/object-1-cooling/train-prediction.npz",
+    "sha256": "38475132741486754bfedc0c60715e565215d2ff1d969f273a25b0382fdf5422"
+  },
+  {
+    "file": "results/object-1-cooling/training-energy.json",
+    "sha256": "8ab2830d630055d38ba7b8f568247d3bee799409a51d3cb7a9da48c4565957d7"
+  },
+  {
+    "file": "results/object-1-cooling/training.npz",
+    "sha256": "bdc60c6623c17341c622ed17d8cae7a4ff8747fd06c4c34d22c76b0c04d2bdc3"
+  },
+  {
+    "file": "results/object-1-lag/alarm.json",
+    "sha256": "1b82fc7a25b103c6c7b0d94ea40f7737ae6c96eb54c91ac0f87bf4c4ebbe48e1"
+  },
+  {
+    "file": "results/object-1-lag/case.json",
+    "sha256": "c0e71ac0274330c7cd6d273e913bf7176b27a1b8ac48225a030b0bfb7ba2991e"
+  },
+  {
+    "file": "results/object-1-lag/diagnostic.npz",
+    "sha256": "e64d7758ee3f7ecd961e32fd208238bb3ebf1750b28c5ce6cd549406abf04953"
+  },
+  {
+    "file": "results/object-1-lag/evaluation.npz",
+    "sha256": "89acaff19954ce3c885dfece4d9adbd6d9eefed7b973735092881eba6b8031c9"
+  },
+  {
+    "file": "results/object-1-lag/fit-calls.jsonl",
+    "sha256": "877f9084e20aaa31bea3a326d631b627422de366a8d07f19370aed42b5d58e43"
+  },
+  {
+    "file": "results/object-1-lag/fit-diagnostics.npz",
+    "sha256": "27717389b704e6c9ce5adeb0bba6e51208f8bb56ce0210bb5fbc604b4f1c5526"
+  },
+  {
+    "file": "results/object-1-lag/fit.json",
+    "sha256": "ac919fe813a53501e15048a54cfe0f0ef4c7460d431c44f28ba3e06610ad91f7"
+  },
+  {
+    "file": "results/object-1-lag/train-prediction.npz",
+    "sha256": "65544806986692062bc4868e8066046e63983ae78129655a60de3dae0e92236f"
+  },
+  {
+    "file": "results/object-1-lag/training-energy.json",
+    "sha256": "abbc483881458d3dcd31f7cd3863c039a162523bcf6d3b94824052870702215c"
+  },
+  {
+    "file": "results/object-1-lag/training.npz",
+    "sha256": "006571a995912e171fca4a0de180f3037580f24d8020ee7dd8b623f1c1f58336"
+  },
+  {
+    "file": "results/object-2-bias/alarm.json",
+    "sha256": "8f2a6fedfd0ba17097cdf3069ac63c31ed82de7418bd59c2160802ccdb4b43e9"
+  },
+  {
+    "file": "results/object-2-bias/case.json",
+    "sha256": "37664e5e413a497be8ab86948431d81a8d24b16fdc8931dccae2554c88a46461"
+  },
+  {
+    "file": "results/object-2-bias/diagnostic.npz",
+    "sha256": "fcc4ed04eea5c60b88ef9df1881a34a26af125bd8e2d3193fe01c3a2256f022e"
+  },
+  {
+    "file": "results/object-2-bias/evaluation.npz",
+    "sha256": "36001837ee0899f92219a65257d04eb0ce383c040ccb4ed7219e38e321fe8eab"
+  },
+  {
+    "file": "results/object-2-bias/fit-calls.jsonl",
+    "sha256": "0c465ee27ac1ea419753b129fe8686bb02687a1c96cc3674966291c43de8b0a2"
+  },
+  {
+    "file": "results/object-2-bias/fit-diagnostics.npz",
+    "sha256": "0c38228f469a6ab62d4dd321436a405162074ceeb165ba520ee47f0c1167bbd7"
+  },
+  {
+    "file": "results/object-2-bias/fit.json",
+    "sha256": "6e89ceb3113ab62864b6500720856732203fa97416e7b04694182a46f43c60b7"
+  },
+  {
+    "file": "results/object-2-bias/train-prediction.npz",
+    "sha256": "768e0e6f7437d23bcfd9a4bba55c1d52a4d31936e0c6e34e29c2521c1f5ff01d"
+  },
+  {
+    "file": "results/object-2-bias/training-energy.json",
+    "sha256": "e6db1c6b986fb19d7ad8f0f0e7714df3fc19939a1ab2aec1beba12a19e770426"
+  },
+  {
+    "file": "results/object-2-bias/training.npz",
+    "sha256": "72d1b89b82ba99a24be35a2b78ceedddb636e4cf4de597f3cd0e6fc1a81470d5"
+  },
+  {
+    "file": "results/object-2-clean/alarm.json",
+    "sha256": "9b4b568589517505b81c0b1b2ee6399244e9feb756af3a17757800ffcbab3a1a"
+  },
+  {
+    "file": "results/object-2-clean/case.json",
+    "sha256": "86ad80f83b5b3c1c678860161e832760e2f6866884470afa22ad31c8ad58fc32"
+  },
+  {
+    "file": "results/object-2-clean/diagnostic.npz",
+    "sha256": "a8621fe7a98c3cab8c604c97687b69917a2b9c7878946cd841bdc6a90f0e248a"
+  },
+  {
+    "file": "results/object-2-clean/evaluation.npz",
+    "sha256": "e2e09469c165435ce7acc9aad1c568ed1921f39bb5d193fc37a817123828d9b9"
+  },
+  {
+    "file": "results/object-2-clean/fit-calls.jsonl",
+    "sha256": "a70073cf9080264b17a24b323f90ed18aa32b6cd59fe8ec9be95a872abf8d9b6"
+  },
+  {
+    "file": "results/object-2-clean/fit-diagnostics.npz",
+    "sha256": "db40210251c4f5db8859a87bc10bc44c8fa0b0fb3b369f2f28e92ff897780eb7"
+  },
+  {
+    "file": "results/object-2-clean/fit.json",
+    "sha256": "3432c7f32b00aa188262d7c0f01fb0faa3c8963e77375ce97e9cd12aef7b7842"
+  },
+  {
+    "file": "results/object-2-clean/train-prediction.npz",
+    "sha256": "8c54d2ef0b3a1b6336804070f537b8616234bc650c18a5c28c6b77c591311575"
+  },
+  {
+    "file": "results/object-2-clean/training-energy.json",
+    "sha256": "5ea55333e8522025c814afc724ea8f11250f05d6aee3b8ae38cbd76dfdc12591"
+  },
+  {
+    "file": "results/object-2-clean/training.npz",
+    "sha256": "65d57d5f50b56ce48fac81688f2e10736d75f6bff836d7f216b149ca98ca348f"
+  },
+  {
+    "file": "results/object-2-cooling/alarm.json",
+    "sha256": "15c92ee43383c2937a406859e922945eeebf862a0b5d963cdb14691591ec05ea"
+  },
+  {
+    "file": "results/object-2-cooling/case.json",
+    "sha256": "0bf46b08a08ea4ba0e80fa090162dba0d981b9a8fafa25fafc6fffaadcfb565b"
+  },
+  {
+    "file": "results/object-2-cooling/diagnostic.npz",
+    "sha256": "0446d9ead84389eff87896a350e77d375ab26a7acc10815e2daed2403c79cc6f"
+  },
+  {
+    "file": "results/object-2-cooling/evaluation.npz",
+    "sha256": "7b38de345b15ea9627f8181f9661abac535d19e09bdb540ffbfab6870dbcb9fb"
+  },
+  {
+    "file": "results/object-2-cooling/fit-calls.jsonl",
+    "sha256": "aac3b0476e6c08b4bdf69b24cd31a2d00c75572f115071799fd75e85222ede65"
+  },
+  {
+    "file": "results/object-2-cooling/fit-diagnostics.npz",
+    "sha256": "8ef126581b32a1888e4f46cb0c47616a0a733ca303362fe6a7a457b75b046280"
+  },
+  {
+    "file": "results/object-2-cooling/fit.json",
+    "sha256": "925d065c608114dcc70a426e285e4379adaa2531ebe7213aed9412eb8a4c1dbb"
+  },
+  {
+    "file": "results/object-2-cooling/train-prediction.npz",
+    "sha256": "d58b697546da6ec42eca02802d4f15feda40ae267f64856c653c9a7171fbada8"
+  },
+  {
+    "file": "results/object-2-cooling/training-energy.json",
+    "sha256": "9d418efabe42d7ec13bed9e49cc7190d19766952be9d6410dff0427ffbc564cb"
+  },
+  {
+    "file": "results/object-2-cooling/training.npz",
+    "sha256": "13263b52ef21404fea044d5b5a0b00d387dae80bb3a1feff049b4a59143d440f"
+  },
+  {
+    "file": "results/object-2-lag/alarm.json",
+    "sha256": "78f9982e14e78b63fb4986eec4245d0e3199217bc1289d07d0eb620a804f38a0"
+  },
+  {
+    "file": "results/object-2-lag/case.json",
+    "sha256": "5beaf809291acb3719b322dd7393243f1a6c13000533e32bf66e0cf86e525413"
+  },
+  {
+    "file": "results/object-2-lag/diagnostic.npz",
+    "sha256": "62993794b3f449fa20040bd4f2af08df1fb4cf45b1dce8cb7ba63914dd2fcb7d"
+  },
+  {
+    "file": "results/object-2-lag/evaluation.npz",
+    "sha256": "c9bbaaea2b13882ab71d81421990163e160ad5274bd7803d7f51d896bb266a8f"
+  },
+  {
+    "file": "results/object-2-lag/fit-calls.jsonl",
+    "sha256": "11b6374b308bc44abca68ac46cc1d05f29c6148478a9d7f89597ac0a0362ebbb"
+  },
+  {
+    "file": "results/object-2-lag/fit-diagnostics.npz",
+    "sha256": "0ee77844785dad9b1bf6738af7201e753990d6a23e7c3b10662fcd030e6e3181"
+  },
+  {
+    "file": "results/object-2-lag/fit.json",
+    "sha256": "30e828004ae4938b788ce2c9f8884eb907dae5bc64633be31d67750f3aedcacf"
+  },
+  {
+    "file": "results/object-2-lag/train-prediction.npz",
+    "sha256": "2d20b27a1185d07f4aac2da4c8d9bcde7b5f36b26e82509fe1b0650e6f679ce5"
+  },
+  {
+    "file": "results/object-2-lag/training-energy.json",
+    "sha256": "24e789266f00307483a3166a68a8857928e346708389af399fedaf903c9b7468"
+  },
+  {
+    "file": "results/object-2-lag/training.npz",
+    "sha256": "7eff28d75db81434991db7f428351feaacda4ccbc175bf5f495ea9d6995ffa20"
+  },
+  {
+    "file": "results/object-3-bias/alarm.json",
+    "sha256": "954068d76e7f66d144a60f578cc1e93311c7d953b93d63e3c9a7e72674e68b38"
+  },
+  {
+    "file": "results/object-3-bias/case.json",
+    "sha256": "fbdf3ed324804ec394048824e75665276bbeefb69d03c8bfb9a1b39335231d17"
+  },
+  {
+    "file": "results/object-3-bias/diagnostic.npz",
+    "sha256": "62ab745e449a41aa9bf0d65995700ddf00fa025ff883442a4cb0eeaa336d0bb6"
+  },
+  {
+    "file": "results/object-3-bias/evaluation.npz",
+    "sha256": "fd806ff2e6192431f22dc0182ec5b3e671c78877f6a48a48540b49e8f1b13b20"
+  },
+  {
+    "file": "results/object-3-bias/fit-calls.jsonl",
+    "sha256": "062efb8dc7ad828aa63d7931bc516fff75bd5226298cf36d7e22ed129c117907"
+  },
+  {
+    "file": "results/object-3-bias/fit-diagnostics.npz",
+    "sha256": "692ca2e5895524a163ec51abd2f1aaa6f53b7902f9aef0d5161e1e89d76865bc"
+  },
+  {
+    "file": "results/object-3-bias/fit.json",
+    "sha256": "7cdb181bf26f95b0419d780398087dd9cc00cca08a36e36040c8676d9e486c13"
+  },
+  {
+    "file": "results/object-3-bias/train-prediction.npz",
+    "sha256": "ba1dc5e559f8d6cfbe00bc6a9c0cd51a4f2557751d7440f155230eb3ce0db411"
+  },
+  {
+    "file": "results/object-3-bias/training-energy.json",
+    "sha256": "6d432a04fce49f6d5ba7a0f78238333bab07e780cbda8c2a7169b1cf01961666"
+  },
+  {
+    "file": "results/object-3-bias/training.npz",
+    "sha256": "6bf05611fcfbf4e37727ee02ea095779b4a8d92dc9339bed58d4d1742bd49e3c"
+  },
+  {
+    "file": "results/object-3-clean/alarm.json",
+    "sha256": "fa2232e9a551cb6efb1d9bdc337421cfb81daa2a94a3d394843279beb3c1d05e"
+  },
+  {
+    "file": "results/object-3-clean/case.json",
+    "sha256": "f71989319a7fcadee9a644768e99643d04d292d44b7bcb01d98c4291f230e3cd"
+  },
+  {
+    "file": "results/object-3-clean/diagnostic.npz",
+    "sha256": "d722e4a2e48c2ca261a60b4cc2557e11487ae8698bdda52bcd75b4be1780dfd3"
+  },
+  {
+    "file": "results/object-3-clean/evaluation.npz",
+    "sha256": "ae098ca9cdef0830a0c12dd397da7bb1661ec9b607c91db18f10f6dbda1937ac"
+  },
+  {
+    "file": "results/object-3-clean/fit-calls.jsonl",
+    "sha256": "cbdffdd14c2a2665be0546aaf24b7373bdcfbdca890975231df31a7e4ef2be9c"
+  },
+  {
+    "file": "results/object-3-clean/fit-diagnostics.npz",
+    "sha256": "1b1e19d2c6a900dcd34f20d06c8a8a708a495170a2c1f6a4d92d4083cd4ecd5a"
+  },
+  {
+    "file": "results/object-3-clean/fit.json",
+    "sha256": "758c5807dd631d461719fad01cd0e89c64b261dba36c4cbc022f430155ec2a85"
+  },
+  {
+    "file": "results/object-3-clean/train-prediction.npz",
+    "sha256": "d859eb91364a6ea84a79f0bf04498ae177c4538363dc3cfd615a8c838b4faff8"
+  },
+  {
+    "file": "results/object-3-clean/training-energy.json",
+    "sha256": "604eaa2c34a109f8aa636615c32e0c66a86acc3dc7e84f80646dfcaba6bf7fdc"
+  },
+  {
+    "file": "results/object-3-clean/training.npz",
+    "sha256": "20593ad217d3b58583fff6b30f4549b3d7276f594910e1ded728018ea5af6660"
+  },
+  {
+    "file": "results/object-3-cooling/alarm.json",
+    "sha256": "c527af3c00601657788a6482119d06c72a2af8235b028a7265017ff93aa09cd6"
+  },
+  {
+    "file": "results/object-3-cooling/case.json",
+    "sha256": "e13d04623d146c3f30268dd2959679702b9955843daebfaba1f105d72e1ff285"
+  },
+  {
+    "file": "results/object-3-cooling/diagnostic.npz",
+    "sha256": "1266eaadad3de4cd728b825b6479a374fa3dff9becc75148acd0c23b4d286933"
+  },
+  {
+    "file": "results/object-3-cooling/evaluation.npz",
+    "sha256": "c13aeade5ee948beb600d4ef690a7c35228491d8509d2281602ad062f835c2c7"
+  },
+  {
+    "file": "results/object-3-cooling/fit-calls.jsonl",
+    "sha256": "ea2f09ba482677f20be6cf363c1101a21d3f18dd4ca738a20ee506a1c26bea48"
+  },
+  {
+    "file": "results/object-3-cooling/fit-diagnostics.npz",
+    "sha256": "49adce2218c54e5d4f0dbe94ea0eeff8461f0105daf7e57602fec2ad6857c32a"
+  },
+  {
+    "file": "results/object-3-cooling/fit.json",
+    "sha256": "f1c313bc504623349fa12f06841934956ce2487cfd59fc82fc3609a2b53f55c9"
+  },
+  {
+    "file": "results/object-3-cooling/train-prediction.npz",
+    "sha256": "187e0e80bfafc28eacd82391c3d3850ad68f64d2bad7f39bbd48f4e5a01ad15f"
+  },
+  {
+    "file": "results/object-3-cooling/training-energy.json",
+    "sha256": "80a428bbbeaa7326bcc4c3e555abc308c8e517a9a42b1966698543be91f89b41"
+  },
+  {
+    "file": "results/object-3-cooling/training.npz",
+    "sha256": "d58c682f742dcf6a6980f84bcb7163f7d7e70c267bbb58d0c1688edc967a45a4"
+  },
+  {
+    "file": "results/object-3-lag/alarm.json",
+    "sha256": "f839f2271e13abb734e87b6d4c3991798d9260ae3e2d8e47049a557461a2ea7d"
+  },
+  {
+    "file": "results/object-3-lag/case.json",
+    "sha256": "48b6c7aa19493f4b102813f923063e2d920e705c468c0d6c4dd201572c230423"
+  },
+  {
+    "file": "results/object-3-lag/diagnostic.npz",
+    "sha256": "7db8f3024e02b07d7c2c624f5080856134985e3823afef1beb639a3ae64fb363"
+  },
+  {
+    "file": "results/object-3-lag/evaluation.npz",
+    "sha256": "a969f5f7b92152ccb086e7fefd7b052137ecf419b24319b4d7100bc2043d99aa"
+  },
+  {
+    "file": "results/object-3-lag/fit-calls.jsonl",
+    "sha256": "946fdd0c91622d8b44ef1c183611748387141816c6ef896b4eabc684a4560dc8"
+  },
+  {
+    "file": "results/object-3-lag/fit-diagnostics.npz",
+    "sha256": "21c376af166d35ba3496a3e1ca87fefeb7b4b9d1565fde386e510be687bf974e"
+  },
+  {
+    "file": "results/object-3-lag/fit.json",
+    "sha256": "2ac052d8efeab1c10b820038d8b61d5c2538be9f3a833dd6e3facd007146fa52"
+  },
+  {
+    "file": "results/object-3-lag/train-prediction.npz",
+    "sha256": "fd5c99d95b09d5da1faff5db3b092dc4f6481ef8758e9c2795f9f855c32b409b"
+  },
+  {
+    "file": "results/object-3-lag/training-energy.json",
+    "sha256": "e84df580c3380b80600f385ed26c40dfaacff5be26705f8084a1c9affb23c37c"
+  },
+  {
+    "file": "results/object-3-lag/training.npz",
+    "sha256": "ae703806f9db1833f99c9afc2209df5524a8bf48a07b52e7516018da281f6a9c"
+  },
+  {
+    "file": "results/summary.json",
+    "sha256": "a9394ca14354a20953ea247ac6b8883c7f0a43c3903711d42e88defd384af567"
+  },
+  {
+    "file": "results/verification.json",
+    "sha256": "12634e9d016258befa989cbeab96072dafebb0344581ffba8184ecf541334c0b"
+  },
+  {
+    "file": "verify.py",
+    "sha256": "9915df5166adb7f97816abe4c0d512078952ff5bec367f9c645bebdd13189921"
+  }
+]

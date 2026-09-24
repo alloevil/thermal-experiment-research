@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/fenics-heat.txt`
+
+Original SHA-256: `a0bcda6de2628a291e68da2e7aa22c45b6e33ad3d8ae8ee7dec1e3bc32fb6c3d`
+
+Sources:
+- https://jsdokken.com/dolfinx-tutorial/chapter2/heat_equation.html
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

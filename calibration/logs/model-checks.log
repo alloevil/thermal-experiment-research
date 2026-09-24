@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "nominal_max_difference_K": 0.0,
+  "physical_equivalence_max_difference_K": 9.083009899768513e-10,
+  "normalized_ledger_max_difference": 1.0131007144309478e-11,
+  "jacobian_relative_error": 1.4612142972491875e-10,
+  "physical_factors": {
+    "emissivity": 1.08,
+    "convection": 0.96,
+    "heat_capacity": 0.93,
+    "power_gain": 1.04,
+    "axial_conductance": 1.02
+  },
+  "equivalent_ratios": [
+    1.096774193548387,
+    1.032258064516129,
+    1.1612903225806452,
+    1.118279569892473
+  ]
+}

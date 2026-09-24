@@ -1,0 +1,5 @@
+PASS standard-library list/check from unrelated cwd; all 1186 pinned entries matched
+PASS python -O retains checks; invalid stage exits 2 with no report
+PASS real JSON/Markdown report forwarding matches prior outputs; no release assertion
+PASS 1223 prior-stage files unchanged in content, size and mtime; no added/removed files
+SCOPE virtual environment excluded from write audit; no numerical experiment or physical validation performed

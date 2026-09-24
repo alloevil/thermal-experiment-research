@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "new_optimizer_iterations": 18,
+  "new_solver_calls": 191,
+  "optimization_wall_seconds": 6.952464160975069,
+  "optimized": {
+    "mse_K2": 9.348135605938896,
+    "peak_K": 350.6741241743733,
+    "max_spread_K": 1.214789432246448,
+    "final_mean_K": 349.37982888314326
+  },
+  "reference_differences": {
+    "baseline": {
+      "mse_K2": 0.0,
+      "peak_K": 0.0,
+      "max_spread_K": 0.0,
+      "final_mean_K": 0.0
+    },
+    "optimized": {
+      "mse_K2": 0.0,
+      "peak_K": 0.0,
+      "max_spread_K": 0.0,
+      "final_mean_K": 0.0
+    },
+    "linear-radiation": {
+      "mse_K2": 0.0,
+      "peak_K": 0.0,
+      "max_spread_K": 0.0,
+      "final_mean_K": 0.0
+    }
+  },
+  "independent_energy_checks": {
+    "baseline": {
+      "absorbed_J": 287.99999999999994,
+      "independent_balance_J": 1.4579255264379753e-05
+    },
+    "optimized": {
+      "absorbed_J": 231.60936403905646,
+      "independent_balance_J": 8.989629691313894e-06
+    },
+    "linear-radiation": {
+      "absorbed_J": 231.60936403905646,
+      "independent_balance_J": 5.501236074678673e-06
+    }
+  },
+  "scope": "New same-platform ODE and optimization replay, not new physics validation or algorithm comparison."
+}

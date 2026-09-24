@@ -1,0 +1,410 @@
+[
+  {
+    "query": "\"rapid thermal processing\"",
+    "url": "https://api.openalex.org/works?search=%22rapid+thermal+processing%22&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "id": "https://openalex.org/W2084951222",
+        "doi": "https://doi.org/10.1016/s0927-0248(00)00276-2",
+        "title": "Efficient CuInS2 solar cells from a rapid thermal process (RTP)",
+        "publication_year": 2001,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W1576464698",
+        "doi": "https://doi.org/10.1016/b978-0-08-034724-0.50096-2",
+        "title": "Rapid Thermal Processing",
+        "publication_year": 1992,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W1991914667",
+        "doi": "https://doi.org/10.1126/science.1176095",
+        "title": "Grain Boundary Defect Elimination in a Zeolite Membrane by Rapid Thermal Processing",
+        "publication_year": 2009,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W133825022",
+        "doi": "https://doi.org/10.1063/1.118773",
+        "title": "Interfacial characteristics of N2O and NO nitrided SiO2 grown on SiC by rapid thermal processing",
+        "publication_year": 1997,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2029146233",
+        "doi": "https://doi.org/10.1109/16.19935",
+        "title": "Electrical and physical properties of ultrathin reoxidized nitrided oxides prepared by rapid thermal processing",
+        "publication_year": 1989,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W633801999",
+        "doi": null,
+        "title": "Rapid thermal processing : science and technology",
+        "publication_year": 1993,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2133298645",
+        "doi": "https://doi.org/10.1109/66.4383",
+        "title": "Thermal and stress analysis of semiconductor wafers in a rapid thermal processing oven",
+        "publication_year": 1988,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2088816379",
+        "doi": "https://doi.org/10.1063/1.94904",
+        "title": "Diffusion of silicon in gallium arsenide using rapid thermal processing: Experiment and model",
+        "publication_year": 1984,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"multi-fidelity\" \"heat\"",
+    "url": "https://api.openalex.org/works?search=%22multi-fidelity%22+%22heat%22&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "id": "https://openalex.org/W2563751252",
+        "doi": "https://doi.org/10.1016/j.commatsci.2016.12.004",
+        "title": "Multi-fidelity machine learning models for accurate bandgap predictions of solids",
+        "publication_year": 2016,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.commatsci.2016.12.004",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W4389050903",
+        "doi": "https://doi.org/10.3934/acse.2023015",
+        "title": "Review of multi-fidelity models",
+        "publication_year": 2023,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W4235892290",
+        "doi": "https://doi.org/10.1115/1.4044400",
+        "title": "Multi-Fidelity Physics-Constrained Neural Network and Its Application in Materials Modeling",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2810524380",
+        "doi": "https://doi.org/10.1016/j.jcp.2018.12.025",
+        "title": "Adaptive multi-fidelity polynomial chaos approach to Bayesian inference in inverse problems",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/1807.00618",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W2998788451",
+        "doi": "https://doi.org/10.1109/access.2020.2966228",
+        "title": "Bayesian Optimization for Adaptive Experimental Design: A Review",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://doi.org/10.1109/access.2020.2966228",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W4311780061",
+        "doi": "https://doi.org/10.1016/j.cma.2022.115811",
+        "title": "Multi-fidelity surrogate modeling using long short-term memory networks",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S0045782522007678",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W3035501057",
+        "doi": "https://doi.org/10.1016/j.apenergy.2020.115261",
+        "title": "On the value of combined heat and power (CHP) systems and heat pumps in centralised and distributed heating systems: Lessons from multi-fidelity modelling approaches",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "http://hdl.handle.net/10044/1/79752",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W3206216308",
+        "doi": "https://doi.org/10.1038/s41598-022-09938-8",
+        "title": "Multi-fidelity information fusion with concatenated neural networks",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.nature.com/articles/s41598-022-09938-8.pdf",
+          "any_repository_has_fulltext": true
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"thermal\" \"benchmark\"",
+    "url": "https://api.openalex.org/works?search=%22thermal%22+%22benchmark%22&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "id": "https://openalex.org/W1603751942",
+        "doi": "https://doi.org/10.1063/1.3245330",
+        "title": "A benchmark study on the thermal conductivity of nanofluids",
+        "publication_year": 2009,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W1910108985",
+        "doi": "https://doi.org/10.1109/cvpr.2015.7298706",
+        "title": "Multispectral pedestrian detection: Benchmark dataset and baseline",
+        "publication_year": 2015,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2917928050",
+        "doi": "https://doi.org/10.1038/nbt.4305",
+        "title": "Biopharmaceutical benchmarks 2018",
+        "publication_year": 2018,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W1978300980",
+        "doi": "https://doi.org/10.1006/jcph.1998.6057",
+        "title": "A Novel Thermal Model for the Lattice Boltzmann Method in Incompressible Limit",
+        "publication_year": 1998,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2910094941",
+        "doi": "https://doi.org/10.1016/j.media.2022.102680",
+        "title": "The Liver Tumor Segmentation Benchmark (LiTS)",
+        "publication_year": 2022,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://linkinghub.elsevier.com/science/article/pii/S1361841522003085/pdfft?md5=42606dbee21641af7f9e50655c0fdff2&pid=1-s2.0-S1361841522003085-main.pdf",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W2082685230",
+        "doi": "https://doi.org/10.1016/s0300-5712(98)00037-2",
+        "title": "Thermal cycling procedures for laboratory testing of dental restorations",
+        "publication_year": 1999,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W2981104727",
+        "doi": "https://doi.org/10.1029/2018ms001583",
+        "title": "The Community Land Model Version 5: Description of New Features, Benchmarking, and Impact of Forcing Uncertainty",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018MS001583",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W2052524720",
+        "doi": "https://doi.org/10.1109/cvprw.2012.6238919",
+        "title": "Changedetection.net: A new change detection benchmark dataset",
+        "publication_year": 2012,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://openresearch-repository.anu.edu.au/bitstreams/62f21be5-96b4-4cee-84e7-1bf0aad2cf71/download",
+          "any_repository_has_fulltext": null
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"multi-fidelity\" \"benchmark\"",
+    "url": "https://api.openalex.org/works?search=%22multi-fidelity%22+%22benchmark%22&per-page=8&sort=relevance_score%3Adesc",
+    "items": [
+      {
+        "id": "https://openalex.org/W2919958648",
+        "doi": "https://doi.org/10.1016/j.jcp.2019.109020",
+        "title": "A composite neural network that learns from multi-fidelity data: Application to function approximation and inverse PDE problems",
+        "publication_year": 2019,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.jcp.2019.109020",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W2586938721",
+        "doi": "https://doi.org/10.1098/rspa.2016.0751",
+        "title": "Nonlinear information fusion algorithms for data-efficient multi-fidelity modelling",
+        "publication_year": 2017,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5332612",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W3098407580",
+        "doi": "https://doi.org/10.1016/j.cma.2020.113485",
+        "title": "Multi-fidelity deep neural network surrogate model for aerodynamic shape optimization",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W3139250374",
+        "doi": "https://doi.org/10.1109/tpami.2021.3067763",
+        "title": "Auto-Pytorch: Multi-Fidelity MetaLearning for Efficient and Robust AutoDL",
+        "publication_year": 2021,
+        "open_access": {
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null,
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W4389050903",
+        "doi": "https://doi.org/10.3934/acse.2023015",
+        "title": "Review of multi-fidelity models",
+        "publication_year": 2023,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.aimsciences.org/data/article/export-pdf?id=656460fbeca2737fc4ef5257",
+          "any_repository_has_fulltext": false
+        }
+      },
+      {
+        "id": "https://openalex.org/W3027712952",
+        "doi": "https://doi.org/10.1016/j.jcp.2020.109942",
+        "title": "Transfer learning based multi-fidelity physics informed deep neural network",
+        "publication_year": 2020,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/2005.10614",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W4367058838",
+        "doi": "https://doi.org/10.48550/arxiv.1609.07196",
+        "title": "Review of multi-fidelity models",
+        "publication_year": 2016,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://arxiv.org/pdf/1609.07196",
+          "any_repository_has_fulltext": true
+        }
+      },
+      {
+        "id": "https://openalex.org/W2187169370",
+        "doi": "https://doi.org/10.1016/j.jocs.2015.11.004",
+        "title": "A multi-fidelity surrogate-model-assisted evolutionary algorithm for computationally expensive optimization problems",
+        "publication_year": 2015,
+        "open_access": {
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://repository.essex.ac.uk/15604/1/1-s2.0-S1877750315300387-main.pdf",
+          "any_repository_has_fulltext": true
+        }
+      }
+    ]
+  }
+]

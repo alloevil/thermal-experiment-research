@@ -1,0 +1,350 @@
+{
+  "case": {
+    "schema": "thermal-next-experiment/1",
+    "budget": 1,
+    "max_predicted_temperature_K": 380,
+    "assumptions": {
+      "initial_temperature_K": 296.15,
+      "independent_gaussian_noise": true,
+      "independent_reference_available": false
+    },
+    "priors": {
+      "convection": 0.5,
+      "offset": 0.5
+    },
+    "grid": {
+      "convection": [
+        1,
+        1.2,
+        1.4,
+        1.6
+      ],
+      "offset_K": [
+        0,
+        -0.3,
+        -0.6,
+        -0.9
+      ],
+      "gain": [
+        0.95,
+        1,
+        1.05
+      ],
+      "capacity": [
+        0.95,
+        1,
+        1.05
+      ]
+    },
+    "experiments": {
+      "initial": {
+        "kind": "thermal",
+        "enabled": false,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          20,
+          60
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 60,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "heat_low": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          30,
+          120
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ],
+          [
+            0.2,
+            0.2,
+            0.2
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 60,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "heat_high": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          45,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ],
+          [
+            0.5,
+            0.5,
+            0.5
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 90,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 135,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "cooldown": {
+        "kind": "thermal",
+        "enabled": true,
+        "cost": 1,
+        "sigma_K": 0.25,
+        "knots_s": [
+          0,
+          40,
+          80,
+          120,
+          180
+        ],
+        "powers_W": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0.4,
+            0.4,
+            0.4
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "observations": [
+          {
+            "time_s": 120,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 150,
+            "position_m": 0.03
+          },
+          {
+            "time_s": 180,
+            "position_m": 0.03
+          }
+        ]
+      },
+      "reference": {
+        "kind": "reference",
+        "enabled": false,
+        "cost": 2,
+        "sigma_K": 0.15,
+        "duration_s": 30,
+        "observations": [
+          {
+            "time_s": 30,
+            "position_m": 0.03
+          }
+        ]
+      }
+    }
+  },
+  "truths": [
+    {
+      "label": "convection",
+      "convection": 1.2315990260607137,
+      "offset": 0.0,
+      "gain": 0.9761508043312122,
+      "capacity": 0.982960930103498
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.38476976060174467,
+      "gain": 1.0250988378181853,
+      "capacity": 1.0104847130047456
+    },
+    {
+      "label": "convection",
+      "convection": 1.3839971658408174,
+      "offset": 0.0,
+      "gain": 1.0053943649131987,
+      "capacity": 1.0293836939838379
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.6962435799623787,
+      "gain": 1.00406994210778,
+      "capacity": 1.0118018224681582
+    },
+    {
+      "label": "convection",
+      "convection": 1.505721293011667,
+      "offset": 0.0,
+      "gain": 1.012595447575569,
+      "capacity": 1.0017226399371597
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.436024271460069,
+      "gain": 1.0033497526079227,
+      "capacity": 0.9845937567705599
+    },
+    {
+      "label": "convection",
+      "convection": 1.2808320691073876,
+      "offset": 0.0,
+      "gain": 1.0256125360137889,
+      "capacity": 0.981274506450295
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.32707859261137584,
+      "gain": 0.9784131834353094,
+      "capacity": 0.9805406435210646
+    },
+    {
+      "label": "convection",
+      "convection": 1.4960929132503478,
+      "offset": 0.0,
+      "gain": 1.016653522473825,
+      "capacity": 0.9774278826648066
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.2759028377464644,
+      "gain": 1.0030326313423317,
+      "capacity": 1.0145672248579305
+    },
+    {
+      "label": "convection",
+      "convection": 1.440921643637929,
+      "offset": 0.0,
+      "gain": 0.9851912823517189,
+      "capacity": 0.9764615834151456
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.6504657573120496,
+      "gain": 1.0131386562878066,
+      "capacity": 0.9751410114394498
+    },
+    {
+      "label": "convection",
+      "convection": 1.5301622982280294,
+      "offset": 0.0,
+      "gain": 0.9897410724443758,
+      "capacity": 0.978096044150401
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.25645993362319264,
+      "gain": 1.002815580423059,
+      "capacity": 0.971864837635154
+    },
+    {
+      "label": "convection",
+      "convection": 1.5250064299762642,
+      "offset": 0.0,
+      "gain": 1.0061238517403839,
+      "capacity": 0.9984290935467658
+    },
+    {
+      "label": "offset",
+      "convection": 1.0,
+      "offset": -0.4635229026310465,
+      "gain": 0.9844665987896439,
+      "capacity": 0.9851770082453395
+    }
+  ],
+  "seed": 20261002,
+  "policies": [
+    "information_gain",
+    "fixed_cooldown",
+    "random",
+    "mean_separation"
+  ],
+  "budget": "exactly one enabled cost=1 experiment; even when initial posterior already strong",
+  "information_gain_samples": 128
+}

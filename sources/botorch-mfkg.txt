@@ -1,0 +1,15 @@
+# External reference: content not redistributed
+
+This is a source notice, not the original captured document.
+The original capture remains in the author's private local research archive.
+
+Original research path: `sources/botorch-mfkg.txt`
+
+Original SHA-256: `2d496bf0aaaf9a47d20bc84f5642ca0a9a3b9d55eae914d5c2510298eea26568`
+
+Sources:
+- https://raw.githubusercontent.com/pytorch/botorch/main/tutorials/multi_fidelity_bo/multi_fidelity_bo.ipynb
+
+Consult the original publisher/repository and its terms for access.
+Historical retrieval receipts describe the original capture, not this notice.
+See docs/REFERENCE_POLICY.md and docs/reference-publication.json.

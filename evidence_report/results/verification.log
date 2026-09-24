@@ -1,0 +1,11 @@
+PASS normal and python -O outputs identical; JSON and Markdown snapshots match CLI
+PASS bad manifest pin exits 2 with empty stdout under python -O
+PASS 303 source artifacts, 32 report branches; no engineering release path
+PASS unchanged prior stage: feasibility 29 hashes
+PASS unchanged prior stage: radiation 25 hashes
+PASS unchanged prior stage: sensitivity 204 hashes
+PASS unchanged prior stage: calibration 195 hashes
+PASS unchanged prior stage: model_mismatch 172 hashes
+PASS unchanged prior stage: bias_boundary 248 hashes
+PASS unchanged prior stage: reference_correction 303 hashes
+LIMITS: no ODE replay, new calibration, reference certification, or hardware verification
