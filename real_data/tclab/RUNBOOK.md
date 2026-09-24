@@ -6,6 +6,17 @@ This is a dedicated two-heater / two-temperature adapter for APMonitor's measure
 
 The original data/script are included under the supplied upstream Apache-2.0 license. Source URLs and hashes are in `upstream/manifest.json`; attribution and changes are documented in `ATTRIBUTION.md`. Do not download or operate hardware to execute this offline example.
 
+## Diagnose input information without fitting
+
+The read-only diagnostic accepts the explicit five- or seven-column CSV schema described in [DIAGNOSIS.md](DIAGNOSIS.md). It uses only the Python standard library and does not change the fixed-data fitting study:
+
+```sh
+python -B real_data/tclab/diagnose.py \
+  --data real_data/tclab/upstream/data.txt --before-seconds 100
+```
+
+It reports missing heater-gain excitation and conditional follow-up requirements, not full identifiability or equipment approval. The terminal input has no subsequent observation and is excluded. See [recorded diagnostic results](DIAGNOSIS_RESULTS.md) for the 100/101/300-second prefixes.
+
 ## Install the isolated analysis environment
 
 From the repository root:

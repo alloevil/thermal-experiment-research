@@ -1,0 +1,82 @@
+{
+  "schema": "tclab-excitation-diagnosis/1",
+  "source": {
+    "file_name": "data.txt",
+    "sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+    "rows_in_file": 599,
+    "columns": [
+      "Time (sec)",
+      "Heater 1 (%)",
+      "Heater 2 (%)",
+      "Temperature 1 (degC)",
+      "Temperature 2 (degC)",
+      "Set Point 1 (degC)",
+      "Set Point 2 (degC)"
+    ]
+  },
+  "selection": {
+    "before_seconds_exclusive": 100.0,
+    "rows_used": 100,
+    "intervals_used": 99,
+    "start_s": 0.0,
+    "last_observation_s": 99.02705812454224,
+    "duration_s": 99.02705812454224
+  },
+  "model_scope": "APMonitor-style two-node heating model; alpha1*Q1 and alpha2*Q2 input terms. Not a generic device identifiability analysis.",
+  "timing_assumption": "Temperature measured at t_i, then Q_i applied on [t_i,t_(i+1)); last input has no follow-up observation.",
+  "status": "missing_excitation",
+  "parameters_without_input_information": [
+    "alpha2"
+  ],
+  "channels": [
+    {
+      "parameter": "alpha1",
+      "heater": 1,
+      "status": "not_ruled_out_by_zero_input_check",
+      "observed_min_percent": 0.0,
+      "observed_max_percent": 100.0,
+      "nonzero_intervals": 89,
+      "nonzero_duration_s": 89.02077031135559,
+      "input_integral_percent_seconds": 8902.077031135559,
+      "observed_input_changes": 1,
+      "last_row_input_percent": 100.0,
+      "last_row_changed_without_followup": false,
+      "constant_nonzero_input": false,
+      "explanation": "Nonzero input is present. This check does not establish parameter identifiability, precision, or sufficient excitation.",
+      "next_step": "Check model sensitivities, measurement noise and permitted input variation before claiming the gain is estimable."
+    },
+    {
+      "parameter": "alpha2",
+      "heater": 2,
+      "status": "no_input_information",
+      "observed_min_percent": 0.0,
+      "observed_max_percent": 0.0,
+      "nonzero_intervals": 0,
+      "nonzero_duration_s": 0.0,
+      "input_integral_percent_seconds": 0.0,
+      "observed_input_changes": 0,
+      "last_row_input_percent": 0.0,
+      "last_row_changed_without_followup": false,
+      "constant_nonzero_input": false,
+      "explanation": "Q2=0 on every observed interval, so alpha2*Q2 is zero; this window cannot estimate alpha2 in the stated model.",
+      "next_step": "If this gain is an estimation target, obtain independently approved excitation of this channel with follow-up observations, or independent gain-calibration evidence."
+    }
+  ],
+  "identical_observed_inputs": false,
+  "input_diversity_note": "Commands differ somewhere; that alone does not prove useful independent excitation.",
+  "initial_measurements_C": [
+    20.83,
+    19.93
+  ],
+  "initial_T1_minus_T2_C": 0.8999999999999986,
+  "initial_state_note": "Different initial temperatures are not proof of sensor bias, thermal equilibrium, or ambient temperature. Setpoints are not ambient measurements.",
+  "requirements_before_followup": [
+    "Confirm units and measurement/actuation timing.",
+    "Specify the target parameter and independently approved heater/channel limits.",
+    "Approve temperature/ramp limits and observation duration; none are inferred from this log.",
+    "Record the other heater's input and starting conditions.",
+    "Establish sensor/reference validity and noise; record subsequent observations."
+  ],
+  "engineering_release": "not_supported",
+  "hardware_action": "none"
+}
