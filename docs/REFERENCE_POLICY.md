@@ -12,6 +12,8 @@ The owner explicitly authorized processing third-party material before public re
 
 ## Retained third-party executable examples
 
+Additional explicitly reviewed dataset: the TCLab study in `real_data/tclab/` includes APMonitor/arduino's author-provided measured sample and original fitting script from commit `f36e65a70dd7122d1829883899e40e56bf6c4279`, with its Apache-2.0 license. Attribution and adaptation boundaries are recorded in that study's ATTRIBUTION.md. No course-page full text is restored; this new licensed data/code addition is separate from the 59 earlier public-edition reference transformations.
+
 The py-pde example/tests and BoTorch tutorial in `feasibility/upstream/` are retained with their existing MIT notices (`pde-LICENSE`, `botorch-LICENSE`) and commit/source manifest. Their associated execution logs are original local outputs. They are not relabeled as this project's original code.
 
 The only retained root reference text files outside source notices are the standalone BoTorch MIT and FEniCS GPL license texts. Reference-only Elmer source was removed rather than shipping its wider licensing/dependency context. No downloaded runtime packages are bundled.

@@ -32,6 +32,8 @@ These POSIX commands are tested on Linux/CPython 3.12. The workflow simulates ob
 
 It does **not** automatically refit every dataset, regenerate historical plots, run all original upstream test suites, execute downloaded source snippets, or prove physical accuracy. Some historical scripts share module names; separate processes avoid accidental test import collisions.
 
+The newly added `real_data/tclab` tests validate the included Apache-2.0 measured-data adapter and stored temporal-holdout evidence with NumPy/SciPy. Re-running the author program and spreadsheet/plotting analysis additionally needs its isolated Pandas/Matplotlib environment; see [TCLab RUNBOOK](../real_data/tclab/RUNBOOK.md). The main check does not refit the measured sample or execute acquisition code.
+
 CI runs this same command with the NumPy/SciPy lock. No public Actions result exists until the owner actually publishes/runs the workflow; a locally passing check is not a fabricated GitHub badge.
 
 ## A new scientific run

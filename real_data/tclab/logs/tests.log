@@ -1,0 +1,20 @@
+test_frozen_fit_tampering_rejected (test_thermal_model.RecordedResultChecks.test_frozen_fit_tampering_rejected) ... ok
+test_prediction_tampering_rejected (test_thermal_model.RecordedResultChecks.test_prediction_tampering_rejected) ... ok
+test_recorded_study_verifies (test_thermal_model.RecordedResultChecks.test_recorded_study_verifies) ... PASS original data hashes/units and native in-sample scores
+PASS 20 author-equation checks and frozen 100s/300s training splits
+PASS four holdout scores, call budgets, prefix isolation and uninterrupted validation rollout
+PASS unexcited alpha2 invariance, time refinement and simulated energy ledger
+ok
+test_training_mask_tampering_rejected (test_thermal_model.RecordedResultChecks.test_training_mask_tampering_rejected) ... ok
+test_actual_file_units_and_split (test_thermal_model.ThermalDataTests.test_actual_file_units_and_split) ... ok
+test_equilibrium_and_exchange_cancellation (test_thermal_model.ThermalDataTests.test_equilibrium_and_exchange_cancellation) ... ok
+test_independent_second_node_ignores_first_heater (test_thermal_model.ThermalDataTests.test_independent_second_node_ignores_first_heater) ... ok
+test_inputs_are_left_held_and_targets_not_reset (test_thermal_model.ThermalDataTests.test_inputs_are_left_held_and_targets_not_reset) ... ok
+test_ledger_and_input_validation (test_thermal_model.ThermalDataTests.test_ledger_and_input_validation) ... ok
+test_rejects_bad_units_duplicate_time_and_nonfinite (test_thermal_model.ThermalDataTests.test_rejects_bad_units_duplicate_time_and_nonfinite) ... ok
+test_unexcited_gain_is_unobservable (test_thermal_model.ThermalDataTests.test_unexcited_gain_is_unobservable) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.404s
+
+OK

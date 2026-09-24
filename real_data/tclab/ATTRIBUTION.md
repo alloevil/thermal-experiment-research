@@ -1,0 +1,9 @@
+# Data and model provenance
+
+The unmodified files in `upstream/` come from [APMonitor/arduino](https://github.com/APMonitor/arduino) at commit `f36e65a70dd7122d1829883899e40e56bf6c4279`, distributed under its Apache License 2.0. The full license is retained in `upstream/LICENSE`; file paths and SHA-256 values are in `upstream/manifest.json`. No NOTICE file was found in the repository tree at that commit. This does not imply endorsement by BYU, APMonitor or the original authors.
+
+The data and fitting program are from `2_Regression/Energy_balance_MIMO/Python_minimize/`. The [author's course page](https://apmonitor.com/pdc/index.php/Main/ArduinoEstimation2) describes physical TCLab acquisition, matches the observed heater transitions, and defines Celsius measurements, percent heater inputs and coupled energy balances. We refer to this as an **author-provided measured sample**, not a device audited by us. No course-page full text is redistributed.
+
+`thermal_model.py` is a newly written adaptation of the source energy-balance equations and piecewise-constant input semantics. Changes: explicit independent/coupled modes, input validation, a DOP853 integrator, optional integrated heat ledger and prescribed forward-validation splits. It is not the unmodified author program and does not inherit the author's numerical results. Any redistribution of this adaptation must preserve this attribution and the upstream Apache-2.0 terms; no blanket license for unrelated original repository work is implied.
+
+The original `mimo_fit.py` and `data.txt` are executed/copied without changes for the native replay. Other scripts implement this study's protocol. No model API, hardware connection or new experimental action is invoked. The measured sample does not contain fault truth labels, thermometer calibration certificates or counterfactual outcomes for experiments that were not performed.

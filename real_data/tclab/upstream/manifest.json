@@ -1,0 +1,34 @@
+{
+  "repository": "APMonitor/arduino",
+  "commit": "f36e65a70dd7122d1829883899e40e56bf6c4279",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "file": "data.txt",
+      "upstream_path": "2_Regression/Energy_balance_MIMO/Python_minimize/data.txt",
+      "commit": "f36e65a70dd7122d1829883899e40e56bf6c4279",
+      "url": "https://github.com/APMonitor/arduino/blob/f36e65a70dd7122d1829883899e40e56bf6c4279/2_Regression/Energy_balance_MIMO/Python_minimize/data.txt",
+      "sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+      "bytes": 104948,
+      "content": "unmodified upstream file"
+    },
+    {
+      "file": "mimo_fit.py",
+      "upstream_path": "2_Regression/Energy_balance_MIMO/Python_minimize/mimo_fit.py",
+      "commit": "f36e65a70dd7122d1829883899e40e56bf6c4279",
+      "url": "https://github.com/APMonitor/arduino/blob/f36e65a70dd7122d1829883899e40e56bf6c4279/2_Regression/Energy_balance_MIMO/Python_minimize/mimo_fit.py",
+      "sha256": "0c1e0e6d44f32e8812bb0e85d891f5a9773aca1c2e382cc8434f29b2fe4b32f3",
+      "bytes": 3608,
+      "content": "unmodified upstream file"
+    },
+    {
+      "file": "LICENSE",
+      "upstream_path": "LICENSE",
+      "commit": "f36e65a70dd7122d1829883899e40e56bf6c4279",
+      "url": "https://github.com/APMonitor/arduino/blob/f36e65a70dd7122d1829883899e40e56bf6c4279/LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357,
+      "content": "unmodified upstream file"
+    }
+  ]
+}

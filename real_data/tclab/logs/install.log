@@ -1,0 +1,30 @@
+Using Python 3.12.8 environment at: .venv-tclab
+Resolved 13 packages in 5ms
+Downloading matplotlib (9.4MiB)
+Downloading kiwisolver (1.4MiB)
+Downloading pillow (6.6MiB)
+Downloading fonttools (5.1MiB)
+Downloading pandas (10.3MiB)
+ Downloading kiwisolver
+ Downloading fonttools
+ Downloading pillow
+ Downloading matplotlib
+ Downloading pandas
+Prepared 11 packages in 5.28s
+warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 13 packages in 108ms
+ + contourpy==1.4.0
+ + cycler==0.12.1
+ + fonttools==4.66.0
+ + kiwisolver==1.5.1
+ + matplotlib==3.11.2
+ + numpy==2.5.3
+ + packaging==26.3
+ + pandas==3.0.6
+ + pillow==12.3.0
+ + pyparsing==3.3.3
+ + python-dateutil==2.9.0.post0
+ + scipy==1.18.1
+ + six==1.17.0

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "upstream_equation_random_checks": 20,
+  "maximum_rate_difference_C_per_s": 5.551115123125783e-17,
+  "frozen_fits_verified": 4,
+  "checks": [
+    {
+      "model": "coupled",
+      "cutoff_s": 100,
+      "validation_rows": 499,
+      "prefix_and_continuation_verified": true
+    },
+    {
+      "model": "independent",
+      "cutoff_s": 100,
+      "validation_rows": 499,
+      "prefix_and_continuation_verified": true
+    },
+    {
+      "model": "coupled",
+      "cutoff_s": 300,
+      "validation_rows": 299,
+      "prefix_and_continuation_verified": true
+    },
+    {
+      "model": "independent",
+      "cutoff_s": 300,
+      "validation_rows": 299,
+      "prefix_and_continuation_verified": true
+    }
+  ],
+  "scope": "Source/data/rollout verification only; no ground-truth fault, new hardware experiment or causal performance claim."
+}

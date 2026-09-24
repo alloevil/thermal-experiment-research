@@ -13,6 +13,8 @@ These are upstream-authored examples, not our original implementations. Existing
 
 ## References not redistributed
 
+New measured-data study (local work pending publication): `real_data/tclab/upstream/` retains APMonitor/arduino's fixed-commit `data.txt`, `mimo_fit.py` and its Apache-2.0 LICENSE. The repository's data acquisition instructions and the data's input transitions were checked. See `real_data/tclab/ATTRIBUTION.md` for source paths, changes to the local equation adapter, and the distinction between an author-provided measured sample and independent hardware validation. This does not restore the previously withheld APMonitor webpage body or relicense unrelated original research.
+
 - External PDFs and the derived paper-page image are absent; sibling `.source.md` files identify the original document and capture digest.
 - External README, documentation, full-paper text and reference-only code extracts are replaced by short source notices at their previous text paths.
 - Search JSON retains bibliographic/repository metadata and links, but removes abstract bodies and descriptions. Original numerical results and authored discussion remain unchanged.

@@ -1,0 +1,102 @@
+{
+  "model": "independent",
+  "train_before_s": 100,
+  "training_rows": 100,
+  "validation_rows": 499,
+  "fit": {
+    "optimizer_success": true,
+    "message": "`gtol` termination condition is satisfied.",
+    "parameters": [
+      3.7016698784048456,
+      0.005000000000000001,
+      0.0075
+    ],
+    "active_parameters": [
+      0,
+      1
+    ],
+    "alpha2_informed_by_training_input": false,
+    "alpha2_if_uninformed": "Fixed at author default 0.0075 W/percent; not an estimate.",
+    "scipy_nfev": 11,
+    "actual_model_calls": 55,
+    "wall_seconds": 2.8274064778815955,
+    "active_bound_mask": [
+      0,
+      -1
+    ],
+    "jacobian_singular_values": [
+      0.6162856112294764,
+      0.034623624190185644
+    ],
+    "jacobian_rank": 2,
+    "jacobian_condition_scaled_parameters": 17.799569676595777,
+    "train_relative_celsius_SSE": 0.39011439383737045
+  },
+  "fit_sha256": "756bead969c2aa0e88794d2414de49c7e63e157c885d4c8cc506be264d99bbb2",
+  "train_metrics": {
+    "rmse_C": 1.0892992273637256,
+    "rmse_per_channel_C": [
+      1.5064622134044297,
+      0.3220515689374075
+    ],
+    "mae_C": 0.7488942859900796,
+    "mae_per_channel_C": [
+      1.2141608722435437,
+      0.28362769973661495
+    ],
+    "relative_celsius_SSE": 0.39011439383737045
+  },
+  "validation_metrics": {
+    "rmse_C": 11.719924335034563,
+    "rmse_per_channel_C": [
+      2.178839837848824,
+      16.430639360623594
+    ],
+    "mae_C": 8.224335984955475,
+    "mae_per_channel_C": [
+      1.846780321924951,
+      14.601891647985985
+    ],
+    "relative_celsius_SSE": 86.21910551928141
+  },
+  "refinement_max_difference_C": 9.947598300641403e-14,
+  "simulated_energy_max_balance_J": 3.410605131648481e-13,
+  "exact_absorbed_J": 372.2827384054661,
+  "alpha2_sensitivity": [
+    {
+      "alpha2": 0.002,
+      "training_difference_C": 0.0,
+      "validation_metrics": {
+        "rmse_C": 4.655547807766708,
+        "rmse_per_channel_C": [
+          2.1788398378488045,
+          6.212962879480755
+        ],
+        "mae_C": 3.8133723204638756,
+        "mae_per_channel_C": [
+          1.8467803219249306,
+          5.779964319002822
+        ],
+        "relative_celsius_SSE": 14.02479343500487
+      }
+    },
+    {
+      "alpha2": 0.015,
+      "training_difference_C": 0.0,
+      "validation_metrics": {
+        "rmse_C": 31.18554412275036,
+        "rmse_per_channel_C": [
+          2.1788398378488054,
+          44.04916550202765
+        ],
+        "mae_C": 20.902701999396,
+        "mae_per_channel_C": [
+          1.8467803219249328,
+          39.95862367686702
+        ],
+        "relative_celsius_SSE": 625.0278654348621
+      }
+    }
+  ],
+  "initialization": "Only row 0 measured temperatures; no validation-period resetting"
+}

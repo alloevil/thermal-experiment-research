@@ -80,7 +80,8 @@ def main(argv=None):
         if not args.quick:
             for label, directory in [("evidence report", "evidence_report"),
                                      ("next-experiment and review workflow", "next_experiment"),
-                                     ("new thermal replay array checks", "tools/science_tests")]:
+                                     ("new thermal replay array checks", "tools/science_tests"),
+                                     ("TCLab measured-data adapter and holdout evidence", "real_data/tclab")]:
                 run_suite(label, ["-m", "unittest", "discover", "-s", directory, "-p", "test_*.py", "-v"])
         print("\nPASS selected repository checks; not a full scientific rerun or industrial validation", flush=True)
         return 0

@@ -1,0 +1,32 @@
+{
+  "optimizer_success": true,
+  "message": "`ftol` termination condition is satisfied.",
+  "parameters": [
+    2.0000000000000004,
+    0.005034320658033487,
+    0.00384532224827324
+  ],
+  "active_parameters": [
+    0,
+    1,
+    2
+  ],
+  "alpha2_informed_by_training_input": true,
+  "alpha2_if_uninformed": null,
+  "scipy_nfev": 11,
+  "actual_model_calls": 77,
+  "wall_seconds": 11.929413039935753,
+  "active_bound_mask": [
+    -1,
+    0,
+    0
+  ],
+  "jacobian_singular_values": [
+    1.6486300907254174,
+    0.9776611789254807,
+    0.18748413612336232
+  ],
+  "jacobian_rank": 3,
+  "jacobian_condition_scaled_parameters": 8.79343780660268,
+  "train_relative_celsius_SSE": 0.5083954798791138
+}

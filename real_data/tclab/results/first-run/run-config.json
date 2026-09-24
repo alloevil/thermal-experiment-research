@@ -1,0 +1,26 @@
+{
+  "source_hashes": {
+    "protocol.md": "265b69f5338649f7bf2e2281a6edc07cbed3a80c60e18769417633a2294088b2",
+    "thermal_model.py": "a4c337583796150eae44ea367bf640daf723c4aa4875ce63d3112f6cb0e2bbda",
+    "study.py": "8379742382fdf5497e90e8f822aba876534511545740fa40d860e98e062865fa",
+    "upstream/data.txt": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+    "upstream/mimo_fit.py": "0c1e0e6d44f32e8812bb0e85d891f5a9773aca1c2e382cc8434f29b2fe4b32f3",
+    "upstream/LICENSE": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  "split_times_s": [
+    100,
+    300
+  ],
+  "model_order": [
+    "coupled",
+    "independent"
+  ],
+  "python": "3.12.8 | packaged by conda-forge | (main, Dec  5 2024, 14:24:40) [GCC 13.3.0]",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.15.2",
+    "pandas": "2.0.3",
+    "matplotlib": "3.10.0"
+  }
+}

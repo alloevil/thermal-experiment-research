@@ -1,0 +1,70 @@
+{
+  "model": "independent",
+  "train_before_s": 300,
+  "training_rows": 300,
+  "validation_rows": 299,
+  "fit": {
+    "optimizer_success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "parameters": [
+      2.0000000000000004,
+      0.005034320658033487,
+      0.00384532224827324
+    ],
+    "active_parameters": [
+      0,
+      1,
+      2
+    ],
+    "alpha2_informed_by_training_input": true,
+    "alpha2_if_uninformed": null,
+    "scipy_nfev": 11,
+    "actual_model_calls": 77,
+    "wall_seconds": 11.929413039935753,
+    "active_bound_mask": [
+      -1,
+      0,
+      0
+    ],
+    "jacobian_singular_values": [
+      1.6486300907254174,
+      0.9776611789254807,
+      0.18748413612336232
+    ],
+    "jacobian_rank": 3,
+    "jacobian_condition_scaled_parameters": 8.79343780660268,
+    "train_relative_celsius_SSE": 0.5083954798791138
+  },
+  "fit_sha256": "f7a20d070a5d209a91c606adc853f06daf526b8d07ec4e9fec468c74a668de46",
+  "train_metrics": {
+    "rmse_C": 0.8629289261184987,
+    "rmse_per_channel_C": [
+      1.1685523114047458,
+      0.35182120256555954
+    ],
+    "mae_C": 0.6063220711408416,
+    "mae_per_channel_C": [
+      0.9163971555445003,
+      0.29624698673718264
+    ],
+    "relative_celsius_SSE": 0.5083954798791138
+  },
+  "validation_metrics": {
+    "rmse_C": 3.7874136673262795,
+    "rmse_per_channel_C": [
+      2.366558245706389,
+      4.805039713111524
+    ],
+    "mae_C": 3.2099034453527158,
+    "mae_per_channel_C": [
+      2.213562104661394,
+      4.206244786044036
+    ],
+    "relative_celsius_SSE": 5.036184764667976
+  },
+  "refinement_max_difference_C": 1.0658141036401503e-13,
+  "simulated_energy_max_balance_J": 2.2737367544323206e-13,
+  "exact_absorbed_J": 274.67069306561564,
+  "alpha2_sensitivity": null,
+  "initialization": "Only row 0 measured temperatures; no validation-period resetting"
+}

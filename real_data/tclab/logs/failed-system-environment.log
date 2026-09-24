@@ -1,0 +1,24 @@
+/mnt/newdisk/github/thermal-experiment-research/real_data/tclab/thermal_model.py:11: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.3)
+  from scipy.integrate import solve_ivp
+Traceback (most recent call last):
+  File "/mnt/newdisk/github/thermal-experiment-research/real_data/tclab/study.py", line 213, in <module>
+    main()
+  File "/mnt/newdisk/github/thermal-experiment-research/real_data/tclab/study.py", line 204, in main
+    inspect_data(directory, data)
+  File "/mnt/newdisk/github/thermal-experiment-research/real_data/tclab/study.py", line 41, in inspect_data
+    import pandas as pd
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/__init__.py", line 22, in <module>
+    from pandas.compat import is_numpy_dev as _is_numpy_dev  # pyright: ignore # noqa:F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/compat/__init__.py", line 25, in <module>
+    from pandas.compat.numpy import (
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/compat/numpy/__init__.py", line 4, in <module>
+    from pandas.util.version import Version
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/util/__init__.py", line 2, in <module>
+    from pandas.util._decorators import (  # noqa:F401
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/util/_decorators.py", line 14, in <module>
+    from pandas._libs.properties import cache_readonly
+  File "/home/gaoruilin/miniforge3/lib/python3.12/site-packages/pandas/_libs/__init__.py", line 13, in <module>
+    from pandas._libs.interval import Interval
+  File "pandas/_libs/interval.pyx", line 1, in init pandas._libs.interval
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject

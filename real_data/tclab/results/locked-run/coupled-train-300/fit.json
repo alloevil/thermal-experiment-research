@@ -1,0 +1,32 @@
+{
+  "optimizer_success": true,
+  "message": "`gtol` termination condition is satisfied.",
+  "parameters": [
+    2.0000000000054263,
+    0.005326409104387346,
+    0.0029386836013032256
+  ],
+  "active_parameters": [
+    0,
+    1,
+    2
+  ],
+  "alpha2_informed_by_training_input": true,
+  "alpha2_if_uninformed": null,
+  "scipy_nfev": 9,
+  "actual_model_calls": 63,
+  "wall_seconds": 10.37820117897354,
+  "active_bound_mask": [
+    -1,
+    0,
+    0
+  ],
+  "jacobian_singular_values": [
+    1.5730810675826161,
+    0.9202572291406453,
+    0.21473731405083957
+  ],
+  "jacobian_rank": 3,
+  "jacobian_condition_scaled_parameters": 7.325606518530755,
+  "train_relative_celsius_SSE": 0.701323602630876
+}

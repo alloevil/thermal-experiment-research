@@ -1,0 +1,11 @@
+Initial SSE Objective: 54.14705072763714
+Final SSE Objective: 1.3675682203614905
+U: 2.5913558417503366
+alpha1: 0.0053080641354095095
+alpha2: 0.0028870113338481745
+NATIVE_RESULT {"status": "COMPLETED", "optimizer_success": true, "message": "Optimization terminated successfully", "parameters": [2.5913558417503366, 0.0053080641354095095, 0.0028870113338481745], "initial_parameters": [10.0, 0.01, 0.0075], "initial_objective": 54.14705072763714, "final_objective": 1.3675682203614905, "all_data_metrics": {"rmse_C": 1.2970267692449977, "rmse_per_channel_C": [1.6372823828962733, 0.8269602644225004], "mae_C": 1.0369656145739707, "mae_per_channel_C": [1.35141244302791, 0.7225187861200313], "relative_celsius_SSE": 1.367568220361491}, "scipy_nfev": 66, "wall_seconds": 2.342167790979147, "same_parameter_solver_max_difference_C": {"initial": 5.929622876976737e-05, "fitted": 8.027456770776098e-05}, "scope": "Unmodified source script, full-data in-sample fit, not held-out validation. Agg backend only."}
+HOLDOUT coupled cutoff=100 success=True params=[2.0000002454439785, 0.005000000000000001, 0.0075] train_RMSE=1.0576C validation_RMSE=13.5563C
+HOLDOUT independent cutoff=100 success=True params=[3.7016698784048456, 0.005000000000000001, 0.0075] train_RMSE=1.0893C validation_RMSE=11.7199C
+HOLDOUT coupled cutoff=300 success=True params=[2.0000000000054263, 0.005326409104387346, 0.0029386836013032256] train_RMSE=1.0778C validation_RMSE=1.8865C
+HOLDOUT independent cutoff=300 success=True params=[2.0000000000000004, 0.005034320658033487, 0.00384532224827324] train_RMSE=0.8629C validation_RMSE=3.7874C
+COMPLETED native replay and four predeclared holdout fits; see individual success/status fields

@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETED",
+  "optimizer_success": true,
+  "message": "Optimization terminated successfully",
+  "parameters": [
+    2.5913558417503366,
+    0.0053080641354095095,
+    0.0028870113338481745
+  ],
+  "initial_parameters": [
+    10.0,
+    0.01,
+    0.0075
+  ],
+  "initial_objective": 54.14705072763714,
+  "final_objective": 1.3675682203614905,
+  "all_data_metrics": {
+    "rmse_C": 1.2970267692449977,
+    "rmse_per_channel_C": [
+      1.6372823828962733,
+      0.8269602644225004
+    ],
+    "mae_C": 1.0369656145739707,
+    "mae_per_channel_C": [
+      1.35141244302791,
+      0.7225187861200313
+    ],
+    "relative_celsius_SSE": 1.367568220361491
+  },
+  "scipy_nfev": 66,
+  "wall_seconds": 2.342167790979147,
+  "same_parameter_solver_max_difference_C": {
+    "initial": 5.929622876976737e-05,
+    "fitted": 8.027456770776098e-05
+  },
+  "scope": "Unmodified source script, full-data in-sample fit, not held-out validation. Agg backend only."
+}

@@ -8,8 +8,14 @@
   {
     "path": "intent.md",
     "original_sha256": "3732cd305b5466210485a65cbf5125ef81cca989ba438c340ce01c79d8e700dc",
-    "replacement_sha256": "d1f59c6540071818990a234de00929a7158bbac11fdc7b6fcfa97bf12e7006c0",
-    "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+    "replacement_sha256": "8b084613ab53c5c9a032b3e755a8737cb2902e87feda8376d4fb134bce384c57",
+    "reason": "User-authorized measured TCLab sample and temporal holdout study: current planning/navigation update only, historical scientific records retained.",
+    "change_history": [
+      {
+        "previous_public_sha256": "d1f59c6540071818990a234de00929a7158bbac11fdc7b6fcfa97bf12e7006c0",
+        "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+      }
+    ]
   },
   {
     "path": "calibration/sources/scipy-least-squares.txt",
@@ -400,5 +406,11 @@
     "original_sha256": "f0e7dcfdfc12825b294b82bb3b9890e5bc481d2b60c76170796d3f23bf6af432",
     "replacement_sha256": "c8831a6326e1d24eb5d1ad2112add55e61f351ada0b911b772a96b0565621e2c",
     "reason": "User-authorized public-edition provenance/scope update; no change to scientific arrays, solvers or results."
+  },
+  {
+    "path": "STATUS.md",
+    "original_sha256": "259db1b8f07d84cf034acf0e329d90239e310fcc00363cebd526dc30c4dfc6f2",
+    "replacement_sha256": "74162d715ebcc8c99c78ec2148b81dd7470187db6ccb920a006826e11a3b3297",
+    "reason": "User-authorized measured TCLab sample and temporal holdout study: current planning/navigation update only, historical scientific records retained."
   }
 ]

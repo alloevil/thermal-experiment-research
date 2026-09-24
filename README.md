@@ -8,7 +8,7 @@
 
 ![Research sequence: model, choose a test, review evidence. Measurements can reject either hypothesis.](assets/readme/research-flow.svg)
 
-**Research prototype—not a device controller or an industrial digital twin.** All demonstrated physical systems are synthetic. There is no verified equipment-company partnership, hardware validation, or evidence that a new AI algorithm outperforms established methods.
+**Research prototype—not a device controller or an industrial digital twin.** The next-experiment demonstrations are synthetic; the new [TCLab case study](real_data/tclab/RESULTS.md) additionally replays an author's public measured sample. There is no independently verified hardware, equipment-company partnership, or evidence that a new AI algorithm outperforms established methods.
 
 ## A working research loop
 
@@ -58,6 +58,7 @@ Use new output paths on every run. Nothing here connects to equipment. The simul
 
 | Finding | Evidence and limit |
 |---|---|
+| A lower training error did not predict the next heating segment better | On the author-provided two-heater sample, the independent model fit the first 300 seconds better but had higher subsequent RMSE than the coupled model. One recorded run, not an active-experiment trial. [Measured case](real_data/tclab/RESULTS.md) |
 | The next-test loop runs | CLI recommendation, review and observation update execute in separate processes; ambiguous and unsupported outcomes are retained. [Workflow results](next_experiment/WORKFLOW_RESULTS.md) |
 | More complex selection did not win | On 16 synthetic cases, information gain and a simple separation heuristic both made 13 decisions with 3 abstentions. Fixed cooldown had a slightly lower Brier score. [Comparison](next_experiment/RESULTS.md) |
 | A good fit can miss an error | A frozen residual rule still missed 5 inadequate predictions after the additional diagnostic experiment; numerical refinement preserved the misses. [Bias boundary](bias_boundary/RESULTS.md) |

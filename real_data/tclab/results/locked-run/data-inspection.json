@@ -1,0 +1,101 @@
+{
+  "rows": 599,
+  "columns": [
+    "Time (sec)",
+    "Heater 1 (%)",
+    "Heater 2 (%)",
+    "Temperature 1 (degC)",
+    "Temperature 2 (degC)",
+    "Set Point 1 (degC)",
+    "Set Point 2 (degC)"
+  ],
+  "time_range_s": [
+    0.0,
+    598.9001860618591
+  ],
+  "dt_min_median_max_s": [
+    0.990290641784668,
+    1.0006247758865356,
+    1.0213613510131836
+  ],
+  "temperature_range_C": [
+    [
+      20.8,
+      55.7
+    ],
+    [
+      19.77,
+      42.46
+    ]
+  ],
+  "input_changes": [
+    {
+      "row": 0,
+      "time_s": 0.0,
+      "inputs_percent": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "row": 10,
+      "time_s": 10.006287813186646,
+      "inputs_percent": [
+        100.0,
+        0.0
+      ]
+    },
+    {
+      "row": 100,
+      "time_s": 100.02768778800964,
+      "inputs_percent": [
+        100.0,
+        50.0
+      ]
+    },
+    {
+      "row": 200,
+      "time_s": 200.228924036026,
+      "inputs_percent": [
+        5.0,
+        50.0
+      ]
+    },
+    {
+      "row": 300,
+      "time_s": 300.2693877220154,
+      "inputs_percent": [
+        5.0,
+        80.0
+      ]
+    },
+    {
+      "row": 400,
+      "time_s": 400.4388589859009,
+      "inputs_percent": [
+        70.0,
+        80.0
+      ]
+    },
+    {
+      "row": 500,
+      "time_s": 500.68226408958435,
+      "inputs_percent": [
+        70.0,
+        10.0
+      ]
+    }
+  ],
+  "splits": {
+    "100": {
+      "train_rows": 100,
+      "validation_rows": 499
+    },
+    "300": {
+      "train_rows": 300,
+      "validation_rows": 299
+    }
+  },
+  "source_sha256": "10278caee2b095cca028e19acd9146157a75cdd8426e0490231de7a9def8ebdc",
+  "source_label": "Author-provided measured sample; not independently audited hardware"
+}

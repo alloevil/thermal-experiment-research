@@ -1,0 +1,5 @@
+PASS original data hashes/units and native in-sample scores
+PASS 20 author-equation checks and frozen 100s/300s training splits
+PASS four holdout scores, call budgets, prefix isolation and uninterrupted validation rollout
+PASS unexcited alpha2 invariance, time refinement and simulated energy ledger
+PASS holdout-comparison.png rendered
