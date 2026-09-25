@@ -8,8 +8,8 @@
   {
     "path": "intent.md",
     "original_sha256": "3732cd305b5466210485a65cbf5125ef81cca989ba438c340ce01c79d8e700dc",
-    "replacement_sha256": "aaee96b3a28db0d17a237812a5b6faf5fc771a076c6d8dceeb0370cf85620217",
-    "reason": "User-approved static interactive case page, evidence-backed SEO metadata and local browser verification; no scientific record changes.",
+    "replacement_sha256": "2af537a70e31fd7d544e91cd75c877d79507ff842957ccb15fb897947ac74fa4",
+    "reason": "User-authorized GitHub Pages deployment of the verified static case page; no scientific record or license changes.",
     "change_history": [
       {
         "previous_public_sha256": "d1f59c6540071818990a234de00929a7158bbac11fdc7b6fcfa97bf12e7006c0",
@@ -26,6 +26,10 @@
       {
         "previous_local_sha256": "2fb08923ced497e3dc25e356d1b81a6b89a38f274a73b597b6ebd4bd9546a2fd",
         "reason": "Preserve prior staged, not-yet-published same-model assessment planning before adding the approved case-page scope."
+      },
+      {
+        "previous_public_sha256": "aaee96b3a28db0d17a237812a5b6faf5fc771a076c6d8dceeb0370cf85620217",
+        "reason": "Previously published static case-page scope before explicit Pages deployment authorization."
       }
     ]
   },
@@ -38,12 +42,16 @@
   {
     "path": "QUICKSTART.md",
     "original_sha256": "c598ca453390353f8cf63e446be0aa04e6f7a3a4546718c29f6d098b8055a406",
-    "replacement_sha256": "0834178144731b9249fc4201e30a2e491dac70795bb7488d83bc19ade28703ad",
-    "reason": "Add local static case-page navigation; retain earlier measured-assessment entrypoint and all scientific commands/results.",
+    "replacement_sha256": "f9adf7d8d10962cecd24a39c933f123a27a766ff8e7074fa05032386c8207894",
+    "reason": "User-authorized GitHub Pages URL and deployment-status navigation; scientific commands/results unchanged.",
     "change_history": [
       {
         "previous_local_sha256": "4b1a03e78094f99b88583f60915789aed6abdf907dcf9d45d9838ba327ba99b4",
         "reason": "Prior staged measured-assessment entrypoint, not yet published."
+      },
+      {
+        "previous_public_sha256": "0834178144731b9249fc4201e30a2e491dac70795bb7488d83bc19ade28703ad",
+        "reason": "Previously published local case-page navigation before Pages deployment."
       }
     ]
   },
@@ -440,8 +448,8 @@
   {
     "path": "STATUS.md",
     "original_sha256": "259db1b8f07d84cf034acf0e329d90239e310fcc00363cebd526dc30c4dfc6f2",
-    "replacement_sha256": "ab7ffe90a300afb2a9095a63b9264b1af212765f89126d1d99349354e8ed71a4",
-    "reason": "Add locally verified interactive case-page status; no publication, SEO adoption or scientific improvement claims.",
+    "replacement_sha256": "1b7ff290a35bafb99478acbd61c748597d2c1704f6dde609812134e759529436",
+    "reason": "User-authorized Pages configuration and deployment-status navigation; no SEO adoption or scientific improvement claims.",
     "change_history": [
       {
         "previous_public_sha256": "74162d715ebcc8c99c78ec2148b81dd7470187db6ccb920a006826e11a3b3297",
@@ -454,6 +462,10 @@
       {
         "previous_local_sha256": "0c8958baa9d7054ba3f1ca45b2215321d6c49869f9a359169cfebf9dabce5420",
         "reason": "Prior staged same-model assessment status, not yet published."
+      },
+      {
+        "previous_public_sha256": "ab7ffe90a300afb2a9095a63b9264b1af212765f89126d1d99349354e8ed71a4",
+        "reason": "Previously published local preview status before Pages deployment."
       }
     ]
   }

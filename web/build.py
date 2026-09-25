@@ -158,7 +158,7 @@ def render(base=None):
         schema['image'] = base + 'social-card.png'
     tokens = {'TITLE': html.escape(TITLE), 'DESCRIPTION': html.escape(DESCRIPTION, quote=True),
               'METADATA': '\n'.join(metadata), 'SCHEMA': json.dumps(schema, ensure_ascii=False).replace('<', '\\u003c'),
-              'PREVIEW': '' if base else '<div class="preview-note">本地预览 · 尚未部署，分析入口尚待推送</div>',
+              'PREVIEW': '' if base else '<div class="preview-note">本地预览 · 此构建尚未部署</div>',
               'COSINE': f"{cases['300'][0]['local_information']['column_cosines'][0]['cosine']:.6f}",
               'CASES': '\n'.join(case_markup(int(cutoff), report, rows, temperature_max) for cutoff, (report, rows) in cases.items()),
               'DATA': json.dumps({cutoff: rows for cutoff, (_, rows) in cases.items()}, separators=(',', ':')).replace('<', '\\u003c')}

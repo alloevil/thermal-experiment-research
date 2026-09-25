@@ -68,7 +68,7 @@
     </div></section>
 
     <section class="shell section-space" id="run" aria-labelledby="run-title">
-      <div class="run-layout"><div><div class="eyebrow">03 / REPRODUCE, THEN QUESTION</div><h2 id="run-title">别只相信这张图。<br>在本地，自己复算。</h2><p>面向使用 Python 的热工／控制研究者。读取符合固定模型假设的 CSV，输出参数诊断、预测和完整记录。</p><p class="fine-print">从包含本案例的仓库根目录运行。预览阶段请使用本地版本；远程分析入口尚待发布。未提供通用设备适配。</p><a class="text-link" href="https://github.com/alloevil/thermal-experiment-research">查看研究仓库 <span aria-hidden="true">↗</span></a></div>
+      <div class="run-layout"><div><div class="eyebrow">03 / REPRODUCE, THEN QUESTION</div><h2 id="run-title">别只相信这张图。<br>在本地，自己复算。</h2><p>面向使用 Python 的热工／控制研究者。读取符合固定模型假设的 CSV，输出参数诊断、预测和完整记录。</p><p class="fine-print">克隆研究仓库后，从仓库根目录运行以下命令。分析入口与保存结果均已公开；未提供通用设备适配。</p><a class="text-link" href="https://github.com/alloevil/thermal-experiment-research">查看研究仓库 <span aria-hidden="true">↗</span></a></div>
       <div class="terminal"><div class="terminal-bar"><span><i></i> LOCAL / PYTHON</span><button type="button" id="copy-command" hidden>复制命令</button></div><p id="command-context">当前示例 · 前100秒训练</p><pre tabindex="0" aria-label="本地复算命令"><code id="run-command">.venv/bin/python -B real_data/tclab/assess.py \
   --data real_data/tclab/upstream/data.txt \
   --before-seconds 100 --accept-model-assumptions \

@@ -17,18 +17,22 @@ python -m http.server 8765 --bind 127.0.0.1 --directory output/site-preview
 
 页面由`index.template.html`、`style.css`、`app.js`和真实结果确定性生成。构建器核对原数据、保存拟合和相关源码哈希，并独立重算CSV指标，输出图表、可下载证据和来源清单。标记与数值取自相同结果，不手填“更优”指标。两窗口共享时间与温度坐标，保留全部599个采样点，不将后段当作新增试验。
 
-## 正式站点构建（不执行发布）
+## GitHub Pages发布
+
+用户已确认使用GitHub Pages，目标地址为`https://alloevil.github.io/thermal-experiment-research/`。`.github/workflows/pages.yml`在main推送或手动触发时，先运行完整仓库检查，读取Pages元数据构建，随后上传并部署`output/pages`。部署job使用`github-pages`环境与最小pages/id-token权限；只有生成的站点内容被发布，不上传整个研究目录或本地日志。
+
+正式部署状态以GitHub Actions的`Publish case page`运行与实际HTTPS响应为准。构建命令本身不执行发布：
 
 获得正式HTTPS网址后，可传`--base-url https://实际域名/路径/`构建到另一个新目录。只接受无凭据/查询/片段的HTTPS网址；据此生成canonical、Open Graph URL/image、sitemap及robots。默认预览不宣称远程可用。
 
-正式发布仍需要另外确认托管位置、先发布对应分析代码、核对许可，再部署并检查线上状态。不要仅因构建成功就把正式域名当成可访问。本站不新增部署workflow，不选择原创代码许可证，不保证搜索收录或生成式搜索引用。
+对应分析代码已推送。本站不选择新的原创代码许可证，不保证搜索收录或生成式搜索引用。GitHub项目站点的`/thermal-experiment-research/robots.txt`不控制整个`alloevil.github.io`域名；搜索爬虫主要读取域名根的robots。canonical、页面级robots元信息及项目sitemap独立输出，不擅自修改用户根站点。
 
 ## 内容与边界
 
 - 新评估采用摄氏度残差平方和，不能与旧相对摄氏度目标混作算法对照。
 - 100/300秒是同一记录的两个前缀，不是两个独立案例；局部数值秩不等于参数置信。
 - 网页展示的均为已保存结果；无设备控制、功率配方或最优补测收益证明。
-- 证据复制到站点内，预览时不依赖尚未推送的GitHub文件；原作者来源以固定提交链接标注。
+- 证据复制到站点内，浏览时不依赖GitHub文件请求；原作者来源以固定提交链接标注。
 - 原始记录与CSV下载是Apache-2.0上游样例的使用与派生；提供上游许可和归属。原创代码尚无统一许可，页面明确提示，不生成虚假软件许可证字段。
 
 ## 验收
@@ -42,4 +46,4 @@ bash ~/.codex/skills/playwright/scripts/playwright_cli.sh -s=thermal-case open h
 bash ~/.codex/skills/playwright/scripts/playwright_cli.sh -s=thermal-case run-code "$(cat web/verify_browser.js)"
 ```
 
-`verify_browser.js`是交给CLI执行的浏览器检查函数，不是页面运行时代码，不引入npm项目。运行环境需已有Playwright浏览器；CLI启动可能按其自身机制安装工具，本页面的构建与浏览均不需要它。分享PNG由1200×630的`social-card.svg`在浏览器渲染得到，不使用AI生成图或虚构测量曲线。正式站点URL只影响索引元数据，本次未部署或提交。
+`verify_browser.js`是交给CLI执行的本地预览检查函数，不是页面运行时代码，不引入npm项目。运行环境需已有Playwright浏览器；CLI启动可能按其自身机制安装工具，本页面的构建与浏览均不需要它。分享PNG由1200×630的`social-card.svg`在浏览器渲染得到，不使用AI生成图或虚构测量曲线。正式站点需另按实际URL核验索引元数据、证据下载与交互。

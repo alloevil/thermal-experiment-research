@@ -6,7 +6,7 @@
 
 ## 先看一个实测任务：参数能相信到什么程度
 
-新增[轻量交互案例页](web/BUILD.md)：切换100/300秒结果、查看实测与预测、下载证据并复制本地命令。当前仅本地构建/预览，未部署；无需登录，不上传数据，也不在线拟合。
+新增[轻量交互案例页](https://alloevil.github.io/thermal-experiment-research/)：切换100/300秒结果、查看实测与预测、下载证据并复制本地命令。已配置GitHub Pages发布流程，线上版本以[部署记录](https://github.com/alloevil/thermal-experiment-research/actions/workflows/pages.yml)为准；[本地构建说明](web/BUILD.md)。无需登录，不上传数据，也不在线拟合。
 
 无需安装即可阅读[100秒记录评估](real_data/tclab/assessment_examples/before-100/report.md)和[300秒记录评估](real_data/tclab/assessment_examples/before-300/report.md)。前者缺alpha2输入信息；后者虽然有两路输入，U仍触及参数下界，不能把“有激励”直接当“参数可信”。
 

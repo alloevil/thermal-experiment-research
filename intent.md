@@ -1,5 +1,11 @@
 # AI4Engineering 项目共识：目标、当前选题与历史证据
 
+## 2026-09-25：GitHub Pages上线（用户确认继续）
+- 用户沿GitHub Pages建议继续，允许在现有公开仓库启用Actions Pages、提交推送部署配置并发布已核验的静态案例。正式默认地址为https://alloevil.github.io/thermal-experiment-research/；不创建付费服务、自定义域名或在线计算端。
+- 新增独立Pages workflow，main分支推送或手动触发，先运行同源仓库检查，再构建并上传限定静态目录；仅部署job持有pages/id-token写权限。使用官方configure/upload/deploy Pages Actions并固定提交，不新增科学依赖。
+- 正式页使用明确canonical、分享图片和sitemap；本地构建仍默认noindex。清理“分析入口未推送”等过时文案，不更改科学记录或原创许可。
+- 验收：actionlint、完整测试、部署成功记录、HTTPS页面/样式/脚本/证据/图片/索引文件检查，以及900px/360px线上截图和交互。发布成功不等于被搜索引擎收录、GEO引用或用户需求已验证。
+
 ## 2026-09-25：轻量交互案例页（用户确认方案B）
 - 目标：让TCLab/热工辨识用户看懂“拟合成功不代表参数可信”，从真实案例进入证据与本地复算，而非继续扩平台。
 - 本轮新增web目录下的静态页面、标准库构建器与测试。只读已有100/300秒评估JSON/CSV生成曲线、参数信息及下一步解释，切换是已保存结果切换，不在浏览器拟合；正文在无JavaScript时仍可阅读和检索。

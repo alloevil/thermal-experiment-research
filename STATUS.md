@@ -26,7 +26,7 @@
 
 ## 当前重点
 
-新增[交互案例页本地预览](web/BUILD.md)：由原保存结果生成100/300秒曲线与参数说明，含静态可检索正文、来源、结构化数据及命令入口；无在线拟合或上传。浏览器已验收键盘/复制正反路径、900px/360px与无JS阅读，未部署、未验证搜索收录或用户转化。
+新增[交互案例页](https://alloevil.github.io/thermal-experiment-research/)：由原保存结果生成100/300秒曲线与参数说明，含静态可检索正文、来源、结构化数据及命令入口；无在线拟合或上传。已启用GitHub Pages及先检查后部署的发布流程，线上版本以[部署记录](https://github.com/alloevil/thermal-experiment-research/actions/workflows/pages.yml)为准。浏览器已完成本地键盘/复制正反路径、900px/360px与无JS验收；未验证搜索收录或用户转化。[构建与发布说明](web/BUILD.md)。
 
 2026-09-25方向已确认：以“热模型诊断与补测助手”为主线，不扩通用平台。新增[同系统记录评估](real_data/tclab/ASSESSMENT.md)，从明确单位CSV完成前缀拟合、局部灵敏度和冻结参数后续预测。实测100秒前缀alpha2缺信息；300秒前缀虽数值秩为3，U仍触下界。两者均不证明参数精度或最优补测收益，见[新结果](real_data/tclab/ASSESSMENT_RESULTS.md)。下一方向门槛是独立案例与外部使用者实际接入，不是继续增加框架。
 
