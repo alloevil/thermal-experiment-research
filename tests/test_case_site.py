@@ -26,6 +26,14 @@ class PageParser(HTMLParser):
 
 
 class CaseSiteTests(unittest.TestCase):
+    def test_workbench_puts_summary_before_plot_and_keeps_boundaries(self):
+        content = SITE.render()
+        self.assertNotIn('record-slip', content)
+        self.assertNotIn('lesson-section', content)
+        self.assertLess(content.index('class="diagnosis-summary"'), content.index('class="plots"'))
+        for boundary in ['不实时拟合', '不是两次独立实验', '不支持工程放行', '不等于统计置信', '-0.901469']:
+            self.assertIn(boundary, content)
+
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)

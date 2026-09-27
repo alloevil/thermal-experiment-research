@@ -8,8 +8,8 @@
   {
     "path": "intent.md",
     "original_sha256": "3732cd305b5466210485a65cbf5125ef81cca989ba438c340ce01c79d8e700dc",
-    "replacement_sha256": "2af537a70e31fd7d544e91cd75c877d79507ff842957ccb15fb897947ac74fa4",
-    "reason": "User-authorized GitHub Pages deployment of the verified static case page; no scientific record or license changes.",
+    "replacement_sha256": "ac33cc58d43cc2c1b58bee447da4eceec9949e896094f72c05c3bd9bc0d8980c",
+    "reason": "User-approved light scientific workbench redesign and measured visual acceptance goals; no scientific record changes.",
     "change_history": [
       {
         "previous_public_sha256": "d1f59c6540071818990a234de00929a7158bbac11fdc7b6fcfa97bf12e7006c0",
@@ -30,6 +30,10 @@
       {
         "previous_public_sha256": "aaee96b3a28db0d17a237812a5b6faf5fc771a076c6d8dceeb0370cf85620217",
         "reason": "Previously published static case-page scope before explicit Pages deployment authorization."
+      },
+      {
+        "previous_public_sha256": "2af537a70e31fd7d544e91cd75c877d79507ff842957ccb15fb897947ac74fa4",
+        "reason": "Previously published Pages deployment scope before the approved visual redesign."
       }
     ]
   },

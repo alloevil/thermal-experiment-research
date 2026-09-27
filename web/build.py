@@ -64,8 +64,8 @@ def load_case(cutoff, case_root=CASE):
 def chart(rows, cutoff, width, mobile, temperature_max):
     left, right = 36, width - 12
     plot_width = right - left
-    height = 388 if mobile else 352
-    plot_height = 128 if mobile else 110
+    height = 388 if mobile else 430
+    plot_height = 128 if mobile else 150
     starts = [30, height - plot_height - 38]
     chart_id = f'plot-{cutoff}-{"mobile" if mobile else "desktop"}'
     split = left + cutoff / 600 * plot_width
@@ -94,7 +94,7 @@ def chart(rows, cutoff, width, mobile, temperature_max):
 
 def case_markup(cutoff, report, rows, temperature_max):
     early = cutoff == 100
-    heading = '这段数据里，根本没有 α₂ 的信息。' if early else '有了两路输入，参数也未必可信。'
+    heading = 'α₂ 未被数据约束' if early else '有激励，仍有边界问题'
     explanation = ('已观测训练区间内 Q₂ 始终为零。α₂ 不进入模型响应，因此优化器给出的默认值不是估计结果。'
                    if early else '局部数值秩达到3，但 U 仍触及作者设定下界。U 与 α₁ 的灵敏度形状相近，需审查参数补偿、模型和测量前提。')
     parameter_rows = []
@@ -106,19 +106,21 @@ def case_markup(cutoff, report, rows, temperature_max):
     next_step = ('先寻找 Q₂ 输入生效后的已有温度记录，或取得独立增益标定。不要把默认 α₂ 当作数据支持的结论。'
                  if early else '先核对 U 的范围依据、固定23°C环境假设与传感器噪声。不要仅凭“有输入”就追加更大功率的试验。')
     return f'''<section class="case-panel" id="case-{cutoff}" data-case="{cutoff}" aria-labelledby="case-title-{cutoff}">
-      <div class="case-topline"><h3 id="case-title-{cutoff}">前 {cutoff} 秒训练 · 后续冻结检验</h3><span class="micro-label">SAVED RESULT / 非实时拟合</span></div>
+      <div class="case-topline"><h3 id="case-title-{cutoff}">前 {cutoff} 秒训练 · 后续冻结检验</h3><span class="micro-label">已保存结果</span></div>
       <div class="case-layout">
+        <div class="diagnosis-summary"><span class="eyebrow">本窗口的关键发现</span><h4>{heading}</h4></div>
         <div class="plot-area">
           <div class="plot-legend"><span class="key key-blue">T₁ 实测</span><span class="key key-orange">T₂ 实测</span><span class="key key-dashed">模型预测</span><span class="key key-shade">训练区间</span></div>
           <div class="plots">{chart(rows, cutoff, 860, False, temperature_max)}{chart(rows, cutoff, 300, True, temperature_max)}</div>
           <div class="point-inspector" hidden><label for="point-{cutoff}">沿记录查看 <span>← → 也可逐点移动</span></label><input id="point-{cutoff}" type="range" min="0" max="598" value="{cutoff-1}" aria-describedby="reading-{cutoff}"><output id="reading-{cutoff}" class="point-reading"></output></div>
-          <p class="chart-caption">同一条记录的599个采样点，无降采样。实线为测量，虚线为模型；切换窗口不会改变坐标尺度。</p>
+          <p class="chart-caption">599点完整呈现，切换不改变坐标尺度。浅色区为训练；仅首行实测温度用于初始化。</p>
         </div>
         <aside class="diagnosis" aria-label="{cutoff}秒窗口诊断">
-          <div class="eyebrow">WHAT THE DATA CAN SAY</div><h4>{heading}</h4><p>{explanation}</p>
+          <p>{explanation}</p>
           <dl class="metrics"><div><dt>训练 RMSE</dt><dd data-metric="training">{report['training_metrics']['rmse_C']:.3f}<small> °C</small></dd></div><div><dt>后续 RMSE</dt><dd data-metric="validation">{report['validation_metrics']['rmse_C']:.3f}<small> °C</small></dd></div></dl>
           <table class="parameter-table"><caption>参数值与来源</caption><thead><tr><th>参数</th><th>数值</th><th>状态</th></tr></thead><tbody>{''.join(parameter_rows)}</tbody></table>
           <p class="fine-print">U：W/(m² K)；α：W/%。数值秩 {report['local_information']['numerical_rank']}/3 不等于统计置信或全局可辨识。</p>
+          {'' if early else '<p class="fine-print">U 与 α₁ 的局部灵敏度列余弦：' + format(report['local_information']['column_cosines'][0]['cosine'], '.6f') + '。形状相近提示参数可能互相补偿，不单独证明不可辨识。</p>'}
           <div class="next-step"><span>下一步，不是执行指令</span><p>{next_step}</p></div>
           <a class="text-link" href="evidence/before-{cutoff}/report.md">查看完整诊断卡 <span aria-hidden="true">↗</span></a>
         </aside>
@@ -159,7 +161,6 @@ def render(base=None):
     tokens = {'TITLE': html.escape(TITLE), 'DESCRIPTION': html.escape(DESCRIPTION, quote=True),
               'METADATA': '\n'.join(metadata), 'SCHEMA': json.dumps(schema, ensure_ascii=False).replace('<', '\\u003c'),
               'PREVIEW': '' if base else '<div class="preview-note">本地预览 · 此构建尚未部署</div>',
-              'COSINE': f"{cases['300'][0]['local_information']['column_cosines'][0]['cosine']:.6f}",
               'CASES': '\n'.join(case_markup(int(cutoff), report, rows, temperature_max) for cutoff, (report, rows) in cases.items()),
               'DATA': json.dumps({cutoff: rows for cutoff, (_, rows) in cases.items()}, separators=(',', ':')).replace('<', '\\u003c')}
     content = (WEB / 'index.template.html').read_text()
